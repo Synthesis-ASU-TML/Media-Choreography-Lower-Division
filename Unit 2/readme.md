@@ -17,3 +17,24 @@
     - require as minimal computer spec as possible to run.
     - Similar to week 1, should function largely as black boxes with minimal surface UI
 
+## Supplied Application Choices
+- Unit 2 Application Options
+    - Colored Edges
+        - Uses Sobel edge detections, then multiplies edges against the original video
+    - Foregrounder
+        - Uses presence detection to find what is most likely the "foreground", then shows original colors of the highlighted areas.
+    - Hue Shifter
+        - Either manually or automatically rotates the hue of the image.
+    - Motion Edges
+        - Finds and displays the amount of motion along detected edges within the video stream.
+    - Motion Particles
+        - Uses a momentum based particle system which is affected by the input video stream. Colored by the input video stream.
+    - Particle_MultiSpecies
+        - Same as Motion Particles, uses multiple species with different attributes.
+    - Recolorer
+        - Uses recoloring algorithm to modify the input video colorizations based on an input color palette.
+    - Stutter Frame Differencing
+        - Uses frame differencing algorithm, but only takes a snapshot on an wide interval. Each snapshot is added to the previous output image.
+
+### Additional Dependencies
+- None
