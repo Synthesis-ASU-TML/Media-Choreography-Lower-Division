@@ -20,7 +20,7 @@ Media curating part 1. What types of video are best suited for different applica
     - Similar to week 1, should function largely as black boxes with minimal surface UI
 
 ## Supplied Application Choices
-Unit 2 Application Options
+**Unit 2 Application Options**
 
 - **Colored Edges**
         - Uses Sobel edge detections, then multiplies edges against the original video
