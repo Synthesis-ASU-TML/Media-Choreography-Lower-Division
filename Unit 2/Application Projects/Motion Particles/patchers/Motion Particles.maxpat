@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 643.0, 264.0 ],
+		"rect" : [ 59.0, 104.0, 606.0, 258.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 473.0, 572.0, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "org.asu.ame.synthesis",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 0,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "Motion Particles Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -64,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 292.0, 219.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 450.99462890625, 397.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.0, 221.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -86,7 +118,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 187.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 654.0, 73.5, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.0, 185.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -108,7 +140,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 135.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 374.7392578125, 18.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.0, 136.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -130,7 +162,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 288.0, 90.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 50.74462890625, 23.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.0, 92.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -152,7 +184,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 313.0, 259.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 635.0, 122.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 289.0, 41.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -237,7 +269,7 @@
 					"patching_rect" : [ 785.0, 281.0, 154.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 332.0, 84.0, 269.0, 100.0 ],
+					"presentation_rect" : [ 332.0, 84.0, 272.0, 100.0 ],
 					"text" : "The \"Motion Particles\" Application uses the motion detected in the input media to drive a momentum based particle simulation. The color of each particle corresponds to their starting position in relation to the input media. The trails each particle leaves is decided by the intensity of motion detected in the input media."
 				}
 
@@ -985,12 +1017,12 @@
 					"presentation_rect" : [ 18.75, 141.0, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab",
+							"parameter_mmax" : 2
 						}
 
 					}
@@ -1340,14 +1372,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "sc.velocity.particles.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video",
-				"patcherrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.slide.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
