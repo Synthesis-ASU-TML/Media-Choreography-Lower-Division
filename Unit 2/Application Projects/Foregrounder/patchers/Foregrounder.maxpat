@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 637.0, 117.0, 634.0, 255.0 ],
+		"rect" : [ 637.0, 117.0, 602.0, 220.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 546.0, 224.0, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "org.asu.ame.synthesis",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 0,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "Foregrounder Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -65,7 +97,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 256.0, 468.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 722.0, 80.5, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.75, 169.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -87,7 +119,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 241.0, 453.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 420.9892578125, 25.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.75, 117.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -109,7 +141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 226.0, 438.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 43.7392578125, 51.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.75, 73.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -131,7 +163,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.0, 423.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 188.75, 195.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.0, 26.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -143,11 +175,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-28",
-					"linecount" : 10,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 473.0, 338.0, 151.0, 141.0 ],
+					"patching_rect" : [ 473.0, 338.0, 155.0, 127.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 345.0, 53.0, 236.0, 87.0 ],
@@ -385,12 +417,12 @@
 					"presentation_rect" : [ 6.75, 122.0, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 0,
+							"parameter_longname" : "live.tab",
+							"parameter_mmax" : 2
 						}
 
 					}
@@ -611,14 +643,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.presence.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -631,7 +663,7 @@
 , 			{
 				"name" : "sc.texture.binaryop.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
