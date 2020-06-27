@@ -2,7 +2,7 @@
 	"name" : "Particle MultiSpecies",
 	"version" : 1,
 	"creationdate" : 3676022901,
-	"modificationdate" : 3676022907,
+	"modificationdate" : 3676032018,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -15,14 +15,52 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+,
+			"sc.velocity.particles.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sc.texture.slide.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"thru.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"sc.texture.binaryop.maxpat" : 			{
+				"kind" : "patcher"
+			}
 
 		}
 ,
 		"code" : 		{
+			"bypass_dummy.genjit" : 			{
+				"kind" : "genjit"
+			}
 
 		}
 ,
 		"externals" : 		{
+			"cv.jit.HSflow.mxo" : 			{
+				"kind" : "object"
+			}
+,
+			"cv.jit.resize.mxo" : 			{
+				"kind" : "object"
+			}
+,
+			"cv.jit.sum.mxo" : 			{
+				"kind" : "object"
+			}
+
+		}
+,
+		"other" : 		{
+			"multispecies_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 

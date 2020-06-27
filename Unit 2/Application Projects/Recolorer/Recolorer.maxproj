@@ -2,8 +2,8 @@
 	"name" : "Recolorer",
 	"version" : 1,
 	"creationdate" : 3676022936,
-	"modificationdate" : 3676022980,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3676035309,
+	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -77,6 +77,14 @@
 ,
 			"trippycat.png" : 			{
 				"kind" : "imagefile"
+			}
+
+		}
+,
+		"other" : 		{
+			"recolor_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
 			}
 
 		}

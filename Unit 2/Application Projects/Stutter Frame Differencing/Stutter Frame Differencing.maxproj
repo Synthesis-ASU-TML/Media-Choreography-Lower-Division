@@ -2,8 +2,8 @@
 	"name" : "Stutter Frame Differencing",
 	"version" : 1,
 	"creationdate" : 3676023030,
-	"modificationdate" : 3676023036,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3676036492,
+	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -19,6 +19,14 @@
 		}
 ,
 		"code" : 		{
+
+		}
+,
+		"other" : 		{
+			"framediff_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 

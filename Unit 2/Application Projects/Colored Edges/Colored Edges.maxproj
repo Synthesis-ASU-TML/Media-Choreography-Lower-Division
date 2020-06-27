@@ -2,7 +2,7 @@
 	"name" : "Colored Edges",
 	"version" : 1,
 	"creationdate" : 3676022601,
-	"modificationdate" : 3676022640,
+	"modificationdate" : 3676026300,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,6 +19,14 @@
 		}
 ,
 		"code" : 		{
+
+		}
+,
+		"other" : 		{
+			"colored_edges.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 

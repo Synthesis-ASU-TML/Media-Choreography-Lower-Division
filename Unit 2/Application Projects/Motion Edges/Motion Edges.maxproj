@@ -2,7 +2,7 @@
 	"name" : "Motion Edges",
 	"version" : 1,
 	"creationdate" : 3676022800,
-	"modificationdate" : 3676022809,
+	"modificationdate" : 3676030214,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,6 +19,14 @@
 		}
 ,
 		"code" : 		{
+
+		}
+,
+		"other" : 		{
+			"motion_edges_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
