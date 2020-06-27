@@ -2,7 +2,7 @@
 	"name" : "Foregrounder",
 	"version" : 1,
 	"creationdate" : 3676022682,
-	"modificationdate" : 3676027345,
+	"modificationdate" : 3676110375,
 	"viewrect" : [ 582.0, 231.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,6 +19,9 @@
 		}
 ,
 		"code" : 		{
+			"op.pass.jxs" : 			{
+				"kind" : "shader"
+			}
 
 		}
 ,

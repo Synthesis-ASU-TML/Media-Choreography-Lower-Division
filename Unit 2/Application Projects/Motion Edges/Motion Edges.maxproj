@@ -2,8 +2,8 @@
 	"name" : "Motion Edges",
 	"version" : 1,
 	"creationdate" : 3676022800,
-	"modificationdate" : 3676030214,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3676110426,
+	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -19,6 +19,13 @@
 		}
 ,
 		"code" : 		{
+			"op.pass.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"sobel.jxs" : 			{
+				"kind" : "shader"
+			}
 
 		}
 ,

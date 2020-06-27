@@ -2,8 +2,8 @@
 	"name" : "Recolorer",
 	"version" : 1,
 	"creationdate" : 3676022936,
-	"modificationdate" : 3676035309,
-	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
+	"modificationdate" : 3676110519,
+	"viewrect" : [ 25.0, 79.0, 310.0, 766.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -77,6 +77,33 @@
 ,
 			"trippycat.png" : 			{
 				"kind" : "imagefile"
+			}
+
+		}
+,
+		"code" : 		{
+			"cwjr.smooth.gaussian.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.sRGB2XYZ.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.recolor.XYZ.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.palette.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.brightness.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.gaussian.kernel.jxs" : 			{
+				"kind" : "shader"
 			}
 
 		}

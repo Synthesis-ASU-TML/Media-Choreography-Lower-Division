@@ -2,7 +2,7 @@
 	"name" : "Stutter Frame Differencing",
 	"version" : 1,
 	"creationdate" : 3676023030,
-	"modificationdate" : 3676036492,
+	"modificationdate" : 3676110540,
 	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -19,6 +19,9 @@
 		}
 ,
 		"code" : 		{
+			"op.pass.jxs" : 			{
+				"kind" : "shader"
+			}
 
 		}
 ,

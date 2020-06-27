@@ -2,7 +2,7 @@
 	"name" : "Motion Particles",
 	"version" : 1,
 	"creationdate" : 3676022860,
-	"modificationdate" : 3676056601,
+	"modificationdate" : 3676110446,
 	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,17 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"code" : 		{
+			"tp.slide.ignorealpha.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"op.pass.jxs" : 			{
+				"kind" : "shader"
 			}
 
 		}

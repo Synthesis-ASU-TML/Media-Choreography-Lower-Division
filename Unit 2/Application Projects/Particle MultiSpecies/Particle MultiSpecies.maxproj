@@ -2,8 +2,8 @@
 	"name" : "Particle MultiSpecies",
 	"version" : 1,
 	"creationdate" : 3676022901,
-	"modificationdate" : 3676032018,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3676110463,
+	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -37,6 +37,14 @@
 		"code" : 		{
 			"bypass_dummy.genjit" : 			{
 				"kind" : "genjit"
+			}
+,
+			"tp.slide.ignorealpha.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"op.pass.jxs" : 			{
+				"kind" : "shader"
 			}
 
 		}
