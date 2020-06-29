@@ -2,7 +2,7 @@
 	"name" : "Simple Soundscape",
 	"version" : 1,
 	"creationdate" : 3676105664,
-	"modificationdate" : 3676105671,
+	"modificationdate" : 3676145224,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,14 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"soundscape_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
 			}
 
 		}

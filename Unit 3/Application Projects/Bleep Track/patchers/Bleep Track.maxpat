@@ -40,6 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 217.0, 87.0, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Bleep Track/other/bleep_icon.icns",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "org.asu.ame.synthesis.bleeptrack",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 1,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "Bleep Track Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-138",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -168,10 +200,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 688.0, 150.0, 208.0 ],
+					"patching_rect" : [ 99.0, 688.0, 152.0, 208.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 324.0, 54.0, 230.0, 141.0 ],
+					"presentation_rect" : [ 324.0, 54.0, 235.0, 141.0 ],
 					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency and maximum amplitude of the sample. On the designated interval, a \"bleep\" is made using the detected values. \n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 				}
 
@@ -401,7 +433,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 176.0, 150.0, 33.0 ],
+					"patching_rect" : [ 18.0, 176.0, 152.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 223.09375, 213.0, 20.0 ],
 					"text" : "Origial Audio Track Output Level"
@@ -603,7 +635,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 117.0, 0.0, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1000.0, 0.0, 0 ],
 					"domain" : 117.0,
 					"id" : "obj-50",
 					"maxclass" : "function",
@@ -743,7 +775,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1409.0, 327.0, 143.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Setting Gain of harmonic frequencies "
 				}
 
@@ -3029,147 +3060,147 @@
 		"dependency_cache" : [ 			{
 				"name" : "sc.audioAnalysis.dict.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
