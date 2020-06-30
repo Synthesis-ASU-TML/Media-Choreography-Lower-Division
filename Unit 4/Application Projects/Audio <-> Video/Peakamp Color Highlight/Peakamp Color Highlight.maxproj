@@ -2,8 +2,8 @@
 	"name" : "Peakamp Color Highlight",
 	"version" : 1,
 	"creationdate" : 3676286532,
-	"modificationdate" : 3676287319,
-	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
+	"modificationdate" : 3676303660,
+	"viewrect" : [ 23.0, 128.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -18,11 +18,27 @@
 
 		}
 ,
+		"media" : 		{
+			"color_highlight_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
 		"code" : 		{
 
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
+			"color_highlight_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
