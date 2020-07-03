@@ -2,7 +2,7 @@
 	"name" : "Hue Match",
 	"version" : 1,
 	"creationdate" : 3676381495,
-	"modificationdate" : 3676381507,
+	"modificationdate" : 3676571261,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,22 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"hue_match_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"hue_match_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
 			}
 
 		}

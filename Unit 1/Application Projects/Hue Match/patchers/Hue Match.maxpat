@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 56.0, 84.0, 1088.0, 657.0 ],
+		"rect" : [ 463.0, 303.0, 555.0, 268.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -40,16 +40,63 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-110",
-					"linecount" : 6,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 267.0, 193.0, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Hue Match/other/hue_match_icon.icns",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "org.asu.ame.synthesis.huematch",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 1,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "Hue Match Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 836.0, 69.0, 150.0, 87.0 ],
+					"patching_rect" : [ 844.0, 300.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 360.0, 63.0, 224.0, 60.0 ],
-					"text" : "The \"Hue Match\" application takes average hue of each frame of video and moves the average towards the chosen target hue."
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 324.0, 225.0, 224.0, 33.0 ],
+					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"linecount" : 17,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 836.0, 69.0, 153.0, 234.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 12,
+					"presentation_rect" : [ 324.0, 56.0, 224.0, 167.0 ],
+					"text" : "The \"Hue Match\" application takes average hue of each frame of video and moves the average towards the chosen target hue. \n\nWe choose to manipulate the image color using the HSL colorspace due to the simplicity of changing the color along a smooth function by modifying a single variable (hue) rather than balancing the manipulation of 3 (Red, Green, & Blue). "
 				}
 
 			}
@@ -63,7 +110,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 836.0, 37.0, 224.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 34.0, 224.0, 27.0 ],
+					"presentation_rect" : [ 324.0, 27.0, 224.0, 27.0 ],
 					"text" : "Hue Match"
 				}
 
@@ -118,7 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.75, 164.0, 150.0, 20.0 ],
+					"patching_rect" : [ 498.0, 283.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.75, 146.0, 150.0, 20.0 ],
 					"text" : "Set Target Mean Hue"
@@ -154,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, 37.0, 150.0, 33.0 ],
+					"patching_rect" : [ 675.0, 134.9453125, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 72.75, 31.0, 171.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -784,7 +831,7 @@
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-26",
-					"knobcolor" : [ 0.0, 0.992156862745098, 0.690196078431373, 1.0 ],
+					"knobcolor" : [ 0.031372549019608, 0.0, 0.992156862745098, 1.0 ],
 					"maxclass" : "slider",
 					"numinlets" : 1,
 					"numoutlets" : 1,
