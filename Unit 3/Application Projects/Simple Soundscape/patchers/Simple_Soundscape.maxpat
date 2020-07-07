@@ -722,7 +722,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.99462890625, 677.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 509.48388671875, 563.296875, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 238.4892578125, 31.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -749,11 +749,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-175",
-					"linecount" : 14,
+					"linecount" : 13,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 831.0, 513.0, 156.0, 194.0 ],
+					"patching_rect" : [ 831.0, 513.0, 160.0, 181.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 415.5, 78.0, 236.0, 127.0 ],

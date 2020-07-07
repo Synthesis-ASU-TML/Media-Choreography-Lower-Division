@@ -40,17 +40,91 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 895.49462890625, 707.0, 116.0, 26.0 ],
+					"text" : "Set PC App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 764.0, 707.0, 116.0, 26.0 ],
+					"text" : "Set Mac App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 895.49462890625, 739.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 764.0, 739.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 895.49462890625, 769.0, 123.0, 22.0 ],
+					"text" : "prepend appicon_win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 764.0, 769.0, 127.0, 22.0 ],
+					"text" : "prepend appicon_mac"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 849.0, 182.0, 67.0, 22.0 ],
+					"patching_rect" : [ 764.0, 808.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple FFFB/other/filter_icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "com.mycompany.myprogram",
+						"bundleidentifier" : "org.asu.ame.synthesis.simplefffb",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
 						"copysupport" : 1,
@@ -510,7 +584,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1038.9892578125, 378.390625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 339.0, 370.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1037.0, 380.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -532,7 +606,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1043.9892578125, 108.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 945.9892578125, 133.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1043.9892578125, 108.390625, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -554,7 +628,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 514.9892578125, 352.390625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 610.49462890625, 147.390625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 518.9892578125, 355.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -576,7 +650,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 518.5, 108.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 485.5, 137.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 518.9892578125, 108.390625, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -598,9 +672,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 179.499999999999972, 362.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 174.000000000000028, 770.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.499999999999972, 360.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 185.499999999999972, 417.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -620,9 +694,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 184.499999999999972, 290.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 610.9892578125, 560.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.499999999999972, 287.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 185.499999999999972, 306.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -642,9 +716,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.499999999999972, 232.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 444.9892578125, 560.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.499999999999972, 235.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 185.499999999999972, 254.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -664,9 +738,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 184.499999999999972, 186.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 294.5, 560.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.499999999999972, 186.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 185.499999999999972, 205.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -686,9 +760,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.499999999999972, 144.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 63.99462890625, 553.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 185.499999999999972, 144.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 185.499999999999972, 163.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -708,7 +782,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 181.0, 102.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 155.0, 10.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 185.499999999999972, 89.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -746,7 +820,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 266.0, 218.0, 150.0, 33.0 ],
+					"patching_rect" : [ 855.0, 412.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 259.0, 192.5, 227.0, 33.0 ],
@@ -761,10 +835,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.0, 89.0, 151.0, 194.0 ],
+					"patching_rect" : [ 858.5, 453.0, 151.0, 194.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 259.0, 64.5, 234.0, 127.0 ],
+					"presentation_rect" : [ 259.0, 64.5, 237.0, 127.0 ],
 					"text" : "The \"Simple FFFB\" application encourages users to explore how to create soundscapes using a series of resonant filters and playback rates. \n\nUsers have the ability to control filter gains (in 2 ways), the central frequency of each of the 4 filters, the playback rates (-2x to 2x), and the Q-values. "
 				}
 
@@ -777,7 +851,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 273.0, 38.0, 227.0, 27.0 ],
+					"patching_rect" : [ 845.49462890625, 383.0, 227.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 259.0, 37.5, 227.0, 27.0 ],
 					"text" : "Simple FFFB"
@@ -791,7 +865,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 78.0, 150.0, 33.0 ],
+					"patching_rect" : [ 77.5, 808.0, 150.0, 33.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -2195,7 +2269,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 174.000000000000028, 748.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 338.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 9.499999999999972, 395.0, 150.0, 20.0 ],
 					"text" : "Set Master Level"
 				}
 
@@ -2209,7 +2283,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 696.5, 598.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 116.5, 174.0, 20.0 ],
+					"presentation_rect" : [ 9.499999999999972, 135.5, 174.0, 20.0 ],
 					"text" : "Set Individual Track Levels"
 				}
 
@@ -2226,7 +2300,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 530.5, 594.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 287.5, 164.0, 41.0 ],
+					"presentation_rect" : [ 9.499999999999972, 306.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Audio-1-level[3]",
@@ -2255,7 +2329,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 364.5, 594.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 235.5, 164.0, 41.0 ],
+					"presentation_rect" : [ 9.499999999999972, 254.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Audio-1-level[2]",
@@ -2284,7 +2358,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 196.5, 594.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 186.5, 164.0, 41.0 ],
+					"presentation_rect" : [ 9.499999999999972, 205.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Audio-1-level[1]",
@@ -2337,7 +2411,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.5, 748.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 360.5, 164.0, 47.0 ],
+					"presentation_rect" : [ 9.499999999999972, 417.0, 164.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~",
@@ -2366,7 +2440,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 30.5, 594.0, 164.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.499999999999972, 138.5, 164.0, 41.0 ],
+					"presentation_rect" : [ 9.499999999999972, 157.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Audio-1-level",
@@ -2480,6 +2554,23 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 30.5, 510.0, 42.0, 22.0 ],
 					"text" : "fffb~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
+					"border" : 5,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-41",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 752.0, 693.0, 284.0, 148.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}
@@ -2646,6 +2737,49 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 3 ],
 					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"midpoints" : [ 904.99462890625, 799.0, 773.5, 799.0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
