@@ -40,17 +40,91 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 911.0, 620.0, 105.0, 20.0 ],
+					"text" : "Set PC App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 780.0, 620.0, 105.0, 20.0 ],
+					"text" : "Set Mac App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 911.0, 649.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 780.0, 649.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 911.0, 680.0, 123.0, 22.0 ],
+					"text" : "prepend appicon_win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 780.0, 680.0, 127.0, 22.0 ],
+					"text" : "prepend appicon_mac"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 782.0, 145.0, 67.0, 22.0 ],
+					"patching_rect" : [ 780.0, 714.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Particle MultiSpecies/other/multispecies_icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.synthesis",
+						"bundleidentifier" : "org.asu.ame.synthesis.particlemultispecies",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
 						"copysupport" : 1,
@@ -202,7 +276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 437.0, 604.0, 161.0, 167.0 ],
+					"patching_rect" : [ 437.0, 604.0, 165.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
 					"presentation_rect" : [ 369.0, 66.0, 240.0, 114.0 ],
@@ -5048,6 +5122,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ],
+					"border" : 5,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-73",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 740.0, 596.0, 319.0, 155.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -5276,6 +5367,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
 					"source" : [ "obj-47", 0 ]
 				}
@@ -5383,6 +5481,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"order" : 3,
 					"source" : [ "obj-6", 0 ]
@@ -5410,6 +5515,13 @@
 					"destination" : [ "obj-47", 0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
@@ -5482,6 +5594,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"order" : 1,
 					"source" : [ "obj-69", 0 ]
@@ -5514,6 +5640,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-72", 0 ]
 				}
 
 			}

@@ -277,7 +277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.75, 387.0, 161.0, 100.0 ],
+					"patching_rect" : [ 312.75, 387.0, 165.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
 					"presentation_rect" : [ 312.0, 41.0, 229.0, 74.0 ],
@@ -328,7 +328,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"items" : [ "pinktrees", ",", "sunsethay", ",", "jupiter", ",", "NGC15", ",", "psychedlic", ",", "steppes", ",", "faces", ",", "desrtwaves", ",", "cygnus" ],
+					"items" : [ "pinktrees", ",", "sunsethay", ",", "jupiter", ",", "NGC15", ",", "psychedlic", ",", "steppes", ",", "faces", ",", "desertwaves", ",", "cygnus" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
