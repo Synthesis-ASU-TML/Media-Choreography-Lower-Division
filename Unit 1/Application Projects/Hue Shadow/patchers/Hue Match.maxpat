@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 329.0, 180.0, 1326.0, 629.0 ],
+		"rect" : [ 329.0, 180.0, 564.0, 319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,82 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"id" : "obj-49",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1133.25537109375, 126.0, 104.054679870605469, 21.40625 ],
+					"text" : "Set PC App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"id" : "obj-48",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1004.25537109375, 126.0, 110.0546875, 21.40625 ],
+					"text" : "Set Mac App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 1133.25537109375, 157.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 1004.25537109375, 157.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1133.25537109375, 184.0, 123.0, 22.0 ],
+					"text" : "prepend appicon_win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1004.25537109375, 184.0, 127.0, 22.0 ],
+					"text" : "prepend appicon_mac"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
@@ -533,13 +609,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1062.0, 204.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1060.0, 233.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Hue Match/other/hue_match_icon.icns",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Recolorer/other/recolor_icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.synthesis.huematch",
+						"bundleidentifier" : "org.asu.ame.synthesis.hueshadow",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
 						"copysupport" : 1,
@@ -549,7 +625,7 @@
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 0,
-						"preffilename" : "Hue Match Preferences",
+						"preffilename" : "Hue Shadow Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
 						"usesearchpath" : 0
@@ -569,7 +645,7 @@
 					"patching_rect" : [ 844.0, 300.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 324.0, 246.0, 224.0, 33.0 ],
+					"presentation_rect" : [ 324.0, 272.0, 224.0, 33.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -577,15 +653,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-110",
-					"linecount" : 13,
+					"linecount" : 25,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 836.0, 69.0, 155.0, 181.0 ],
+					"patching_rect" : [ 836.0, 69.0, 155.0, 342.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 324.0, 56.0, 224.0, 114.0 ],
-					"text" : "The \"Hue Shadow\" application takes 2 frames of separate videos and replaces the hue of first video with the hue channel of the second. The intended effect is to simulate film that has been partially rexposed. The second image comes through as a colorful shadow in the original image."
+					"presentation_linecount" : 17,
+					"presentation_rect" : [ 324.0, 41.0, 226.0, 234.0 ],
+					"text" : "The \"Hue Shadow\" application takes 2 frames of separate videos and replaces the hue of first video with the hue channel of the second. The intended effect is to simulate film that has been partially rexposed. The second image comes through as a colorful shadow in the original image.\n\nThe purpose of using the hue - saturation - luminance colorspace for this effect is to simplify the algorithm used. Rather than needing to balance modifications to the red, green, and blue channels, we can shift only the hue channel to get a smoother image as an output."
 				}
 
 			}
@@ -599,7 +675,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 836.0, 37.0, 224.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 27.0, 224.0, 27.0 ],
+					"presentation_rect" : [ 324.0, 12.0, 224.0, 27.0 ],
 					"text" : "Hue Shadow"
 				}
 
@@ -940,6 +1016,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ],
+					"border" : 5,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-50",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 993.0, 107.0, 279.0, 162.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -1149,6 +1242,48 @@
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
