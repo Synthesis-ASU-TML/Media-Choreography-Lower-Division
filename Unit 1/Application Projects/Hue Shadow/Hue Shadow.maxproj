@@ -1,8 +1,8 @@
 {
-	"name" : "Hue Match",
+	"name" : "Hue Shadow",
 	"version" : 1,
 	"creationdate" : 3676381495,
-	"modificationdate" : 3676571261,
+	"modificationdate" : 3676968853,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -23,6 +23,10 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+
+		}
+,
+		"code" : 		{
 
 		}
 ,
