@@ -33,3 +33,10 @@
     - All SC dependencies, listed in the readme for SC
     - Any additional dependencies listed in the indivdiual unit folders.
 
+### Compiling to Applictations
+- Open the Max Project of the application you would like to compile
+- Switch the view from presentation view to patching
+- Find the "standalone" object, highlight it, then view the inspector to find the application icon item.
+- Select the icon for that application, Max 8 stores the direct path to the icon rather than relative, requiring that each person attempting to build applications will have to manually complete this step.
+- Close the Max patch and return to the project window
+- Select "Manage Project" -> "Build Collective / Application" and select a location for the compiled app to be saved.
