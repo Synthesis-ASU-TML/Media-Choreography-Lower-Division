@@ -2,7 +2,7 @@
 	"name" : "Color Trail",
 	"version" : 1,
 	"creationdate" : 3676888683,
-	"modificationdate" : 3676889471,
+	"modificationdate" : 3677059122,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,14 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"Color Trail Icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}

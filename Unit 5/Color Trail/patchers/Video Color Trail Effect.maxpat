@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1314.0, 56.0, 1852.0, 990.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,49 +39,73 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 199.0, 358.0, 34.0, 22.0 ],
-					"text" : "*~ 1."
+					"id" : "obj-175",
+					"linecount" : 23,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 831.0, 513.0, 166.0, 315.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 15,
+					"presentation_rect" : [ 311.333333194255829, 285.057293057441711, 237.0, 208.0 ],
+					"text" : "The \"Color Trails\" application tracks the amount of motion in a video and maps a color value to it by using the rgb graph of the sc.texture.colormap object. Values on the left side are mapped to areas with little to no motion whereas values on the right are mapped to areas with higher or the most amount of motion. The Y-axis is the strength of each relative color value. By playing around and drawing different patterns in the graph you can quickly generate a wide variety of blends and colors. The Trail Amount slider allows for control of how long the color and shape of motion remain before fading out."
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 157.2607421875, 358.0, 34.0, 22.0 ],
-					"text" : "*~ 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 70.25, 358.0, 34.0, 22.0 ],
-					"text" : "*~ 1."
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-173",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 831.0, 484.0, 236.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 311.333333194255829, 255.109375, 237.0, 27.0 ],
+					"text" : "Color Trails"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"maxclass" : "newobj",
+					"maxclass" : "playbar",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 57.0, 225.611981749534607, 171.0, 11.497393250465393 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.666666507720947, 87.916666209697723, 255.500000864267349, 15.497393250465393 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 22.0, 358.0, 34.0, 22.0 ],
-					"text" : "*~ 1."
+					"numoutlets" : 5,
+					"orientation" : 1,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 17.0, 281.25, 136.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.666666507720947, 469.835939824581146, 251.0, 47.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_shortname" : "Volume",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4,
+							"parameter_mmin" : -70.0
+						}
+
+					}
+,
+					"varname" : "live.gain~"
 				}
 
 			}
@@ -91,7 +115,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 402.0, 45.0, 45.0 ]
+					"patching_rect" : [ 22.0, 436.75, 45.0, 45.0 ]
 				}
 
 			}
@@ -103,7 +127,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.5, 209.0, 87.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.166666507720947, 437.502606749534607, 96.0, 20.0 ],
+					"presentation_rect" : [ 4.666666507720947, 539.835939824581146, 96.0, 20.0 ],
 					"text" : "Record Output"
 				}
 
@@ -123,7 +147,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 232.333333194255829, 209.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 459.502606749534607, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 561.835939824581146, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -154,7 +178,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 261.5, 209.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.166666507720947, 459.502606749534607, 251.0, 29.0 ],
+					"presentation_rect" : [ 4.666666507720947, 561.835939824581146, 251.0, 29.0 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 0.082352941176471, 0.996078431372549, 0.0, 1.0 ],
 					"texton" : "Stop Recording",
@@ -226,7 +250,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 449.5, 2.0546875, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.166666507720947, 97.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 7.166666507720947, 117.5, 150.0, 20.0 ],
 					"text" : "Set playback resolution"
 				}
 
@@ -246,7 +270,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 488.9892578125, 686.1953125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 161.997394800186157, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 181.997394800186157, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -268,7 +292,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.99462890625, 730.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 386.502606749534607, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 444.281252324581146, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -285,7 +309,7 @@
 					"patching_rect" : [ 479.0, 728.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1.666666507720947, 342.835939824581146, 253.0, 33.0 ],
+					"presentation_rect" : [ 4.666666507720947, 405.835939824581146, 250.0, 33.0 ],
 					"text" : "Set Playback Volume and Configure Audio Device"
 				}
 
@@ -305,7 +329,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.655925095081329, 395.614584028720856, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 254.833333194255829, 306.502605557441711, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 346.502605557441711, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -320,7 +344,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.666674911975861, 402.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666507720947, 289.057293057441711, 96.0, 20.0 ],
+					"presentation_rect" : [ 4.666666507720947, 329.057293057441711, 96.0, 20.0 ],
 					"text" : "Set Trail amount"
 				}
 
@@ -340,7 +364,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 37.49462890625, 164.111981749534607, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 62.639322489500046, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 71.471353769302368, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -362,7 +386,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 221.2392578125, 90.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 24.416665822267532, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 24.416665822267532, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -379,7 +403,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 755.0, 56.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.166666507720947, 400.835939824581146, 250.5, 21.40625 ],
+					"presentation_rect" : [ 4.666666507720947, 444.429689824581146, 250.0, 21.40625 ],
 					"text" : "Configure Audio Device"
 				}
 
@@ -617,7 +641,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -804,7 +828,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 534.75, 605.5, 170.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 194.557292342185974, 311.0, 20.0 ],
+					"presentation_rect" : [ 260.333333194255829, 214.557292342185974, 311.0, 20.0 ],
 					"text" : "Or choose a Preset (Shift-Click on box to save your own)"
 				}
 
@@ -832,7 +856,7 @@
 					"patching_rect" : [ 392.5, 596.0, 67.0, 16.0 ],
 					"pattrstorage" : "color_map",
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 216.557292342185974, 165.0, 17.0 ]
+					"presentation_rect" : [ 4.666666507720947, 300.057293057441711, 250.5, 17.0 ]
 				}
 
 			}
@@ -866,7 +890,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 42.5, 99.0, 171.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.666668236255646, 28.471353322267532, 197.499999135732651, 20.0 ],
+					"presentation_rect" : [ 56.666668236255646, 28.471353322267532, 200.499999135732651, 20.0 ],
 					"text" : "Enable Application Rendering",
 					"textjustification" : 1
 				}
@@ -887,7 +911,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 611.2392578125, -2.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.333333194255829, 105.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 127.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -903,7 +927,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 331.25, 683.75, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 287.66667503118515, 167.052082300186157, 173.0, 20.0 ],
+					"presentation_rect" : [ 290.66667503118515, 187.052082300186157, 173.0, 20.0 ],
 					"text" : "Draw in the Colors of the Trails"
 				}
 
@@ -980,7 +1004,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 379.0, 30.0546875, 264.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666507720947, 122.052082300186157, 253.0, 20.0 ],
+					"presentation_rect" : [ 4.666666507720947, 142.052082300186157, 253.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.tab",
@@ -1025,50 +1049,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-98",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 276.0, 281.25, 70.0, 22.0 ],
-					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.0 ],
-					"id" : "obj-95",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 122.0, 282.25, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 64.166666507720947, 377.835939824581146, 101.0, 20.0 ],
-					"text" : "Playback Volume"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"floatoutput" : 1,
-					"id" : "obj-96",
-					"maxclass" : "slider",
-					"mult" : 0.01,
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"orientation" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 122.0, 304.75, 196.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.166666507720947, 377.835939824581146, 250.5, 21.0 ],
-					"size" : 100.0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontsize" : 14.0,
 					"id" : "obj-2",
 					"maxclass" : "textbutton",
@@ -1078,7 +1058,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 22.0, 200.111981749534607, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666507720947, 67.471353769302368, 252.500000864267349, 18.445312440395355 ],
+					"presentation_rect" : [ 1.666666507720947, 67.471353769302368, 255.500000864267349, 18.445312440395355 ],
 					"text" : "Load Video File"
 				}
 
@@ -1092,7 +1072,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 151.5, 20.75, 150.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 678.833333313465118, 52.0, 287.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 311.333333194255829, 495.057293057441711, 237.0, 33.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -1111,28 +1092,26 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.31 ],
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 299.0, 494.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 143.166666507720947, 311.057293057441711, 29.0, 20.0 ],
-					"text" : "83"
+					"presentation_rect" : [ 146.166666507720947, 351.057293057441711, 29.0, 20.0 ],
+					"text" : "31"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.31 ],
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 299.0, 429.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.166666507720947, 311.057293057441711, 75.0, 20.0 ],
+					"presentation_rect" : [ 67.166666507720947, 351.057293057441711, 75.0, 20.0 ],
 					"text" : "Trail Amount"
 				}
 
@@ -1157,13 +1136,14 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 299.0, 551.0, 50.0, 22.0 ],
-					"text" : "83"
+					"text" : "31"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
+					"knobcolor" : [ 0.925490196078431, 0.988235294117647, 0.996078431372549, 1.0 ],
 					"maxclass" : "slider",
 					"min" : 1.0,
 					"numinlets" : 1,
@@ -1172,7 +1152,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 436.75, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666507720947, 311.057293057441711, 250.5, 19.0 ],
+					"presentation_rect" : [ 4.666666507720947, 351.057293057441711, 250.5, 19.0 ],
 					"size" : 100.0
 				}
 
@@ -1255,7 +1235,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 26.0, 627.0, 291.0, 134.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.666666507720947, 148.057293057441711, 253.0, 128.0 ],
+					"presentation_rect" : [ 4.666666507720947, 168.057293057441711, 253.0, 128.0 ],
 					"varname" : "sc.texture.colormap",
 					"viewvisibility" : 1
 				}
@@ -1308,13 +1288,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -1343,14 +1316,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 0,
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-16", 2 ]
 				}
@@ -1358,24 +1323,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-3", 1 ],
 					"source" : [ "obj-16", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -1443,6 +1398,38 @@
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"order" : 0,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"order" : 1,
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1569,7 +1556,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -1578,13 +1565,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -1618,60 +1598,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 1 ],
-					"order" : 0,
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"order" : 3,
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 1 ],
-					"order" : 2,
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"order" : 1,
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
-					"source" : [ "obj-98", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
 			"obj-38" : [ "live.tab", "live.tab", 0 ],
+			"obj-3" : [ "live.gain~", "Volume", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -1680,42 +1615,43 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.presence.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 1/Unit 1 Source/code",
-				"patcherrelativepath" : "./Unit 1 Source/code",
+				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.colormap.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.slide.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color_map.json",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../..",
+				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}

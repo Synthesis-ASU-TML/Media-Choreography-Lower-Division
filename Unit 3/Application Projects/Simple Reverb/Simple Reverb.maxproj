@@ -2,7 +2,7 @@
 	"name" : "Simple Reverb",
 	"version" : 1,
 	"creationdate" : 3676897498,
-	"modificationdate" : 3676898423,
+	"modificationdate" : 3677067506,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,14 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"Simple reverb Icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}

@@ -2,8 +2,8 @@
 	"name" : "Rota Feedback",
 	"version" : 1,
 	"creationdate" : 3676892464,
-	"modificationdate" : 3676892474,
-	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
+	"modificationdate" : 3677061294,
+	"viewrect" : [ 205.0, 131.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,14 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"Rota Feedback Icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}
