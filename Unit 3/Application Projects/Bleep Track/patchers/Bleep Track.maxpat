@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 649.5, 2.0, 102.5, 22.0 ],
+					"text" : "loadmess set 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -128,14 +140,14 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 754.0, 19.0, 70.0, 22.0 ],
-					"text" : "loadmess 0"
+					"text" : "loadmess 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-133",
-					"items" : [ "Whole Step", ",", "Whole Octave", ",", "Slightly Dissonant (4.2 steps)", ",", "Even More Dissonant (6.66 steps)", ",", "Big Brother (19.84)", ",", "Extreme Steps (100.)" ],
+					"items" : [ "Half Step", ",", "Whole Step", ",", "Whole Octave", ",", "Slightly Dissonant (4.2 steps)", ",", "Even More Dissonant (6.66 steps)", ",", "Big Brother (19.84)", ",", "Extreme Steps (100.)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -150,29 +162,33 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 6,
+						"count" : 7,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ 1.0 ]
+								"value" : [ 0.5 ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ 8.0 ]
+								"value" : [ 1.0 ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ 4.2 ]
+								"value" : [ 8.0 ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ 6.66 ]
+								"value" : [ 4.2 ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ 19.84 ]
+								"value" : [ 6.66 ]
 							}
 , 							{
 								"key" : 5,
+								"value" : [ 19.84 ]
+							}
+, 							{
+								"key" : 6,
 								"value" : [ 100.0 ]
 							}
  ]
@@ -1228,8 +1244,8 @@
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "number",
-					"maximum" : 1000,
-					"minimum" : 100,
+					"maximum" : 2000,
+					"minimum" : 10,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -2338,6 +2354,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}

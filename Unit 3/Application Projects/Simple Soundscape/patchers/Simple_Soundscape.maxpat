@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 217.0, 438.0, 1111.0, 535.0 ],
+		"rect" : [ 426.0, 110.0, 1111.0, 535.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,91 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 429.0, 469.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 415.5, 459.0, 150.0, 20.0 ],
+					"text" : "Revised 7/8/2020 CRawls"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 747.5, 390.5, 23.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 745.5, 387.5, 23.0, 27.0 ],
+					"text" : "4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-48",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 747.5, 355.5, 23.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 745.5, 352.5, 23.0, 27.0 ],
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-53",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 747.5, 321.5, 23.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 745.5, 318.5, 23.0, 27.0 ],
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-57",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 747.5, 286.5, 23.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 745.5, 283.5, 23.0, 27.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1420.0, 40.0, 110.0, 22.0 ],
+					"text" : "loadmess \"No File\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -78,7 +163,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 363.49462890625, 570.0, 141.408203125, 21.40625 ],
+					"patching_rect" : [ 237.7958984375, 786.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.499999999999972, 36.796875, 213.408203125, 21.40625 ],
 					"text" : "Configure Audio Device"
@@ -485,7 +570,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 363.49462890625, 599.0, 172.0, 22.0 ],
+					"patching_rect" : [ 237.7958984375, 815.0, 172.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -554,7 +639,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 174.0, 633.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 174.0, 760.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 196.5, 465.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -722,7 +807,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.99462890625, 677.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 383.78515625, 779.296875, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 238.4892578125, 31.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -741,7 +826,7 @@
 					"patching_rect" : [ 831.0, 723.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 415.5, 206.5, 236.0, 33.0 ],
+					"presentation_rect" : [ 415.5, 424.0, 236.0, 33.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -749,15 +834,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-175",
-					"linecount" : 14,
+					"linecount" : 38,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 831.0, 513.0, 156.0, 194.0 ],
+					"patching_rect" : [ 831.0, 513.0, 163.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 415.5, 78.0, 236.0, 127.0 ],
-					"text" : "The \"Simple Soundscape\" application provides controls for manipulating up to 4 different audio tracks to create a sonic \"atmosphere\". The controls available are gain, playback rate, and pitch shift amount. The goal of the application exercise is to explore what can be achieved without the use of direct filter controls (frequency, q-value, etc)."
+					"presentation_linecount" : 27,
+					"presentation_rect" : [ 415.5, 55.5, 236.0, 368.0 ],
+					"text" : "The \"Simple Soundscape\" application provides controls for manipulating up to 4 different audio tracks to create a sonic \"atmosphere\". The controls available are gain, playback rate, and pitch shift amount. The goal of the application exercise is to explore what can be achieved without the use of direct filter controls (frequency, q-value, etc).\n\nThe first available parameter is the gain. Gain controls the universal loudness of a given track, your basic volume control.\n\nThe second available parameter is the playback rate. Here you can choose to have a track playing forwards or backwards anywhere between -2x speed and 2x.\n\nThe third available parameter is the pitch shift. This parameter moves the frequency of the sample up or down by a certain amount. Here, we have labeled the shift amount according to musical notation, giving you the option to shift by up to 2 octaves in either direction."
 				}
 
 			}
@@ -771,7 +856,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 831.0, 484.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 415.5, 50.5, 236.0, 27.0 ],
+					"presentation_rect" : [ 415.5, 28.0, 236.0, 27.0 ],
 					"text" : "Simple Soundscape"
 				}
 
@@ -1279,14 +1364,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-129",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1897.5, 151.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1897.5, 151.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 154.0, 186.0, 20.0 ],
-					"text" : "File: 19 Crash and Burn.mp3"
+					"text" : "File: 21 Choose.mp3"
 				}
 
 			}
@@ -1299,20 +1383,21 @@
 					"patching_rect" : [ 1708.5, 151.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 131.0, 186.0, 20.0 ],
-					"text" : "File: bird.aif"
+					"text" : "File: 14 Angels.mp3"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-127",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1545.5, 151.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1545.5, 151.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 141.0, 108.0, 186.0, 20.0 ],
-					"text" : "File: 3triangle-halfmute.aif"
+					"text" : "File: 19 Crash and Burn.mp3"
 				}
 
 			}
@@ -1761,7 +1846,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 80.0, 675.0, 150.0, 33.0 ],
+					"patching_rect" : [ 80.0, 802.0, 150.0, 33.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -2233,7 +2318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 174.0, 615.0, 150.0, 20.0 ],
+					"patching_rect" : [ 174.0, 742.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.499999999999972, 453.0, 150.0, 20.0 ],
 					"text" : "Set Master Level"
@@ -2352,7 +2437,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 272797.774586006999016, "ticks" ],
-						"originaltempo" : 164.04374586105078,
+						"originaltempo" : 130.640474377430991,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -2409,7 +2494,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 1939.199964415747672, "ticks" ],
-						"originaltempo" : 120.0,
+						"originaltempo" : 1.190039789819153,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -2466,7 +2551,7 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 109.170066023943946, "ticks" ],
-						"originaltempo" : 120.0,
+						"originaltempo" : 0.065648140252038,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
@@ -2508,7 +2593,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.499999999999972, 584.0, 84.0, 22.0 ],
+					"patching_rect" : [ 56.499999999999972, 711.0, 84.0, 22.0 ],
 					"text" : "loadmess -70."
 				}
 
@@ -2523,7 +2608,7 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 30.499999999999972, 615.0, 136.0, 47.0 ],
+					"patching_rect" : [ 30.499999999999972, 742.0, 136.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.499999999999972, 475.0, 164.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2761,7 +2846,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.499999999999972, 663.0, 45.0, 45.0 ]
+					"patching_rect" : [ 30.499999999999972, 790.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -3466,6 +3551,38 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"order" : 3,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"order" : 2,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-121", 0 ],
+					"order" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"order" : 1,
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}

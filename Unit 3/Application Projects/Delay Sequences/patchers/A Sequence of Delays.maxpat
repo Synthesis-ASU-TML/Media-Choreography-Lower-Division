@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 571.0, 121.0, 746.0, 619.0 ],
+		"rect" : [ 571.0, 121.0, 754.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,114 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 555.0, 150.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 532.0, 160.0, 20.0 ],
+					"text" : "Control Dry / Wet Playback"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 253.0, 760.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 200.0, 866.0, 44.0, 22.0 ],
+					"text" : "sig~ 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 253.0, 722.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 554.0, 100.0, 20.0 ],
+					"text" : "Bypass Filters",
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"texton" : "Play Modified Audio",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 200.0, 928.0, 70.0, 22.0 ],
+					"text" : "mc.pack~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 200.0, 894.0, 146.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"basictuning" : 440,
+						"followglobaltempo" : 0,
+						"formantcorrection" : 0,
+						"loopend" : [ 0.0, "ms" ],
+						"loopstart" : [ 0.0, "ms" ],
+						"mode" : "basic",
+						"originallength" : [ 0.0, "ticks" ],
+						"originaltempo" : 120.0,
+						"phase" : [ 0.0, "ticks" ],
+						"pitchcorrection" : 0,
+						"quality" : "basic",
+						"timestretch" : [ 0 ]
+					}
+,
+					"text" : "groove~ audio-in @loop 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 7.0, 996.0, 97.0, 22.0 ],
+					"text" : "mc.selector~ 2 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-113",
 					"maxclass" : "newobj",
@@ -77,7 +185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 582.0, 452.0, 150.0, 33.0 ],
+					"patching_rect" : [ 937.0, 838.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 508.0, 383.0, 233.0, 33.0 ],
@@ -88,14 +196,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-110",
-					"linecount" : 37,
+					"linecount" : 34,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 543.0, 98.0, 150.0, 503.0 ],
+					"patching_rect" : [ 937.0, 347.0, 155.0, 462.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 25,
-					"presentation_rect" : [ 508.0, 41.0, 233.0, 342.0 ],
+					"presentation_rect" : [ 508.0, 41.0, 236.0, 342.0 ],
 					"text" : "The \"Sequence of Delays\" application takes an input audio track and outputs a delayed, pitch-shifted version of the input. Users have the ability to explore changes made by modifying the individual delay track gains, delay amounts, and pitch shifting. \n\nThe delay amounts are given in milliseconds. The left number for each track is additional delay from the previous tracks, and the right number is the total delay applied to the track.\n\nThe track gains gives users the ability to modify the amplitude (volume) of each delay track. A slider set to the leftmost value is muted, while a slider fully to the right is full volume.\n\nThe pitch shift controls gives the user the ability to move any track up or down by up to a full octave. The sliders are defaulted to the center of the scale, which is no change."
 				}
 
@@ -108,7 +216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 542.0, 65.0, 233.0, 27.0 ],
+					"patching_rect" : [ 914.0, 318.0, 233.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 508.0, 12.0546875, 233.0, 27.0 ],
 					"text" : "A Sequence of Delays"
@@ -128,9 +236,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 381.0, 562.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 148.0, 1076.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 382.0, 562.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 382.0, 603.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -150,7 +258,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 375.5, 447.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 676.5, 510.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 447.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -172,7 +280,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 450.0, 209.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1167.0, 98.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 450.5, 208.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -194,7 +302,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 210.0, 230.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 515.0, 138.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 232.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -216,7 +324,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 467.0, 77.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 368.0, 134.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 466.0, 77.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -238,7 +346,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 197.0, 76.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 126.9892578125, 109.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 195.0, 77.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -260,7 +368,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 197.0, 37.2421875, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 501.0, 0.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 195.0, 36.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -282,7 +390,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 515.0, 203.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 189.0, 12.6484375, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 226.0, 5.2421875, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -1717,7 +1825,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 381.0, 589.0, 150.0, 20.0 ],
+					"patching_rect" : [ 505.0, 488.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 507.0, 85.0, 20.0 ],
 					"text" : "-1 Octave"
@@ -1730,7 +1838,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.0, 479.0, 150.0, 20.0 ],
+					"patching_rect" : [ 508.0, 387.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 374.0, 396.0, 85.0, 20.0 ],
 					"text" : "+1 Octave"
@@ -1790,7 +1898,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 841.0, 150.0, 33.0 ],
+					"patching_rect" : [ 54.0, 1104.0, 150.0, 33.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -1801,9 +1909,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.0, 791.0, 150.0, 20.0 ],
+					"patching_rect" : [ 148.0, 1051.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 535.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 576.0, 150.0, 20.0 ],
 					"text" : "Set audio output level"
 				}
 
@@ -2164,7 +2272,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 841.0, 45.0, 45.0 ]
+					"patching_rect" : [ 7.0, 1104.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -2178,9 +2286,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 7.0, 781.0, 136.0, 47.0 ],
+					"patching_rect" : [ 7.0, 1044.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 557.0, 372.0, 47.0 ],
+					"presentation_rect" : [ 8.0, 598.0, 372.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "mc.live.gain~",
@@ -2488,7 +2596,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-35", 1 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -2697,9 +2805,39 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 1233.5, 372.0, 546.5, 372.0 ],
 					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"order" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"order" : 1,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 2 ],
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -2734,6 +2872,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 1,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"order" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -2748,8 +2902,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 209.5, 213.0, 51.0, 213.0, 51.0, 213.0, 16.5, 213.0 ],
+					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 

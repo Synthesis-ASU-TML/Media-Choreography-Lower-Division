@@ -1,8 +1,8 @@
 {
-	"name" : "Hue Match",
+	"name" : "Origin",
 	"version" : 1,
-	"creationdate" : 3676381495,
-	"modificationdate" : 3676571261,
+	"creationdate" : 3676891362,
+	"modificationdate" : 3676986428,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Hue Match.maxpat" : 			{
+			"Origin.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,15 +19,19 @@
 		}
 ,
 		"media" : 		{
-			"hue_match_icon.png" : 			{
+			"origin_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 
 		}
 ,
+		"externals" : 		{
+
+		}
+,
 		"other" : 		{
-			"hue_match_icon.icns" : 			{
+			"origin_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
