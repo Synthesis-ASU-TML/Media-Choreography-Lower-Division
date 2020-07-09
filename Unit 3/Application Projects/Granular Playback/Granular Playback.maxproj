@@ -2,7 +2,7 @@
 	"name" : "Granular Playback",
 	"version" : 1,
 	"creationdate" : 3676898702,
-	"modificationdate" : 3677068142,
+	"modificationdate" : 3677155522,
 	"viewrect" : [ 118.0, 95.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,6 +21,14 @@
 		"media" : 		{
 			"Granular playback Icon.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"granular_icon.icns" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 
