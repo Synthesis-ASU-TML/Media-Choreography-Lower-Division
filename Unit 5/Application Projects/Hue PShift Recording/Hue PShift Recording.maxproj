@@ -1,16 +1,16 @@
 {
-	"name" : "Rotation Feedback",
+	"name" : "Hue PShift Recording",
 	"version" : 1,
-	"creationdate" : 3676892464,
-	"modificationdate" : 3677172174,
-	"viewrect" : [ 205.0, 131.0, 300.0, 500.0 ],
+	"creationdate" : 3676285505,
+	"modificationdate" : 3677173136,
+	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Video Rota Feedback.maxpat" : 			{
+			"Hue_Pitch_Shift.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,8 +19,16 @@
 		}
 ,
 		"media" : 		{
-			"Rota Feedback Icon.png" : 			{
+			"hue_pitch_shift_icon.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+			"hue_shift.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 
@@ -31,7 +39,7 @@
 		}
 ,
 		"other" : 		{
-			"rotation_feedback_icon.icns" : 			{
+			"hue_pitch_shift_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
@@ -49,7 +57,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 1633771873,
+	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
