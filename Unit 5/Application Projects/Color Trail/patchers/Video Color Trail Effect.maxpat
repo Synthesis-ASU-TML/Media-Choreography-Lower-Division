@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1212.0, 687.0 ],
+		"rect" : [ 881.0, 138.0, 755.0, 643.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,18 +37,149 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontlink" : 1,
+					"id" : "obj-27",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 822.5, 248.75, 104.054679870605469, 21.40625 ],
+					"text" : "Set PC App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontlink" : 1,
+					"id" : "obj-24",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 693.5, 248.75, 110.0546875, 21.40625 ],
+					"text" : "Set Mac App Icon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 822.5, 278.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 693.5, 278.0, 67.0, 22.0 ],
+					"text" : "opendialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 822.5, 302.0, 123.0, 22.0 ],
+					"text" : "prepend appicon_win"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 693.5, 302.0, 127.0, 22.0 ],
+					"text" : "prepend appicon_mac"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 442.99462890625, 395.614584028720856, 80.0, 22.0 ],
+					"text" : "loadmess 39."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.9892578125, 209.0, 84.0, 22.0 ],
+					"text" : "loadmess -70."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"orientation" : 1,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 14.5, 314.25, 164.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.666666507720947, 532.557293057441711, 250.0, 53.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~[1]",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "Preview Volume",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-175",
-					"linecount" : 23,
+					"linecount" : 52,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 831.0, 513.0, 166.0, 315.0 ],
+					"patching_rect" : [ 831.0, 513.0, 169.0, 704.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 15,
-					"presentation_rect" : [ 311.333333194255829, 285.057293057441711, 237.0, 208.0 ],
-					"text" : "The \"Color Trails\" application tracks the amount of motion in a video and maps a color value to it by using the rgb graph of the sc.texture.colormap object. Values on the left side are mapped to areas with little to no motion whereas values on the right are mapped to areas with higher or the most amount of motion. The Y-axis is the strength of each relative color value. By playing around and drawing different patterns in the graph you can quickly generate a wide variety of blends and colors. The Trail Amount slider allows for control of how long the color and shape of motion remain before fading out."
+					"presentation_linecount" : 21,
+					"presentation_rect" : [ 295.333333194255829, 39.109375, 450.0, 288.0 ],
+					"text" : "The \"Color Trails\" application tracks the amount of motion in a video and maps a color value to it by using the rgb graph of the sc.texture.colormap object. Values on the left side are mapped to areas with little to no motion whereas values on the right are mapped to areas with higher or the most amount of motion. The Y-axis is the strength of each relative color value. By playing around and drawing different patterns in the graph you can quickly generate a wide variety of blends and colors.\n\nThe Trail Amount slider allows for control of how long the color and shape of motion remain before fading out. The trails function by checking the difference in intensity between the current frame and the previous frame of video. When the intensity of the current frame is equal-to or greater the value in the same pixel of the the previous frame, the new value immdiately replaces the old value. When the new value is less than the previous value, the difference between the two values is computed, divided by \"trail amount\" and then subtracted from the previous value. This process creates the incremental decay of the trails as the pixel values fade towards black.\n\nIn an algorithm:\nWhen new-value ≥ old-value; Output-value = new-value\nWhen new-value < old-value; Output-value = old-value - (difference / trail-amount)\ndifference = old-value - new-value"
 				}
 
 			}
@@ -62,7 +193,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 831.0, 484.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 311.333333194255829, 255.109375, 237.0, 27.0 ],
+					"presentation_rect" : [ 295.333333194255829, 10.109375, 450.0, 27.0 ],
 					"text" : "Color Trails"
 				}
 
@@ -82,6 +213,7 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 12.0,
 					"id" : "obj-3",
 					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
@@ -90,17 +222,17 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 17.0, 281.25, 136.0, 47.0 ],
+					"patching_rect" : [ 152.5, 314.25, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 469.835939824581146, 251.0, 47.0 ],
+					"presentation_rect" : [ 4.666666507720947, 483.557293057441711, 250.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
-							"parameter_shortname" : "Volume",
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "Recording Volume",
 							"parameter_type" : 0,
-							"parameter_unitstyle" : 4,
-							"parameter_mmin" : -70.0
+							"parameter_unitstyle" : 4
 						}
 
 					}
@@ -127,7 +259,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 363.5, 209.0, 87.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 539.835939824581146, 96.0, 20.0 ],
+					"presentation_rect" : [ 4.666666507720947, 587.557293057441711, 96.0, 20.0 ],
 					"text" : "Record Output"
 				}
 
@@ -147,7 +279,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 232.333333194255829, 209.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.833333194255829, 561.835939824581146, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 609.557293057441711, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -178,7 +310,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 261.5, 209.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 561.835939824581146, 251.0, 29.0 ],
+					"presentation_rect" : [ 4.666666507720947, 609.557293057441711, 251.0, 29.0 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 0.082352941176471, 0.996078431372549, 0.0, 1.0 ],
 					"texton" : "Stop Recording",
@@ -216,15 +348,15 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.5, 33.25, 67.0, 22.0 ],
+					"patching_rect" : [ 693.5, 340.25, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/other/color_trail_icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "com.mycompany.myprogram",
+						"bundleidentifier" : "org.asu.ame.synthesis.colortrail",
 						"cantclosetoplevelpatchers" : 1,
-						"cefsupport" : 1,
+						"cefsupport" : 0,
 						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
@@ -232,9 +364,9 @@
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 0,
-						"preffilename" : "Max 8 Preferences",
+						"preffilename" : "Color Trail Preferences",
 						"searchformissingfiles" : 1,
-						"statusvisible" : 1,
+						"statusvisible" : 0,
 						"usesearchpath" : 0
 					}
 ,
@@ -270,7 +402,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 488.9892578125, 686.1953125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 181.997394800186157, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 237.002605557441711, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -292,7 +424,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.99462890625, 730.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.833333194255829, 444.281252324581146, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 458.002605557441711, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -309,7 +441,7 @@
 					"patching_rect" : [ 479.0, 728.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.666666507720947, 405.835939824581146, 250.0, 33.0 ],
+					"presentation_rect" : [ 4.666666507720947, 419.557293057441711, 250.0, 33.0 ],
 					"text" : "Set Playback Volume and Configure Audio Device"
 				}
 
@@ -329,7 +461,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.655925095081329, 395.614584028720856, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.833333194255829, 346.502605557441711, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 393.502605557441711, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -344,7 +476,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 285.666674911975861, 402.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 329.057293057441711, 96.0, 20.0 ],
+					"presentation_rect" : [ 4.666666507720947, 376.057293057441711, 96.0, 20.0 ],
 					"text" : "Set Trail amount"
 				}
 
@@ -403,7 +535,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 755.0, 56.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 444.429689824581146, 250.0, 21.40625 ],
+					"presentation_rect" : [ 4.666666507720947, 458.151043057441711, 250.0, 21.40625 ],
 					"text" : "Configure Audio Device"
 				}
 
@@ -419,7 +551,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 2,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -452,6 +584,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-39",
@@ -549,7 +682,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "BlackHole 16ch", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Screenflick Loopback", ",", "Fast Track & SoundFlower", ",", "Multi-Output Device" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -601,7 +734,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Built-in Microphone", ",", "BlackHole 16ch", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Screenflick Loopback", ",", "Fast Track & SoundFlower" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Video Capture Audio", ",", "Record From Chrome" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -641,7 +774,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000 ],
+									"items" : [ 44100, ",", 48000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -828,8 +961,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 534.75, 605.5, 170.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 214.557292342185974, 311.0, 20.0 ],
-					"text" : "Or choose a Preset (Shift-Click on box to save your own)"
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 4.666666507720947, 322.057293057441711, 253.5, 33.0 ],
+					"text" : "Or choose a Preset \n(Shift-Click on box to save your own)"
 				}
 
 			}
@@ -856,7 +990,7 @@
 					"patching_rect" : [ 392.5, 596.0, 67.0, 16.0 ],
 					"pattrstorage" : "color_map",
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 300.057293057441711, 250.5, 17.0 ]
+					"presentation_rect" : [ 4.666666507720947, 357.057293057441711, 250.5, 17.0 ]
 				}
 
 			}
@@ -927,7 +1061,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 331.25, 683.75, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 290.66667503118515, 187.052082300186157, 173.0, 20.0 ],
+					"presentation_rect" : [ 7.166666507720947, 165.057293057441711, 173.0, 20.0 ],
 					"text" : "Draw in the Colors of the Trails"
 				}
 
@@ -1007,10 +1141,10 @@
 					"presentation_rect" : [ 4.666666507720947, 142.052082300186157, 253.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
 							"parameter_longname" : "live.tab",
 							"parameter_mmax" : 2,
 							"parameter_shortname" : "live.tab",
-							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0
 						}
@@ -1066,15 +1200,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-177",
-					"linecount" : 3,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.5, 20.75, 150.0, 47.0 ],
+					"patching_rect" : [ 1002.0, 513.0, 150.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 311.333333194255829, 495.057293057441711, 237.0, 33.0 ],
-					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020"
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 295.333333194255829, 329.109375, 450.0, 47.0 ],
+					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\n\nRevised by Connor Rawls, Synthesis, AME, ASU, 7/9/2020"
 				}
 
 			}
@@ -1092,56 +1226,36 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.0, 494.0, 75.0, 20.0 ],
+					"patching_rect" : [ 299.0, 494.0, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 146.166666507720947, 351.057293057441711, 29.0, 20.0 ],
-					"text" : "31"
+					"presentation_rect" : [ 151.166666507720947, 398.057293057441711, 29.0, 20.0 ],
+					"text" : "40"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 1,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.0, 429.0, 75.0, 20.0 ],
+					"patching_rect" : [ 299.0, 429.0, 81.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 67.166666507720947, 351.057293057441711, 75.0, 20.0 ],
+					"presentation_rect" : [ 67.166666507720947, 398.057293057441711, 81.0, 20.0 ],
 					"text" : "Trail Amount"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 299.0, 525.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-23",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.0, 551.0, 50.0, 22.0 ],
-					"text" : "31"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"elementcolor" : [ 0.588235294117647, 0.588235294117647, 0.588235294117647, 1.0 ],
 					"id" : "obj-21",
 					"knobcolor" : [ 0.925490196078431, 0.988235294117647, 0.996078431372549, 1.0 ],
 					"maxclass" : "slider",
@@ -1152,7 +1266,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 255.0, 436.75, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 351.057293057441711, 250.5, 19.0 ],
+					"presentation_rect" : [ 4.666666507720947, 398.057293057441711, 250.5, 19.0 ],
 					"size" : 100.0
 				}
 
@@ -1187,7 +1301,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "jit_matrix", "" ],
+					"outlettype" : [ "signal", "signal", "jit_gl_texture", "" ],
 					"patching_rect" : [ 22.0, 248.75, 162.0, 22.0 ],
 					"text" : "jit.movie~ @output_texture 1"
 				}
@@ -1232,10 +1346,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "jit_gl_texture", "" ],
 					"patching_rect" : [ 26.0, 627.0, 291.0, 134.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.666666507720947, 168.057293057441711, 253.0, 128.0 ],
+					"presentation_rect" : [ 4.666666507720947, 187.057293057441711, 253.0, 128.0 ],
 					"varname" : "sc.texture.colormap",
 					"viewvisibility" : 1
 				}
@@ -1247,7 +1361,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "jit_gl_texture", "" ],
+					"outlettype" : [ "jit_gl_texture", "jit_gl_texture", "" ],
 					"patching_rect" : [ 26.0, 537.0, 113.0, 22.0 ],
 					"text" : "sc.texture.presence",
 					"varname" : "sc.texture.presence"
@@ -1272,9 +1386,26 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "" ],
-					"patching_rect" : [ 17.0, 131.0, 342.0, 22.0 ],
-					"text" : "jit.world @floating 1 @fsaa 1 @fsmenubar 0 @output_matrix 1"
+					"outlettype" : [ "jit_matrix", "bang", "" ],
+					"patching_rect" : [ 17.0, 131.0, 338.0, 22.0 ],
+					"text" : "jit.world \"Color Trails\" @erase_color 0 0 0 1 @output_matrix 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.882352941176471, 0.996078431372549, 0.0, 1.0 ],
+					"border" : 5,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-30",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 681.0, 234.25, 279.0, 142.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
 				}
 
 			}
@@ -1283,6 +1414,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 2 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -1297,6 +1435,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -1324,6 +1469,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 1 ],
+					"order" : 0,
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -1331,7 +1477,32 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"order" : 1,
+					"source" : [ "obj-16", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"midpoints" : [ 832.0, 333.0, 703.0, 333.0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -1358,23 +1529,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 2,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 1 ],
-					"order" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
 					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
@@ -1382,15 +1544,30 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-33", 0 ],
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1404,7 +1581,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
-					"order" : 0,
 					"source" : [ "obj-3", 1 ]
 				}
 
@@ -1412,23 +1588,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"order" : 1,
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -1570,6 +1729,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -1598,6 +1771,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -1605,52 +1794,54 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-3" : [ "live.gain~", "Recording Volume", 0 ],
 			"obj-38" : [ "live.tab", "live.tab", 0 ],
-			"obj-3" : [ "live.gain~", "Volume", 0 ],
+			"obj-6" : [ "live.gain~[1]", "Preview Volume", 0 ],
 			"parameterbanks" : 			{
 
 			}
-
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.presence.maxpat",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/code",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.colormap.maxpat",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.slide.maxpat",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color_map.json",
-				"bootpath" : "~/Desktop/Media-Choreography-Lower-Division/Unit 5/Color Trail/data",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
