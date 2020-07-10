@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 254.0, 82.0, 1031.0, 643.0 ],
+		"rect" : [ 579.0, 79.0, 1031.0, 643.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,52 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.88, 0.755, 0.472, 1.0 ],
+					"fontface" : 1,
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-40",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 293.0, 408.703125, 26.0107421875, 28.109375 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 293.0, 405.703125, 26.0107421875, 28.109375 ],
+					"rounded" : 100.0,
+					"text" : "7",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "jit_matrix", "" ],
+					"patching_rect" : [ 144.0107421875, 175.0, 201.0, 22.0 ],
+					"text" : "jit.gl.videoplane @transform_reset 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 160.0, 362.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-122",
 					"maxclass" : "comment",
@@ -102,11 +148,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-118",
-					"linecount" : 25,
+					"linecount" : 24,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1223.0, 113.0, 155.0, 342.0 ],
+					"patching_rect" : [ 1223.0, 113.0, 159.0, 328.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 14,
 					"presentation_rect" : [ 710.0, 56.4453125, 318.0, 194.0 ],
@@ -167,7 +213,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 310.0, 517.703125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
-					"text" : "6",
+					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -203,7 +249,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 314.0, 592.765625, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
-					"text" : "7",
+					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1030,7 +1076,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u293007191"
+					"varname" : "u587001973"
 				}
 
 			}
@@ -1546,14 +1592,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"linecount" : 82,
+					"linecount" : 80,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1069.0, 113.0, 153.0, 1106.0 ],
+					"patching_rect" : [ 1069.0, 113.0, 157.0, 1079.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 40,
-					"presentation_rect" : [ 386.0, 56.4453125, 318.0, 543.0 ],
+					"presentation_rect" : [ 386.0, 56.4453125, 321.0, 543.0 ],
 					"text" : "We are presenting to you a second version of the \"Hue Pitch Shift\" application from Unit 4. In this modified application, the ability to record your media has been added along with access to new parameters and preset creation controls.\n\nFirst, we will discuss the new parameters that have been exposed to you. All three are focused on the \"smoothness\" of the pitch shifting done in response to the hue of the input video stream. Working top to bottom, there is the Smoothing Window Size, Smoothing Increasing Steps, and Smoothing Decreasing Steps. All 3 are aimed at controlling the amount the output effect jumps on any given sample. \n\nThe Smoothing Window Size controls how many consecutive samples are averaged to come up with the adjusted (or smoothed) output value from the hue analysis. Larger values (approaching 255) casue the output value to move only small amounts per frame, while smaller windows (approaching 3) cause the output value to swing more drastically between frames.\n\nThe Increasing Smoothing Steps controls how much the pitch can be increased each frame. In the case that the new pitch, dictated by the output value from the smoothing window, is higher than the previous pitch, the difference between the two pitches is calculated, divided by the steps, and added to the previous pitch. Similar to the smoothing window, higher steps correspond to smaller changes and vice versa.\n\nThe last parameter is the Decreasing Smoothing Steps. Similar to the increasing smoothing steps, this parameter regulates the amount the pitch can drop between frames. The decreasing steps are used when the new pitch is lower than the previous pitch. In that case, the difference between the pitches is calculated, divided by the decreasing steps, and subtracted from the previous pitch; the result becoming the modified (or smoothed) pitch."
 				}
 
@@ -1635,7 +1681,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 320.0, 295.703125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
-					"text" : "5",
+					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2001,6 +2047,14 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"order" : 2,
+					"source" : [ "obj-1", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 2 ],
 					"order" : 1,
 					"source" : [ "obj-1", 2 ]
@@ -2121,6 +2175,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"order" : 1,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -2321,16 +2391,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-49", 0 ],
-					"order" : 1,
-					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 

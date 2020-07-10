@@ -1,8 +1,8 @@
 {
-	"name" : "Hue PShift Recording",
+	"name" : "Vid2Audio Delays Recording",
 	"version" : 1,
-	"creationdate" : 3676285505,
-	"modificationdate" : 3677180004,
+	"creationdate" : 3676286390,
+	"modificationdate" : 3677223645,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Hue PShift Recording.maxpat" : 			{
+			"Vid2Audio Delays Recording.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,18 +19,14 @@
 		}
 ,
 		"media" : 		{
-			"hue_pitch_shift_icon.png" : 			{
+			"delay_sequence_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 
 		}
 ,
-		"data" : 		{
-			"hue_shift.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
+		"code" : 		{
 
 		}
 ,
@@ -39,7 +35,7 @@
 		}
 ,
 		"other" : 		{
-			"hue_pitch_shift_icon.icns" : 			{
+			"delay_sequence_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

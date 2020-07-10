@@ -1030,7 +1030,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u293007191"
+					"varname" : "u597001146"
 				}
 
 			}
@@ -2724,6 +2724,10 @@
 			}
 , 			{
 				"name" : "cv.jit.resize.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
  ],

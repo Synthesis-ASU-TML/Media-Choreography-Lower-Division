@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 465.0, 141.0, 632.0, 208.0 ],
+		"rect" : [ 465.0, 141.0, 1322.0, 839.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,60 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 61.0, 14.0546875, 95.0, 22.0 ],
+					"text" : "r to-world-status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 175.0, 97.0, 111.0, 22.0 ],
+					"text" : "s from-world-status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 61.0, 39.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 61.0, 39.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "bang", "" ],
+					"patching_rect" : [ 61.0, 70.0, 274.0, 22.0 ],
+					"text" : "jit.world \"Vid2Audio Delays\" @erase_color 0 0 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 22.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1024.0, 594.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Video -> Audio/Video Delay Sequence/other/delay_sequence_icon.icns",
@@ -566,7 +615,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 97.99462890625, 66.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 32.9892578125, 97.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 56.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -685,7 +734,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 514.25, 9.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 575.25, 11.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 100.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -701,7 +750,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.25, 3.5, 150.0, 33.0 ],
+					"patching_rect" : [ 423.25, 5.5, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 82.5, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
@@ -715,7 +764,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 9.0, 70.0, 22.0 ],
+					"patching_rect" : [ 347.0, 11.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -727,7 +776,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 475.0, 98.0, 88.0, 22.0 ],
+					"patching_rect" : [ 536.0, 100.0, 88.0, 22.0 ],
 					"text" : "dim 1920 1080"
 				}
 
@@ -739,7 +788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.5, 98.0, 81.0, 22.0 ],
+					"patching_rect" : [ 441.5, 100.0, 81.0, 22.0 ],
 					"text" : "dim 1280 720"
 				}
 
@@ -751,7 +800,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 286.0, 64.0, 302.5, 22.0 ],
+					"patching_rect" : [ 347.0, 66.0, 302.5, 22.0 ],
 					"text" : "sel 0 1 2"
 				}
 
@@ -763,7 +812,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 98.0, 75.0, 22.0 ],
+					"patching_rect" : [ 347.0, 100.0, 75.0, 22.0 ],
 					"text" : "dim 640 360"
 				}
 
@@ -778,7 +827,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 286.0, 37.0, 264.0, 20.0 ],
+					"patching_rect" : [ 347.0, 39.0, 264.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 104.5, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1002,18 +1051,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 121.0, 133.0, 119.0, 22.0 ],
-					"text" : "qmetro 10 @active 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1141,13 +1178,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -1189,8 +1219,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -1205,6 +1258,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -1327,28 +1387,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "sc.delaysequencer~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.delaydesigner~.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound/poly",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound/poly",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound/poly",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delaywithfeedback.gendsp",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.16floats.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
