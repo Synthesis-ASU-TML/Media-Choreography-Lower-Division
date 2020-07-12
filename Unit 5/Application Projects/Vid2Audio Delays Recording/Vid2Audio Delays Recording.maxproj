@@ -2,7 +2,7 @@
 	"name" : "Vid2Audio Delays Recording",
 	"version" : 1,
 	"creationdate" : 3676286390,
-	"modificationdate" : 3677223645,
+	"modificationdate" : 3677235191,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"sc.pattr.strip.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -27,6 +32,14 @@
 		}
 ,
 		"code" : 		{
+
+		}
+,
+		"data" : 		{
+			"vid2audio-delays.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
 
 		}
 ,
