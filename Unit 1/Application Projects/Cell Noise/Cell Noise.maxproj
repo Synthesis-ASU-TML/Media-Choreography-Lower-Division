@@ -2,7 +2,7 @@
 	"name" : "Cell Noise",
 	"version" : 1,
 	"creationdate" : 3677350231,
-	"modificationdate" : 3677351951,
+	"modificationdate" : 3677453191,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,9 +18,33 @@
 
 		}
 ,
+		"media" : 		{
+			"cell_noise_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
 		"code" : 		{
 			"cellnoise.jxs" : 			{
 				"kind" : "shader",
+				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+			"cell-noise.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"cell_noise_icon.icns" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 
