@@ -49,6 +49,18 @@
 				}
 
 			}
+,
+			"5" : 			{
+				"id" : 5,
+				"name" : "diagonally",
+				"data" : 				{
+					"blue-direction" : [ 656.779661016941645 ],
+					"green-direction" : [ 665.254237288136665 ],
+					"mode-menu" : [ 1 ],
+					"offset-max" : [ 0.2 ]
+				}
+
+			}
 
 		}
 
