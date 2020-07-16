@@ -1,0 +1,57 @@
+{
+	"pattrstorage" : 	{
+		"name" : "rgb-offset",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "default",
+				"data" : 				{
+					"blue-direction" : [ 250.0 ],
+					"green-direction" : [ 750.0 ],
+					"mode-menu" : [ 1 ],
+					"offset-max" : [ 0.05 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "default additive",
+				"data" : 				{
+					"blue-direction" : [ 250.0 ],
+					"green-direction" : [ 750.0 ],
+					"mode-menu" : [ 0 ],
+					"offset-max" : [ 0.05 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "wide spread",
+				"data" : 				{
+					"blue-direction" : [ 12.711864406774566 ],
+					"green-direction" : [ 495.762711864408629 ],
+					"mode-menu" : [ 1 ],
+					"offset-max" : [ 0.5 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"name" : "wide invert",
+				"data" : 				{
+					"blue-direction" : [ 506.610169491522811 ],
+					"green-direction" : [ 6.779661016947557 ],
+					"mode-menu" : [ 1 ],
+					"offset-max" : [ 0.4955 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
