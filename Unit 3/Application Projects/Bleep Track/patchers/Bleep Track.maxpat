@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 419.0, 182.0, 572.0, 446.0 ],
+		"rect" : [ 419.0, 182.0, 598.0, 440.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,458 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-132",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 136.0, 107.0, 49.0, 22.0 ],
+					"text" : "r speed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-131",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 654.0, 1030.0, 51.0, 22.0 ],
+					"text" : "s speed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 708.0, 986.0, 22.0, 22.0 ],
+					"text" : "t 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-129",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 682.0, 986.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-128",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 654.0, 986.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-127",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 35.0, 19.0, 39.0, 22.0 ],
+					"text" : "r load"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-121",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 600.0, 1030.0, 41.0, 22.0 ],
+					"text" : "s load"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 567.833333333333371, 1173.0, 99.0, 22.0 ],
+					"text" : "checkitem 5 2 $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 567.833333333333371, 1147.0, 55.0, 22.0 ],
+					"text" : "route set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6.0107421875, 495.0, 35.0, 22.0 ],
+					"text" : "r dac"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 578.333333333333371, 1058.0, 37.0, 22.0 ],
+					"text" : "s dac"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 567.833333333333371, 1123.0, 91.0, 22.0 ],
+					"text" : "adstatus switch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 567.833333333333371, 1030.0, 29.5, 22.0 ],
+					"text" : "t b i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 567.833333333333371, 997.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 348.0, 15.9453125, 91.0, 22.0 ],
+					"text" : "r to-audiostatus"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 432.0, 1036.0, 93.0, 22.0 ],
+					"text" : "s to-audiostatus"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 557.0, 952.0, 84.0, 22.0 ],
+					"text" : "sel 1 2 3 5 6 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 864.0, 225.0, 479.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 86.6298828125, 257.0, 247.0, 35.0 ],
+									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.6 ],
+									"fontlink" : 1,
+									"id" : "obj-8",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"parameter_mappable" : 0,
+									"patching_rect" : [ 86.6298828125, 228.0, 164.740234375, 21.40625 ],
+									"presentation" : 1,
+									"presentation_rect" : [ -1.3701171875, 41.0, 164.740234375, 21.40625 ],
+									"text" : "Visit Synthesis On The Web",
+									"textoncolor" : [ 0.074509803921569, 0.0, 0.588235294117647, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 91.0, 209.0, 278.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 22.0, 278.0, 20.0 ],
+									"text" : "Copyright 2020, Connor Rawls & Synthesis@ASU"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.6 ],
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 91.0, 187.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 2.0, 150.0, 20.0 ],
+									"text" : "Bleep Track v0.3a"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"alpha" : 0.5,
+									"autofit" : 1,
+									"forceaspect" : 1,
+									"id" : "obj-4",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
+									"patching_rect" : [ 3.0, 2.0, 100.0, 100.0 ],
+									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Bleep Track/media/bleep_icon.png",
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 2.0, 465.0, 465.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 572.0, 85.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 572.0, 58.0, 39.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 572.0, 21.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 367.0, 986.0, 125.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"About Bleep Track\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 367.0, 957.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 359.0, 842.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 359.0, 871.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "int", "int", "int", "int", "int" ],
+					"patching_rect" : [ 459.0, 920.0, 66.0, 22.0 ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Bleep", "Track", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Audio", "Status.../J", ";", "#X", "item", 5, 2, "Audio", "On", "/", "Off/K", ";", "#X", "item", 5, 3, "Load", "Audio", "Track/L", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Reverse", "Playback/1", ";", "#X", "item", 5, 6, "Pause", "Playback/0", ";", "#X", "item", 5, 7, "Forward", "Playback/2", ";", "#X", "end", ";" ],
+					"text" : "menubar 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 649.5, 2.0, 102.5, 22.0 ],
+					"patching_rect" : [ 649.5, 2.0, 103.0, 22.0 ],
 					"text" : "loadmess set 500"
 				}
 
@@ -89,10 +535,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.0, 213.0, 150.0, 33.0 ],
+					"patching_rect" : [ 33.99462890625, 710.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 324.0, 197.0, 230.0, 33.0 ],
+					"presentation_rect" : [ 324.0, 361.09375, 230.0, 33.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -110,7 +556,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 172.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 827.9892578125, 15.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 172.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -125,7 +571,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 168.09375, 150.0, 20.0 ],
+					"patching_rect" : [ 856.0, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 167.09375, 213.0, 20.0 ],
 					"text" : "Sub-bleep Step Sizes"
@@ -212,15 +658,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 15,
+					"linecount" : 34,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 688.0, 152.0, 208.0 ],
+					"patching_rect" : [ 27.0, 779.0, 156.0, 462.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 10,
-					"presentation_rect" : [ 324.0, 54.0, 235.0, 141.0 ],
-					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency and maximum amplitude of the sample. On the designated interval, a \"bleep\" is made using the detected values. \n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
+					"presentation_linecount" : 22,
+					"presentation_rect" : [ 324.0, 54.0, 235.0, 301.0 ],
+					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency and maximum amplitude of the sample. On the designated interval, a \"bleep\" is made using the detected values. \n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 				}
 
 			}
@@ -232,7 +678,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 82.0, 659.0, 230.0, 27.0 ],
+					"patching_rect" : [ 10.0, 750.0, 230.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 25.0, 230.0, 27.0 ],
 					"text" : "Bleep Track"
@@ -252,7 +698,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 183.0, 523.09375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 208.9892578125, 346.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 306.09375, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -274,7 +720,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, 337.09375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 94.99462890625, 355.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 239.09375, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -296,7 +742,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 105.99462890625, 346.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 183.0, 526.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 236.0, 378.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
@@ -421,7 +867,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 319.0, 152.0, 20.0 ],
+					"patching_rect" : [ 50.0, 495.0, 152.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 367.59375, 213.0, 20.0 ],
 					"text" : "Main Audio Output Level"
@@ -435,7 +881,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 243.0, 152.0, 33.0 ],
+					"patching_rect" : [ 231.0, 346.9453125, 152.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 292.09375, 213.0, 20.0 ],
 					"text" : "Bleep Audio Track Output Level"
@@ -449,7 +895,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.0, 176.0, 152.0, 33.0 ],
+					"patching_rect" : [ 27.0, 346.9453125, 152.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 223.09375, 213.0, 20.0 ],
 					"text" : "Origial Audio Track Output Level"
@@ -462,7 +908,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 141.0, 151.0, 150.0, 20.0 ],
+					"patching_rect" : [ 530.5, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 141.09375, 150.0, 20.0 ],
 					"text" : "Bleep Interval (in ms)"
@@ -1549,7 +1995,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Video Capture Audio", ",", "Record From Chrome" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Zoom Out", ",", "Video Capture Audio", ",", "Record From Chrome" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1589,7 +2035,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 22050, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2109,6 +2555,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"order" : 2,
 					"source" : [ "obj-11", 0 ]
@@ -2175,6 +2628,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"midpoints" : [ 577.333333333333371, 1197.0, 537.0, 1197.0, 537.0, 906.0, 468.5, 906.0 ],
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-123", 0 ]
 				}
@@ -2217,6 +2678,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"source" : [ "obj-129", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
@@ -2226,6 +2708,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-131", 0 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-132", 0 ]
 				}
 
 			}
@@ -2366,6 +2862,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-27", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-28", 0 ]
 				}
@@ -2382,6 +2892,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -2412,6 +2936,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-36", 0 ]
 				}
 
 			}
@@ -2602,8 +3133,58 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-121", 0 ],
+					"source" : [ "obj-55", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"source" : [ "obj-55", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-129", 0 ],
+					"source" : [ "obj-55", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-55", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"midpoints" : [ 566.5, 1016.0, 441.5, 1016.0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-55", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -2954,6 +3535,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-73", 0 ]
 				}
@@ -2963,6 +3551,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-75", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-76", 0 ]
 				}
 
 			}
@@ -3001,6 +3610,13 @@
 					"destination" : [ "obj-66", 1 ],
 					"midpoints" : [ 624.5, 666.0, 430.5, 666.0 ],
 					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -3225,6 +3841,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bleep_icon.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Bleep Track/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{

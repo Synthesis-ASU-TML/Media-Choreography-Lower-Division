@@ -2,7 +2,7 @@
 	"name" : "Bleep Track",
 	"version" : 1,
 	"creationdate" : 3676126592,
-	"modificationdate" : 3676896916,
+	"modificationdate" : 3678443948,
 	"viewrect" : [ 25.0, 104.0, 300.0, 912.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,6 +21,11 @@
 		"media" : 		{
 			"zsa.splash.png" : 			{
 				"kind" : "imagefile"
+			}
+,
+			"bleep_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}
