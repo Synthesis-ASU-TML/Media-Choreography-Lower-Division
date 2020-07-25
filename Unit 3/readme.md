@@ -15,3 +15,7 @@
         - granular synthesizer
     - something with reverb?
 
+### TODO:
+- Add Midi Controls to Apps
+- Modify custom key shortcuts to avoid overlapping with built-in shortcuts
+- Build in custom about pages for each app
