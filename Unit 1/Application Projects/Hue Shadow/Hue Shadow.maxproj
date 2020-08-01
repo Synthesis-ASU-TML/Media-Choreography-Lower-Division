@@ -2,7 +2,7 @@
 	"name" : "Hue Shadow",
 	"version" : 1,
 	"creationdate" : 3676381495,
-	"modificationdate" : 3676968853,
+	"modificationdate" : 3679081961,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Hue Match.maxpat" : 			{
+			"Hue Shadow.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
