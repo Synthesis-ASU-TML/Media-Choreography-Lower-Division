@@ -2,7 +2,7 @@
 	"name" : "Granular Playback",
 	"version" : 1,
 	"creationdate" : 3676898702,
-	"modificationdate" : 3677155522,
+	"modificationdate" : 3679578285,
 	"viewrect" : [ 118.0, 95.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,17 @@
 			"Granular playback Icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+
+		}
+,
+		"externals" : 		{
+			"mira_ws_server.mxo" : 			{
+				"kind" : "object"
 			}
 
 		}
