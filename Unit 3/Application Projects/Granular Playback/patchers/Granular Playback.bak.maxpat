@@ -6773,7 +6773,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u625001380"
+									"varname" : "u245005091"
 								}
 
 							}
