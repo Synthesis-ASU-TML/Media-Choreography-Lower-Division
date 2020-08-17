@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 903.0, 175.0, 76.0, 22.0 ],
+					"text" : "s midi-config"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -486,7 +497,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 284.0, 97.0 ],
+						"rect" : [ 59.0, 104.0, 353.0, 60.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -515,6 +526,35 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 61.0, 331.0, 22.0, 22.0 ],
+									"text" : "t 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontlink" : 1,
+									"id" : "obj-7",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 61.1669921875, 302.0, 24.666015625, 21.40625 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 277.8330078125, 31.0, 24.666015625, 21.40625 ],
+									"text" : "C",
+									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-41",
 									"linecount" : 2,
@@ -568,7 +608,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 147.5, 15.0, 66.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 108.0, 5.0, 92.0, 20.0 ],
+									"presentation_rect" : [ 111.0, 6.0, 81.0, 20.0 ],
 									"text" : "MIDI Devices"
 								}
 
@@ -669,7 +709,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 214.0, 47.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 29.0, 195.0, 20.0 ],
+									"presentation_rect" : [ 192.3330078125, 6.0, 146.0, 20.0 ],
 									"text" : "Detect MIDI Devices",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -702,7 +742,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2", ",", "from Cell Noise 1", ",", "from Cell Noise 2" ],
+									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -710,12 +750,12 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 214.0, 146.0, 100.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 5.0, 100.0, 22.0 ],
+									"presentation_rect" : [ 8.0, 6.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2", "from Cell Noise 1", "from Cell Noise 2" ],
+											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 4,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -1061,7 +1101,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 190.0, 397.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 172.5, 62.0, 100.0, 22.0 ],
+									"presentation_rect" : [ 175.8330078125, 31.0, 100.0, 22.0 ],
 									"text" : "Set Midi Control",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -1091,7 +1131,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 112.0, 401.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 122.5, 62.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 125.8330078125, 31.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -1129,7 +1169,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 40.5, 401.0, 66.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 5.0, 63.0, 121.0, 20.0 ],
+									"presentation_rect" : [ 8.3330078125, 32.0, 121.0, 20.0 ],
 									"text" : "Playback Volume"
 								}
 
@@ -1176,6 +1216,40 @@
 									"alpha" : 0.25,
 									"autofit" : 1,
 									"forceaspect" : 1,
+									"id" : "obj-25",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
+									"patching_rect" : [ 299.0, 0.0, 100.0, 100.0 ],
+									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"presentation" : 1,
+									"presentation_rect" : [ 301.0, 0.0, 74.0, 74.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"alpha" : 0.25,
+									"autofit" : 1,
+									"forceaspect" : 1,
+									"id" : "obj-22",
+									"maxclass" : "fpic",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
+									"patching_rect" : [ 224.0, -3.0, 100.0, 100.0 ],
+									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"presentation" : 1,
+									"presentation_rect" : [ 225.0, 0.0, 74.0, 74.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"alpha" : 0.25,
+									"autofit" : 1,
+									"forceaspect" : 1,
 									"id" : "obj-20",
 									"maxclass" : "fpic",
 									"numinlets" : 1,
@@ -1184,7 +1258,7 @@
 									"patching_rect" : [ 297.0, 129.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
 									"presentation" : 1,
-									"presentation_rect" : [ -1.0, 0.0, 118.0, 118.0 ]
+									"presentation_rect" : [ -1.0, 0.0, 73.0, 73.0 ]
 								}
 
 							}
@@ -1201,7 +1275,7 @@
 									"patching_rect" : [ 239.0, 2.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 239.0, 0.0, 118.0, 118.0 ]
+									"presentation_rect" : [ 149.0, 0.0, 74.0, 74.0 ]
 								}
 
 							}
@@ -1218,7 +1292,7 @@
 									"patching_rect" : [ 117.0, 0.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 119.0, 0.0, 118.0, 118.0 ]
+									"presentation_rect" : [ 74.0, 0.0, 73.0, 73.0 ]
 								}
 
 							}
@@ -1306,6 +1380,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-32", 0 ],
+									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-30", 0 ]
 								}
@@ -1364,6 +1445,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-6", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-21", 0 ],
+									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -1435,11 +1523,11 @@
 				"box" : 				{
 					"id" : "obj-45",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 884.0, 134.0, 63.0, 22.0 ],
-					"text" : "sel 1 2"
+					"numinlets" : 4,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 884.0, 134.0, 54.0, 22.0 ],
+					"text" : "sel 1 2 4"
 				}
 
 			}
@@ -1669,7 +1757,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 792.0, 85.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Contours", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "Load", "Video", "File/K", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Contours", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "Load", "Video", "File/K", ";", "#X", "item", 5, 3, "-", ";", "#X", "item", 5, 4, "MIDI", "Settings/M", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -3715,6 +3803,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-45", 2 ]
 				}
 
 			}
