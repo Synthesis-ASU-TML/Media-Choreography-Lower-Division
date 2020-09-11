@@ -604,7 +604,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 124.0, 340.0, 112.0 ],
+						"rect" : [ 43.0, 60.0, 345.0, 111.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -640,7 +640,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 371.0, 459.0, 150.0, 33.0 ],
+									"patching_rect" : [ 1048.0, 371.0, 150.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 97.716449439525604, 790.0, 416.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -655,7 +655,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 371.0, 276.0, 162.0, 181.0 ],
+									"patching_rect" : [ 1048.0, 188.0, 162.0, 181.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 97.716449439525604, 716.0, 416.0, 74.0 ],
@@ -672,7 +672,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 361.0, 247.0, 231.0, 27.0 ],
+									"patching_rect" : [ 1038.0, 159.0, 231.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 97.716449439525604, 689.0, 416.0, 27.0 ],
 									"text" : "Motion Edges"
@@ -890,7 +890,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 384.6669921875, 324.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -1237,7 +1237,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 447.6669921875, 287.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -1339,7 +1339,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 41.0, 324.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -1698,7 +1698,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 104.0, 287.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -1790,8 +1790,7 @@
 										}
 
 									}
-,
-									"varname" : "umenu"
+
 								}
 
 							}
@@ -2351,7 +2350,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 444.0, 454.0, 100.0, 100.0 ],
+									"patching_rect" : [ 711.0, 58.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Motion Edges/media/motion_edges_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ -1.0, -1.0, 118.0, 118.0 ]
@@ -2367,7 +2366,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 459.0, 469.0, 100.0, 100.0 ],
+									"patching_rect" : [ 711.0, 76.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Motion Edges/media/motion_edges_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 110.5, -1.0, 118.0, 118.0 ]
@@ -2383,7 +2382,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 570.5, 469.0, 100.0, 100.0 ],
+									"patching_rect" : [ 679.5, 58.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Motion Edges/media/motion_edges_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 222.0, -1.0, 118.0, 118.0 ]
@@ -2399,7 +2398,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
-									"patching_rect" : [ 682.0, 469.0, 100.0, 100.0 ],
+									"patching_rect" : [ 791.0, 58.0, 100.0, 100.0 ],
 									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Motion Edges/media/motion_edges_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 333.5, -1.0, 118.0, 118.0 ]
@@ -2840,8 +2839,8 @@
 									"patching_rect" : [ 165.0, 36.0, 404.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 0.0, -2.0, 275.0, 47.0 ],
-									"text" : "Motion Edges 0.2a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University",
+									"presentation_rect" : [ 0.0, -2.0, 276.0, 47.0 ],
+									"text" : "Motion Edges 0.3a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 

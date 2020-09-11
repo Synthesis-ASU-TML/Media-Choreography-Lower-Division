@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 565.0, 94.0, 602.0, 312.0 ],
+		"rect" : [ 780.0, 85.0, 602.0, 312.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -560,9 +560,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 864.0, 50.0, 29.5, 22.0 ],
-					"text" : "/ 2."
+					"text" : "- 1"
 				}
 
 			}
@@ -620,7 +620,6 @@
 					"patching_rect" : [ 804.0, 89.0, 196.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.75, 239.5546875, 264.0, 40.0 ],
-					"setminmax" : [ 0.0, 1.0 ],
 					"thickness" : 5
 				}
 
@@ -671,7 +670,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1045.0, 160.0, 310.0, 113.0 ],
+						"rect" : [ 29.0, 51.0, 322.0, 111.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -803,7 +802,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 104.0, 296.0, 167.0 ],
+										"rect" : [ 59.0, 103.0, 296.0, 167.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -839,7 +838,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 105.0, 121.0, 150.0, 208.0 ],
+													"patching_rect" : [ 105.0, 121.0, 152.0, 208.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 8,
 													"presentation_rect" : [ 15.0, 45.0, 273.0, 114.0 ],
@@ -1435,7 +1434,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 457.6669921875, 325.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -1782,7 +1781,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 520.6669921875, 288.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -1884,7 +1883,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 114.0, 325.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -2243,7 +2242,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 177.0, 288.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -2976,7 +2975,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 0.0, 0.0, 400.0, 33.0 ],
-									"text" : "Foregrounder 0.2a,\nCopyright 2020 Connor Rawls, Synthesis@ASU, Arizona State University",
+									"text" : "Foregrounder 0.3a,\nCopyright 2020 Connor Rawls, Synthesis@ASU, Arizona State University",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 								}
 

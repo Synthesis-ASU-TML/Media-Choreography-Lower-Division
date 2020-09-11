@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 488.0, 92.0, 680.0, 464.0 ],
+		"rect" : [ 583.0, 91.0, 697.0, 463.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -667,7 +667,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 47.0, 97.0, 345.0, 182.0 ],
+						"rect" : [ 47.0, 97.0, 341.0, 186.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1340,10 +1340,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1443.5, 238.0, 247.0, 328.0 ],
+									"patching_rect" : [ 1443.5, 238.0, 251.0, 328.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 106.179950714111328, 689.0, 525.0, 181.0 ],
+									"presentation_rect" : [ 106.179950714111328, 689.0, 529.0, 181.0 ],
 									"text" : "Stutter Frame Differencing is a patch that simulates some of David Rokeby's work. The premise is that the media feed is sampled on a regular interval (50ms - 1000ms) and frame differencing is taken from that sample. Each step is added to the previous step, with two different combination modes.\n\nSince the computer can only display colors with decimal values between 0 & 1, we have utilized 2 Frame Combination Modes to ensure that for any given pixel, the values do not exceed the displayable range. The two frame combination modes are Clip & Fold. Clip simply reduces values > 1. to = 1. and increase values < 0. to = 0. Fold manipulates the numbers for a more dynamic output. It works by taking the fractional component (anything after the decimal) and either adding it to 0 or subtracting it from 1. To determine which operation to use, we divide whole number component by 2. Any even numbers cause an addition to 0, odd numbers cause a subtraction from 1."
 								}
 
@@ -1442,8 +1442,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 327.179950714111328, 636.961487000000034, 304.0, 20.0 ],
 									"text" : "Combination Mode",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textjustification" : 0
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
 							}
@@ -1455,7 +1454,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 1172.0, 329.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -1802,7 +1801,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1235.0, 292.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -1984,7 +1983,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 891.0, 329.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -2331,7 +2330,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 954.0, 292.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -2500,7 +2499,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 624.0, 329.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -2847,7 +2846,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 687.0, 292.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -3007,7 +3006,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 353.0, 329.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -3354,7 +3353,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 416.0, 292.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -3564,7 +3563,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 36.0, 323.0, 22.0, 22.0 ],
-									"text" : "t 1"
+									"text" : "t 0"
 								}
 
 							}
@@ -3923,7 +3922,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 99.0, 286.0, 70.0, 22.0 ],
-									"text" : "loadmess 1"
+									"text" : "loadmess 0"
 								}
 
 							}
@@ -4015,8 +4014,7 @@
 										}
 
 									}
-,
-									"varname" : "umenu"
+
 								}
 
 							}
@@ -4896,7 +4894,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 272.0, 275.0 ],
+						"rect" : [ 40.0, 54.0, 272.0, 275.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4939,7 +4937,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.29 ],
+									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 0.61 ],
 									"id" : "obj-7",
 									"maxclass" : "textbutton",
 									"numinlets" : 1,
@@ -4966,7 +4964,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 0.0, -1.0, 276.0, 47.0 ],
-									"text" : "Stutter Frame Differencing 0.2a,\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
+									"text" : "Stutter Frame Differencing 0.3a,\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
 							}
@@ -5453,14 +5451,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"linecount" : 26,
+					"linecount" : 24,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1197.5, 210.0, 243.0, 355.0 ],
+					"patching_rect" : [ 1197.5, 210.0, 247.0, 328.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 23,
-					"presentation_rect" : [ 404.5, 42.0, 271.0, 315.0 ],
+					"presentation_rect" : [ 404.5, 42.0, 273.0, 315.0 ],
 					"text" : "Stutter Frame Differencing is a patch that simulates some of David Rokeby's work. The premise is that the media feed is sampled on a regular interval (50ms - 1000ms) and frame differencing is taken from that sample. Each step is added to the previous step, with two different combination modes.\n\nSince the computer can only display colors with decimal values between 0 & 1, we have utilized 2 Frame Combination Modes to ensure that for any given pixel, the values do not exceed the displayable range. The two frame combination modes are Clip & Fold. Clip simply reduces values > 1. to = 1. and increase values < 0. to = 0. Fold manipulates the numbers for a more dynamic output. It works by taking the fractional component (anything after the decimal) and either adding it to 0 or subtracting it from 1. To determine which operation to use, we divide whole number component by 2. Any even numbers cause an addition to 0, odd numbers cause a subtraction from 1."
 				}
 
