@@ -325,7 +325,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 280.25, 461.0, 360.0, 155.0 ],
-									"setfilter" : [ 0, 1, 1, 0, 0, 225.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"setfilter" : [ 0, 9, 1, 0, 0, 2520.825439453125, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 									"varname" : "filtergraph[1]"
 								}
 
@@ -513,7 +513,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 280.25, 176.0, 360.0, 155.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 85.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"setfilter" : [ 0, 9, 1, 0, 0, 267.577178955078125, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 									"varname" : "filtergraph"
 								}
 
@@ -696,8 +696,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 432.25, 0.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"filtergraph" : [ 1, 0, 2, 1, 0, 0, 85.0, 1.0, 1.0 ],
-										"filtergraph[1]" : [ 1, 0, 1, 1, 0, 0, 225.0, 1.0, 1.0 ]
+										"filtergraph" : [ 1, 0, 9, 1, 0, 0, 267.577178955078125, 1.0, 1.0 ],
+										"filtergraph[1]" : [ 1, 0, 9, 1, 0, 0, 2520.825439453125, 1.0, 1.0 ]
 									}
 ,
 									"text" : "autopattr",
@@ -1628,7 +1628,7 @@
 					"patching_rect" : [ 33.99462890625, 710.0, 150.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 324.0, 361.09375, 235.0, 33.0 ],
+					"presentation_rect" : [ 276.0, 469.59375, 235.0, 33.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, September 2020"
 				}
 
@@ -1748,15 +1748,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 32,
+					"linecount" : 48,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 159.0, 435.0 ],
+					"patching_rect" : [ 27.0, 779.0, 159.0, 650.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 22,
-					"presentation_rect" : [ 324.0, 54.0, 235.0, 301.0 ],
-					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency and maximum amplitude of the sample. On the designated interval, a \"bleep\" is made using the detected values. \n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
+					"presentation_linecount" : 32,
+					"presentation_rect" : [ 276.0, 32.59375, 235.0, 435.0 ],
+					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency, maximum amplitude, and any onsets of the loaded audio sample. On the next allowed onset, a \"bleep\" is made using the detected values. \n\nAn onset, is the beginning of a note. Any instrument, voice, or anything that creates noise is capable of a detectable onset. For this app, we have provided a method by which to filter the audio stream to only look  for onsets in specific portions of the frequency spectrum. Experiment with each to find which produces the results you like best.\n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 				}
 
 			}
@@ -1770,7 +1770,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 750.0, 230.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 25.0, 235.0, 27.0 ],
+					"presentation_rect" : [ 276.0, 6.0, 235.0, 27.0 ],
 					"text" : "Bleep Sequencer"
 				}
 
@@ -2187,8 +2187,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 475.0, 0.0, 0 ],
-					"domain" : 500.0,
+					"addpoints" : [ 0.0, 1.0, 0, 950.0, 0.0, 0 ],
 					"id" : "obj-50",
 					"maxclass" : "function",
 					"numinlets" : 1,
