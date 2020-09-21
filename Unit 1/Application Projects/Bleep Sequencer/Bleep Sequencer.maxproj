@@ -2,7 +2,7 @@
 	"name" : "Bleep Sequencer",
 	"version" : 1,
 	"creationdate" : 3676126592,
-	"modificationdate" : 3683546765,
+	"modificationdate" : 3683547726,
 	"viewrect" : [ 25.0, 104.0, 300.0, 912.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Bleep Track.maxpat" : 			{
+			"Bleep Sequencer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -26,6 +26,14 @@
 ,
 			"zsa.splash.png" : 			{
 				"kind" : "imagefile"
+			}
+
+		}
+,
+		"data" : 		{
+			"onsetdetect.json" : 			{
+				"kind" : "json",
+				"local" : 1
 			}
 
 		}
