@@ -543,9 +543,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 90.0, 85.0, 358.0, 179.0 ],
+						"rect" : [ 90.0, 85.0, 382.0, 179.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1700,11 +1700,11 @@
 												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-44",
-													"linecount" : 72,
+													"linecount" : 62,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 87.0, 150.0, 972.0 ],
+													"patching_rect" : [ 50.0, 87.0, 192.0, 838.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 29,
 													"presentation_rect" : [ 22.0, 38.0, 459.0, 395.0 ],
@@ -2634,14 +2634,14 @@
 								"box" : 								{
 									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 									"id" : "obj-115",
-									"linecount" : 47,
+									"linecount" : 46,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 57.0, 809.0, 163.0, 637.0 ],
+									"patching_rect" : [ 57.0, 809.0, 167.0, 623.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 170.0, 745.961487000000034, 658.0, 181.0 ],
+									"presentation_rect" : [ 170.0, 745.961487000000034, 660.0, 181.0 ],
 									"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency, maximum amplitude, and any onsets of the loaded audio sample. On the next allowed onset, a \"bleep\" is made using the detected values. \n\nAn onset, is the beginning of a note. Any instrument, voice, or anything that creates noise is capable of a detectable onset. For this app, we have provided a method by which to filter the audio stream to only look  for onsets in specific portions of the frequency spectrum. Experiment with each to find which produces the results you like best.\n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 								}
 
@@ -3731,7 +3731,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2", ",", "Bassline.amxd", ",", "Analogue Drums.amxd", ",", "Example M4L Instrument.amxd" ],
+									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3742,9 +3742,9 @@
 									"presentation_rect" : [ 5.5, 6.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2", "Bassline.amxd", "Analogue Drums.amxd", "Example M4L Instrument.amxd" ],
+											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 5,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -5322,6 +5322,7 @@
 							}
 , 							{
 								"box" : 								{
+									"domain" : [ 20.0, 8000.0 ],
 									"fontface" : 0,
 									"id" : "obj-14",
 									"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
@@ -5509,6 +5510,7 @@
 							}
 , 							{
 								"box" : 								{
+									"domain" : [ 20.0, 8000.0 ],
 									"fontface" : 0,
 									"id" : "obj-9",
 									"linmarkers" : [ 0.0, 11025.0, 16537.5 ],
@@ -5708,7 +5710,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u737018691"
+									"varname" : "u600001160"
 								}
 
 							}
@@ -6700,10 +6702,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 167.0, 623.0 ],
+					"patching_rect" : [ 27.0, 779.0, 170.0, 623.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
-					"presentation_rect" : [ 276.0, 32.59375, 243.0, 435.0 ],
+					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
 					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency, maximum amplitude, and any onsets of the loaded audio sample. On the next allowed onset, a \"bleep\" is made using the detected values. \n\nAn onset, is the beginning of a note. Any instrument, voice, or anything that creates noise is capable of a detectable onset. For this app, we have provided a method by which to filter the audio stream to only look  for onsets in specific portions of the frequency spectrum. Experiment with each to find which produces the results you like best.\n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 				}
 
@@ -7969,7 +7971,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Connor’s Powerbeats³", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8021,7 +8023,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Connor’s Powerbeats³", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
