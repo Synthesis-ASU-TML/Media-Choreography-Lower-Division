@@ -40,6 +40,66 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-74",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 554.0, 399.0, 51.0, 22.0 ],
+					"text" : "r outline"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1228.25, 145.0, 42.0, 22.0 ],
+					"text" : "r ffade"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1016.25, 145.0, 52.0, 22.0 ],
+					"text" : "r flength"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 785.0, 168.0, 25.0, 22.0 ],
+					"text" : "r fy"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 750.0, 168.0, 25.0, 22.0 ],
+					"text" : "r fx"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -503,7 +563,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 51.0, 87.0, 330.0, 226.0 ],
+						"rect" : [ 51.0, 87.0, 329.0, 228.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -621,15 +681,15 @@
 												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-36",
-													"linecount" : 43,
+													"linecount" : 41,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 246.0, 99.0, 150.0, 583.0 ],
+													"patching_rect" : [ 246.0, 99.0, 153.0, 556.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 18,
-													"presentation_rect" : [ 8.0, 30.0, 417.0, 248.0 ],
-													"text" : "/vf/vol - [0. - 1.] : Sets the application volume. 0 is muted, 1 is full volume.\n\n/vf/rate - [-1. - 1.] : Sets the video playback rate. -1 is rewind, 0 is pause, and\n                              1 is play.\n\n/vf/fx - [64 - 1280] : Sets the feather density in the X dimension.\n\n/vf/fy - [32 - 960] : Sets the feather density in the Y dimension.\n\n/vf/scale - [0. - 1.] : Sets the scale of the feathers. 0 is 0.01% length and 1 is\n                               50% of the maximum length.\n\n/vf/fade - [0. - 1.] : Sets the percent of feather length retained each frame.\n                             0 is 90% retention, or 10% lost per frame. 1 is 100% of the \n                             length retained, preventing change until new motion input.\n\n/vf/outline - (0|1) : Enables and disables drawing the image outline in the\n                             output window. 0 disables the outline, 1 enables outlines."
+													"presentation_rect" : [ 8.0, 30.0, 419.0, 248.0 ],
+													"text" : "/vf/vol - [0. - 1.] : Sets the application volume. 0 is muted, 1 is full volume.\n\n/vf/rate - [-1. - 1.] : Sets the video playback rate. -1 is rewind, 0 is pause, and\n                              1 is play.\n\n/vf/fx - [64 - 1280] : Sets the feather density in the X dimension.\n\n/vf/fy - [32 - 960] : Sets the feather density in the Y dimension.\n\n/vf/scale - [0. - 1.] : Sets the scale of the feathers. 0 is 0.01% length and 1 is\n                               5% of the maximum length.\n\n/vf/fade - [0. - 1.] : Sets the percent of feather length retained each frame.\n                             0 is 90% retention, or 10% lost per frame. 1 is 100% of the \n                             length retained, preventing change until new motion input.\n\n/vf/outline - (0|1) : Enables and disables drawing the image outline in the\n                             output window. 0 disables the outline, 1 enables outlines."
 												}
 
 											}
@@ -2396,7 +2456,7 @@
 									"knobcolor" : [ 0.347763270547945, 0.0, 0.0, 1.0 ],
 									"maxclass" : "slider",
 									"min" : 0.001,
-									"mult" : 0.002495,
+									"mult" : 0.000245,
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"orientation" : 1,
@@ -6394,7 +6454,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 885.0, 768.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Vector", "Fields", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Enable", "Application", "Rendering/J", ";", "#X", "item", 5, 3, "Load", "Video", "File/1", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "MIDI", "Settings/M", ";", "#X", "item", 5, 6, "OSC", "Settings/U", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Vector", "Fields", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Enable", "Application", "Rendering/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Load", "Video", "File/1", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "MIDI", "Settings/M", ";", "#X", "item", 5, 6, "OSC", "Settings/U", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -6431,15 +6491,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-121",
-					"linecount" : 102,
+					"linecount" : 99,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1602.0, -2.0, 157.0, 1374.0 ],
+					"patching_rect" : [ 1602.0, -2.0, 161.0, 1334.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 43,
-					"presentation_rect" : [ 307.0, 44.0, 374.0, 583.0 ],
-					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The optical flow techniques (in this case, specifically Horn-Schunk flow) aim to help a computer understand motion and 2D directionality in a video stream. To accomplish this task, the algorithm compares the current frame to the previous frame and uses a gradiated approach to estimate how pixels in the 2 frames have moved. The result, is that every pixel is assigned a value for both the X & Y axis representing an estimation of the amount of motion. The Vector Fields take these values and use the to draw a \"feather\" or line with a corresponding length and direction. To explore the visualization and artistic potentials for this variety of technique, we have provided you with several parameters and presets. For best viewing, we would suggest using the output window in fullscreen mode.\n\nThe first parameter is the feather density. These values determine the number of feathers that will be drawn across the frame as well as vertically in the frame. Regardless of the value entered, the app will evenly space each feather from its neighbors. You can use this parameter to get a higher resolution view of the analysis or a more general sense of motion. The minimum values are 64x32 and the maximum is 1280x960.\n\nThe second parameter is the feather scale. Changing the value here will modify the maximum length of all of the feathers. The value when the slider is fully to the left is 0.1% of the motion vector length. The value when the slider is fully to the right is 50% of the motion vector length.\n\nThe third parameter is the feather fade. Fade in this app corresponds the rate at which the feathers will reduce in size towards being off when nothing is actively moving at their base. When the slider is fully left, the value is 90% length retained or 10% loss per frame. When fully to the right, the value is 100% retained, or no change in length until overwritten by new motion at that position.\n\nThe fourth parameter is the image outline. For ease understanding, you can turn on an outline of the input video that is displayed along with the vector field feathers. If you have looked at the \"Colored Edges\" application, you may recognize this as the same effect. Beyond being a preview feature, this functionality has been included as a demonstration of the ability to layer individual effects atop each other to create functional and artisitic composites."
+					"presentation_rect" : [ 307.0, 44.0, 377.0, 583.0 ],
+					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The optical flow techniques (in this case, specifically Horn-Schunk flow) aim to help a computer understand motion and 2D directionality in a video stream. To accomplish this task, the algorithm compares the current frame to the previous frame and uses a gradiated approach to estimate how pixels in the 2 frames have moved. The result, is that every pixel is assigned a value for both the X & Y axis representing an estimation of the amount of motion. The Vector Fields take these values and use the to draw a \"feather\" or line with a corresponding length and direction. To explore the visualization and artistic potentials for this variety of technique, we have provided you with several parameters and presets. For best viewing, we would suggest using the output window in fullscreen mode.\n\nThe first parameter is the feather density. These values determine the number of feathers that will be drawn across the frame as well as vertically in the frame. Regardless of the value entered, the app will evenly space each feather from its neighbors. You can use this parameter to get a higher resolution view of the analysis or a more general sense of motion. The minimum values are 64x32 and the maximum is 1280x960.\n\nThe second parameter is the feather scale. Changing the value here will modify the maximum length of all of the feathers. The value when the slider is fully to the left is 0.1% of the motion vector length. The value when the slider is fully to the right is 5% of the motion vector length.\n\nThe third parameter is the feather fade. Fade in this app corresponds the rate at which the feathers will reduce in size towards being off when nothing is actively moving at their base. When the slider is fully left, the value is 90% length retained or 10% loss per frame. When fully to the right, the value is 100% retained, or no change in length until overwritten by new motion at that position.\n\nThe fourth parameter is the image outline. For ease understanding, you can turn on an outline of the input video that is displayed along with the vector field feathers. If you have looked at the \"Colored Edges\" application, you may recognize this as the same effect. Beyond being a preview feature, this functionality has been included as a demonstration of the ability to layer individual effects atop each other to create functional and artisitic composites."
 				}
 
 			}
@@ -6479,15 +6539,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 999.0, 596.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"feather-fade" : [ 0.944770395755768 ],
-						"feather-scale" : [ 0.010437499731779 ],
-						"num-points-x" : [ 640 ],
-						"num-points-y" : [ 320 ],
+						"feather-fade" : [ 0.899999976158142 ],
+						"feather-scale" : [ 0.001000000047497 ],
+						"num-points-x" : [ 64 ],
+						"num-points-y" : [ 32 ],
 						"outline-bypass" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u621006556"
+					"varname" : "u742009750"
 				}
 
 			}
@@ -7995,6 +8055,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
 					"source" : [ "obj-37", 0 ]
 				}
@@ -8137,6 +8204,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
@@ -8214,8 +8288,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-71", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-74", 0 ]
 				}
 
 			}

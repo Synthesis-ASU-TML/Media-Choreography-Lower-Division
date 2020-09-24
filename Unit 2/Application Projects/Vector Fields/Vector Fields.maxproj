@@ -2,8 +2,8 @@
 	"name" : "Vector Fields",
 	"version" : 1,
 	"creationdate" : 3683705583,
-	"modificationdate" : 3683730012,
-	"viewrect" : [ 19.0, 93.0, 300.0, 500.0 ],
+	"modificationdate" : 3683730796,
+	"viewrect" : [ 19.0, 98.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -32,6 +32,17 @@
 		}
 ,
 		"code" : 		{
+			"sobel.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"op.pass.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cr.gm.vectormesh1.jxs" : 			{
+				"kind" : "shader"
+			}
 
 		}
 ,
