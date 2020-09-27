@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 672.0, 102.0, 590.0, 372.0 ],
+		"rect" : [ 541.0, 90.0, 598.0, 373.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -58,7 +58,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 446.75, 642.5, 67.0, 22.0 ],
-					"text" : "delay 2000"
+					"text" : "delay 1000"
 				}
 
 			}
@@ -150,7 +150,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 20.0, 45.0, 311.0, 201.0 ],
+						"rect" : [ 20.0, 45.0, 308.0, 197.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -232,7 +232,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 114.0, 307.0, 150.0, 355.0 ],
+													"patching_rect" : [ 114.0, 307.0, 151.0, 355.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 12,
 													"presentation_rect" : [ 10.0, 35.0, 351.0, 167.0 ],
@@ -512,7 +512,7 @@
 													"maxclass" : "inlet",
 													"numinlets" : 0,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "bang" ],
 													"patching_rect" : [ 33.0, 19.0, 30.0, 30.0 ]
 												}
 
@@ -708,7 +708,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 708.0, 16.461486999999977, 30.0, 30.0 ]
 								}
 
@@ -1027,14 +1027,14 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 234.0, 762.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"bypass" : [ 1 ],
-										"cell-size" : [ 1 ],
-										"video-gain" : [ 1 ],
-										"video-rate" : [ 1 ]
+										"bypass" : [ 0 ],
+										"cell-size" : [ 0 ],
+										"video-gain" : [ 0 ],
+										"video-rate" : [ 0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u015007198"
+									"varname" : "u397012601"
 								}
 
 							}
@@ -1067,7 +1067,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 588.0, -67.5546875, 150.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 666.0, 353.90625, 267.0, 20.0 ],
+									"presentation_rect" : [ 1401.0, 314.40625, 267.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020 "
 								}
 
@@ -1082,7 +1082,7 @@
 									"patching_rect" : [ 1218.0, 353.0, 152.0, 382.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 17,
-									"presentation_rect" : [ 666.0, 94.5, 265.0, 234.0 ],
+									"presentation_rect" : [ 1401.0, 55.0, 265.0, 234.0 ],
 									"text" : "The \"Cell Noise\" application demonstrates how pseudo-randomness can create interesting effects when combined with input media. In this example, we are utilizing on of the more structured varieties of \"noise\", cell noise (also called Worley noise, very similar to Voronoi noise)\n\nCellular noise functions by computing a grid of cell center points. Each pixel drawn in the output image finds the center of the 9 nearest cells and includes itself in the cell who's center is closest. When the cells appear to move on screen, that is due to the center points being animated. Each pixel is assigned the color of the input image at the position of the cell center point."
 								}
 
@@ -1097,7 +1097,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 341.5, 433.5, 66.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 527.0, 353.90625, 121.0, 20.0 ],
+									"presentation_rect" : [ 1262.0, 314.40625, 121.0, 20.0 ],
 									"text" : "Bypass Video Filter"
 								}
 
@@ -1534,7 +1534,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 930.0, 507.0, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 466.0, 335.425506499999983, 56.961486999999977, 56.961486999999977 ],
+									"presentation_rect" : [ 1201.0, 295.925506499999983, 56.961486999999977, 56.961486999999977 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
@@ -1559,7 +1559,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 892.5, 32.5, 66.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 527.0, 280.980743500000017, 121.0, 20.0 ],
+									"presentation_rect" : [ 1262.0, 241.480743500000017, 121.0, 20.0 ],
 									"text" : "Autocycle Cell Sizes"
 								}
 
@@ -1981,7 +1981,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 666.0, 503.0, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 466.0, 262.5, 56.961486999999977, 56.961486999999977 ],
+									"presentation_rect" : [ 1201.0, 223.0, 56.961486999999977, 56.961486999999977 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
@@ -2006,7 +2006,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 947.5, 62.0, 66.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 527.0, 210.980743500000017, 121.0, 20.0 ],
+									"presentation_rect" : [ 1262.0, 171.480743500000017, 121.0, 20.0 ],
 									"text" : "Play / Pause Video"
 								}
 
@@ -2428,7 +2428,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 409.0, 497.0, 24.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 466.0, 192.5, 56.961486999999977, 56.961486999999977 ],
+									"presentation_rect" : [ 1201.0, 153.0, 56.961486999999977, 56.961486999999977 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "off", "on" ],
@@ -2453,7 +2453,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 976.0, 20.5, 66.0, 33.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 466.0, 105.0, 190.0, 20.0 ],
+									"presentation_rect" : [ 1201.0, 65.5, 190.0, 20.0 ],
 									"text" : "Playback Volume"
 								}
 
@@ -2471,7 +2471,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 85.0, 507.0, 190.0, 34.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 466.0, 127.0, 190.0, 34.0 ],
+									"presentation_rect" : [ 1201.0, 87.5, 190.0, 34.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "slider",
@@ -3338,7 +3338,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1036.0, 62.0, 256.000006437301636, 182.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 451.0, 66.0, 502.153858780860901, 357.0 ],
+									"presentation_rect" : [ 1186.0, 26.5, 502.153858780860901, 357.0 ],
 									"tabname" : "Cell Noise Controls",
 									"taborder" : 1
 								}
@@ -3893,7 +3893,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 818.0, 672.0, 99.0, 22.0 ],
+					"patching_rect" : [ 533.0, 491.0, 99.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3994,7 +3994,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -4035,18 +4035,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "clear" ],
-									"patching_rect" : [ 356.0, 294.0, 49.0, 22.0 ],
-									"text" : "t l clear"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -4276,8 +4264,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.65, 0.65, 0.65, 0.9 ],
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -4316,20 +4303,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-7", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -4848,17 +4821,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-72",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 560.0, 455.0, 59.0, 22.0 ],
-					"text" : "s to-cycle"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -4968,11 +4930,11 @@
 				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 479.0, 403.0, 74.0, 22.0 ],
-					"text" : "sel 1 2 3 4 6"
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 479.0, 403.0, 84.0, 22.0 ],
+					"text" : "sel 1 2 3 4 6 7"
 				}
 
 			}
@@ -5281,7 +5243,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 432.0, 372.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Cell", "Noise", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering/z", ";", "#X", "item", 5, 2, "Play", "/", "Pause/p", ";", "#X", "item", 5, 3, "Cell", "Size", "Auto-Cycle/c", ";", "#X", "item", 5, 4, "Bypass", "Filters/b", ";", "#X", "item", 5, 5, "-", ";", "#X", "item", 5, 6, "MIDI", "Settings/M", ";", "#X", "item", 5, 7, "OSC", "Settings/U", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Cell", "Noise", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Play", "/", "Pause/P", ";", "#X", "item", 5, 4, "Load", "File/1", ";", "#X", "item", 5, 5, "-", ";", "#X", "item", 5, 6, "MIDI", "Settings/M", ";", "#X", "item", 5, 7, "OSC", "Settings/U", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -5712,13 +5674,12 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u163006982"
+					"varname" : "u578007068"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "cell-noise.json",
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -6160,8 +6121,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-109", 0 ],
-					"source" : [ "obj-21", 3 ]
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-21", 5 ]
 				}
 
 			}
@@ -6182,14 +6143,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"source" : [ "obj-21", 1 ]
+					"source" : [ "obj-21", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"source" : [ "obj-21", 2 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-21", 3 ]
 				}
 
 			}
@@ -6743,13 +6704,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "cell-noise.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Cell Noise/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "cell_noise_icon.png",
 				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Cell Noise/media",
 				"patcherrelativepath" : "../media",
@@ -6764,8 +6718,7 @@
 				"name" : "o.route.mxo",
 				"type" : "iLaX"
 			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
