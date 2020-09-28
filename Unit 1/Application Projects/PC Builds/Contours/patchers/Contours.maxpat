@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 527.0, 301.0, 641.0, 267.0 ],
+		"rect" : [ 308.0, 203.0, 641.0, 267.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 601.0, 96.5, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 601.0, 62.5, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 601.0, 35.5, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 601.0, 10.5, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
@@ -92,11 +139,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 727.5, 406.0, 150.0, 33.0 ],
+					"patching_rect" : [ 727.5, 406.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 65.25, 223.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 65.25, 223.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -328,7 +375,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -509,7 +556,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 343.0, 57.0 ],
+						"rect" : [ 59.0, 102.0, 352.0, 57.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -539,6 +586,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-26",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 415.0, 15.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-21",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -558,9 +617,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 61.1669921875, 302.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 61.1669921875, 302.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 277.8330078125, 31.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 277.8330078125, 31.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -573,9 +632,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 497.0, 544.0, 150.0, 33.0 ],
+									"patching_rect" : [ 497.0, 544.0, 150.0, 34.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 59.0, 367.0, 276.0, 20.0 ],
+									"presentation_rect" : [ 607.0, 279.0, 276.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 								}
 
@@ -587,10 +646,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 497.0, 305.0, 161.0, 234.0 ],
+									"patching_rect" : [ 497.0, 305.0, 161.0, 241.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 9,
-									"presentation_rect" : [ 59.0, 238.0, 282.0, 127.0 ],
+									"presentation_rect" : [ 607.0, 150.0, 282.0, 131.0 ],
 									"text" : "The \"Contours\" application takes an input video stream and draws a contoured paper grain effect om it. The effect is calculated by creating a greyscale copy of the input and mapping regions that are within 20% luminosity of contiguous pixels. This map is then used to determine where to draw the contour lines on the original feed. To deepen the effect, a light blur and faux paper grain are added before being output to the screen."
 								}
 
@@ -603,9 +662,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 483.0, 353.0, 66.0, 33.0 ],
+									"patching_rect" : [ 483.0, 353.0, 66.0, 34.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 232.0, 206.0, 121.0, 20.0 ],
+									"presentation_rect" : [ 780.0, 118.0, 121.0, 20.0 ],
 									"text" : "Playback Volume"
 								}
 
@@ -618,7 +677,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 147.5, 15.0, 66.0, 33.0 ],
+									"patching_rect" : [ 147.5, 15.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 111.0, 6.0, 81.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -659,7 +718,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 85.0, 499.0, 171.0, 32.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 59.0, 200.0, 171.0, 32.0 ],
+									"presentation_rect" : [ 607.0, 112.0, 171.0, 32.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "slider",
@@ -754,7 +813,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1179,7 +1238,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.5, 401.0, 66.0, 33.0 ],
+									"patching_rect" : [ 40.5, 401.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.3330078125, 32.0, 121.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -1225,7 +1284,6 @@
 							}
 , 							{
 								"box" : 								{
-									"alpha" : 0.25,
 									"autofit" : 1,
 									"forceaspect" : 1,
 									"id" : "obj-25",
@@ -1234,7 +1292,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 299.0, 0.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"pic" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media/contours_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 301.0, 0.0, 74.0, 74.0 ]
 								}
@@ -1242,7 +1300,6 @@
 							}
 , 							{
 								"box" : 								{
-									"alpha" : 0.25,
 									"autofit" : 1,
 									"forceaspect" : 1,
 									"id" : "obj-22",
@@ -1251,7 +1308,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 224.0, -3.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"pic" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media/contours_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 225.0, 0.0, 74.0, 74.0 ]
 								}
@@ -1259,7 +1316,6 @@
 							}
 , 							{
 								"box" : 								{
-									"alpha" : 0.25,
 									"autofit" : 1,
 									"forceaspect" : 1,
 									"id" : "obj-20",
@@ -1268,7 +1324,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 297.0, 129.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"pic" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media/contours_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ -1.0, 0.0, 73.0, 73.0 ]
 								}
@@ -1276,7 +1332,6 @@
 							}
 , 							{
 								"box" : 								{
-									"alpha" : 0.25,
 									"autofit" : 1,
 									"forceaspect" : 1,
 									"id" : "obj-24",
@@ -1285,7 +1340,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 239.0, 2.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"pic" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media/contours_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 149.0, 0.0, 74.0, 74.0 ]
 								}
@@ -1293,7 +1348,6 @@
 							}
 , 							{
 								"box" : 								{
-									"alpha" : 0.25,
 									"autofit" : 1,
 									"forceaspect" : 1,
 									"id" : "obj-23",
@@ -1302,7 +1356,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 117.0, 0.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"pic" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media/contours_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 74.0, 0.0, 73.0, 73.0 ]
 								}
@@ -1316,9 +1370,9 @@
 									"maxclass" : "mira.frame",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 222.0, 304.0, 256.000006437301636, 182.0 ],
+									"patching_rect" : [ 683.0, 316.0, 256.000006437301636, 182.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 47.0, 162.0, 334.769239187240601, 238.0 ],
+									"presentation_rect" : [ 595.0, 74.0, 334.769239187240601, 238.0 ],
 									"tabname" : "Contours Controls",
 									"taborder" : 1
 								}
@@ -1394,6 +1448,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-32", 0 ],
 									"source" : [ "obj-21", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-26", 0 ]
 								}
 
 							}
@@ -1560,7 +1621,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 233.0, 320.0, 418.0, 372.0 ],
+						"rect" : [ 25.0, 71.0, 418.0, 372.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1590,15 +1651,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 400.0, 15.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 233.0, 200.0, 150.0, 60.0 ],
+									"patching_rect" : [ 233.0, 200.0, 150.0, 62.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 1.0, 2.0, 411.0, 33.0 ],
+									"presentation_rect" : [ 1.0, 2.0, 411.0, 34.0 ],
 									"text" : "Contours v0.3a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
@@ -1628,8 +1701,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.0, 368.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 176.0, 368.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -1682,7 +1755,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 117.0, 111.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media/contours_icon.png",
+									"pic" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media/contours_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 2.0, 411.0, 411.0 ]
 								}
@@ -1700,6 +1773,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -1870,7 +1950,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/other/contours_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/other/contours_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.contours",
 						"cantclosetoplevelpatchers" : 1,
@@ -1885,7 +1965,7 @@
 						"preffilename" : "Contours Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -1899,7 +1979,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 529.0, 150.0, 33.0 ],
+					"patching_rect" : [ 482.0, 529.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 344.0, 181.0, 276.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -1913,10 +1993,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 482.0, 290.0, 161.0, 234.0 ],
+					"patching_rect" : [ 482.0, 290.0, 161.0, 241.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 344.0, 52.0, 282.0, 127.0 ],
+					"presentation_rect" : [ 344.0, 52.0, 282.0, 131.0 ],
 					"text" : "The \"Contours\" application takes an input video stream and draws a contoured paper grain effect om it. The effect is calculated by creating a greyscale copy of the input and mapping regions that are within 20% luminosity of contiguous pixels. This map is then used to determine where to draw the contour lines on the original feed. To deepen the effect, a light blur and faux paper grain are added before being output to the screen."
 				}
 
@@ -1943,7 +2023,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.75, 313.0, 150.0, 33.0 ],
+					"patching_rect" : [ 267.75, 313.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 81.75, 28.5, 186.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -1963,9 +2043,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.9892578125, 308.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 211.9892578125, 308.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 24.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 24.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1985,9 +2065,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 21.9892578125, 7.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 21.9892578125, 7.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 75.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 75.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2007,9 +2087,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 267.75, 221.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 267.75, 221.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 166.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 166.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2042,9 +2122,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 519.5, 31.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 519.5, 31.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 119.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 119.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3892,6 +3972,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-57", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"order" : 1,
 					"source" : [ "obj-6", 0 ]
@@ -3942,22 +4050,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.rgb2luma.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.rgb2luma.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -3969,17 +4077,20 @@
 			}
 , 			{
 				"name" : "contours_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Contours/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Contours/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
- ],
-		"autosave" : 0
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
+			}
+ ]
 	}
 
 }

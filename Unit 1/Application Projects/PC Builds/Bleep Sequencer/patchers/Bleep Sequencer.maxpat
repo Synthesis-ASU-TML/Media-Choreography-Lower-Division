@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 471.0, 1107.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-137",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -69,11 +81,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.0, 1252.0, 150.0, 33.0 ],
+					"patching_rect" : [ 289.0, 1252.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 47.5, 520.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 47.5, 520.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -293,7 +305,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -543,7 +555,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 90.0, 85.0, 382.0, 179.0 ],
+						"rect" : [ 22.0, 67.0, 382.0, 179.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -572,6 +584,42 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-75",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 105.0, 66.0, 77.0, 22.0 ],
+									"text" : "window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-44",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 85.0, 31.0, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 65.5, 4.0, 179.0, 22.0 ],
+									"text" : "loadmess window flags nomenu"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-105",
@@ -763,9 +811,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1204.6669921875, 331.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1204.6669921875, 331.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 147.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 147.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1148,7 +1196,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1198.5, 412.0, 66.0, 33.0 ],
+									"patching_rect" : [ 1198.5, 412.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 148.5, 176.0, 20.0 ],
 									"text" : "Playback Mode"
@@ -1258,9 +1306,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 902.6669921875, 316.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 902.6669921875, 316.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 124.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 124.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1643,7 +1691,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 896.5, 397.0, 66.0, 33.0 ],
+									"patching_rect" : [ 896.5, 397.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 125.5, 176.0, 20.0 ],
 									"text" : "Note Length"
@@ -1668,7 +1716,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 59.0, 104.0, 500.0, 447.0 ],
+										"rect" : [ 14.0, 66.0, 501.0, 454.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -1698,16 +1746,52 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 46.0, 461.0, 77.0, 22.0 ],
+													"text" : "window exec"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 46.0, 435.0, 29.5, 22.0 ],
+													"text" : "t b l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 46.0, 393.0, 179.0, 22.0 ],
+													"text" : "loadmess window flags nomenu"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-44",
-													"linecount" : 62,
+													"linecount" : 61,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 50.0, 87.0, 192.0, 838.0 ],
+													"patching_rect" : [ 253.0, 619.0, 199.0, 848.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 29,
-													"presentation_rect" : [ 22.0, 38.0, 459.0, 395.0 ],
+													"presentation_rect" : [ 22.0, 38.0, 459.0, 407.0 ],
 													"text" : "/bleeps/vol/main - [0. - 1.] : Sets the main output volume. 0 is muted, 1 is full volume.\n\n/bleeps/vol/bleep - [0. - 1.] : Sets the bleep track output volume. 0 is muted, 1 is full\n                                            volume.\n\n/bleeps/vol/orig - [0. - 1.] : Sets the original track volume. 0 is muted, 1 is full volume.\n\n/bleeps/notelength - [0. - 1.] : Sets the length in miliseconds of each note. 0 is 100ms\n                                               or 1/10th of a second. 1 is 5000ms or 5 seconds.\n\n/bleeps/playback - (-1|0|1) : Sets the playback mode of the input audio track. -1 is\n                                             rewind, 0 is pause, and 1 is play.\n\n/bleeps/range - (0|1|2|3|4|5) : Sets the onset detection range according to this list:\n                                                       0: Low Range\n                                                       1: High Range\n                                                       2: Middle Range\n                                                       3: Full Range (or All-Pass)\n                                                       4: Low & High Range\n                                                       5: Human Speaking Range (85Hz - 225Hz)\n\n/bleeps/steps - (0|1|2|3|4|5|6) : Sets the sub-bleep step size according to this list:\n                                                       0: Half Step\n                                                       1: Whole Step\n                                                       2: Whole Octave\n                                                       3: \"Slightly Dissonant\" (4.2 steps)\n                                                       4: \"Even More Dissonant\" (6.66 steps)\n                                                       5: \"Big Brother\" (19.84 steps)\n                                                       6: \"Extreme\" (100 steps)"
 												}
 
@@ -2568,8 +2652,36 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-8", 0 ],
 													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-7", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"source" : [ "obj-7", 0 ]
 												}
 
 											}
@@ -2623,7 +2735,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 63.99462890625, 740.0, 150.0, 47.0 ],
+									"patching_rect" : [ 63.99462890625, 740.0, 150.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 170.0, 925.961487000000034, 658.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, September 2020"
@@ -2634,14 +2746,14 @@
 								"box" : 								{
 									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 									"id" : "obj-115",
-									"linecount" : 46,
+									"linecount" : 45,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 57.0, 809.0, 167.0, 623.0 ],
+									"patching_rect" : [ 57.0, 809.0, 174.0, 627.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 170.0, 745.961487000000034, 660.0, 181.0 ],
+									"presentation_rect" : [ 170.0, 745.961487000000034, 663.0, 186.0 ],
 									"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency, maximum amplitude, and any onsets of the loaded audio sample. On the next allowed onset, a \"bleep\" is made using the detected values. \n\nAn onset, is the beginning of a note. Any instrument, voice, or anything that creates noise is capable of a detectable onset. For this app, we have provided a method by which to filter the audio stream to only look  for onsets in specific portions of the frequency spectrum. Experiment with each to find which produces the results you like best.\n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 								}
 
@@ -2684,7 +2796,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 653.0, 670.5, 151.0, 33.0 ],
+									"patching_rect" : [ 653.0, 670.5, 151.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 170.214283645153046, 599.0, 316.0, 20.0 ],
 									"text" : "Bleep Track Output Volume: -70.00dB",
@@ -2780,9 +2892,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 615.6669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 615.6669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 101.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 101.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3165,7 +3277,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 608.5, 401.0, 66.0, 60.0 ],
+									"patching_rect" : [ 608.5, 401.0, 66.0, 62.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 102.5, 176.0, 20.0 ],
 									"text" : "Bleep Track Output Volume"
@@ -3180,7 +3292,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 376.0, 670.5, 151.0, 33.0 ],
+									"patching_rect" : [ 376.0, 670.5, 151.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 170.214283645153046, 563.0, 316.0, 20.0 ],
 									"text" : "Original Track Output Volume: -70.00dB",
@@ -3276,9 +3388,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 338.6669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 338.6669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 78.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 78.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3661,7 +3773,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 331.5, 401.0, 66.0, 60.0 ],
+									"patching_rect" : [ 331.5, 401.0, 66.0, 62.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 79.5, 176.0, 20.0 ],
 									"text" : "Original Track Output Volume"
@@ -3731,7 +3843,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3814,7 +3926,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 155.5, 641.5, 151.0, 33.0 ],
+									"patching_rect" : [ 155.5, 641.5, 151.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 170.214283645153046, 635.5, 316.0, 20.0 ],
 									"text" : "Main Output Volume: -70.00dB",
@@ -3910,9 +4022,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 76.1669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 76.1669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 56.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 56.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4295,7 +4407,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 69.0, 401.0, 66.0, 47.0 ],
+									"patching_rect" : [ 69.0, 401.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 57.0, 176.0, 20.0 ],
 									"text" : "Main Output Volume"
@@ -4691,6 +4803,27 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-44", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-75", 0 ],
+									"source" : [ "obj-44", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
 									"source" : [ "obj-45", 0 ]
 								}
@@ -4949,6 +5082,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-23", 0 ],
 									"source" : [ "obj-8", 0 ]
 								}
@@ -5059,9 +5199,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 442.09375, 36.021484375, 28.109375 ],
+					"patching_rect" : [ 235.0, 442.09375, 36.021484375, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 439.59375, 36.021484375, 28.109375 ],
+					"presentation_rect" : [ 236.0, 439.59375, 36.021484375, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5075,7 +5215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1341.0, 519.5, 150.0, 33.0 ],
+					"patching_rect" : [ 1341.0, 519.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 104.59375, 213.0, 20.0 ],
 					"text" : "Onset Detection Frequencey Range"
@@ -5710,7 +5850,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u600001160"
+									"varname" : "u420004085"
 								}
 
 							}
@@ -6295,7 +6435,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 7.0, 52.0, 479.0, 480.0 ],
+						"rect" : [ 18.0, 55.0, 479.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -6303,7 +6443,7 @@
 						"default_fontname" : "Arial",
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
+						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
 						"toolbarvisible" : 0,
@@ -6325,14 +6465,50 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 347.0, 99.0, 77.0, 22.0 ],
+									"text" : "window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 347.0, 53.0, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 347.0, 25.0, 179.0, 22.0 ],
+									"text" : "loadmess window flags nomenu"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.6298828125, 257.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 86.6298828125, 257.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -6347,9 +6523,9 @@
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
 									"parameter_mappable" : 0,
-									"patching_rect" : [ 86.6298828125, 228.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 86.6298828125, 228.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 3.0, 457.0, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ 3.0, 457.0, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.074509803921569, 0.0, 0.588235294117647, 1.0 ]
 								}
@@ -6448,8 +6624,36 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -6561,7 +6765,7 @@
 						"preffilename" : "Bleep Sequencer Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -6575,10 +6779,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.99462890625, 710.0, 150.0, 47.0 ],
+					"patching_rect" : [ 33.99462890625, 710.0, 150.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 276.0, 469.59375, 235.0, 33.0 ],
+					"presentation_rect" : [ 276.0, 469.59375, 235.0, 34.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, September 2020"
 				}
 
@@ -6596,9 +6800,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 827.9892578125, 15.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 827.9892578125, 15.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 186.796875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 186.796875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6698,14 +6902,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 46,
+					"linecount" : 42,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 170.0, 623.0 ],
+					"patching_rect" : [ 27.0, 779.0, 180.0, 586.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
-					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
+					"presentation_rect" : [ 276.0, 32.59375, 246.0, 448.0 ],
 					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency, maximum amplitude, and any onsets of the loaded audio sample. On the next allowed onset, a \"bleep\" is made using the detected values. \n\nAn onset, is the beginning of a note. Any instrument, voice, or anything that creates noise is capable of a detectable onset. For this app, we have provided a method by which to filter the audio stream to only look  for onsets in specific portions of the frequency spectrum. Experiment with each to find which produces the results you like best.\n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 				}
 
@@ -6738,9 +6942,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 208.9892578125, 346.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 208.9892578125, 346.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 293.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 293.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6760,9 +6964,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.99462890625, 355.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 94.99462890625, 355.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 239.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 239.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6782,9 +6986,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 183.0, 526.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 183.0, 526.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 364.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 364.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6804,9 +7008,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 711.0, 36.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 711.0, 36.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 155.390625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 155.390625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6826,9 +7030,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.0, 131.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 332.0, 131.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 123.5390625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 123.5390625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6848,9 +7052,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 131.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 62.0, 131.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 75.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 75.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6870,9 +7074,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 144.9892578125, 45.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 144.9892578125, 45.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 45.40625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 45.40625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6892,9 +7096,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 312.37939453125, 40.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 312.37939453125, 40.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 15.296875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 15.296875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6921,7 +7125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 346.9453125, 152.0, 33.0 ],
+					"patching_rect" : [ 231.0, 346.9453125, 152.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.0, 342.09375, 213.0, 20.0 ],
 					"text" : "Bleep Audio Track Output Level"
@@ -6935,7 +7139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 346.9453125, 152.0, 33.0 ],
+					"patching_rect" : [ 27.0, 346.9453125, 152.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 16.0, 273.09375, 213.0, 20.0 ],
 					"text" : "Origial Audio Track Output Level"
@@ -7276,7 +7480,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1409.0, 327.0, 143.0, 33.0 ],
+					"patching_rect" : [ 1409.0, 327.0, 143.0, 34.0 ],
 					"text" : "Setting Gain of harmonic frequencies "
 				}
 
@@ -7468,7 +7672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1011.0, 65.5, 115.0, 47.0 ],
+					"patching_rect" : [ 1011.0, 65.5, 115.0, 48.0 ],
 					"text" : "Step Sizes only young people can hear."
 				}
 
@@ -7492,7 +7696,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1063.0, 147.5, 115.0, 33.0 ],
+					"patching_rect" : [ 1063.0, 147.5, 115.0, 34.0 ],
 					"text" : "Big Brother's step sizes"
 				}
 
@@ -7504,7 +7708,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 939.75, 147.5, 115.0, 33.0 ],
+					"patching_rect" : [ 939.75, 147.5, 115.0, 34.0 ],
 					"text" : "Steps sizes of the beast"
 				}
 
@@ -7516,7 +7720,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.75, 59.0, 115.0, 60.0 ],
+					"patching_rect" : [ 866.75, 59.0, 115.0, 62.0 ],
 					"text" : "The answer to the question \"Does this sound a little dissonant to you?\""
 				}
 
@@ -7614,7 +7818,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.0, 421.0, 143.0, 33.0 ],
+					"patching_rect" : [ 841.0, 421.0, 143.0, 34.0 ],
 					"text" : "Calculating Harmonic Frequencies"
 				}
 
@@ -7876,6 +8080,42 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-13",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 42.0, 55.0, 77.0, 22.0 ],
+									"text" : "window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 42.0, 32.0, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 42.0, 6.0, 179.0, 22.0 ],
+									"text" : "loadmess window flags nomenu"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -7908,7 +8148,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 55.0, 170.0, 47.0 ],
+									"patching_rect" : [ 95.0, 55.0, 170.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 5.0, 329.0, 27.0 ],
 									"text" : "Configure Audio Device Settings"
@@ -7931,7 +8171,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7971,7 +8211,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Connor’s Powerbeats³", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8023,7 +8263,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Connor’s Powerbeats³", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8063,7 +8303,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8163,6 +8403,13 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-13", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -8221,8 +8468,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-8", 1 ]
 								}
 
 							}
@@ -8371,9 +8639,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 219.0, 157.5, 212.76953125, 21.40625 ],
+					"patching_rect" : [ 219.0, 157.5, 212.76953125, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 158.7421875, 212.76953125, 21.40625 ],
+					"presentation_rect" : [ 15.0, 158.7421875, 212.76953125, 21.798828125 ],
 					"text" : "Restart Playback at Beginning of File"
 				}
 
@@ -9237,8 +9505,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"order" : 0,
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"midpoints" : [ 566.5, 1016.0, 441.5, 1016.0 ],
+					"order" : 1,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -9801,216 +10078,220 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.audioAnalysis.dict.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bleep_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Bleep Sequencer/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Bleep Sequencer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onsetdetect.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Bleep Sequencer/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Bleep Sequencer/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zsa.ampstats~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.ampstats~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.spread~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.spread~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.centroid~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.centroid~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.slope~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.slope~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.mfcc~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.mfcc~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.freqpeak~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.freqpeak~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.fund.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.fund.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.skewness~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.skewness~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.kurtosis~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.kurtosis~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.mel~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.mel~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.bark~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.bark~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

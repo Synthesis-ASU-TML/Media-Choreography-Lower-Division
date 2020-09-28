@@ -2,7 +2,7 @@
 	"name" : "Hue Shadow",
 	"version" : 1,
 	"creationdate" : 3676381495,
-	"modificationdate" : 3679081961,
+	"modificationdate" : 3684135585,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -30,8 +30,17 @@
 
 		}
 ,
+		"externals" : 		{
+
+		}
+,
 		"other" : 		{
 			"hue_match_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"hue_shadow_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

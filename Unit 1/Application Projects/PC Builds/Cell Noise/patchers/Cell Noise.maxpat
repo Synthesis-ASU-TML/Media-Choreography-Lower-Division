@@ -150,7 +150,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 20.0, 45.0, 308.0, 197.0 ],
+						"rect" : [ 20.0, 51.0, 312.0, 200.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -179,6 +179,42 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-100",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 98.0, 108.0, 77.0, 22.0 ],
+									"text" : "window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-98",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 95.0, 66.0, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-97",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 82.5, 1.0, 179.0, 22.0 ],
+									"text" : "loadmess window flags nomenu"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-96",
 									"maxclass" : "newobj",
@@ -226,16 +262,52 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-18",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 114.0, 79.0, 77.0, 22.0 ],
+													"text" : "window exec"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 127.0, 31.0, 29.5, 22.0 ],
+													"text" : "t b l"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 83.0, 1.0, 179.0, 22.0 ],
+													"text" : "loadmess window flags nomenu"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-28",
 													"linecount" : 26,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 114.0, 307.0, 151.0, 355.0 ],
+													"patching_rect" : [ 114.0, 307.0, 151.0, 365.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 12,
-													"presentation_rect" : [ 10.0, 35.0, 351.0, 167.0 ],
+													"presentation_rect" : [ 10.0, 35.0, 351.0, 172.0 ],
 													"text" : "/cnoise/vol - [0. - 1.] : Sets the playback volume. 0 is muted\n                                   and 1 is full volume.\n\n/cnoise/rate -(0|1) : Pauses or plays the loaded video. 0 pauses\n                               and 1 plays the video.\n\n/cnoise/autosize - (0|1) : Enables or disables the autocycling of\n                                        the cell noise sizes.\n\n/cnoise/bypass - (0|1) : Enables of disables the video filter \n                                     bypass. 0 shows the filtered video and 1\n                                     shows the original video."
 												}
 
@@ -630,6 +702,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-18", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-23", 0 ],
 													"source" : [ "obj-19", 0 ]
 												}
@@ -665,8 +744,29 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-12", 0 ],
 													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"source" : [ "obj-6", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-6", 1 ]
 												}
 
 											}
@@ -734,9 +834,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 925.5, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 925.5, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 170.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 170.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -763,9 +863,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 655.6669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 655.6669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 147.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 147.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -792,9 +892,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 387.1669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 387.1669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 124.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 124.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -821,9 +921,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 47.6669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 47.6669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 101.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 101.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1034,7 +1134,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u397012601"
+									"varname" : "u874001650"
 								}
 
 							}
@@ -1065,7 +1165,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 588.0, -67.5546875, 150.0, 33.0 ],
+									"patching_rect" : [ 588.0, -67.5546875, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1401.0, 314.40625, 267.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020 "
@@ -1079,10 +1179,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1218.0, 353.0, 152.0, 382.0 ],
+									"patching_rect" : [ 1218.0, 353.0, 152.0, 393.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 17,
-									"presentation_rect" : [ 1401.0, 55.0, 265.0, 234.0 ],
+									"presentation_rect" : [ 1401.0, 55.0, 265.0, 241.0 ],
 									"text" : "The \"Cell Noise\" application demonstrates how pseudo-randomness can create interesting effects when combined with input media. In this example, we are utilizing on of the more structured varieties of \"noise\", cell noise (also called Worley noise, very similar to Voronoi noise)\n\nCellular noise functions by computing a grid of cell center points. Each pixel drawn in the output image finds the center of the 9 nearest cells and includes itself in the cell who's center is closest. When the cells appear to move on screen, that is due to the center points being animated. Each pixel is assigned the color of the input image at the position of the cell center point."
 								}
 
@@ -1095,7 +1195,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 341.5, 433.5, 66.0, 47.0 ],
+									"patching_rect" : [ 341.5, 433.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1262.0, 314.40625, 121.0, 20.0 ],
 									"text" : "Bypass Video Filter"
@@ -1110,7 +1210,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 123.5, 36.5, 66.0, 33.0 ],
+									"patching_rect" : [ 123.5, 36.5, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 110.5, 9.0, 87.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -1517,7 +1617,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 887.5, 393.5, 66.0, 47.0 ],
+									"patching_rect" : [ 887.5, 393.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 171.0, 121.0, 20.0 ],
 									"text" : "Bypass Video Filter"
@@ -1557,7 +1657,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 892.5, 32.5, 66.0, 33.0 ],
+									"patching_rect" : [ 892.5, 32.5, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1262.0, 241.480743500000017, 121.0, 20.0 ],
 									"text" : "Autocycle Cell Sizes"
@@ -1964,7 +2064,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 623.5, 389.5, 66.0, 33.0 ],
+									"patching_rect" : [ 623.5, 389.5, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 148.0, 121.0, 20.0 ],
 									"text" : "Autocycle Cell Sizes"
@@ -2004,7 +2104,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 947.5, 62.0, 66.0, 47.0 ],
+									"patching_rect" : [ 947.5, 62.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1262.0, 171.480743500000017, 121.0, 20.0 ],
 									"text" : "Play / Pause Video"
@@ -2411,7 +2511,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 366.5, 383.5, 66.0, 47.0 ],
+									"patching_rect" : [ 366.5, 383.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 126.0, 121.0, 20.0 ],
 									"text" : "Play / Pause Video"
@@ -2451,7 +2551,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 976.0, 20.5, 66.0, 33.0 ],
+									"patching_rect" : [ 976.0, 20.5, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1201.0, 65.5, 190.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -2886,7 +2986,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.5, 401.0, 66.0, 33.0 ],
+									"patching_rect" : [ 40.5, 401.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 102.0, 121.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -2944,7 +3044,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3356,6 +3456,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-100", 0 ]
 								}
 
 							}
@@ -3890,6 +3997,27 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-98", 0 ],
+									"source" : [ "obj-97", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-100", 0 ],
+									"source" : [ "obj-98", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-98", 1 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -3913,11 +4041,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 701.5, 150.0, 33.0 ],
+					"patching_rect" : [ 190.0, 701.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 12.75, 336.0, 155.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 12.75, 336.0, 155.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -3957,7 +4085,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 474.5, 666.5, 126.5, 37.0 ],
+					"patching_rect" : [ 474.5, 666.5, 126.5, 38.0 ],
 					"text" : "refresh websocket connection info"
 				}
 
@@ -4188,7 +4316,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -4399,7 +4527,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 573.0, -82.5546875, 150.0, 33.0 ],
+					"patching_rect" : [ 573.0, -82.5546875, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 313.0, 290.40625, 267.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020 "
@@ -4413,10 +4541,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.0, -7.0, 152.0, 382.0 ],
+					"patching_rect" : [ 1007.0, -7.0, 152.0, 393.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 17,
-					"presentation_rect" : [ 313.0, 31.0, 265.0, 234.0 ],
+					"presentation_rect" : [ 313.0, 31.0, 265.0, 241.0 ],
 					"text" : "The \"Cell Noise\" application demonstrates how pseudo-randomness can create interesting effects when combined with input media. In this example, we are utilizing on of the more structured varieties of \"noise\", cell noise (also called Worley noise, very similar to Voronoi noise)\n\nCellular noise functions by computing a grid of cell center points. Each pixel drawn in the output image finds the center of the 9 nearest cells and includes itself in the cell who's center is closest. When the cells appear to move on screen, that is due to the center points being animated. Each pixel is assigned the color of the input image at the position of the cell center point."
 				}
 
@@ -4444,8 +4572,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.712890625, 549.0, 336.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://thebookofshaders.com/12/?lan=en"
+					"patching_rect" : [ 325.712890625, 549.0, 336.0, 36.0 ],
+					"text" : ";\r\nmax launchbrowser https://thebookofshaders.com/12/?lan=en"
 				}
 
 			}
@@ -4459,9 +4587,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 325.712890625, 525.59375, 189.42578125, 21.40625 ],
+					"patching_rect" : [ 325.712890625, 525.59375, 189.42578125, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 267.0, 189.42578125, 21.40625 ],
+					"presentation_rect" : [ 351.0, 267.0, 189.42578125, 21.798828125 ],
 					"text" : "Learn More About Cellular Noise",
 					"textoncolor" : [ 0.070588235294118, 0.0, 0.772549019607843, 1.0 ]
 				}
@@ -4492,9 +4620,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 208.74462890625, 249.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 208.74462890625, 249.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.74462890625, 248.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 209.74462890625, 248.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4514,9 +4642,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 209.74462890625, 207.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 209.74462890625, 207.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.74462890625, 204.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 209.74462890625, 204.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4536,9 +4664,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 273.74462890625, 166.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 273.74462890625, 166.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 273.74462890625, 168.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 273.74462890625, 168.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4558,9 +4686,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.74462890625, 22.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 251.74462890625, 22.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.74462890625, 24.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 251.74462890625, 24.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4580,9 +4708,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 114.75, 71.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 114.75, 71.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 117.74462890625, 71.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 117.74462890625, 71.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4602,9 +4730,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 526.5, -82.5546875, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 526.5, -82.5546875, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 119.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 119.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5002,7 +5130,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 683.0, 389.0, 404.0, 405.0 ],
+						"rect" : [ 56.0, 96.0, 404.0, 405.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5032,14 +5160,50 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 695.0, 211.0, 77.0, 22.0 ],
+									"text" : "window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 729.0, 142.0, 29.5, 22.0 ],
+									"text" : "t b l"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 684.0, 103.0, 179.0, 22.0 ],
+									"text" : "loadmess window flags nomenu"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 667.0, 52.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 667.0, 52.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -5053,9 +5217,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 667.0, 17.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 667.0, 17.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 2.0, 35.0, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ 2.0, 35.0, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.0, 0.07843137254902, 0.996078431372549, 1.0 ]
 								}
@@ -5068,10 +5232,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 16.0, 150.0, 47.0 ],
+									"patching_rect" : [ 20.0, 16.0, 150.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 5.0, 5.0, 274.0, 33.0 ],
+									"presentation_rect" : [ 5.0, 5.0, 274.0, 34.0 ],
 									"text" : "Cell Noise v0.3a\nCopyright 2020 Connor Rawls & Synthesis@ASU"
 								}
 
@@ -5141,7 +5305,21 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -5149,6 +5327,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-8", 1 ]
 								}
 
 							}
@@ -5177,7 +5369,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Cell Noise/other/cell_noise_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Cell Noise/other/cell_noise_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.cellnoise",
 						"cantclosetoplevelpatchers" : 1,
@@ -5192,7 +5384,7 @@
 						"preffilename" : "Cell Noise Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -5674,12 +5866,13 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u578007068"
+					"varname" : "u307001652"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "cell-noise.json",
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -6704,21 +6897,33 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "cell-noise.json",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Cell Noise/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "cell_noise_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Cell Noise/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Cell Noise/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
- ]
+, 			{
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
