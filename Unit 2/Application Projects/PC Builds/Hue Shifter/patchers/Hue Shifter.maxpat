@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 811.0, 96.0, 642.0, 365.0 ],
+		"rect" : [ 412.0, 134.0, 642.0, 365.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 796.0, 538.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 796.0, 511.0, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 796.0, 484.5, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 796.0, 460.5, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "newobj",
@@ -81,11 +128,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.0, 768.0, 157.0, 33.0 ],
+					"patching_rect" : [ 98.0, 768.0, 157.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 419.0, 318.5, 185.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 419.0, 318.5, 185.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -317,7 +364,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -564,9 +611,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 798.75, 9.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 798.75, 9.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 223.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 223.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -711,6 +758,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 57.0, 18.5, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-25",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -729,7 +788,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 918.1669921875, 254.0, 150.0, 33.0 ],
+									"patching_rect" : [ 918.1669921875, 254.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 102.549457252025604, 885.5, 415.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -744,10 +803,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 828.0, 25.0, 231.0, 221.0 ],
+									"patching_rect" : [ 828.0, 25.0, 231.0, 227.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 10,
-									"presentation_rect" : [ 102.549457252025604, 744.5, 415.0, 141.0 ],
+									"presentation_rect" : [ 102.549457252025604, 744.5, 415.0, 144.0 ],
 									"text" : "The \"Hue Shifter\" application takes in a video file and shifts the hue of each pixel. The hue shift is done by converting each frame to the Hue-Saturation-Luminance colorspace, and then adjusting the value for hue up or down by a certain amount, then converting the image back to the Red-Green-Blue colorspace. \n\nShifting the hue of the image in the HSL colorspace is preferrable due to the need to only modify a single value for each pixel. By comparison, the same alteration in RGB would require a more complex algorithm for balancing the 3 color channels individually."
 								}
 
@@ -788,7 +847,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1109.6669921875, 611.5, 151.0, 33.0 ],
+									"patching_rect" : [ 1109.6669921875, 611.5, 151.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 97.716449439525604, 687.922974000000067, 416.0, 20.0 ],
 									"text" : "Manual Hue Shift Amount 0.00",
@@ -805,7 +864,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1109.6669921875, 571.0, 159.0, 35.0 ],
+									"patching_rect" : [ 1109.6669921875, 571.0, 159.0, 36.0 ],
 									"text" : "sprintf set Manual Hue Shift Amount %.2f"
 								}
 
@@ -854,9 +913,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1010.333984375, 341.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1010.333984375, 341.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 130.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 130.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1239,7 +1298,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1002.1669921875, 412.5, 66.0, 47.0 ],
+									"patching_rect" : [ 1002.1669921875, 412.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 129.0, 150.0, 20.0 ],
 									"text" : "Manual Hue Shift Amount"
@@ -1392,9 +1451,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 734.333984375, 294.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 734.333984375, 294.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 107.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 107.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1777,7 +1836,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 727.1669921875, 383.0, 66.0, 33.0 ],
+									"patching_rect" : [ 727.1669921875, 383.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 106.0, 150.0, 20.0 ],
 									"text" : "Auto Hue Shift"
@@ -1792,7 +1851,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 210.5, 18.5, 66.0, 33.0 ],
+									"patching_rect" : [ 210.5, 18.5, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 110.5, 9.0, 87.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -1928,7 +1987,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.6669921875, 521.5, 145.0, 35.0 ],
+									"patching_rect" : [ 535.6669921875, 521.5, 145.0, 36.0 ],
 									"text" : "sprintf set Playback Rate %.2f"
 								}
 
@@ -2008,9 +2067,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 456.333984375, 298.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 456.333984375, 298.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 84.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 84.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2393,7 +2452,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 449.1669921875, 387.0, 66.0, 33.0 ],
+									"patching_rect" : [ 449.1669921875, 387.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 84.0, 150.0, 20.0 ],
 									"text" : "Playback Rate"
@@ -2457,9 +2516,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 112.6669921875, 298.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 112.6669921875, 298.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 61.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 61.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2854,7 +2913,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.5, 387.0, 66.0, 33.0 ],
+									"patching_rect" : [ 105.5, 387.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 61.0, 150.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -2876,7 +2935,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3000,16 +3059,28 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 125.0, 21.0, 76.0, 22.0 ],
+													"text" : "r to-windows"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-34",
-													"linecount" : 31,
+													"linecount" : 30,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 29.0, 54.0, 150.0, 422.0 ],
+													"patching_rect" : [ 29.0, 54.0, 152.0, 420.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 15,
-													"presentation_rect" : [ 18.0, 40.0, 291.0, 208.0 ],
+													"presentation_rect" : [ 18.0, 40.0, 291.0, 213.0 ],
 													"text" : "/hshift/vol - [0. - 1.] : Sets the video playback volume.\n                                 0 is muted, 1 is maximum\n                                 volume.\n\n/hshift/rate - [0. - 1.] : Sets the video playback rate. 0\n                                   is rewind, 0.5 is paused, and 1.\n                                   is normal playing speed.\n\n/hshift/auto - (0|1) : Sets the automatic hue shift\n                                mode. 0 is off and 1 is on.\n\n/hshift/manual - [0. - 1.] : Sets the manual hue shift\n                                        amount. Only has an effect\n                                        automatic hue shift is set to \n                                        off."
 												}
 
@@ -3475,6 +3546,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-4", 0 ],
 													"source" : [ "obj-6", 0 ]
 												}
@@ -3497,7 +3575,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 542.0, 48.0, 56.0, 35.0 ],
+									"patching_rect" : [ 542.0, 48.0, 56.0, 36.0 ],
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4047,6 +4125,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"order" : 1,
 									"source" : [ "obj-59", 0 ]
@@ -4286,14 +4371,26 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 90.0, 41.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 154.0, 297.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 154.0, 297.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -4322,10 +4419,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 121.0, 144.0, 416.0, 33.0 ],
+									"patching_rect" : [ 121.0, 144.0, 416.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 0.0, 0.0, 276.0, 47.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 276.0, 48.0 ],
 									"text" : "Hue Shifter 0.3a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
@@ -4396,6 +4493,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -4578,7 +4682,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Hue Shifter/other/hue_shift_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Hue Shifter/other/hue_shift_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.hueshifter",
 						"cantclosetoplevelpatchers" : 1,
@@ -4593,7 +4697,7 @@
 						"preffilename" : "Hue Shifter Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -4613,9 +4717,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 681.9892578125, 361.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 681.9892578125, 361.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 325.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.5, 325.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4635,9 +4739,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 294.75, 298.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 294.75, 298.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.5, 292.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.5, 292.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4657,9 +4761,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 563.75, 9.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 563.75, 9.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 177.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 177.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4679,9 +4783,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.75, 51.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 391.75, 51.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 125.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 125.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4701,9 +4805,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 10.24462890625, 23.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 10.24462890625, 23.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 80.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 80.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4723,9 +4827,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.0, 202.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 251.0, 202.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 30.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 30.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4739,10 +4843,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 397.0, 272.0, 150.0, 33.0 ],
+					"patching_rect" : [ 397.0, 272.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 396.0, 257.0, 231.0, 33.0 ],
+					"presentation_rect" : [ 396.0, 257.0, 231.0, 34.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -4754,7 +4858,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 208.0, 150.0, 33.0 ],
+					"patching_rect" : [ 8.0, 208.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.75, 276.0, 186.0, 20.0 ],
 					"text" : "Automatic Hue Shifting Control"
@@ -4928,10 +5032,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 414.0, 231.0, 221.0 ],
+					"patching_rect" : [ 27.0, 414.0, 231.0, 227.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
-					"presentation_rect" : [ 396.0, 34.5, 231.0, 221.0 ],
+					"presentation_rect" : [ 396.0, 34.5, 231.0, 227.0 ],
 					"text" : "The \"Hue Shifter\" application takes in a video file and shifts the hue of each pixel. The hue shift is done by converting each frame to the Hue-Saturation-Luminance colorspace, and then adjusting the value for hue up or down by a certain amount, then converting the image back to the Red-Green-Blue colorspace. \n\nShifting the hue of the image in the HSL colorspace is preferrable due to the need to only modify a single value for each pixel. By comparison, the same alteration in RGB would require a more complex algorithm for balancing the 3 color channels individually."
 				}
 
@@ -4958,7 +5062,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 207.0, 150.0, 33.0 ],
+					"patching_rect" : [ 309.0, 207.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.75, 34.5, 207.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -6008,8 +6112,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-81", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -6042,18 +6174,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "hue_shift_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Hue Shifter/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Hue Shifter/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

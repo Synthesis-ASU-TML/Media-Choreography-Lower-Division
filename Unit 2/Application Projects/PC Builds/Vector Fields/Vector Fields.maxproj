@@ -2,7 +2,7 @@
 	"name" : "Vector Fields",
 	"version" : 1,
 	"creationdate" : 3683705583,
-	"modificationdate" : 3683730796,
+	"modificationdate" : 3684176365,
 	"viewrect" : [ 19.0, 98.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"sc.mesh.vectorfields.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -42,6 +47,11 @@
 ,
 			"cr.gm.vectormesh1.jxs" : 			{
 				"kind" : "shader"
+			}
+,
+			"cwjr.vectorvertex.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
 			}
 
 		}

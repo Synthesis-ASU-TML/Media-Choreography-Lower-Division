@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 796.0, 110.0, 598.0, 285.0 ],
+		"rect" : [ 325.0, 162.0, 598.0, 285.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 545.0, 657.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 545.0, 628.0, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 545.0, 604.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 545.0, 580.0, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-60",
 					"maxclass" : "newobj",
@@ -104,9 +151,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 232.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 284.0, 232.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 227.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 227.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -240,11 +287,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 628.0, 150.0, 33.0 ],
+					"patching_rect" : [ 256.0, 628.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 392.0, 199.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 392.0, 199.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -476,7 +523,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -687,16 +734,28 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 142.0, 13.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-25",
 									"linecount" : 16,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 66.0, 77.0, 152.0, 221.0 ],
+									"patching_rect" : [ 66.0, 77.0, 152.0, 227.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 8,
-									"presentation_rect" : [ 10.0, 32.0, 278.0, 114.0 ],
+									"presentation_rect" : [ 10.0, 32.0, 278.0, 117.0 ],
 									"text" : "/cedges/vol [0. - 1.] : Set the playback volume of\n                                 the application. 0 is muted,\n                                 and 1 is full volume.\n\n/cedges/rate [0. - 1.] : Set the playback rate of the\n                                   application. 0 is full reverse\n                                   0.5 is pause, and 1 is play at\n                                   normal speed."
 								}
 
@@ -1041,6 +1100,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -1139,6 +1205,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 125.0, 61.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-51",
 									"maxclass" : "newobj",
@@ -1251,7 +1329,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 856.0, 472.0, 150.0, 33.0 ],
+									"patching_rect" : [ 856.0, 472.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 143.1669921875, 928.0, 415.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -1266,10 +1344,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 860.0, 383.0, 232.0, 87.0 ],
+									"patching_rect" : [ 860.0, 383.0, 232.0, 89.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 143.1669921875, 868.0, 419.0, 60.0 ],
+									"presentation_rect" : [ 143.1669921875, 868.0, 419.0, 62.0 ],
 									"text" : "The \"Colored Edges\" application uses a fast sobel edge detection algorithm to identify edges in each frame of the video. The edges are then colored with the original input media source. All pixels not on an edge are shaded black instead."
 								}
 
@@ -1314,7 +1392,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.6669921875, 521.5, 145.0, 35.0 ],
+									"patching_rect" : [ 535.6669921875, 521.5, 145.0, 36.0 ],
 									"text" : "sprintf set Playback Rate %.2f"
 								}
 
@@ -1381,7 +1459,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 108.5, 10.0, 66.0, 33.0 ],
+									"patching_rect" : [ 108.5, 10.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 110.5, 9.0, 87.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -1409,9 +1487,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 456.333984375, 298.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 456.333984375, 298.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 83.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 83.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1794,7 +1872,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 449.1669921875, 387.0, 66.0, 33.0 ],
+									"patching_rect" : [ 449.1669921875, 387.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 84.0, 121.0, 20.0 ],
 									"text" : "Playback Rate"
@@ -1858,9 +1936,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 112.6669921875, 298.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 112.6669921875, 298.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 60.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 60.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2255,7 +2333,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.5, 387.0, 66.0, 33.0 ],
+									"patching_rect" : [ 105.5, 387.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 61.0, 121.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -2277,7 +2355,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2616,6 +2694,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-34", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
 									"source" : [ "obj-38", 0 ]
 								}
@@ -2785,7 +2870,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 598.0, 506.0, 31.0, 35.0 ],
+					"patching_rect" : [ 598.0, 506.0, 31.0, 36.0 ],
 					"text" : "s load"
 				}
 
@@ -2861,15 +2946,27 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 388.0, 56.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 54.0, 84.0, 150.0, 60.0 ],
+									"patching_rect" : [ 54.0, 84.0, 150.0, 62.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 0.0, 0.0, 401.0, 33.0 ],
+									"presentation_rect" : [ 0.0, 0.0, 401.0, 34.0 ],
 									"text" : "Colored Edges 0.3a\nCopyright 2020 Connor Rawls, Synthesis@ASU, Arizona State University",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 								}
@@ -2883,8 +2980,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 79.0, 209.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 79.0, 209.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -2981,6 +3078,13 @@
 								}
 
 							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
  ]
 					}
 ,
@@ -3040,7 +3144,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 472.0, 450.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Colored", "Edges", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Load", "Video", "File/K", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "MIDI", "Settings/M", ";", "#X", "item", 5, 6, "View", "OSC", "Addresses/U", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Colored", "Edges", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/0", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Load", "Video", "File/1", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "MIDI", "Settings/M", ";", "#X", "item", 5, 6, "View", "OSC", "Addresses/U", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -3129,7 +3233,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Colored Edges/other/colored_edges_icon.icns",
-						"appicon_win" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Colored Edges/other/colored_edges_icon.ico",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Colored Edges/other/colored_edges_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.colorededges",
 						"cantclosetoplevelpatchers" : 1,
@@ -3144,7 +3248,7 @@
 						"preffilename" : "Colored Edges Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -3158,10 +3262,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 174.0, 150.0, 33.0 ],
+					"patching_rect" : [ 373.0, 174.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 355.0, 138.5, 232.0, 33.0 ],
+					"presentation_rect" : [ 355.0, 138.5, 232.0, 34.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -3179,9 +3283,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 283.0, 174.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 283.0, 174.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 173.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 173.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3201,9 +3305,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 121.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 287.0, 121.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 122.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 122.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3223,9 +3327,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 74.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 284.0, 74.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 78.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 78.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3245,9 +3349,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 379.0, 297.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 379.0, 297.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 29.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 29.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3261,10 +3365,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 293.0, 232.0, 87.0 ],
+					"patching_rect" : [ 445.0, 293.0, 232.0, 89.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 355.0, 49.0, 232.0, 87.0 ],
+					"presentation_rect" : [ 355.0, 49.0, 232.0, 89.0 ],
 					"text" : "The \"Colored Edges\" application uses a fast sobel edge detection algorithm to identify edges in each frame of the video. The edges are then colored with the original input media source. All pixels not on an edge are shaded black instead."
 				}
 
@@ -3291,7 +3395,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 17.5, 150.0, 33.0 ],
+					"patching_rect" : [ 208.0, 17.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 104.5, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
@@ -3305,7 +3409,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 342.0, 170.5, 150.0, 33.0 ],
+					"patching_rect" : [ 342.0, 170.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 34.0, 169.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -3910,6 +4014,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-65", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -3955,22 +4087,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.edge.sobel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.binaryop.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -3982,18 +4114,22 @@
 			}
 , 			{
 				"name" : "colored_edges_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Colored Edges/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Colored Edges/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

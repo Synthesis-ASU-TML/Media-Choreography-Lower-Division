@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 431.0, 112.0, 1064.0, 673.0 ],
+		"rect" : [ 102.0, 104.0, 1071.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,270 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 393.5, 312.0, 87.0, 22.0 ],
+					"text" : "speedlim 5000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 254.25, 189.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 292.0, 229.0, 111.0, 22.0 ],
+					"text" : "drawto vector-node"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-101",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1002.99462890625, 707.0, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1002.99462890625, 741.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1002.99462890625, 675.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1002.99462890625, 646.0, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-96",
+					"linecount" : 35,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 738.0, 78.0, 157.0, 489.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 14,
+					"presentation_rect" : [ 690.0, 44.0, 376.0, 200.0 ],
+					"text" : "The third parameter is the feather fade. Fade in this app corresponds the rate at which the feathers will reduce in size towards being off when nothing is actively moving at their base. When the slider is fully left, the value is 90% length retained or 10% loss per frame. When fully to the right, the value is 100% retained, or no change in length until overwritten by new motion at that position.\n\nThe fourth parameter is the image outline. For ease understanding, you can turn on an outline of the input video that is displayed along with the vector field feathers. If you have looked at the \"Colored Edges\" application, you may recognize this as the same effect. Beyond being a preview feature, this functionality has been included as a demonstration of the ability to layer individual effects atop each other to create functional and artisitic composites."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 56.0, 111.0, 641.0, 320.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-122",
+									"linecount" : 57,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 139.0, 58.0, 159.0, 793.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 21,
+									"presentation_rect" : [ 6.0, 5.0, 625.0, 296.0 ],
+									"text" : "Preset List:\n                   1: A very basic view of the app. Low density feather with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade and short length. Great for creating a visual \n                       history of the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density and maximum length. How much original details \n                       can you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear thorny or as if they had porcupine spines \n                       drawn on."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 75.0, 22.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 13.0, 66.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 13.0, 40.0, 39.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 13.0, 4.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1228.25, 450.666680097579956, 79.0, 36.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"Preset Descriptions\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1228.25, 394.666678428649902, 104.00000011920929, 48.000000834465027 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 180.666705250740051, 512.945312082767487, 76.00000011920929, 48.000000834465027 ],
+					"text" : "Preset Descriptions",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"truncate" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
@@ -120,7 +384,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/other/vector_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Vector Fields/other/vector_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.vectorfields",
 						"cantclosetoplevelpatchers" : 1,
@@ -135,7 +399,7 @@
 						"preffilename" : "Vector Fields Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -173,11 +437,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 914.0, 150.0, 33.0 ],
+					"patching_rect" : [ 151.0, 914.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 797.0, 457.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 406.0, 485.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -191,7 +455,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 252.0, 831.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 797.0, 435.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 406.0, 463.0, 150.0, 20.0 ],
 					"text" : "Refresh Mira Connection",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -397,7 +661,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -593,6 +857,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-101",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 109.0, 55.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-130",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
@@ -649,7 +925,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 75.0, 93.0, 433.0, 284.0 ],
+										"rect" : [ 75.0, 93.0, 432.0, 290.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -679,16 +955,28 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 102.0, 27.0, 76.0, 22.0 ],
+													"text" : "r to-windows"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-36",
-													"linecount" : 41,
+													"linecount" : 39,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 246.0, 99.0, 153.0, 556.0 ],
+													"patching_rect" : [ 246.0, 99.0, 158.0, 545.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 18,
-													"presentation_rect" : [ 8.0, 30.0, 419.0, 248.0 ],
+													"presentation_rect" : [ 8.0, 30.0, 419.0, 255.0 ],
 													"text" : "/vf/vol - [0. - 1.] : Sets the application volume. 0 is muted, 1 is full volume.\n\n/vf/rate - [-1. - 1.] : Sets the video playback rate. -1 is rewind, 0 is pause, and\n                              1 is play.\n\n/vf/fx - [64 - 1280] : Sets the feather density in the X dimension.\n\n/vf/fy - [32 - 960] : Sets the feather density in the Y dimension.\n\n/vf/scale - [0. - 1.] : Sets the scale of the feathers. 0 is 0.01% length and 1 is\n                               5% of the maximum length.\n\n/vf/fade - [0. - 1.] : Sets the percent of feather length retained each frame.\n                             0 is 90% retention, or 10% lost per frame. 1 is 100% of the \n                             length retained, preventing change until new motion input.\n\n/vf/outline - (0|1) : Enables and disables drawing the image outline in the\n                             output window. 0 disables the outline, 1 enables outlines."
 												}
 
@@ -1311,6 +1599,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-8", 0 ],
 													"source" : [ "obj-6", 0 ]
 												}
@@ -1484,9 +1779,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1880.333984375, 321.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1880.333984375, 321.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 198.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 198.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1869,7 +2164,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1875.6669921875, 406.0, 66.0, 33.0 ],
+									"patching_rect" : [ 1875.6669921875, 406.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 199.0, 146.0, 20.0 ],
 									"text" : "Image Outlines"
@@ -1924,7 +2219,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1650.6669921875, 574.0, 143.0, 35.0 ],
+									"patching_rect" : [ 1650.6669921875, 574.0, 143.0, 36.0 ],
 									"text" : "sprintf set Feather Fade: %.2f%"
 								}
 
@@ -2004,9 +2299,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1565.333984375, 316.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1565.333984375, 316.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 175.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 175.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2389,7 +2684,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1550.1669921875, 387.5, 66.0, 47.0 ],
+									"patching_rect" : [ 1550.1669921875, 387.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 176.0, 146.0, 20.0 ],
 									"text" : "Feather Fade Percent"
@@ -2444,7 +2739,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1370.6669921875, 574.0, 145.0, 35.0 ],
+									"patching_rect" : [ 1370.6669921875, 574.0, 145.0, 36.0 ],
 									"text" : "sprintf set Feather Scale: %.2f%"
 								}
 
@@ -2524,9 +2819,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1285.333984375, 316.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1285.333984375, 316.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 152.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 152.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2909,7 +3204,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1270.1669921875, 387.5, 66.0, 47.0 ],
+									"patching_rect" : [ 1270.1669921875, 387.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 153.0, 146.0, 20.0 ],
 									"text" : "Feather Length Percent"
@@ -3030,9 +3325,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 984.333984375, 310.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 984.333984375, 310.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 129.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 129.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3415,7 +3710,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 977.1669921875, 399.0, 66.0, 33.0 ],
+									"patching_rect" : [ 977.1669921875, 399.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 130.0, 146.0, 20.0 ],
 									"text" : "Feather Amount Y"
@@ -3536,9 +3831,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 710.333984375, 310.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 710.333984375, 310.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 106.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 106.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3921,7 +4216,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 703.1669921875, 399.0, 66.0, 33.0 ],
+									"patching_rect" : [ 703.1669921875, 399.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 107.0, 146.0, 20.0 ],
 									"text" : "Feather Amount X"
@@ -4082,7 +4377,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 518.6669921875, 512.5, 145.0, 35.0 ],
+									"patching_rect" : [ 518.6669921875, 512.5, 145.0, 36.0 ],
 									"text" : "sprintf set Playback Rate %.2f"
 								}
 
@@ -4162,9 +4457,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 439.333984375, 289.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 439.333984375, 289.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 83.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 83.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4547,7 +4842,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 432.1669921875, 378.0, 66.0, 33.0 ],
+									"patching_rect" : [ 432.1669921875, 378.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 84.0, 146.0, 20.0 ],
 									"text" : "Playback Rate"
@@ -4611,9 +4906,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 95.6669921875, 289.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 95.6669921875, 289.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 60.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 60.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -5008,7 +5303,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 88.5, 378.0, 66.0, 33.0 ],
+									"patching_rect" : [ 88.5, 378.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 61.0, 146.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -5030,7 +5325,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5141,7 +5436,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 472.0, 198.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/media/vector_icon.png",
+									"pic" : "vector_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 2.0, 1.0, 238.0, 238.0 ]
 								}
@@ -5157,7 +5452,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 487.0, 213.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/media/vector_icon.png",
+									"pic" : "vector_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 198.3330078125, 1.0, 238.0, 238.0 ]
 								}
@@ -5191,6 +5486,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-101", 0 ]
 								}
 
 							}
@@ -6288,14 +6590,26 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 93.0, 25.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 216.0, 306.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 216.0, 306.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -6323,10 +6637,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 178.0, 88.0, 150.0, 60.0 ],
+									"patching_rect" : [ 178.0, 88.0, 150.0, 62.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 1.0, 2.0, 405.0, 33.0 ],
+									"presentation_rect" : [ 1.0, 2.0, 405.0, 34.0 ],
 									"text" : "Vector Fields 0.1a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
@@ -6379,7 +6693,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "jit_matrix" ],
 									"patching_rect" : [ 192.0, 170.0, 100.0, 100.0 ],
-									"pic" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/media/vector_icon.png",
+									"pic" : "vector_icon.png",
 									"presentation" : 1,
 									"presentation_rect" : [ 1.0, 36.0, 405.0, 405.0 ]
 								}
@@ -6397,6 +6711,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -6466,9 +6787,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 493.0, 150.0, 47.0 ],
+					"patching_rect" : [ 72.0, 493.0, 150.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 307.0, 642.0, 370.0, 20.0 ],
+					"presentation_rect" : [ 690.0, 259.0, 370.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, September 2020"
 				}
 
@@ -6480,26 +6801,24 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1798.0, -2.0, 156.0, 878.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 28,
-					"presentation_rect" : [ 678.0, 44.0, 370.0, 382.0 ],
-					"text" : "Preset List:\n                   1: A very basic view of the app. Low density feathers \n                       with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the \n                       image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. \n                       feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade\n                       and short length. Great for creating a visual history of\n                       the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a\n                       comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to\n                       estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density\n                       and maximum length. How much original details can\n                       you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear\n                       thorny or as if they had porcupine spines drawn on."
+					"patching_rect" : [ 1798.0, -2.0, 156.0, 903.0 ],
+					"text" : "Preset List:\n                   1: A very basic view of the app. Low density feathers \n                       with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the \n                       image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. \n                       feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade\n                       and short length. Great for creating a visual history of\n                       the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a\n                       comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to\n                       estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density\n                       and maximum length. How much original details can\n                       you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear\n                       thorny or as if they had porcupine spines drawn on.",
+					"underline" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-121",
-					"linecount" : 99,
+					"linecount" : 62,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1602.0, -2.0, 161.0, 1334.0 ],
+					"patching_rect" : [ 1602.0, -2.0, 170.0, 876.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 43,
-					"presentation_rect" : [ 307.0, 44.0, 377.0, 583.0 ],
-					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The optical flow techniques (in this case, specifically Horn-Schunk flow) aim to help a computer understand motion and 2D directionality in a video stream. To accomplish this task, the algorithm compares the current frame to the previous frame and uses a gradiated approach to estimate how pixels in the 2 frames have moved. The result, is that every pixel is assigned a value for both the X & Y axis representing an estimation of the amount of motion. The Vector Fields take these values and use the to draw a \"feather\" or line with a corresponding length and direction. To explore the visualization and artistic potentials for this variety of technique, we have provided you with several parameters and presets. For best viewing, we would suggest using the output window in fullscreen mode.\n\nThe first parameter is the feather density. These values determine the number of feathers that will be drawn across the frame as well as vertically in the frame. Regardless of the value entered, the app will evenly space each feather from its neighbors. You can use this parameter to get a higher resolution view of the analysis or a more general sense of motion. The minimum values are 64x32 and the maximum is 1280x960.\n\nThe second parameter is the feather scale. Changing the value here will modify the maximum length of all of the feathers. The value when the slider is fully to the left is 0.1% of the motion vector length. The value when the slider is fully to the right is 5% of the motion vector length.\n\nThe third parameter is the feather fade. Fade in this app corresponds the rate at which the feathers will reduce in size towards being off when nothing is actively moving at their base. When the slider is fully left, the value is 90% length retained or 10% loss per frame. When fully to the right, the value is 100% retained, or no change in length until overwritten by new motion at that position.\n\nThe fourth parameter is the image outline. For ease understanding, you can turn on an outline of the input video that is displayed along with the vector field feathers. If you have looked at the \"Colored Edges\" application, you may recognize this as the same effect. Beyond being a preview feature, this functionality has been included as a demonstration of the ability to layer individual effects atop each other to create functional and artisitic composites."
+					"presentation_linecount" : 28,
+					"presentation_rect" : [ 307.0, 44.0, 386.0, 407.0 ],
+					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The optical flow techniques (in this case, specifically Horn-Schunk flow) aim to help a computer understand motion and 2D directionality in a video stream. To accomplish this task, the algorithm compares the current frame to the previous frame and uses a gradiated approach to estimate how pixels in the 2 frames have moved. The result, is that every pixel is assigned a value for both the X & Y axis representing an estimation of the amount of motion. The Vector Fields take these values and use the to draw a \"feather\" or line with a corresponding length and direction. To explore the visualization and artistic potentials for this variety of technique, we have provided you with several parameters and presets. For best viewing, we would suggest using the output window in fullscreen mode.\n\nThe first parameter is the feather density. These values determine the number of feathers that will be drawn across the frame as well as vertically in the frame. Regardless of the value entered, the app will evenly space each feather from its neighbors. You can use this parameter to get a higher resolution view of the analysis or a more general sense of motion. The minimum values are 64x32 and the maximum is 1280x960.\n\nThe second parameter is the feather scale. Changing the value here will modify the maximum length of all of the feathers. The value when the slider is fully to the left is 0.1% of the motion vector length. The value when the slider is fully to the right is 5% of the motion vector length.\n\n"
 				}
 
 			}
@@ -6539,15 +6858,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 999.0, 596.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"feather-fade" : [ 0.899999976158142 ],
-						"feather-scale" : [ 0.001000000047497 ],
-						"num-points-x" : [ 64 ],
+						"feather-fade" : [ 0.908545911312103 ],
+						"feather-scale" : [ 0.010437499731779 ],
+						"num-points-x" : [ 1280 ],
 						"num-points-y" : [ 32 ],
-						"outline-bypass" : [ 0 ]
+						"outline-bypass" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u742009750"
+					"varname" : "u598007643"
 				}
 
 			}
@@ -6559,7 +6878,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1037.0, 446.5, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 601.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 502.4453125, 150.0, 20.0 ],
 					"text" : "Available Presets"
 				}
 
@@ -6599,7 +6918,7 @@
 					"patching_rect" : [ 1025.0, 405.0, 174.0, 34.0 ],
 					"pattrstorage" : "vectors",
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 623.0, 166.0, 25.0 ]
+					"presentation_rect" : [ 6.75, 524.4453125, 166.0, 25.0 ]
 				}
 
 			}
@@ -6628,7 +6947,7 @@
 						"client_rect" : [ 83, 112, 755, 813 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 16, 150, 557, 823 ]
+						"storage_rect" : [ 55, 48, 596, 721 ]
 					}
 ,
 					"text" : "pattrstorage vectors @savemode 0",
@@ -6649,9 +6968,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 508.75, 437.9453125, 36.021484375, 28.109375 ],
+					"patching_rect" : [ 508.75, 437.9453125, 36.021484375, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 546.4453125, 36.021484375, 28.109375 ],
+					"presentation_rect" : [ 210.75, 461.09619140625, 36.021484375, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6671,9 +6990,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1431.24462890625, 210.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1431.24462890625, 210.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 484.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 420.59619140625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6693,9 +7012,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1087.75, 145.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1087.75, 145.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 414.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 373.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6715,9 +7034,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 818.74462890625, 201.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 818.74462890625, 201.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 348.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 324.09619140625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6737,9 +7056,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 625.75, 154.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 625.75, 154.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 308.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 272.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6759,9 +7078,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1002.99462890625, 86.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1002.99462890625, 86.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 245.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 232.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6781,9 +7100,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 410.2392578125, 192.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 410.2392578125, 192.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 24.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 24.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6797,7 +7116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.5, 192.5, 150.0, 33.0 ],
+					"patching_rect" : [ 330.5, 192.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.75, 28.5, 190.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -6812,7 +7131,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 884.75, 59.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 217.5546875, 150.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 196.4453125, 150.0, 20.0 ],
 					"text" : "Playback Rate"
 				}
 
@@ -6837,7 +7156,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1228.25, 177.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 457.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 399.4453125, 150.0, 20.0 ],
 					"text" : "Feather Fade"
 				}
 
@@ -6856,7 +7175,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1228.25, 201.0, 196.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 479.0, 264.0, 40.0 ],
+					"presentation_rect" : [ 6.75, 421.4453125, 264.0, 27.0 ],
 					"setminmax" : [ 0.899999976158142, 1.0 ],
 					"slidercolor" : [ 0.019607843137255, 0.454901960784314, 0.101960784313725, 1.0 ],
 					"thickness" : 10,
@@ -6884,7 +7203,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1016.25, 177.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 386.5546875, 150.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 351.0, 150.0, 20.0 ],
 					"text" : "Feather Scale"
 				}
 
@@ -6903,7 +7222,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1016.25, 201.0, 196.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 408.5546875, 264.0, 40.0 ],
+					"presentation_rect" : [ 6.75, 373.0, 264.0, 27.0 ],
 					"setminmax" : [ 0.001000000047497, 0.050000000745058 ],
 					"slidercolor" : [ 0.03921568627451, 0.090196078431373, 0.662745098039216, 1.0 ],
 					"thickness" : 10,
@@ -6953,9 +7272,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 853.25, 167.0, 150.0, 33.0 ],
+					"patching_rect" : [ 853.25, 167.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 341.0, 264.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 305.4453125, 264.0, 20.0 ],
 					"text" : "Number of Feathers Across and Down"
 				}
 
@@ -6972,7 +7291,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 926.25, 210.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.75, 363.0, 123.0, 22.0 ],
+					"presentation_rect" : [ 139.75, 327.4453125, 123.0, 22.0 ],
 					"varname" : "num-points-y"
 				}
 
@@ -6989,7 +7308,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 853.5, 210.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 363.0, 123.0, 22.0 ],
+					"presentation_rect" : [ 6.75, 327.4453125, 123.0, 22.0 ],
 					"varname" : "num-points-x"
 				}
 
@@ -7155,7 +7474,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 580.0, 440.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.75, 550.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 58.75, 465.4453125, 150.0, 20.0 ],
 					"text" : "Image Outlines On / Off"
 				}
 
@@ -7170,7 +7489,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 554.0, 440.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 524.5, 72.0, 72.0 ],
+					"presentation_rect" : [ 6.75, 450.4453125, 50.0, 50.0 ],
 					"varname" : "outline-bypass"
 				}
 
@@ -7347,7 +7666,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 487.75, 154.0, 127.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 308.0, 264.0, 26.0 ],
+					"presentation_rect" : [ 6.75, 272.4453125, 264.0, 26.0 ],
 					"text" : "Go Fullscreen",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Return to Window",
@@ -7440,7 +7759,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 853.25, 12.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 283.0, 264.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 247.4453125, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Rewind", "Pause", "Play" ],
@@ -7480,7 +7799,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 793.25, 81.0, 196.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 239.5546875, 264.0, 40.0 ],
+					"presentation_rect" : [ 6.75, 218.4453125, 264.0, 27.0 ],
 					"thickness" : 5
 				}
 
@@ -7510,7 +7829,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 522.25, 66.5546875, 196.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 169.9453125, 264.0, 40.0 ],
+					"presentation_rect" : [ 6.75, 167.4453125, 264.0, 27.0 ],
 					"setminmax" : [ 0.0, 1.0 ]
 				}
 
@@ -7540,9 +7859,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 726.2392578125, 72.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 726.2392578125, 72.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 169.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 169.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7562,9 +7881,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 410.2392578125, 17.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 410.2392578125, 17.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 117.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 117.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7584,9 +7903,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.9892578125, 43.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 32.9892578125, 43.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 73.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 73.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7614,7 +7933,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 602.25, 42.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.75, 146.5, 150.0, 20.0 ],
+					"presentation_rect" : [ 6.75, 144.0, 150.0, 20.0 ],
 					"text" : "Playback Volume"
 				}
 
@@ -7799,13 +8118,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 440.25, 224.5, 252.0, 35.0 ],
-					"text" : "jit.world \"Vector Fields\" @erase_color 0 0 0 1 @shared 1"
+					"patching_rect" : [ 440.25, 224.5, 359.0, 22.0 ],
+					"text" : "jit.world \"Vector Fields\" @erase_color 0 0 0 1 @shared 1 @fsaa 1"
 				}
 
 			}
@@ -7824,7 +8142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 61.0, 271.0, 267.0, 188.0 ],
+					"patching_rect" : [ 61.0, 272.0, 267.0, 188.0 ],
 					"varname" : "sc.mesh.vectorfields",
 					"viewvisibility" : 1
 				}
@@ -7835,6 +8153,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-101", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-105", 0 ]
 				}
 
 			}
@@ -7959,6 +8305,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -8344,6 +8697,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-81", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-92", 0 ]
 				}
@@ -8353,6 +8713,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
 					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"source" : [ "obj-98", 1 ]
 				}
 
 			}
@@ -8384,22 +8765,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.mesh.vectorfields.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Vector Fields/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.leakyintegrator.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -8411,60 +8792,64 @@
 			}
 , 			{
 				"name" : "sc.texture.opflow.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.rgb2luma.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hsflow.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code/cv",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code/cv",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code/cv",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code/cv",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.edge.sobel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.binaryop.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vectors.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Vector Fields/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vector_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Vector Fields/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

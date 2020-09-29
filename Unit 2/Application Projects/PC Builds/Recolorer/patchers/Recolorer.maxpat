@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 789.0, 135.0, 546.0, 327.0 ],
+		"rect" : [ 415.0, 155.0, 546.0, 327.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 298.75, 550.5, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 299.0, 582.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 298.75, 524.9453125, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 298.75, 496.9453125, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "newobj",
@@ -69,11 +116,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 723.0, 620.0, 150.0, 33.0 ],
+					"patching_rect" : [ 723.0, 620.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 326.5, 184.5, 200.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 326.5, 184.5, 200.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -293,7 +340,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -455,9 +502,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 271.75, 276.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 271.75, 276.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 270.0, 284.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 270.0, 284.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -672,13 +719,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 62.0, 6.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-61",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 773.5, 771.0, 150.0, 33.0 ],
+									"patching_rect" : [ 773.5, 771.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 61.929950714111328, 858.0, 416.25, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -693,10 +752,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 766.0, 662.0, 165.0, 100.0 ],
+									"patching_rect" : [ 766.0, 662.0, 165.0, 103.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 61.929950714111328, 811.0, 416.25, 47.0 ],
+									"presentation_rect" : [ 61.929950714111328, 811.0, 416.25, 48.0 ],
 									"text" : "The \"Recolorer\" Application takes the input frame of video and remaps the colors from a new palette. The output is the result of the old colors being swapped on the new palette spectrum."
 								}
 
@@ -816,9 +875,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 623.6669921875, 302.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 623.6669921875, 302.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 107.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 107.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1201,7 +1260,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 616.5, 391.0, 66.0, 33.0 ],
+									"patching_rect" : [ 616.5, 391.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 108.0, 150.0, 20.0 ],
 									"text" : "Color Palette"
@@ -1323,9 +1382,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 351.6669921875, 302.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 351.6669921875, 302.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 84.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 84.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1708,7 +1767,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 344.5, 391.0, 66.0, 33.0 ],
+									"patching_rect" : [ 344.5, 391.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 85.0, 150.0, 20.0 ],
 									"text" : "Playback Rate"
@@ -1723,7 +1782,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 132.5, 16.5, 66.0, 33.0 ],
+									"patching_rect" : [ 132.5, 16.5, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 110.5, 9.0, 87.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -1880,9 +1939,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 34.6669921875, 296.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 34.6669921875, 296.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 309.0, 61.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 309.0, 61.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2277,7 +2336,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 27.5, 385.0, 66.0, 33.0 ],
+									"patching_rect" : [ 27.5, 385.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 61.0, 150.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -2299,7 +2358,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2447,16 +2506,28 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-4",
+													"maxclass" : "newobj",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 80.0, 14.0, 76.0, 22.0 ],
+													"text" : "r to-windows"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-27",
 													"linecount" : 25,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 41.0, 52.0, 150.0, 342.0 ],
+													"patching_rect" : [ 41.0, 52.0, 153.0, 351.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 10,
-													"presentation_rect" : [ 17.0, 34.0, 344.0, 141.0 ],
+													"presentation_rect" : [ 17.0, 34.0, 344.0, 144.0 ],
 													"text" : "/recolor/vol - [0. - 1.] : Sets the video playback volume of the\n                                   application. 0 is muted, 1 is max volume.\n\n/recolor/rate - [-1. - 1.] : Sets the video playback rate. -1. is \n                                      rewind, 0 is paused, and 1 is play.\n\n/recolor/palette [0 - 8] : Sets the current palette file to use. The \n                                     value corresponds to the menu index\n                                     of the palette you want to use, starting\n                                     at 0. "
 												}
 
@@ -2873,6 +2944,13 @@
 													"destination" : [ "obj-24", 0 ],
 													"midpoints" : [ 248.833333333333343, 219.0, 733.5, 219.0 ],
 													"source" : [ "obj-25", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-4", 0 ]
 												}
 
 											}
@@ -3324,6 +3402,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-43", 0 ],
 									"source" : [ "obj-50", 0 ]
 								}
@@ -3476,7 +3561,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 347.0, 209.0, 275.0, 275.0 ],
+						"rect" : [ 43.0, 86.0, 275.0, 275.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3506,14 +3591,26 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 101.0, 16.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 176.0, 372.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 176.0, 372.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -3542,10 +3639,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 209.0, 21.0, 277.0, 47.0 ],
+									"patching_rect" : [ 209.0, 21.0, 277.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ -2.0, 209.0, 278.0, 47.0 ],
+									"presentation_rect" : [ -2.0, 209.0, 278.0, 48.0 ],
 									"text" : "Recolorer 0.3a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
@@ -3616,6 +3713,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -3774,7 +3878,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Recolorer/other/recolor_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Recolorer/other/recolor_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.recolorer",
 						"cantclosetoplevelpatchers" : 1,
@@ -3789,7 +3893,7 @@
 						"preffilename" : "Recolorer Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -3803,10 +3907,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 279.0, 150.0, 33.0 ],
+					"patching_rect" : [ 315.0, 279.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 312.0, 119.9453125, 229.0, 33.0 ],
+					"presentation_rect" : [ 312.0, 119.9453125, 229.0, 34.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -3824,9 +3928,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 197.0, 347.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 197.0, 347.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 228.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 228.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3846,9 +3950,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 202.0, 411.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 202.0, 411.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 166.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 166.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3869,9 +3973,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 396.0, 46.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 396.0, 46.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 119.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 119.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3891,9 +3995,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.0, 19.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 32.0, 19.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 75.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 75.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3913,9 +4017,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 556.9892578125, 152.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 556.9892578125, 152.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 29.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 29.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3929,10 +4033,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.75, 387.0, 165.0, 100.0 ],
+					"patching_rect" : [ 312.75, 387.0, 165.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 312.0, 41.0, 229.0, 74.0 ],
+					"presentation_rect" : [ 312.0, 41.0, 229.0, 75.0 ],
 					"text" : "The \"Recolorer\" Application takes the input frame of video and remaps the colors from a new palette. The output is the result of the old colors being swapped on the new palette spectrum."
 				}
 
@@ -3999,7 +4103,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 613.5, 152.5, 150.0, 33.0 ],
+					"patching_rect" : [ 613.5, 152.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.5, 34.0, 180.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -4406,6 +4510,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -4529,6 +4640,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-46", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -4709,6 +4834,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-8", 0 ]
 				}
@@ -4741,25 +4873,29 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.recolor.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "recolor_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Recolorer/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/PC Builds/Recolorer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
