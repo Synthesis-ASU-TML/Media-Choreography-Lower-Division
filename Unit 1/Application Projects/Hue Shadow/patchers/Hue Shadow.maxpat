@@ -48,7 +48,7 @@
 					"patching_rect" : [ 129.0, 342.9453125, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 324.0, 329.0, 224.0, 33.0 ],
+					"presentation_rect" : [ 324.0, 329.0, 158.0, 33.0 ],
 					"text" : "Mira Contols available at: http://192.168.0.16:8086",
 					"textjustification" : 1
 				}
@@ -112,7 +112,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -153,18 +153,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-7",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "clear" ],
-									"patching_rect" : [ 356.0, 294.0, 49.0, 22.0 ],
-									"text" : "t l clear"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"id" : "obj-11",
 									"maxclass" : "message",
@@ -394,8 +382,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.65, 0.65, 0.65, 0.9 ],
-									"destination" : [ "obj-7", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-3", 0 ]
 								}
 
@@ -434,20 +421,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"source" : [ "obj-6", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-7", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-1", 0 ],
-									"source" : [ "obj-7", 0 ]
 								}
 
 							}
@@ -858,7 +831,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 780.0, 532.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Hue", "Shadow", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Load", "Video", "File/K", ";", "#X", "item", 5, 4, "Load", "Shadow", "Video", "File/L", ";", "#X", "item", 5, 5, "-", ";", "#X", "item", 5, 6, "MIDI", "Settings/M", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Hue", "Shadow", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Load", "Video", "File/K", ";", "#X", "item", 5, 4, "Load", "Shadow", "Video", "File/L", ";", "#X", "item", 5, 5, "-", ";", "#X", "item", 5, 6, "MIDI", "Settings/M", ";", "#X", "item", 5, 7, "OSC", "Settings/U", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -867,7 +840,7 @@
 				"box" : 				{
 					"id" : "obj-51",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -880,7 +853,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 168.0, 104.0, 343.0, 147.0 ],
+						"rect" : [ 44.0, 75.0, 346.0, 130.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -910,6 +883,463 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "int" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 1,
+											"revision" : 5,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 59.0, 104.0, 339.0, 109.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 1,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 0,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 0,
+										"enablevscroll" : 0,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"id" : "obj-24",
+													"linecount" : 12,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 203.0, 109.0, 150.0, 167.0 ],
+													"presentation" : 1,
+													"presentation_linecount" : 5,
+													"presentation_rect" : [ 7.0, 29.0, 323.0, 74.0 ],
+													"text" : "/hshadow/vol - [0. - 1.] : Sets the volume of the main video.\n                                      0 is muted, 1 is full volume.\n\n/hshadow/svol - [0. - 1.] : Sets the volume of the shadow\n                                        video. 0 is muted, 1 is full volume."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-20",
+													"index" : 2,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 504.0, 314.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-21",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 504.0, 285.0, 29.5, 22.0 ],
+													"text" : "i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-22",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 504.0, 256.0, 98.0, 22.0 ],
+													"text" : "zmap 0. 1. 0 100"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-19",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 401.0, 314.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-18",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 401.0, 285.0, 29.5, 22.0 ],
+													"text" : "i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-17",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 401.0, 256.0, 98.0, 22.0 ],
+													"text" : "zmap 0. 1. 0 100"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-16",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "FullPacket" ],
+													"patching_rect" : [ 180.0, 190.0, 199.0, 22.0 ],
+													"text" : "o.route /hshadow/vol /hshadow/svol"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-15",
+													"maxclass" : "newobj",
+													"numinlets" : 3,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "" ],
+													"patching_rect" : [ 401.0, 190.0, 189.0, 22.0 ],
+													"text" : "route /hshadow/vol /hshadow/svol"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-14",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 299.0, 147.0, 121.0, 22.0 ],
+													"text" : "routepass FullPacket"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-13",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 299.0, 116.0, 142.0, 22.0 ],
+													"text" : "udpreceive 8000 CNMAT"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-12",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 299.0, 87.0, 46.0, 22.0 ],
+													"text" : "port $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-10",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 299.0, 28.0, 90.0, 22.0 ],
+													"text" : "loadmess 8000"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-9",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 474.0, 87.0, 42.0, 22.0 ],
+													"text" : "t 8000"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-8",
+													"maxclass" : "textbutton",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "", "", "int" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 474.0, 59.0, 100.0, 20.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 199.0, 5.0, 131.0, 20.0 ],
+													"text" : "Reset",
+													"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+													"id" : "obj-7",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 351.0, 59.0, 121.0, 20.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 76.0, 5.0, 121.0, 20.0 ],
+													"text" : "OSC Receiving Port"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "number",
+													"maximum" : 10000,
+													"minimum" : 7474,
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "bang" ],
+													"parameter_enable" : 0,
+													"patching_rect" : [ 299.0, 58.0, 50.0, 22.0 ],
+													"presentation" : 1,
+													"presentation_rect" : [ 7.0, 5.0, 67.0, 22.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-3",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
+													"patching_rect" : [ 34.0, 116.0, 67.0, 22.0 ],
+													"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+													"text" : "thispatcher"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-2",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "front" ],
+													"patching_rect" : [ 34.0, 81.0, 39.0, 22.0 ],
+													"text" : "t front"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-1",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 34.0, 40.0, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-2", 0 ],
+													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"source" : [ "obj-10", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-13", 0 ],
+													"source" : [ "obj-12", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"source" : [ "obj-13", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-15", 0 ],
+													"source" : [ "obj-14", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-16", 0 ],
+													"source" : [ "obj-14", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"source" : [ "obj-15", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"source" : [ "obj-15", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-17", 0 ],
+													"source" : [ "obj-16", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-22", 0 ],
+													"source" : [ "obj-16", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-18", 0 ],
+													"source" : [ "obj-17", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-19", 0 ],
+													"source" : [ "obj-18", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"source" : [ "obj-2", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-20", 0 ],
+													"source" : [ "obj-21", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-21", 0 ],
+													"source" : [ "obj-22", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-12", 0 ],
+													"source" : [ "obj-5", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-9", 0 ],
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"source" : [ "obj-9", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 739.0, 102.0, 100.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p \"OSC Settings\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-48",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 739.0, 57.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : 1,
 									"fontsize" : 20.0,
@@ -919,7 +1349,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 851.0, 52.0, 247.0, 29.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 110.0, 229.0, 503.0, 29.0 ],
+									"presentation_rect" : [ 1076.0, 259.0, 503.0, 29.0 ],
 									"text" : "Hue Shadow",
 									"textjustification" : 1
 								}
@@ -935,7 +1365,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 57.0, 210.0, 66.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 110.0, 441.703125, 263.0, 20.0 ],
+									"presentation_rect" : [ 1076.0, 471.703125, 263.0, 20.0 ],
 									"text" : "Shadow Playback Volume",
 									"textjustification" : 1
 								}
@@ -951,7 +1381,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 57.0, 186.0, 66.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 110.0, 332.703125, 263.0, 20.0 ],
+									"presentation_rect" : [ 1076.0, 362.703125, 263.0, 20.0 ],
 									"text" : "Video Playback Volume",
 									"textjustification" : 1
 								}
@@ -980,7 +1410,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 64.0, 612.0, 280.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 110.0, 354.703125, 263.0, 48.0 ],
+									"presentation_rect" : [ 1076.0, 384.703125, 263.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "slider[1]",
@@ -1007,7 +1437,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 340.0, 612.0, 280.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 110.0, 463.703125, 263.0, 48.0 ],
+									"presentation_rect" : [ 1076.0, 493.703125, 263.0, 48.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "slider",
@@ -1045,7 +1475,7 @@
 									"patching_rect" : [ 780.0, 685.0, 150.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 387.0, 492.703125, 224.0, 33.0 ],
+									"presentation_rect" : [ 1353.0, 522.703125, 224.0, 33.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 								}
 
@@ -1060,7 +1490,7 @@
 									"patching_rect" : [ 772.0, 454.0, 155.0, 342.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 17,
-									"presentation_rect" : [ 387.0, 261.703125, 226.0, 234.0 ],
+									"presentation_rect" : [ 1353.0, 291.703125, 226.0, 234.0 ],
 									"text" : "The \"Hue Shadow\" application takes 2 frames of separate videos and replaces the hue of first video with the hue channel of the second. The intended effect is to simulate film that has been partially rexposed. The second image comes through as a colorful shadow in the original image.\n\nThe purpose of using the hue - saturation - luminance colorspace for this effect is to simplify the algorithm used. Rather than needing to balance modifications to the red, green, and blue channels, we can shift only the hue channel to get a smoother image as an output."
 								}
 
@@ -1088,7 +1518,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 316.1669921875, 376.0, 24.666015625, 21.40625 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 311.0, 117.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 310.0, 101.0, 24.666015625, 21.40625 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1117,7 +1547,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 30.0, 357.0, 24.666015625, 21.40625 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 311.0, 93.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 310.0, 77.0, 24.666015625, 21.40625 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1157,7 +1587,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 495.0, 24.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 162.0, 68.0, 147.0, 20.0 ],
+									"presentation_rect" : [ 161.0, 52.0, 147.0, 20.0 ],
 									"text" : "Save MIDI Settings",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1197,7 +1627,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 391.0, 24.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 68.0, 147.0, 20.0 ],
+									"presentation_rect" : [ 6.0, 52.0, 147.0, 20.0 ],
 									"text" : "Load MIDI Settings",
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 								}
@@ -1220,7 +1650,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u010008000"
+									"varname" : "u765003647"
 								}
 
 							}
@@ -1253,7 +1683,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 226.0, 168.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 203.0, 22.0, 106.0, 20.0 ],
+									"presentation_rect" : [ 202.0, 6.0, 106.0, 20.0 ],
 									"text" : "MIDI Devices",
 									"textjustification" : 1
 								}
@@ -1581,7 +2011,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 445.0, 459.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 209.0, 117.0, 100.0, 22.0 ],
+									"presentation_rect" : [ 208.0, 101.0, 100.0, 22.0 ],
 									"text" : "Set Midi Control",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -1611,7 +2041,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 367.0, 463.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 157.0, 117.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 156.0, 101.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -1649,7 +2079,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 295.5, 445.5, 66.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 118.0, 153.0, 20.0 ],
+									"presentation_rect" : [ 6.0, 102.0, 153.0, 20.0 ],
 									"text" : "Shadow Playback Volume",
 									"textjustification" : 1
 								}
@@ -2013,7 +2443,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 169.0, 459.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 209.0, 93.0, 100.0, 22.0 ],
+									"presentation_rect" : [ 208.0, 77.0, 100.0, 22.0 ],
 									"text" : "Set Midi Control",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -2043,7 +2473,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 91.0, 463.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 157.0, 93.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 156.0, 77.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -2081,7 +2511,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 19.5, 445.5, 66.0, 47.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 94.0, 153.0, 20.0 ],
+									"presentation_rect" : [ 6.0, 78.0, 153.0, 20.0 ],
 									"text" : "Video Playback Volume",
 									"textjustification" : 1
 								}
@@ -2110,7 +2540,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 219.0, 141.0, 100.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 22.0, 194.0, 22.0 ],
+									"presentation_rect" : [ 6.0, 6.0, 194.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
@@ -2136,7 +2566,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 219.0, 37.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 46.0, 302.0, 20.0 ],
+									"presentation_rect" : [ 6.0, 30.0, 302.0, 20.0 ],
 									"text" : "Detect MIDI Devices",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2276,7 +2706,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 642.0, 248.0, 256.000006437301636, 182.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 93.0, 203.0, 541.538475155830383, 385.0 ],
+									"presentation_rect" : [ 1059.0, 233.0, 541.538475155830383, 385.0 ],
 									"tabname" : "Hue Shadow Controls",
 									"taborder" : 1
 								}
@@ -2537,6 +2967,27 @@
 								"patchline" : 								{
 									"destination" : [ "obj-44", 0 ],
 									"source" : [ "obj-45", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-49", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-44", 0 ],
+									"source" : [ "obj-49", 0 ]
 								}
 
 							}
@@ -4090,6 +4541,10 @@
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "o.route.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mira.status.mxo",
