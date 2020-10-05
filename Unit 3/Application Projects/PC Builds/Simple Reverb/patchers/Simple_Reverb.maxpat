@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 375.0, 109.0, 1158.0, 501.0 ],
+		"rect" : [ 90.0, 103.0, 1158.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,16 +40,63 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-235",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 675.0, 1076.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-234",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 675.0, 1041.0, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-209",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 675.0, 1014.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-138",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 675.0, 986.0, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-233",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 1025.0, 150.0, 33.0 ],
+					"patching_rect" : [ 36.0, 1025.0, 151.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 476.0, 383.9609375, 171.0, 33.0 ],
-					"text" : "Mira Controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 476.0, 383.9609375, 171.0, 34.0 ],
+					"text" : "Mira Controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -301,7 +348,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -2017,7 +2064,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 172.0, 168.0 ],
+						"rect" : [ 59.0, 104.0, 163.0, 168.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2047,14 +2094,26 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 532.0, 26.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-10",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 104.0, 213.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 104.0, 213.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -2068,9 +2127,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 104.0, 183.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 104.0, 183.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -2.0, 145.59375, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ -2.0, 145.59375, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.054901960784314, 0.0, 0.996078431372549, 1.0 ]
 								}
@@ -2084,10 +2143,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 205.0, 70.0, 150.0, 47.0 ],
+									"patching_rect" : [ 205.0, 70.0, 150.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 2.0, 2.0, 147.0, 47.0 ],
+									"presentation_rect" : [ 2.0, 2.0, 150.0, 48.0 ],
 									"text" : "Simple Reverb 0.5a, 2020 Andrew Robinson & Synthesis @ ASU"
 								}
 
@@ -2159,6 +2218,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -2238,7 +2304,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 624.0, 211.0, 720.0, 233.0 ],
+						"rect" : [ 44.0, 69.0, 720.0, 233.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2267,6 +2333,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-42",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 606.0, 39.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : 1,
@@ -4380,7 +4458,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u926003144"
+									"varname" : "u633012869"
 								}
 
 							}
@@ -4792,7 +4870,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1011.5, 316.0, 66.0, 47.0 ],
+									"patching_rect" : [ 1011.5, 316.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 340.0, 32.0, 110.0, 20.0 ],
 									"text" : "Main Output Level"
@@ -5540,7 +5618,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 709.5, 666.0, 66.0, 33.0 ],
+									"patching_rect" : [ 709.5, 666.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 480.0, 162.0, 92.0, 20.0 ],
 									"text" : "Track 3 Reverb"
@@ -5935,7 +6013,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 716.5, 497.0, 66.0, 33.0 ],
+									"patching_rect" : [ 716.5, 497.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 480.0, 137.0, 92.0, 20.0 ],
 									"text" : "Track 2 Reverb"
@@ -6330,7 +6408,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 716.5, 334.0, 66.0, 33.0 ],
+									"patching_rect" : [ 716.5, 334.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 480.0, 114.0, 92.0, 20.0 ],
 									"text" : "Track 1 Reverb"
@@ -6347,7 +6425,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 424.0, 194.0, 193.0, 47.0 ],
+									"patching_rect" : [ 424.0, 194.0, 193.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 237.5, 83.0, 237.5, 27.0 ],
 									"text" : "Playback Rate Controls",
@@ -6743,7 +6821,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 403.5, 837.0, 66.0, 33.0 ],
+									"patching_rect" : [ 403.5, 837.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 237.5, 185.5, 92.0, 20.0 ],
 									"text" : "Track 4 Speed"
@@ -7138,7 +7216,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 403.5, 666.0, 66.0, 33.0 ],
+									"patching_rect" : [ 403.5, 666.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 237.5, 161.5, 92.0, 20.0 ],
 									"text" : "Track 3 Speed"
@@ -7533,7 +7611,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.5, 497.0, 66.0, 33.0 ],
+									"patching_rect" : [ 410.5, 497.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 237.5, 138.0, 92.0, 20.0 ],
 									"text" : "Track 2 Speed"
@@ -7928,7 +8006,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 410.5, 334.0, 66.0, 33.0 ],
+									"patching_rect" : [ 410.5, 334.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 237.5, 114.0, 92.0, 20.0 ],
 									"text" : "Track 1 Speed"
@@ -8340,7 +8418,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.5, 837.0, 66.0, 33.0 ],
+									"patching_rect" : [ 7.5, 837.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 186.5, 79.0, 20.0 ],
 									"text" : "Track 4 Gain"
@@ -8735,7 +8813,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.5, 666.0, 66.0, 33.0 ],
+									"patching_rect" : [ 7.5, 666.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 162.5, 79.0, 20.0 ],
 									"text" : "Track 3 Gain"
@@ -9130,7 +9208,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.5, 497.0, 66.0, 33.0 ],
+									"patching_rect" : [ 14.5, 497.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 139.0, 79.0, 20.0 ],
 									"text" : "Track 2 Gain"
@@ -9525,7 +9603,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.5, 334.0, 66.0, 33.0 ],
+									"patching_rect" : [ 14.5, 334.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 4.0, 115.0, 79.0, 20.0 ],
 									"text" : "Track 1 Gain"
@@ -9609,7 +9687,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -9762,7 +9840,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 684.5, 833.0, 66.0, 33.0 ],
+									"patching_rect" : [ 684.5, 833.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 480.0, 185.961486999999977, 92.0, 20.0 ],
 									"text" : "Track 4 Reverb"
@@ -10730,6 +10808,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-42", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
 									"source" : [ "obj-46", 1 ]
 								}
@@ -11381,7 +11466,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 520.5, 519.5, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 520.5, 519.5, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -11395,7 +11480,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.5, 519.5, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 391.5, 519.5, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -11617,7 +11702,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 597.5, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 597.5, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 179.9609375, 146.0, 20.0 ],
 					"text" : "Track 4 Reverb Amount:"
@@ -11632,7 +11717,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 575.5, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 575.5, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 143.1640625, 146.0, 20.0 ],
 					"text" : "Track 3 Reverb Amount:"
@@ -11647,7 +11732,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 557.0, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 557.0, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 107.6640625, 146.0, 20.0 ],
 					"text" : "Track 2 Reverb Amount:"
@@ -11662,7 +11747,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 535.0, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 535.0, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 71.90625, 146.0, 20.0 ],
 					"text" : "Track 1 Reverb Amount:"
@@ -11688,10 +11773,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1418.0, 428.0, 157.0, 315.0 ],
+					"patching_rect" : [ 1418.0, 428.0, 157.0, 324.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 14,
-					"presentation_rect" : [ 446.5, 82.0, 248.0, 194.0 ],
+					"presentation_rect" : [ 446.5, 82.0, 248.0, 200.0 ],
 					"text" : "Reverb is an audio processing technique that simulates the reverberance of sound inside a room. A small room where the walls are close together will have very little reverb however a cathederal with walls and a ceiling very far apart while have a lot of reverb. The Reverb Sliders control the amount of reverb per audio track. No reverb is known as a \"dry\" signal whereas a lot of reverb is know as a \"wet\" signal. The playback rate allows for further control of the sound. Toggling the timestretch button will change whether the pitch of the sound is modulated by the playback rate or not."
 				}
 
@@ -12180,9 +12265,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 836.9892578125, 727.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 836.9892578125, 727.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 693.0, 285.40625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 693.0, 285.40625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -12493,7 +12578,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/other/reverb_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Simple Reverb/other/reverb_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.simplereverb",
 						"cantclosetoplevelpatchers" : 1,
@@ -12508,7 +12593,7 @@
 						"preffilename" : "Simple Reverb Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -12547,7 +12632,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1745.0, 262.0, 349.0, 201.0 ],
+						"rect" : [ 92.0, 113.0, 349.0, 210.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -12558,16 +12643,16 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
 						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
+						"toolbars_unpinned_last_save" : 8,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
@@ -12576,6 +12661,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 38.0, 29.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "comment",
@@ -12609,7 +12706,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 55.0, 170.0, 47.0 ],
+									"patching_rect" : [ 95.0, 55.0, 170.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 5.0, 329.0, 27.0 ],
 									"text" : "Configure Audio Device Settings"
@@ -12632,7 +12729,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12672,7 +12769,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12724,7 +12821,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Zoom Out", ",", "Video Capture Audio", ",", "Record From Chrome", ",", "Unit 1 Capture" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12764,7 +12861,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12922,6 +13019,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
@@ -12955,9 +13059,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 843.4892578125, 236.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 843.4892578125, 236.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.5, 447.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 350.5, 447.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -13073,10 +13177,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1418.0, 742.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1418.0, 742.0, 150.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 446.5, 281.6484375, 242.0, 47.0 ],
+					"presentation_rect" : [ 446.5, 281.6484375, 242.0, 48.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\nRevised by CRawls 7/28/2020"
 				}
 
@@ -13298,9 +13402,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 887.978515625, 236.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 887.978515625, 236.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 716.4892578125, 121.109375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 716.4892578125, 121.109375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -13320,9 +13424,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 805.49462890625, -1.5546875, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 805.49462890625, -1.5546875, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 415.4892578125, 90.1015625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 415.4892578125, 90.1015625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -13454,9 +13558,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 801.4892578125, 225.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 801.4892578125, 225.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.9892578125, 261.109375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 365.9892578125, 261.109375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -13476,9 +13580,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.000000000000028, 724.6484375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 149.000000000000028, 724.6484375, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.5, 8.6484375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 249.5, 8.6484375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -13892,7 +13996,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1536.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 1536.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 127.90625, 251.500000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -13907,7 +14011,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1347.5, 182.0, 53.0, 47.0 ],
+					"patching_rect" : [ 1347.5, 182.0, 53.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 104.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -13922,7 +14026,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1184.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 1184.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 82.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -13937,7 +14041,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 995.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 995.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 59.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -14247,9 +14351,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.0, 971.0, 170.740234375, 21.40625 ],
+					"patching_rect" : [ 137.0, 971.0, 170.740219116210938, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 476.0, 360.5546875, 170.740234375, 21.40625 ],
+					"presentation_rect" : [ 476.0, 360.5546875, 170.740219116210938, 21.798828125 ],
 					"text" : "Refresh Miraweb Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -14606,6 +14710,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-172", 0 ],
 					"source" : [ "obj-137", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-209", 0 ],
+					"source" : [ "obj-138", 0 ]
 				}
 
 			}
@@ -15121,6 +15232,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-234", 0 ],
+					"source" : [ "obj-209", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-235", 0 ],
+					"source" : [ "obj-209", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"order" : 1,
 					"source" : [ "obj-21", 0 ]
@@ -15304,6 +15429,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-208", 0 ],
 					"source" : [ "obj-231", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-235", 0 ],
+					"source" : [ "obj-234", 0 ]
 				}
 
 			}
@@ -16136,14 +16268,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Simple Reverb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Simple reverb Icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Simple Reverb/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
@@ -16155,8 +16287,12 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

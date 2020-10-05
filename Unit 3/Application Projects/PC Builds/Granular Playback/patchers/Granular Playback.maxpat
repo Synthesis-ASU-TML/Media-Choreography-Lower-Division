@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 451.0, 94.0, 1120.0, 504.0 ],
+		"rect" : [ 147.0, 114.0, 1120.0, 504.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,53 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-302",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1903.799999999999955, 733.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-301",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1903.799999999999955, 685.0, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-286",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1903.799999999999955, 653.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-248",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1903.799999999999955, 624.0, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-300",
 					"maxclass" : "newobj",
@@ -1027,7 +1074,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1757.0, 623.0, 25.7734375, 25.875 ],
+									"patching_rect" : [ 1757.0, 623.0, 25.7734375, 26.3984375 ],
 									"text" : "T",
 									"texton" : "T",
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -1057,7 +1104,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1513.0, 623.0, 25.7734375, 25.875 ],
+									"patching_rect" : [ 1513.0, 623.0, 25.7734375, 26.3984375 ],
 									"text" : "T",
 									"texton" : "T",
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -1087,7 +1134,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1269.0, 623.0, 25.7734375, 25.875 ],
+									"patching_rect" : [ 1269.0, 623.0, 25.7734375, 26.3984375 ],
 									"text" : "T",
 									"texton" : "T",
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -1117,7 +1164,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1017.0, 615.0, 25.7734375, 25.875 ],
+									"patching_rect" : [ 1017.0, 615.0, 25.7734375, 26.3984375 ],
 									"text" : "T",
 									"texton" : "T",
 									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -4134,11 +4181,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2647.0, 810.5, 150.0, 33.0 ],
+					"patching_rect" : [ 2647.0, 810.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 342.5, 404.6953125, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 342.5, 404.6953125, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -4368,7 +4415,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -5049,7 +5096,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 323.0, 325.0 ],
+						"rect" : [ 59.0, 104.0, 321.0, 325.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5079,13 +5126,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 570.0, 28.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-9",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 65.0, 186.0, 187.0, 33.0 ],
+									"patching_rect" : [ 65.0, 186.0, 187.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 1.0, 324.0, 20.0 ],
 									"text" : "Granular Playback v0.4a, Copyright 2020 Synthesis@ASU"
@@ -5117,8 +5176,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 127.0, 317.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"patching_rect" : [ 127.0, 317.0, 247.0, 36.0 ],
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -5189,6 +5248,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -5464,7 +5530,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 170.0, 93.0, 1104.0, 241.0 ],
+						"rect" : [ 61.0, 98.0, 1104.0, 241.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -5493,6 +5559,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-150",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1325.0, 17.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : 1,
@@ -5887,7 +5965,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1249.5, 657.461487000000034, 66.0, 33.0 ],
+									"patching_rect" : [ 1249.5, 657.461487000000034, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 297.0, 211.5, 111.0, 20.0 ],
 									"text" : "Track 4 Grain Size"
@@ -6272,7 +6350,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 946.5, 999.0, 66.0, 33.0 ],
+									"patching_rect" : [ 946.5, 999.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 297.0, 187.5, 111.0, 20.0 ],
 									"text" : "Track 3 Grain Size"
@@ -6657,7 +6735,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 974.5, 831.461487000000034, 66.0, 33.0 ],
+									"patching_rect" : [ 974.5, 831.461487000000034, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 297.0, 163.5, 111.0, 20.0 ],
 									"text" : "Track 2 Grain Size"
@@ -6773,13 +6851,12 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u238003754"
+									"varname" : "u209005733"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"autorestore" : "granular_midi.json",
 									"id" : "obj-118",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -6825,7 +6902,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 365.5, 351.0, 193.0, 47.0 ],
+									"patching_rect" : [ 365.5, 351.0, 193.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 572.5, 109.5, 278.0, 27.0 ],
 									"text" : "Playback Rate Controls",
@@ -6857,7 +6934,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 17.5, 355.0, 193.0, 47.0 ],
+									"patching_rect" : [ 17.5, 355.0, 193.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 109.5, 278.0, 27.0 ],
 									"text" : "Grain Position Controls",
@@ -7243,7 +7320,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 991.5, 661.461487000000034, 66.0, 33.0 ],
+									"patching_rect" : [ 991.5, 661.461487000000034, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 297.0, 139.5, 111.0, 20.0 ],
 									"text" : "Track 1 Grain Size"
@@ -7628,7 +7705,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 995.5, 459.961486999999977, 66.0, 47.0 ],
+									"patching_rect" : [ 995.5, 459.961486999999977, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 431.0, 36.0, 117.5, 20.0 ],
 									"text" : "Master Output Gain"
@@ -8013,7 +8090,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.5, 1036.961487000000034, 66.0, 33.0 ],
+									"patching_rect" : [ 660.5, 1036.961487000000034, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 866.0, 210.038512999999966, 81.0, 20.0 ],
 									"text" : "Track 4 Gain"
@@ -8398,7 +8475,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.5, 840.961487000000034, 66.0, 33.0 ],
+									"patching_rect" : [ 660.5, 840.961487000000034, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 866.0, 186.5, 81.0, 20.0 ],
 									"text" : "Track 3 Gain"
@@ -8783,7 +8860,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 660.5, 650.961487000000034, 66.0, 33.0 ],
+									"patching_rect" : [ 660.5, 650.961487000000034, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 866.0, 162.5, 81.0, 20.0 ],
 									"text" : "Track 2 Gain"
@@ -9168,7 +9245,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 664.5, 452.961486999999977, 66.0, 33.0 ],
+									"patching_rect" : [ 664.5, 452.961486999999977, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 866.0, 138.5, 81.0, 20.0 ],
 									"text" : "Track 1 Gain"
@@ -9553,7 +9630,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 334.5, 1049.5, 66.0, 47.0 ],
+									"patching_rect" : [ 334.5, 1049.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 571.0, 211.5, 131.0, 20.0 ],
 									"text" : "Track 4 Playback Rate"
@@ -9938,7 +10015,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 334.5, 853.5, 66.0, 47.0 ],
+									"patching_rect" : [ 334.5, 853.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 571.0, 187.5, 131.0, 20.0 ],
 									"text" : "Track 3 Playback Rate"
@@ -10323,7 +10400,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 334.5, 663.5, 66.0, 47.0 ],
+									"patching_rect" : [ 334.5, 663.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 571.0, 163.5, 131.0, 20.0 ],
 									"text" : "Track 2 Playback Rate"
@@ -10708,7 +10785,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 338.5, 465.5, 66.0, 47.0 ],
+									"patching_rect" : [ 338.5, 465.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 571.0, 139.5, 131.0, 20.0 ],
 									"text" : "Track 1 Playback Rate"
@@ -11093,7 +11170,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.5, 1053.5, 66.0, 47.0 ],
+									"patching_rect" : [ 7.5, 1053.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.5, 211.5, 129.0, 20.0 ],
 									"text" : "Track 4 Grain Position"
@@ -11478,7 +11555,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.5, 857.5, 66.0, 47.0 ],
+									"patching_rect" : [ 7.5, 857.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.5, 187.5, 129.0, 20.0 ],
 									"text" : "Track 3 Grain Position"
@@ -11863,7 +11940,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.5, 667.5, 66.0, 47.0 ],
+									"patching_rect" : [ 7.5, 667.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.5, 163.5, 129.0, 20.0 ],
 									"text" : "Track 2 Grain Position"
@@ -12248,7 +12325,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 11.5, 469.5, 66.0, 47.0 ],
+									"patching_rect" : [ 11.5, 469.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 6.5, 139.5, 129.0, 20.0 ],
 									"text" : "Track 1 Grain Position"
@@ -12306,7 +12383,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2", ",", "from Granular Playback 1", ",", "from Granular Playback 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12481,6 +12558,7 @@
 									"autofit" : 1,
 									"forceaspect" : 1,
 									"id" : "obj-149",
+									"ignoreclick" : 1,
 									"maxclass" : "fpic",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -13058,6 +13136,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-150", 0 ]
 								}
 
 							}
@@ -14173,7 +14258,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2401.5, 716.5, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 2401.5, 716.5, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -14187,7 +14272,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2270.5, 716.5, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 2270.5, 716.5, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -14376,10 +14461,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 594.5, 596.0, 153.0, 194.0 ],
+					"patching_rect" : [ 594.5, 596.0, 153.0, 200.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 256.5, 212.6953125, 245.0, 127.0 ],
+					"presentation_rect" : [ 256.5, 212.6953125, 245.0, 131.0 ],
 					"text" : "Granular Synthesis is a type of sound synthesis where you take an extremely small sample of a sound and have it playback on loop to create a cascading singular tone. There are many variations of granular synthesis that allow for modulation of the grain however a lot can be done simply by changing the size of the grain and the playback rate."
 				}
 
@@ -14552,9 +14637,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1038.9892578125, 746.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1038.9892578125, 746.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 500.9892578125, 341.640625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 500.9892578125, 341.640625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -14864,7 +14949,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Granular Playback/other/granular_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Granular Playback/other/Granular playback Icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.granularplayback",
 						"cantclosetoplevelpatchers" : 1,
@@ -14879,7 +14964,7 @@
 						"preffilename" : "Granular Playback Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -14918,7 +15003,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 61.0, 99.0, 349.0, 201.0 ],
+						"rect" : [ 61.0, 99.0, 349.0, 208.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -14929,7 +15014,7 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
@@ -14937,8 +15022,8 @@
 						"toolbars_unpinned_last_save" : 0,
 						"tallnewobj" : 0,
 						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
@@ -14947,6 +15032,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 38.0, 23.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "comment",
@@ -14980,7 +15077,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 55.0, 170.0, 47.0 ],
+									"patching_rect" : [ 95.0, 55.0, 170.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 5.0, 329.0, 27.0 ],
 									"text" : "Configure Audio Device Settings"
@@ -15003,7 +15100,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15043,7 +15140,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15095,7 +15192,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Zoom Out", ",", "Video Capture Audio", ",", "Record From Chrome" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15135,7 +15232,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15293,6 +15390,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
@@ -15335,10 +15439,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 594.5, 792.0, 150.0, 74.0 ],
+					"patching_rect" : [ 594.5, 792.0, 150.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 256.5, 345.640625, 236.0, 47.0 ],
+					"presentation_rect" : [ 256.5, 345.640625, 236.0, 48.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\nRevised By CRawls 7/29/2020"
 				}
 
@@ -15356,9 +15460,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 755.5, 149.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 755.5, 149.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 512.9892578125, 20.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 512.9892578125, 20.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -15475,10 +15579,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 735.5, 6.0, 78.0, 127.0 ],
+					"patching_rect" : [ 735.5, 6.0, 78.0, 131.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 540.0, 18.5, 380.0, 33.0 ],
+					"presentation_rect" : [ 540.0, 18.5, 380.0, 34.0 ],
 					"text" : "Click and Drag on waveform below to select Grain or use Grain Size and Randomize Buttons",
 					"textjustification" : 1
 				}
@@ -15609,10 +15713,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1765.25, 54.0, 75.0, 33.0 ],
+					"patching_rect" : [ 1765.25, 54.0, 75.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1043.0, 26.5, 68.0, 33.0 ],
+					"presentation_rect" : [ 1043.0, 26.5, 68.0, 34.0 ],
 					"text" : "Grain Size \n(in ms)",
 					"textjustification" : 1
 				}
@@ -15997,9 +16101,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 143.4892578125, 623.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 143.4892578125, 623.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 409.6953125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 409.6953125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16019,9 +16123,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 637.0, -6.109375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 637.0, -6.109375, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 454.5, 97.3046875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 454.5, 97.3046875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16041,9 +16145,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 743.5, 443.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 743.5, 443.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.5, 249.6953125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 210.5, 249.6953125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16063,9 +16167,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 151.4892578125, 724.6484375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 151.4892578125, 724.6484375, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.494628906250028, 5.6484375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 238.494628906250028, 5.6484375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16185,7 +16289,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 577.5, 212.0, 176.0, 35.0 ],
+					"patching_rect" : [ 577.5, 212.0, 176.0, 36.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16242,7 +16346,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 383.5, 212.0, 176.0, 35.0 ],
+					"patching_rect" : [ 383.5, 212.0, 176.0, 36.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16299,7 +16403,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 195.5, 212.0, 182.0, 35.0 ],
+					"patching_rect" : [ 195.5, 212.0, 182.0, 36.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16421,7 +16525,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 5.5, 212.0, 180.0, 35.0 ],
+					"patching_rect" : [ 5.5, 212.0, 180.0, 36.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16483,7 +16587,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1400.5, 177.0, 69.0, 47.0 ],
+					"patching_rect" : [ 1400.5, 177.0, 69.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 134.75, 305.0, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -16498,7 +16602,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1235.5, 177.0, 69.0, 47.0 ],
+					"patching_rect" : [ 1235.5, 177.0, 69.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 111.75, 305.0, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -16513,7 +16617,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1072.5, 177.0, 69.0, 47.0 ],
+					"patching_rect" : [ 1072.5, 177.0, 69.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 89.75, 305.0, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -16528,7 +16632,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 914.5, 177.0, 35.0, 74.0 ],
+					"patching_rect" : [ 914.5, 177.0, 35.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 66.75, 305.0, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -18139,6 +18243,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-286", 0 ],
+					"source" : [ "obj-248", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-249", 0 ]
 				}
@@ -18432,6 +18543,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-301", 0 ],
+					"source" : [ "obj-286", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-302", 0 ],
+					"source" : [ "obj-286", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"midpoints" : [ 1258.5, 555.0, 1203.0, 555.0, 1203.0, 549.0, 1077.0, 549.0, 1077.0, 699.0, 1101.5, 699.0 ],
 					"source" : [ "obj-288", 0 ]
@@ -18550,6 +18675,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-300", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-302", 0 ],
+					"source" : [ "obj-301", 0 ]
 				}
 
 			}
@@ -19159,21 +19291,18 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Granular playback Icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Granular Playback/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Granular Playback/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "granular_midi.json",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Downloads",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

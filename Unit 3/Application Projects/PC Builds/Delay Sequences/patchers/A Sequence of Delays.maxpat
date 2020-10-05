@@ -40,6 +40,53 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-124",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, -121.0, 78.0, 22.0 ],
+					"text" : "s to-windows"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, -149.0, 77.0, 22.0 ],
+					"text" : "window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 10.0, -182.0, 29.5, 22.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, -212.0, 179.0, 22.0 ],
+					"text" : "loadmess window flags nomenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-196",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2087,6 +2134,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-82",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 32.0, 20.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"fontface" : 1,
@@ -5134,7 +5193,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 754.5, 196.0, 66.0, 47.0 ],
+									"patching_rect" : [ 754.5, 196.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 234.5, 69.0, 109.0, 20.0 ],
 									"text" : "Main Output Level"
@@ -5529,7 +5588,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 809.5, 1935.0, 69.0, 33.0 ],
+									"patching_rect" : [ 809.5, 1935.0, 69.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 299.0, 110.0, 20.0 ],
 									"text" : "Eigth Pitch Shift"
@@ -5924,7 +5983,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 836.5, 1725.0, 66.0, 33.0 ],
+									"patching_rect" : [ 836.5, 1725.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 276.0, 110.0, 20.0 ],
 									"text" : "Seventh Pitch Shift"
@@ -6319,7 +6378,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 846.5, 1512.0, 69.0, 33.0 ],
+									"patching_rect" : [ 846.5, 1512.0, 69.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 253.0, 110.0, 20.0 ],
 									"text" : "Sixth Pitch Shift"
@@ -6714,7 +6773,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 852.5, 1307.0, 66.0, 33.0 ],
+									"patching_rect" : [ 852.5, 1307.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 230.0, 110.0, 20.0 ],
 									"text" : "Fifth Pitch Shift"
@@ -7109,7 +7168,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 852.5, 1101.0, 66.0, 33.0 ],
+									"patching_rect" : [ 852.5, 1101.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 207.0, 110.0, 20.0 ],
 									"text" : "Fourth Pitch Shift"
@@ -7504,7 +7563,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 852.5, 887.0, 69.0, 33.0 ],
+									"patching_rect" : [ 852.5, 887.0, 69.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 185.0, 110.0, 20.0 ],
 									"text" : "Third Pitch Shift"
@@ -7899,7 +7958,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 852.5, 658.0, 66.0, 33.0 ],
+									"patching_rect" : [ 852.5, 658.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 161.0, 110.0, 20.0 ],
 									"text" : "Second Pitch Shift"
@@ -8294,7 +8353,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 852.5, 449.0, 66.0, 33.0 ],
+									"patching_rect" : [ 852.5, 449.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 560.1669921875, 138.0, 110.0, 20.0 ],
 									"text" : "First Pitch Shift"
@@ -9100,7 +9159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 487.5, 1721.0, 66.0, 33.0 ],
+									"patching_rect" : [ 487.5, 1721.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 283.5, 276.0, 90.0, 20.0 ],
 									"text" : "Seventh Gain"
@@ -10283,7 +10342,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 503.5, 1097.0, 66.0, 33.0 ],
+									"patching_rect" : [ 503.5, 1097.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 283.5, 207.0, 90.0, 20.0 ],
 									"text" : "Fourth Gain"
@@ -11072,7 +11131,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 503.5, 654.0, 66.0, 33.0 ],
+									"patching_rect" : [ 503.5, 654.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 283.5, 161.0, 90.0, 20.0 ],
 									"text" : "Second Gain"
@@ -14685,7 +14744,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u280011359"
+									"varname" : "u874003374"
 								}
 
 							}
@@ -14871,7 +14930,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.5, 1931.0, 66.0, 33.0 ],
+									"patching_rect" : [ 26.5, 1931.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 300.0, 89.0, 20.0 ],
 									"text" : "Eigth Delay"
@@ -14886,7 +14945,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.5, 1721.0, 66.0, 33.0 ],
+									"patching_rect" : [ 26.5, 1721.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 276.0, 89.0, 20.0 ],
 									"text" : "Seventh Delay"
@@ -14901,7 +14960,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.5, 1517.0, 66.0, 33.0 ],
+									"patching_rect" : [ 26.5, 1517.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 254.0, 89.0, 20.0 ],
 									"text" : "Sixth Delay"
@@ -14930,7 +14989,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 73.5, 1068.0, 66.0, 33.0 ],
+									"patching_rect" : [ 73.5, 1068.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 208.0, 90.0, 20.0 ],
 									"text" : "Fourth Delay"
@@ -14945,7 +15004,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 73.5, 858.0, 66.0, 33.0 ],
+									"patching_rect" : [ 73.5, 858.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 185.0, 90.0, 20.0 ],
 									"text" : "Third Delay"
@@ -14960,7 +15019,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 73.5, 654.0, 66.0, 33.0 ],
+									"patching_rect" : [ 73.5, 654.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.5, 162.0, 90.5, 20.0 ],
 									"text" : "Second Delay"
@@ -17662,6 +17721,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-82", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
 									"source" : [ "obj-85", 1 ]
 								}
@@ -18127,7 +18193,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 479.0, 480.0 ],
+						"rect" : [ 30.0, 69.0, 477.0, 478.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -18157,13 +18223,25 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 610.0, 3.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-10",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 16.0, 195.0, 247.0, 35.0 ],
+									"patching_rect" : [ 16.0, 195.0, 247.0, 36.0 ],
 									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
@@ -18193,10 +18271,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.0, 140.0, 276.0, 33.0 ],
+									"patching_rect" : [ 20.0, 140.0, 276.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 8.0, 9.0, 276.0, 33.0 ],
+									"presentation_rect" : [ 8.0, 9.0, 276.0, 34.0 ],
 									"text" : "Delay Sequences v0.6a\nCopyright 2020, Connor Rawls & Synthesis@ASU"
 								}
 
@@ -18266,6 +18344,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -18325,7 +18410,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 1075.0, 682.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Delay", "Sequences", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Audio", "Status.../J", ";", "#X", "item", 5, 2, "Audio", "On", "/", "Off/K", ";", "#X", "item", 5, 3, "Load", "Audio", "File/L", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Playback", "Reverse/1", ";", "#X", "item", 5, 6, "Playback", "Pause/0", ";", "#X", "item", 5, 7, "Playback", "Forward/2", ";", "#X", "item", 5, 8, "-", ";", "#X", "item", 5, 9, "Clear", "Gains/F", ";", "#X", "item", 5, 10, "Clear", "Delays/G", ";", "#X", "item", 5, 11, "Clear", "Pitch", "Shift/D", ";", "#X", "item", 5, 12, "Audio", "Filter", "Bypass/B", ";", "#X", "item", 5, 13, "MIDI", "Settings/M", ";", "#X", "item", 5, 14, "OSC", "Settings/U", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Delay", "Sequences", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Audio", "Status.../J", ";", "#X", "item", 5, 2, "Audio", "On", "/", "Off/K", ";", "#X", "item", 5, 3, "Load", "Audio", "File/L", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "Playback", "Reverse/1", ";", "#X", "item", 5, 6, "Playback", "Pause/0", ";", "#X", "item", 5, 7, "Playback", "Forward/2", ";", "#X", "item", 5, 8, "-", ";", "#X", "item", 5, 9, "Clear", "Gains/F", ";", "#X", "item", 5, 10, "Clear", "Delays/G", ";", "#X", "item", 5, 11, "Clear", "Pitch", "Shift/D", ";", "#X", "item", 5, 12, "Audio", "Filter", "Bypass/B", ";", "#X", "item", 5, 13, "MIDI", "Settings/M", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -19705,6 +19790,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 11.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -19737,7 +19834,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 55.0, 170.0, 47.0 ],
+									"patching_rect" : [ 95.0, 55.0, 170.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 5.0, 329.0, 27.0 ],
 									"text" : "Configure Audio Device Settings"
@@ -20045,6 +20142,13 @@
 									"destination" : [ "obj-4", 0 ],
 									"midpoints" : [ 186.5, 160.0, 163.0, 160.0, 163.0, 100.0, 186.5, 100.0 ],
 									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-6", 0 ]
 								}
 
 							}
@@ -20981,6 +21085,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"order" : 0,
 					"source" : [ "obj-121", 0 ]
@@ -21753,6 +21864,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -21991,6 +22109,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-86", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"source" : [ "obj-87", 1 ]
 				}
 
 			}

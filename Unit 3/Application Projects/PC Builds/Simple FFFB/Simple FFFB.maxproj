@@ -2,7 +2,7 @@
 	"name" : "Simple FFFB",
 	"version" : 1,
 	"creationdate" : 3676105521,
-	"modificationdate" : 3678986439,
+	"modificationdate" : 3684743840,
 	"viewrect" : [ 76.0, 193.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,8 +26,17 @@
 
 		}
 ,
+		"externals" : 		{
+
+		}
+,
 		"other" : 		{
 			"filter_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"filter_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
