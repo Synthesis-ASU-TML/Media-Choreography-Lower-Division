@@ -2,7 +2,7 @@
 	"name" : "Delay Sequences",
 	"version" : 1,
 	"creationdate" : 3676104369,
-	"modificationdate" : 3676142109,
+	"modificationdate" : 3684236955,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,12 +18,25 @@
 
 		}
 ,
+		"media" : 		{
+
+		}
+,
 		"code" : 		{
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,
 		"other" : 		{
 			"delays_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"delays_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
