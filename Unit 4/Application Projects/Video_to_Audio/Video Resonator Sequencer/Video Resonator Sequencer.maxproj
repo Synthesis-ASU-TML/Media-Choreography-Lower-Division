@@ -2,7 +2,7 @@
 	"name" : "Video Resonator Sequencer",
 	"version" : 1,
 	"creationdate" : 3684411024,
-	"modificationdate" : 3684760296,
+	"modificationdate" : 3684761891,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -50,6 +50,19 @@
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
+			"vrs_icon.ico" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"vrs_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
