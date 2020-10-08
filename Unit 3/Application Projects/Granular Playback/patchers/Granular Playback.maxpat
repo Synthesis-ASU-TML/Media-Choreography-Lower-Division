@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-303",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2949.5, 418.0, 73.0, 22.0 ],
+					"text" : "s osc-config"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-286",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -139,10 +150,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 813.190476190476147, 29.0, 499.0, 382.0 ],
+									"patching_rect" : [ 813.190476190476147, 29.0, 503.0, 382.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 28,
-									"presentation_rect" : [ 25.0, 48.0, 499.0, 382.0 ],
+									"presentation_rect" : [ 25.0, 48.0, 503.0, 382.0 ],
 									"text" : "General Addresses:\n\n/gp/vol [0. - 1.] : Sets the main output volume for the application. 0 is muted, 1 is full volume.\n\nIndividual Track Addresses:\nEach audio track has five configurable parameters. To modify the paramters, send your OSC messages in the form:\n\n/gp/[track id]/[parameter]\n\nThe track ids are: t1, t2, t3, t4\n\nParameter Addresses:\n\n/size [0. - 1.] : Sets the grain size for the track. 0 is 1 second (or 1000ms) and 1. is 5 \n                       seconds (or 5000ms).\n\n/pos [0. - 1.] : Sets the grain position for the track. 0. is the start of the buffer, 1 is the result\n                      of the equation (buffer_length - grain_size)\n\n/speed [-2. - 2.]: Sets the playback speed of the track. -2 is rewind at double-time, 0 is \n                           paused, 1 is play at normal speed, 2 is play at double-time.\n\n/stretch (0|1) : Enables the use of timestretching for the track. The timestretch parameter \n                       limits the frequency distortion caused when playing audio files at non-normal\n                       speeds.\n\n/vol [0. -1.] : Sets the output volume for the track. 0 is muted, 1 is full volume."
 								}
 
@@ -9586,7 +9597,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u915006205"
+									"varname" : "u094007193"
 								}
 
 							}
@@ -20889,6 +20900,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
 					"source" : [ "obj-218", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-303", 0 ],
+					"source" : [ "obj-218", 3 ]
 				}
 
 			}
