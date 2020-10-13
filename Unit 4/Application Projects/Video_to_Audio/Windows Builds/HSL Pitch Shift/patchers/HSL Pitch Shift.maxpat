@@ -117,11 +117,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1166.0, 720.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1166.0, 720.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 386.0, 393.9453125, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 386.0, 393.9453125, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -341,7 +341,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -637,7 +637,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1099.5, 299.0, 66.0, 47.0 ],
+									"patching_rect" : [ 1099.5, 299.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1124.8846195936203, 279.0, 257.0, 20.0 ],
 									"text" : "Video Analysis Plane"
@@ -707,9 +707,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 527.0, 566.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 527.0, 566.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 284.8330078125, 103.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 284.8330078125, 103.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1115,7 +1115,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 456.5, 635.0, 66.0, 47.0 ],
+									"patching_rect" : [ 456.5, 635.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.3330078125, 104.0, 132.0, 20.0 ],
 									"text" : "Video Analysis Plane"
@@ -1174,9 +1174,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 527.0, 323.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 527.0, 323.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 284.8330078125, 79.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 284.8330078125, 79.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1582,7 +1582,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 456.5, 392.0, 66.0, 47.0 ],
+									"patching_rect" : [ 456.5, 392.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.3330078125, 81.0, 132.0, 20.0 ],
 									"text" : "Audio Playback Rate"
@@ -1621,7 +1621,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 108.0, 842.0, 150.0, 33.0 ],
+									"patching_rect" : [ 108.0, 842.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1124.8846195936203, 202.0, 257.0, 20.0 ],
 									"text" : "Video Playback Rate: -0.00",
@@ -1651,9 +1651,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 85.0, 581.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 85.0, 581.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 284.8330078125, 55.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 284.8330078125, 55.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2090,7 +2090,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.5, 650.0, 66.0, 47.0 ],
+									"patching_rect" : [ 14.5, 650.0, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.3330078125, 56.0, 132.0, 20.0 ],
 									"text" : "Video Playback Rate"
@@ -2105,7 +2105,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 568.0, 150.0, 33.0 ],
+									"patching_rect" : [ 135.0, 568.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1124.8846195936203, 163.0, 257.0, 20.0 ],
 									"text" : "Output Volume: -70.00dB",
@@ -2361,10 +2361,10 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 25.0, 132.0, 150.0, 342.0 ],
+													"patching_rect" : [ 25.0, 132.0, 153.0, 351.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 9,
-													"presentation_rect" : [ 8.0, 33.0, 511.0, 127.0 ],
+													"presentation_rect" : [ 8.0, 33.0, 511.0, 131.0 ],
 													"text" : "/hslps/vol [0. - 1.] : Sets the volume for the application. 0 is muted and 1 is full volume.\n\n/hslps/vrate [-1. - 1.] : Sets the input video playback rate. -1 is rewind, 0 is pause, and 1 is play.\n\n/hslps/arate (0|1) : Sets the playback rate of the audio file. There are only two available values,\n                              0 for pausing, and 1 for playing.\n\n/hslps/plane (0|1|2) : Sets the video analysis plane of the application. 0 sets the app to Hue, 1\n                                  sets the app to saturation, and 2 sets the app to luminance."
 												}
 
@@ -2830,9 +2830,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 112.1669921875, 274.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 112.1669921875, 274.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 284.8330078125, 31.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 284.8330078125, 31.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2846,7 +2846,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 147.5, 15.0, 66.0, 33.0 ],
+									"patching_rect" : [ 147.5, 15.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 111.0, 6.0, 81.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -2986,7 +2986,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3411,7 +3411,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 40.5, 401.0, 66.0, 33.0 ],
+									"patching_rect" : [ 40.5, 401.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.3330078125, 32.0, 132.0, 20.0 ],
 									"text" : "Output Volume"
@@ -4104,9 +4104,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 279.0, 336.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 279.0, 336.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 336.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 336.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4126,9 +4126,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 276.0, 277.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 276.0, 277.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 278.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 278.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4243,9 +4243,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 80.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 41.0, 80.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 71.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 71.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4431,9 +4431,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.9892578125, 142.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 211.9892578125, 142.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 170.0546875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 170.0546875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4584,10 +4584,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 439.0, 81.0, 150.0, 47.0 ],
+									"patching_rect" : [ 439.0, 81.0, 150.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 3.0, 2.0, 274.0, 33.0 ],
+									"presentation_rect" : [ 3.0, 2.0, 274.0, 34.0 ],
 									"text" : "HSL Pitch Shift v0.3a\nCopyright 2020 Connor Rawls & Synthesis@ASU"
 								}
 
@@ -4600,8 +4600,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 448.0, 192.0, 140.0, 49.0 ],
-									"text" : ";\rmax launchbrowse www.synthesiscenter.net"
+									"patching_rect" : [ 448.0, 192.0, 140.0, 50.0 ],
+									"text" : ";\r\nmax launchbrowse www.synthesiscenter.net"
 								}
 
 							}
@@ -4615,9 +4615,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 448.0, 165.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 448.0, 165.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -1.0, 30.0, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ -1.0, 30.0, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.125490196078431, 0.113725490196078, 0.717647058823529, 1.0 ]
 								}
@@ -5193,7 +5193,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Video_to_Audio/HSL Pitch Shift/other/hue_pitch_shift_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Video_to_Audio/Windows Builds/HSL Pitch Shift/other/hsl_pitch_shift_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.hslpshift",
 						"cantclosetoplevelpatchers" : 1,
@@ -5208,7 +5208,7 @@
 						"preffilename" : "HSL Pitch Shift Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -5333,7 +5333,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5373,7 +5373,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5425,7 +5425,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5465,7 +5465,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5650,7 +5650,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 369.0, 127.0, 150.0, 33.0 ],
+					"patching_rect" : [ 369.0, 127.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 324.0, 259.5, 274.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -5676,10 +5676,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 603.0, 175.0, 163.0, 342.0 ],
+					"patching_rect" : [ 603.0, 175.0, 167.0, 351.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 15,
-					"presentation_rect" : [ 324.0, 35.5, 279.0, 208.0 ],
+					"presentation_rect" : [ 324.0, 35.5, 282.0, 213.0 ],
 					"text" : "The \"HSL Pitch Shift\" application uses the average hue, saturation, or luminance of the input video stream to shift the pitch of the audio up to 2 octaves up or down from the original point. \n\nTo inspect how your input video is being analyzed, set the Video Preview Mode to \"Analysis Plane Preview\". For simplicity, we are displaying the individual data planes in greyscale. Any pixels that are closer to white correspond with a higher value, and those that are closer to black are lower values. To get a quick sense of how the audio will be modified, darker previews will signify a drop in the pitch while brighter images will cause the pitch to increase."
 				}
 
@@ -5712,9 +5712,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 758.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 12.5, 758.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 7.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 7.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5734,9 +5734,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 26.0, 65.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 26.0, 65.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 38.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 38.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5756,9 +5756,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 12.5, 654.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 12.5, 654.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 240.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 240.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5785,7 +5785,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.5, 756.0, 150.0, 33.0 ],
+					"patching_rect" : [ 97.5, 756.0, 150.0, 34.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -5803,9 +5803,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 502.25, 6.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 502.25, 6.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 109.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.0, 109.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5819,7 +5819,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 350.25, 0.5, 150.0, 33.0 ],
+					"patching_rect" : [ 350.25, 0.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 96.0, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
@@ -6925,33 +6925,37 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.avg.window.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hue_pitch_shift_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Video_to_Audio/HSL Pitch Shift/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Video_to_Audio/Windows Builds/HSL Pitch Shift/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "cv.jit.resize.mxo",
-				"type" : "iLaX"
+				"name" : "cv.jit.resize.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

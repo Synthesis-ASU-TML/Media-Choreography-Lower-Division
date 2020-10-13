@@ -2,7 +2,7 @@
 	"name" : "HSL Pitch Shift",
 	"version" : 1,
 	"creationdate" : 3676285505,
-	"modificationdate" : 3685353385,
+	"modificationdate" : 3685376727,
 	"viewrect" : [ 48.0, 105.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -40,6 +40,11 @@
 ,
 		"other" : 		{
 			"hue_pitch_shift_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"hsl_pitch_shift_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

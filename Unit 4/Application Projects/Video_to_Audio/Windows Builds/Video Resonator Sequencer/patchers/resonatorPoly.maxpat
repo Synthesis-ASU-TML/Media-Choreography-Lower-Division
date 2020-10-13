@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.5, 290.0, 150.0, 47.0 ],
+					"patching_rect" : [ 42.5, 290.0, 150.0, 48.0 ],
 					"text" : "Check if the value is greater than, less than, or equal to 0"
 				}
 
@@ -398,10 +398,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 275.0, 732.0, 42.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 1"
 				}
 
@@ -413,11 +409,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 51.0, 28.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
+					"patching_rect" : [ 306.0, 32.0, 28.0, 22.0 ],
 					"text" : "in 1"
 				}
 
@@ -677,8 +669,15 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "resonators~.mxo",
-				"type" : "iLaX"
+				"name" : "instruments.txt",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Video_to_Audio/Windows Builds/Video Resonator Sequencer/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "resonators~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
