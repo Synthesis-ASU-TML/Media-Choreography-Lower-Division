@@ -40,6 +40,126 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1332.0, 235.0, 45.0, 22.0 ],
+					"text" : "r dmax"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1243.0, 224.0, 42.0, 22.0 ],
+					"text" : "r dmin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1125.0, 233.0, 51.0, 22.0 ],
+					"text" : "r psmax"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1052.0, 228.0, 48.0, 22.0 ],
+					"text" : "r psmin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 896.0, 177.0, 58.0, 22.0 ],
+					"text" : "r pvplane"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 782.0, 162.0, 58.0, 22.0 ],
+					"text" : "r dvplane"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 167.0, 819.0, 45.0, 22.0 ],
+					"text" : "r again"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 9.0, 47.0, 43.0, 22.0 ],
+					"text" : "r arate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 455.0, 133.0, 39.0, 22.0 ],
+					"text" : "r loop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 784.0, 34.0, 22.0 ],
+					"text" : "r mix"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-148",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -505,7 +625,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 137.0, 45.0, 375.0, 249.0 ],
+						"rect" : [ 152.0, 65.0, 371.0, 274.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -534,6 +654,522 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-158",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 1064.0, 696.0, 39.0, 22.0 ],
+									"text" : "/ 127."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-100",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1172.0, 592.0, 72.0, 22.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-145",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1066.0, 592.0, 103.0, 22.0 ],
+									"text" : "loadmess set 100"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"id" : "obj-146",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1064.0, 747.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1016.8846195936203, 259.0, 257.0, 20.0 ],
+									"text" : "Dry / Wet Mix: 0.00%",
+									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-147",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1064.0, 719.0, 177.0, 22.0 ],
+									"text" : "sprintf set Dry / Wet Mix: %.2f%"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontlink" : 1,
+									"id" : "obj-148",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1039.0, 463.0, 24.666015625, 21.40625 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 341.0, 244.0, 24.666015625, 21.40625 ],
+									"text" : "C",
+									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-149",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1012.0, 696.0, 36.0, 22.0 ],
+									"text" : "s mix"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-150",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1012.0, 625.0, 60.0, 22.0 ],
+									"text" : "clip 0 127"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"floatoutput" : 1,
+									"id" : "obj-151",
+									"knobcolor" : [ 0.0, 0.0, 0.4, 1.0 ],
+									"maxclass" : "slider",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"orientation" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 1012.0, 655.0, 171.0, 32.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 1016.8846195936203, 251.0, 257.0, 36.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "slider[6]",
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0
+										}
+
+									}
+,
+									"size" : 127.0,
+									"varname" : "slider[6]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-152",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "int", "" ],
+									"patcher" : 									{
+										"fileversion" : 1,
+										"appversion" : 										{
+											"major" : 8,
+											"minor" : 1,
+											"revision" : 5,
+											"architecture" : "x64",
+											"modernui" : 1
+										}
+,
+										"classnamespace" : "box",
+										"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+										"bglocked" : 0,
+										"openinpresentation" : 0,
+										"default_fontsize" : 12.0,
+										"default_fontface" : 0,
+										"default_fontname" : "Arial",
+										"gridonopen" : 1,
+										"gridsize" : [ 15.0, 15.0 ],
+										"gridsnaponopen" : 1,
+										"objectsnaponopen" : 1,
+										"statusbarvisible" : 2,
+										"toolbarvisible" : 1,
+										"lefttoolbarpinned" : 0,
+										"toptoolbarpinned" : 0,
+										"righttoolbarpinned" : 0,
+										"bottomtoolbarpinned" : 0,
+										"toolbars_unpinned_last_save" : 0,
+										"tallnewobj" : 0,
+										"boxanimatetime" : 200,
+										"enablehscroll" : 1,
+										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
+										"description" : "",
+										"digest" : "",
+										"tags" : "",
+										"style" : "",
+										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
+										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-50",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "int", "int", "int" ],
+													"patching_rect" : [ 50.0, 140.03851318359375, 40.0, 22.0 ],
+													"text" : "t i 1 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-47",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 105.0, 194.03851318359375, 57.0, 22.0 ],
+													"text" : "active $1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-45",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "int", "int", "int" ],
+													"patching_rect" : [ 96.5, 371.03851318359375, 42.0, 22.0 ],
+													"text" : "t 1 0 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-44",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 96.5, 342.03851318359375, 65.0, 22.0 ],
+													"text" : "past 5000."
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-43",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "float" ],
+													"patching_rect" : [ 96.5, 314.03851318359375, 63.0, 22.0 ],
+													"text" : "clocker 10"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-42",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 3,
+													"outlettype" : [ "int", "int", "int" ],
+													"patching_rect" : [ 81.0, 254.03851318359375, 42.0, 22.0 ],
+													"text" : "t 0 1 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-39",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 50.0, 109.03851318359375, 52.0, 22.0 ],
+													"text" : "gate 1 0"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-51",
+													"index" : 1,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 81.0, 40.000000183593727, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-52",
+													"index" : 2,
+													"maxclass" : "inlet",
+													"numinlets" : 0,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 116.0, 40.000000183593727, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-53",
+													"index" : 1,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 50.0, 462.012390183593766, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-54",
+													"index" : 2,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 105.0, 462.012390183593766, 30.0, 30.0 ]
+												}
+
+											}
+ ],
+										"lines" : [ 											{
+												"patchline" : 												{
+													"destination" : [ "obj-50", 0 ],
+													"source" : [ "obj-39", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"source" : [ "obj-42", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"source" : [ "obj-42", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-47", 0 ],
+													"source" : [ "obj-42", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-44", 0 ],
+													"source" : [ "obj-43", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-45", 0 ],
+													"source" : [ "obj-44", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"source" : [ "obj-45", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-43", 0 ],
+													"source" : [ "obj-45", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-47", 0 ],
+													"source" : [ "obj-45", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-54", 0 ],
+													"source" : [ "obj-47", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"source" : [ "obj-50", 2 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-47", 0 ],
+													"source" : [ "obj-50", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-53", 0 ],
+													"source" : [ "obj-50", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-42", 0 ],
+													"source" : [ "obj-51", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 1 ],
+													"source" : [ "obj-52", 0 ]
+												}
+
+											}
+ ]
+									}
+,
+									"patching_rect" : [ 1054.0, 522.961487000000034, 82.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"description" : "",
+										"digest" : "",
+										"globalpatchername" : "",
+										"tags" : ""
+									}
+,
+									"text" : "p data-control"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-153",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1117.0, 553.0, 100.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 239.0, 244.0, 100.0, 22.0 ],
+									"text" : "Set Midi Control",
+									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-154",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1038.8330078125, 491.0, 70.0, 22.0 ],
+									"text" : "loadmess 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"id" : "obj-155",
+									"maxclass" : "number",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 1039.0, 557.0, 50.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 189.0, 244.0, 50.0, 22.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_invisible" : 1,
+											"parameter_longname" : "p0v[9]",
+											"parameter_shortname" : "p0v",
+											"parameter_type" : 3
+										}
+
+									}
+,
+									"triangle" : 0,
+									"varname" : "video-gain[9]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-156",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 1012.0, 592.0, 46.0, 22.0 ],
+									"text" : "route 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-157",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 968.5, 532.0, 66.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 8.0, 245.5, 181.41748046875, 20.0 ],
+									"text" : "Dry / Wet Mix"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-144",
 									"maxclass" : "newobj",
@@ -2595,7 +3231,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1102.8846195936203, 225.0, 66.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1016.8846195936203, 346.0, 526.0, 20.0 ],
+									"presentation_rect" : [ 1016.8846195936203, 386.0, 526.0, 20.0 ],
 									"text" : "Delay Video Analysis Plane"
 								}
 
@@ -2626,7 +3262,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 491.0, 1090.0, 217.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1016.8846195936203, 368.0, 526.0, 20.0 ],
+									"presentation_rect" : [ 1016.8846195936203, 408.0, 526.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "Hue", "Sat", "Luma", "Red", "Green", "Blue" ],
@@ -3125,7 +3761,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1034.5, 312.0, 66.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1016.8846195936203, 302.0, 526.0, 20.0 ],
+									"presentation_rect" : [ 1016.8846195936203, 342.0, 526.0, 20.0 ],
 									"text" : "Pitch Shift Video Analysis Plane"
 								}
 
@@ -3156,7 +3792,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 500.0, 785.0, 217.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1016.8846195936203, 324.0, 526.0, 20.0 ],
+									"presentation_rect" : [ 1016.8846195936203, 364.0, 526.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "Hue", "Sat", "Luma", "Red", "Green", "Blue" ],
@@ -3618,7 +4254,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1241.0, 233.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1016.8846195936203, 258.0, 526.0, 20.0 ],
+									"presentation_rect" : [ 1016.8846195936203, 298.0, 526.0, 20.0 ],
 									"text" : "Audio Looping Controls"
 								}
 
@@ -3636,7 +4272,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 500.0, 511.0, 124.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1016.8846195936203, 280.0, 526.0, 20.0 ],
+									"presentation_rect" : [ 1016.8846195936203, 320.0, 526.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "No Looping", "Looping" ],
@@ -3676,8 +4312,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 500.0, 532.0, 45.0, 22.0 ],
-									"text" : "s arate"
+									"patching_rect" : [ 500.0, 532.0, 41.0, 22.0 ],
+									"text" : "s loop"
 								}
 
 							}
@@ -4154,7 +4790,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 58.0, 814.0, 45.0, 22.0 ],
-									"text" : "s vrate"
+									"text" : "s arate"
 								}
 
 							}
@@ -4644,8 +5280,8 @@
 									"id" : "obj-26",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 9,
-									"outlettype" : [ "int", "", "int", "", "int", "", "", "", "" ],
+									"numoutlets" : 10,
+									"outlettype" : [ "int", "", "int", "", "int", "", "", "", "", "int" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -4657,7 +5293,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 77.0, 53.0, 529.0, 440.0 ],
+										"rect" : [ 140.0, 48.0, 523.0, 509.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -4686,6 +5322,42 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"comment" : "",
+													"id" : "obj-36",
+													"index" : 10,
+													"maxclass" : "outlet",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 1375.5, 370.0, 30.0, 30.0 ]
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-35",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "int" ],
+													"patching_rect" : [ 1375.75, 312.0, 29.5, 22.0 ],
+													"text" : "i"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"id" : "obj-34",
+													"maxclass" : "newobj",
+													"numinlets" : 5,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1375.75, 268.0, 98.0, 22.0 ],
+													"text" : "zmap 0. 1. 0 127"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-43",
 													"maxclass" : "newobj",
@@ -4989,15 +5661,15 @@
 												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-21",
-													"linecount" : 29,
+													"linecount" : 33,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 25.0, 132.0, 508.0, 395.0 ],
+													"patching_rect" : [ 40.0, 424.0, 508.0, 449.0 ],
 													"presentation" : 1,
-													"presentation_linecount" : 29,
-													"presentation_rect" : [ 8.0, 33.0, 511.0, 395.0 ],
-													"text" : "/vds/vol [0. - 1.] : Sets the volume for the application. 0 is muted and 1 is full volume.\n\n/vds/speed [-1. - 1.] : Sets the input audio playback rate. -1 is rewind, 0 is pause, and 1 is play.\n\n/vds/loop (0|1) : Sets the audio looping mode. When set to 0, looping will be off and the audio\n                          will stop playing when the end of the file is reached. When set to 1, looping\n                          will be enabled, and the file will continuously loop until paused or looping is\n                          disabled.\n\n/vds/psplane (0|1|2|3|4|5) : Sets the video analysis plane for pitch shifting. 0 sets the app to \n                                           Hue, 1 sets the app to saturation, 2 sets the app to luminance, 3\n                                           sets the app to red, 4 sets the app to green, and 5 sets the app to \n                                           blue.\n\n/vds/dplane (0|1|2|3|4|5) : Sets the video analysis plane for delay length. 0 sets the app to \n                                          Hue, 1 sets the app to saturation, 2 sets the app to luminance, 3\n                                          sets the app to red, 4 sets the app to green, and 5 sets the app to \n                                          blue.\n\n/vds/pshift [-2. - 2.] [-2. - 2.] : Sets the range allowed for pitch shifting. This parameter requires \n                                              a pair of arguments, signifying the minimum and maximum range\n                                              desired. A value of -2. sets a bound to a lowering in pitch by two\n                                              octaves. A value of 2 sets a bound to raising the pitch by two\n                                              octaves. -2 and 2 are the allowed extremes, but the supplied\n                                              values can be anywhere between them.\n\n/vds/delay [0. - 5000.] [0. - 5000.] : Sets the range allowed for delaying the audio. The \n                                                       parameter requires 2 arguments, the minimum and \n                                                       maximum bounds of the desired range. "
+													"presentation_linecount" : 33,
+													"presentation_rect" : [ 8.0, 33.0, 511.0, 449.0 ],
+													"text" : "/vds/vol [0. - 1.] : Sets the volume for the application. 0 is muted and 1 is full volume.\n\n/vds/speed [-1. - 1.] : Sets the input audio playback rate. -1 is rewind, 0 is pause, and 1 is play.\n\n/vds/loop (0|1) : Sets the audio looping mode. When set to 0, looping will be off and the audio\n                          will stop playing when the end of the file is reached. When set to 1, looping\n                          will be enabled, and the file will continuously loop until paused or looping is\n                          disabled.\n\n/vds/psplane (0|1|2|3|4|5) : Sets the video analysis plane for pitch shifting. 0 sets the app to \n                                           Hue, 1 sets the app to saturation, 2 sets the app to luminance, 3\n                                           sets the app to red, 4 sets the app to green, and 5 sets the app to \n                                           blue.\n\n/vds/dplane (0|1|2|3|4|5) : Sets the video analysis plane for delay length. 0 sets the app to \n                                          Hue, 1 sets the app to saturation, 2 sets the app to luminance, 3\n                                          sets the app to red, 4 sets the app to green, and 5 sets the app to \n                                          blue.\n\n/vds/pshift [-2. - 2.] [-2. - 2.] : Sets the range allowed for pitch shifting. This parameter requires \n                                              a pair of arguments, signifying the minimum and maximum range\n                                              desired. A value of -2. sets a bound to a lowering in pitch by two\n                                              octaves. A value of 2 sets a bound to raising the pitch by two\n                                              octaves. -2 and 2 are the allowed extremes, but the supplied\n                                              values can be anywhere between them.\n\n/vds/delay [0. - 5000.] [0. - 5000.] : Sets the range allowed for delaying the audio. The \n                                                       parameter requires 2 arguments, the minimum and \n                                                       maximum bounds of the desired range. \n\n/vds/mix [0. - 1.] : Controls the Dry / Wet audio mixing. When set to 0, the output mix is dry,\n                             or having none of the effect audio. When set to 1, the output is wet, or only\n                             having effect audio in the mix."
 												}
 
 											}
@@ -5042,10 +5714,10 @@
 													"id" : "obj-16",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 8,
-													"outlettype" : [ "", "", "", "", "", "", "", "FullPacket" ],
-													"patching_rect" : [ 359.0, 177.0, 1035.75, 22.0 ],
-													"text" : "o.route /vds/vol /vds/speed /vds/loop /vds/psplane /vds/dplane /vds/pshift /vds/delay"
+													"numoutlets" : 9,
+													"outlettype" : [ "", "", "", "", "", "", "", "", "FullPacket" ],
+													"patching_rect" : [ 359.0, 177.0, 1181.0, 22.0 ],
+													"text" : "o.route /vds/vol /vds/speed /vds/loop /vds/psplane /vds/dplane /vds/pshift /vds/delay /vds/mix"
 												}
 
 											}
@@ -5053,11 +5725,11 @@
 												"box" : 												{
 													"id" : "obj-15",
 													"maxclass" : "newobj",
-													"numinlets" : 8,
-													"numoutlets" : 8,
-													"outlettype" : [ "", "", "", "", "", "", "", "" ],
-													"patching_rect" : [ 359.0, 219.0, 1035.75, 22.0 ],
-													"text" : "route /vds/vol /vds/speed /vds/loop /vds/psplane /vds/dplane /vds/pshift /vds/delay"
+													"numinlets" : 9,
+													"numoutlets" : 9,
+													"outlettype" : [ "", "", "", "", "", "", "", "", "" ],
+													"patching_rect" : [ 359.0, 219.0, 1181.0, 22.0 ],
+													"text" : "route /vds/vol /vds/speed /vds/loop /vds/psplane /vds/dplane /vds/pshift /vds/delay /vds/mix"
 												}
 
 											}
@@ -5303,6 +5975,13 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"source" : [ "obj-15", 7 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-39", 0 ],
 													"source" : [ "obj-15", 5 ]
 												}
@@ -5358,6 +6037,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-29", 0 ],
 													"source" : [ "obj-16", 4 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-34", 0 ],
+													"source" : [ "obj-16", 7 ]
 												}
 
 											}
@@ -5456,6 +6142,20 @@
 												"patchline" : 												{
 													"destination" : [ "obj-40", 0 ],
 													"source" : [ "obj-33", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-35", 0 ],
+													"source" : [ "obj-34", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-36", 0 ],
+													"source" : [ "obj-35", 0 ]
 												}
 
 											}
@@ -6270,6 +6970,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-151", 0 ],
+									"source" : [ "obj-100", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-108", 0 ],
 									"source" : [ "obj-102", 0 ]
 								}
@@ -6745,8 +7452,101 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-151", 0 ],
+									"source" : [ "obj-145", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-146", 0 ],
+									"source" : [ "obj-147", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-154", 0 ],
+									"source" : [ "obj-148", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-14", 0 ],
 									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-151", 0 ],
+									"source" : [ "obj-150", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-149", 0 ],
+									"order" : 1,
+									"source" : [ "obj-151", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-158", 0 ],
+									"order" : 0,
+									"source" : [ "obj-151", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-153", 0 ],
+									"source" : [ "obj-152", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-155", 0 ],
+									"source" : [ "obj-152", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-152", 0 ],
+									"source" : [ "obj-153", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-155", 0 ],
+									"source" : [ "obj-154", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-156", 1 ],
+									"source" : [ "obj-155", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-150", 0 ],
+									"source" : [ "obj-156", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-147", 0 ],
+									"source" : [ "obj-158", 0 ]
 								}
 
 							}
@@ -6838,7 +7638,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
-									"midpoints" : [ 921.875, 460.0, 67.5, 460.0 ],
+									"midpoints" : [ 918.5, 460.0, 67.5, 460.0 ],
 									"order" : 1,
 									"source" : [ "obj-26", 3 ]
 								}
@@ -10145,10 +10945,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1541.0, 54.5, 275.0, 516.0 ],
+					"patching_rect" : [ 1541.0, 54.5, 276.0, 516.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 38,
-					"presentation_rect" : [ 329.0, 30.5, 275.0, 516.0 ],
+					"presentation_rect" : [ 329.0, 30.5, 276.0, 516.0 ],
 					"text" : "The \"Video Delay Sequence\" patch downsamples an input video stream into 10 stripes, these 10 stripes are then used to determine the pitch shift and delay length of 10 buffers of the input audio. We have given you access to several parameters with which to control nature of the output, Playback Rate, Analysis Planes, Pitch Shift Range, Delay Length Range, and Dry/Wet Mix controls.\n\nThe playback rate allows you to set the master speed at which the audio track is played, anywhere from rewind to play at normal speed.\n\nThe analysis planes allow you to control which qualities of the video impact the sound output. Your options are the hue, saturation, luminance, red, green, and blue planes. Hue denotes which color a pixel is, saturation represents the intensity of color, and luminance is the value for the brightness.\n\nThe pitch shift range sets the degree to which the application will modify the pitch of the incoming audio. -2400 is a drop in pitch by 2 octaves, while 0 is no change, and 2400 is a raise of pitch by 2 octaves.\n\nThe delay length range determines the minimum and maximum delay that can be applied. 0 is no delay, 1000 is one full second, and the maximum of 5000 is five full seconds.\n\nThe dry/wet mix controls allow you to fade between the effect audio and the original audio. When the dial is set to 0, only the original audio will play. When the dial is set to 127, only the effect audio will play."
 				}
 
@@ -10928,6 +11728,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
@@ -10977,6 +11784,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
@@ -10986,6 +11800,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-116", 0 ],
+					"source" : [ "obj-41", 0 ]
 				}
 
 			}
@@ -11099,6 +11920,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-148", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -11121,8 +11949,57 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-116", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-89", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-109", 0 ],
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -11376,6 +12253,8 @@
 			"obj-139::obj-134" : [ "slider[5]", "slider", 0 ],
 			"obj-139::obj-138" : [ "p0v[8]", "p0v", 0 ],
 			"obj-139::obj-14" : [ "slider", "slider", 0 ],
+			"obj-139::obj-151" : [ "slider[6]", "slider", 0 ],
+			"obj-139::obj-155" : [ "p0v[9]", "p0v", 0 ],
 			"obj-139::obj-22" : [ "live.tab[5]", "live.tab[3]", 0 ],
 			"obj-139::obj-32" : [ "p0v", "p0v", 0 ],
 			"obj-139::obj-41" : [ "slider[1]", "slider", 0 ],
