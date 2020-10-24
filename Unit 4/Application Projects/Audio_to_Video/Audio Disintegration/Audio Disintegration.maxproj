@@ -2,7 +2,7 @@
 	"name" : "Audio Disintegration",
 	"version" : 1,
 	"creationdate" : 3676285339,
-	"modificationdate" : 3676291945,
+	"modificationdate" : 3686402227,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -28,6 +28,11 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+,
+			"disintegrate_icon_crop.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
@@ -49,6 +54,16 @@
 ,
 		"other" : 		{
 			"disintegrate_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"disintegrate_icon_crop.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"disintegrate_icon_crop.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
