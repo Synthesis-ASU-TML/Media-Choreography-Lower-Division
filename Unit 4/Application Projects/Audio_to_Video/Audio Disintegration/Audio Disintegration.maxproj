@@ -2,7 +2,7 @@
 	"name" : "Audio Disintegration",
 	"version" : 1,
 	"creationdate" : 3676285339,
-	"modificationdate" : 3686402227,
+	"modificationdate" : 3686483739,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -37,6 +37,13 @@
 		}
 ,
 		"code" : 		{
+			"sobel.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"tp.slide.ignorealpha.jxs" : 			{
+				"kind" : "shader"
+			}
 
 		}
 ,
