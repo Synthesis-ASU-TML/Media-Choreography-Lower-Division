@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 205.0, 79.0, 1328.0, 783.0 ],
+		"rect" : [ 205.0, 79.0, 1268.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"patching_rect" : [ 1080.0, 457.0, 150.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1071.0, 433.0, 189.0, 47.0 ],
+					"presentation_rect" : [ 1070.0, 433.0, 189.0, 47.0 ],
 					"text" : "Click and drag points to edit function, vertical grey line displays latest received values."
 				}
 
@@ -126,7 +126,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 277.0, 664.0, 36.021484375, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 713.890625, 36.021484375, 28.109375 ],
+					"presentation_rect" : [ 277.0, 695.890625, 36.021484375, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -148,7 +148,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 284.0, 576.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 575.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 557.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -163,7 +163,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 556.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 558.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 540.0, 150.0, 20.0 ],
 					"text" : "Microphone Input Volume"
 				}
 
@@ -176,7 +176,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 491.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 487.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 469.0, 150.0, 20.0 ],
 					"text" : "File Input Volume"
 				}
 
@@ -191,7 +191,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.0, 453.0, 189.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 465.0, 240.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 447.0, 264.0, 22.0 ],
 					"text" : "Audio Input Mixing",
 					"textjustification" : 1
 				}
@@ -212,7 +212,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 245.0, 496.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 509.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 491.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -227,7 +227,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 9.0, 327.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 324.5, 240.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 306.5, 264.0, 20.0 ],
 					"text" : "Set Audio Playback Rate"
 				}
 
@@ -247,7 +247,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 281.0, 393.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 378.8359375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 360.8359375, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -264,7 +264,7 @@
 					"patching_rect" : [ 110.0, 313.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 107.0, 270.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 107.0, 252.0, 150.0, 33.0 ],
 					"text" : "Choose Image Version To Be Displayed"
 				}
 
@@ -304,7 +304,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 319.0, 638.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 270.0, 100.0, 33.0 ],
+					"presentation_rect" : [ 8.0, 252.0, 100.0, 33.0 ],
 					"text" : "Full Color Image",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Edges Image",
@@ -347,8 +347,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 918.0, 740.0, 50.0, 22.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 918.0, 740.0, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number",
+							"parameter_shortname" : "number",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"varname" : "number"
 				}
 
 			}
@@ -361,7 +372,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 694.0, 174.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 624.0, 230.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 606.0, 264.0, 20.0 ],
 					"text" : "Mixed Audio Volume Meter"
 				}
 
@@ -506,7 +517,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 704.0, 150.0, 100.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 646.0, 230.0, 31.0 ]
+					"presentation_rect" : [ 8.0, 628.0, 264.0, 31.0 ]
 				}
 
 			}
@@ -534,7 +545,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 354.0, 1219.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 575.0, 240.0, 47.0 ],
+					"presentation_rect" : [ 8.0, 557.0, 264.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -607,7 +618,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 99.0, 1219.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 509.0, 240.0, 47.0 ],
+					"presentation_rect" : [ 8.0, 491.0, 264.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -646,7 +657,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 156.0, 1111.0, 183.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 410.0, 240.0, 24.0 ],
+					"presentation_rect" : [ 8.0, 392.0, 264.0, 24.0 ],
 					"text" : "Restart Audio File Playback",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -701,7 +712,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 99.0, 996.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 386.9453125, 240.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 368.9453125, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Rewind", "Pause", "Play" ],
@@ -726,11 +737,23 @@
 					"numoutlets" : 2,
 					"orientation" : 0,
 					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 99.0, 1058.9453125, 240.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 345.9453125, 240.0, 39.0 ],
-					"thickness" : 5
+					"presentation_rect" : [ 8.0, 327.9453125, 264.0, 39.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "multislider",
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : -1.0,
+							"parameter_shortname" : "multislider",
+							"parameter_type" : 0
+						}
+
+					}
+,
+					"thickness" : 5,
+					"varname" : "multislider"
 				}
 
 			}
@@ -844,8 +867,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 656.5, 951.0, 24.0, 24.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 656.5, 951.0, 24.0, 24.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_longname" : "button",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "button",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "button"
 				}
 
 			}
@@ -859,7 +894,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 108.0, 899.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 109.671875, 264.0, 29.40625 ],
+					"presentation_rect" : [ 8.0, 91.671875, 264.0, 29.40625 ],
 					"text" : "Configure Audio Device",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"usetextovercolor" : 1
@@ -1287,7 +1322,7 @@
 					"patching_rect" : [ 538.0, 41.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Audio -> Video/Audio Disintegration/other/disintegrate_icon.icns",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Audio_to_Video/Audio Disintegration/other/disintegrate_icon_crop.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.audiodisintegrate",
@@ -1325,7 +1360,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 808.9892578125, 637.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 272.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 254.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1347,7 +1382,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 766.9892578125, 1117.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 235.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 217.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1369,7 +1404,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 486.0, 32.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 196.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 178.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1391,7 +1426,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 59.99462890625, 40.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 149.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 131.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1413,7 +1448,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 538.0, 711.8203125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 282.0, 109.671875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 282.0, 91.671875, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1451,7 +1486,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 891.0, 931.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 324.5, 269.0, 20.0 ],
+					"presentation_rect" : [ 323.0, 606.390625, 374.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -1459,15 +1494,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-66",
-					"linecount" : 32,
+					"linecount" : 87,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 840.0, 152.0, 435.0 ],
+					"patching_rect" : [ 1048.0, 840.0, 152.0, 1173.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 19,
-					"presentation_rect" : [ 408.0, 61.5, 281.0, 261.0 ],
-					"text" : "The \"Audio Disintegration\" application explores how to use filtered audio to affect a video stream. In this case, we are reducing or boosting different parts of the audio frequency spectrum and the taking the intensity of the result. The intensity is translated into displacement of the pixels in the video by a varying amount.\n\nWe have 3 presets to try out:\n1 - More bass / lower end audio results in a clearer image.\n\n2 - All frequencies are boosted, enabling small increases to have large imapacts.\n\n3 - The higher frequency sounds are retained, and increses in that portion of the audio spectrum increase blurriness of the image following a natural-logarithm scaling."
+					"presentation_linecount" : 40,
+					"presentation_rect" : [ 323.0, 61.390625, 374.0, 543.0 ],
+					"text" : "The \"Audio Disintegration\" application explores how to use filtered audio to affect a video stream. In this case, we are reducing or boosting different parts of the audio frequency spectrum and then taking the amplitude of the result. The amplitude (or energy) of the resulting signal is translated into displacement of the pixels in the video by a varying amount.\n\nWe have supplied you with multiple paramaters by which to affect the output of the application, Image Type, Audio File Playback Rate, File vs. Mic Mixing, Audio Filtering, and a Customizable Response Curve.\n\nThe image type allows you to toggle between the original full color image being displaced, or an edges only filtered image being used.\n\nThe audio file playback rate allows you to choose how quickly or slowly to play the sound in a loaded file.\n\nThe File vs. Mic Mixing allows you to determine the amount of type of audio input to be used for filtering and analysis. You can hear the result of your mix through the audio monitor.\n\nThe audio filtering allows you to modify the properties of the filter used to boost or cut various parts of the audio spectrum. You can find these controls to the right of this text.\n\nThe response curve allows you to set the amount of displacement based on the analyzed amount of energy.  You can use this curve to designate differing values based on the observed energy levels. Play with the click & drag display to create your own custom curve.\n\nWe have 3 presets to try out:\n1 - More bass / lower end audio results in a clearer image.\n\n2 - All frequencies are boosted, enabling small increases to have large imapacts.\n\n3 - The higher frequency sounds are retained, and increses in that portion of the audio spectrum increase blurriness of the image following a natural-logarithm scaling."
 				}
 
 			}
@@ -1481,7 +1516,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1003.0, 807.0, 240.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 408.0, 32.5, 269.0, 27.0 ],
+					"presentation_rect" : [ 323.0, 32.5, 374.0, 27.0 ],
 					"text" : "Audio Disintegration"
 				}
 
@@ -1531,7 +1566,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 291.25, 9.0, 172.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 179.0, 264.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 161.0, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
 				}
 
@@ -1608,7 +1643,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 216.0, 37.0, 264.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 201.0, 264.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 183.0, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
@@ -1633,7 +1668,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.5, 1093.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 107.0, 235.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 107.0, 217.0, 150.0, 20.0 ],
 					"text" : "Choose a preset"
 				}
 
@@ -1659,7 +1694,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 632.0, 590.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 691.890625, 150.0, 20.0 ],
+					"presentation_rect" : [ 8.0, 673.890625, 150.0, 20.0 ],
 					"text" : "Adjust Audio Output Level"
 				}
 
@@ -1688,7 +1723,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 573.0, 628.0, 230.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 713.890625, 230.0, 47.0 ],
+					"presentation_rect" : [ 8.0, 695.890625, 264.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1739,7 +1774,7 @@
 					"patching_rect" : [ 658.5, 1112.0, 100.0, 40.0 ],
 					"pattrstorage" : "audio_disintegrate",
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 229.0, 89.0, 32.0 ]
+					"presentation_rect" : [ 8.0, 211.0, 89.0, 32.0 ]
 				}
 
 			}
@@ -2543,7 +2578,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 43.0, 71.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 150.0, 264.0, 27.0 ],
+					"presentation_rect" : [ 8.0, 132.0, 264.0, 27.0 ],
 					"text" : "Load Movie File",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"usetextovercolor" : 1
@@ -2569,10 +2604,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 442.0, 172.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 32.5, 56.0, 56.0 ]
+					"presentation_rect" : [ 8.0, 32.5, 56.0, 56.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_longname" : "toggle",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "toggle",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "toggle"
 				}
 
 			}
@@ -3372,8 +3419,12 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-120" : [ "number", "number", 0 ],
 			"obj-2" : [ "live.gain~", "Audio Monitor Level", 0 ],
+			"obj-3" : [ "toggle", "toggle", 0 ],
 			"obj-45" : [ "live.tab", "live.tab", 0 ],
+			"obj-49" : [ "button", "button", 0 ],
+			"obj-78" : [ "multislider", "multislider", 0 ],
 			"obj-80" : [ "live.tab[1]", "live.tab[1]", 0 ],
 			"obj-86" : [ "live.gain~[1]", "Audio File Input Level", 0 ],
 			"obj-96" : [ "live.gain~[2]", "Microphone Input Level", 0 ],
