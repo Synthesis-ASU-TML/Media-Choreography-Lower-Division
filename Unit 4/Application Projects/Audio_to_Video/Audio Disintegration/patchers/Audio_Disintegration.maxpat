@@ -10424,14 +10424,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-66",
-					"linecount" : 85,
+					"linecount" : 81,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 840.0, 156.0, 1146.0 ],
+					"patching_rect" : [ 1048.0, 840.0, 162.0, 1092.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 39,
-					"presentation_rect" : [ 324.0, 31.390625, 377.0, 529.0 ],
+					"presentation_rect" : [ 324.0, 31.390625, 380.0, 529.0 ],
 					"text" : "The \"Audio Disintegration\" application explores how to use filtered audio to affect a video stream. In this case, we are reducing or boosting different parts of the audio frequency spectrum and then taking the amplitude of the result. The amplitude (or energy) of the resulting signal is translated into displacement of the pixels in the video by a varying amount.\n\nWe have supplied you with multiple paramaters by which to affect the output of the application, Image Type, Audio File Playback Rate, File vs. Mic Mixing, Audio Filtering, and a Customizable Response Curve.\n\nThe image type allows you to toggle between the original full color image being displaced, or an edges only filtered image being used.\n\nThe audio file playback rate allows you to choose how quickly or slowly to play the sound in a loaded file.\n\nThe File vs. Mic Mixing allows you to determine the amount of type of audio input to be used for filtering and analysis. You can hear the result of your mix through the audio monitor.\n\nThe audio filtering allows you to modify the properties of the filter used to boost or cut various parts of the audio spectrum. You can find these controls to the right of this text.\n\nThe response curve allows you to set the amount of displacement based on the analyzed amount of energy.  You can use this curve to designate differing values based on the observed energy levels. Play with the click & drag display to create your own custom curve.\n\nWe have 3 presets to try out:\n1 - More bass / lower end audio results in a clearer image.\n\n2 - All frequencies are boosted, enabling small increases to have large imapacts.\n\n3 - The higher frequency sounds are retained, and increses in that portion of the audio spectrum increase blurriness of the image following a natural-logarithm scaling."
 				}
 
@@ -11522,8 +11522,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 43.0, 130.0, 141.0, 22.0 ],
-					"text" : "jit.movie @dim 1280 720"
+					"patching_rect" : [ 43.0, 130.0, 182.0, 22.0 ],
+					"text" : "jit.movie @dim 1280 720 @vol 0"
 				}
 
 			}

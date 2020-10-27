@@ -1026,7 +1026,20 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 391.0, 104.0, 144.0, 22.0 ],
+													"text" : "udpreceive 8000 CNMAT"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-81",
@@ -1829,7 +1842,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 391.0, 99.0, 121.0, 22.0 ],
+													"patching_rect" : [ 391.0, 133.0, 121.0, 22.0 ],
 													"text" : "routepass FullPacket"
 												}
 
@@ -1990,7 +2003,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
+													"destination" : [ "obj-5", 0 ],
 													"source" : [ "obj-13", 0 ]
 												}
 
@@ -2468,6 +2481,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-47", 0 ],
 													"source" : [ "obj-48", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"source" : [ "obj-5", 0 ]
 												}
 
 											}
@@ -4765,27 +4785,27 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 519.5, 184.5, 56.0, 22.0 ],
 									"restore" : 									{
-										"f0" : [ 1 ],
-										"f1" : [ 1 ],
-										"f2" : [ 1 ],
-										"f3" : [ 1 ],
-										"g0" : [ 1 ],
-										"g1" : [ 1 ],
-										"g2" : [ 1 ],
-										"g3" : [ 1 ],
-										"gain" : [ 1 ],
-										"l0" : [ 1 ],
-										"l1" : [ 1 ],
-										"l2" : [ 1 ],
-										"l3" : [ 1 ],
-										"q0" : [ 1 ],
-										"q1" : [ 1 ],
-										"q2" : [ 1 ],
-										"q3" : [ 1 ],
-										"r0" : [ 1 ],
-										"r1" : [ 1 ],
-										"r2" : [ 1 ],
-										"r3" : [ 1 ],
+										"f0" : [ 0 ],
+										"f1" : [ 0 ],
+										"f2" : [ 0 ],
+										"f3" : [ 0 ],
+										"g0" : [ 0 ],
+										"g1" : [ 0 ],
+										"g2" : [ 0 ],
+										"g3" : [ 0 ],
+										"gain" : [ 0 ],
+										"l0" : [ 0 ],
+										"l1" : [ 0 ],
+										"l2" : [ 0 ],
+										"l3" : [ 0 ],
+										"q0" : [ 0 ],
+										"q1" : [ 0 ],
+										"q2" : [ 0 ],
+										"q3" : [ 0 ],
+										"r0" : [ 0 ],
+										"r1" : [ 0 ],
+										"r2" : [ 0 ],
+										"r3" : [ 0 ],
 										"slider" : [ 0.0 ],
 										"slider[10]" : [ 0 ],
 										"slider[11]" : [ 0 ],
@@ -4811,7 +4831,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u610004089"
+									"varname" : "u729003396"
 								}
 
 							}
@@ -17554,15 +17574,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-133",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 159.0, 55.0, 33.0 ],
+					"patching_rect" : [ 21.0, 159.0, 55.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 547.0, 42.203125, 64.0, 33.0 ],
-					"text" : "185.38 khz",
+					"presentation_rect" : [ 547.0, 42.203125, 64.0, 20.0 ],
+					"text" : "21.05 hz",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -18882,7 +18900,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Connor’s Powerbeats³", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -18934,7 +18952,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Connor’s Powerbeats³", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -19412,14 +19430,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
-					"linecount" : 51,
+					"linecount" : 50,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1159.5, 449.0, 165.0, 690.0 ],
+					"patching_rect" : [ 1159.5, 449.0, 169.0, 677.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 34,
-					"presentation_rect" : [ 259.0, 34.5, 252.0, 462.0 ],
+					"presentation_rect" : [ 259.0, 34.5, 255.0, 462.0 ],
 					"text" : "The \"Simple FFFB\" application encourages users to explore how to create soundscapes using a series of resonant filters and playback rates. Users have the ability to control filter gains (in 2 ways), the central frequency of each of the 4 filters, the playback rates (-2x to 2x), and the Q-values. \n\nThe Center Frequency of the filter corresponds to the spectral point in the audio signal which has the greatest response curve. In other terms, portions of the audio sample closest in pitch to the center frequency will be increasingly preserved or boosted by the resonant filter.\n\nThe Filter Gain represents the percent of the amplitude (or loudness) of the signal that will be preserved after applying the resonant filter to the audio signal. For this application we have removed the ability to boost the loudness above 100%.\n\nThe Q-Value (or Quality Factor) affects how strictly the resonant filter boosts or reduces portions of the audio signal. Values < 0.5 functionally boost the center frequency above 100% loudness while damping frequencies starting a short distance from center. Values near 1. form a more uniform pyramidal response, boosting or dampening on a more linear function. Values significantly above 1 cause the curve to approach a flat dampening of all frequencies."
 				}
 
