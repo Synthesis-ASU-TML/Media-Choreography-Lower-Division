@@ -2,8 +2,8 @@
 	"name" : "Bleep Sequencer",
 	"version" : 1,
 	"creationdate" : 3676126592,
-	"modificationdate" : 3683547726,
-	"viewrect" : [ 25.0, 104.0, 300.0, 912.0 ],
+	"modificationdate" : 3685944701,
+	"viewrect" : [ 37.0, 219.0, 300.0, 350.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -44,6 +44,11 @@
 ,
 		"other" : 		{
 			"bleep_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"bleep_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
