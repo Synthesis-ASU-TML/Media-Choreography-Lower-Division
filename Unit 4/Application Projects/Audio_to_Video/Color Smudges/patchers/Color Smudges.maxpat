@@ -108,7 +108,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u506005005"
+					"varname" : "u102008528"
 				}
 
 			}
@@ -1193,7 +1193,7 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-19",
-					"items" : [ "20151001_154512.mp4", ",", "20151208_155413.mp4", ",", "A002_C009_092221_001.mp4", ",", "A002_C018_0922BW_002.mp4", ",", "A002_C052_0922T7_001.mp4", ",", "Assembly Line_1.mp4", ",", "Blinding_Lights.mp4", ",", "blooms.mp4", ",", "blooms_short.mp4", ",", "BreakFree.mp4", ",", "circleright.mp4", ",", "Crystal_Flight.mp4", ",", "first_weekend_short.mp4", ",", "flowers2.mp4", ",", "jakx_dethdrome.mp4", ",", "jakx_loading-docks.mp4", ",", "jakx_northern-tour.mp4", ",", "MXC1.mp4", ",", "MXC2.mp4", ",", "MXC3.mp4", ",", "MXC4.mp4", ",", "WR_7Dwarves.mp4", ",", "WR_Dynamite.mp4", ",", "WR_Ghosts.mp4" ],
+					"items" : [ "20151001_154512.mp4", ",", "20151208_155413.mp4", ",", "A002_C009_092221_001.mp4", ",", "A002_C018_0922BW_002.mp4", ",", "A002_C052_0922T7_001.mp4", ",", "Assembly Line_1.mp4", ",", "Blinding_Lights.mp4", ",", "blooms.mp4", ",", "blooms_short.mp4", ",", "BreakFree.mp4", ",", "circleright.mp4", ",", "Crystal_Flight.mp4", ",", "first_weekend_short.mp4", ",", "flowers2.mp4", ",", "jakx_dethdrome.mp4", ",", "jakx_loading-docks.mp4", ",", "jakx_northern-tour.mp4", ",", "MXC1.mp4", ",", "MXC2.mp4", ",", "MXC3.mp4", ",", "MXC4.mp4", ",", "soldier_moon.mp4", ",", "WR_7Dwarves.mp4", ",", "WR_Dynamite.mp4", ",", "WR_Ghosts.mp4" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2379,17 +2379,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 652.5, 243.0, 80.0, 60.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -3474,16 +3463,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
-					"source" : [ "obj-30", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
 					"source" : [ "obj-30", 0 ]
 				}
 
