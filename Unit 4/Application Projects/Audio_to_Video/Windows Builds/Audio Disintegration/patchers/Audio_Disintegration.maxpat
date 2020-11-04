@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 297.0, 79.0, 1266.0, 746.0 ],
+		"rect" : [ 45.0, 96.0, 1266.0, 567.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,23 +40,609 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.88, 0.755, 0.472, 1.0 ],
-					"fontface" : 1,
-					"fontlink" : 1,
-					"fontsize" : 18.0,
-					"id" : "obj-50",
-					"ignoreclick" : 1,
+					"id" : "obj-126",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1030.99462890625, 558.390625, 36.021484375, 28.109375 ],
+					"patching_rect" : [ 525.0, 1259.0, 183.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1030.99462890625, 556.390625, 36.021484375, 28.109375 ],
-					"rounded" : 100.0,
-					"text" : "12",
-					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"presentation_rect" : [ 506.5, 482.390625, 155.0, 24.0 ],
+					"text" : "Show Preset Descriptions",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-125",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 107.0, 384.0, 147.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 33.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 50.0, 120.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 50.0, 94.5, 39.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-105",
+									"linecount" : 9,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 173.0, 40.0, 330.0, 131.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 9,
+									"presentation_rect" : [ 9.0, 5.0, 366.0, 131.0 ],
+									"text" : "We have 3 presets to try out:\n1 - More bass / lower end audio results in a clearer image.\n\n2 - All frequencies are boosted, enabling small increases to have large imapacts.\n\n3 - The higher frequency sounds are retained, and increses in that portion of the audio spectrum increase blurriness of the image following a natural-logarithm scaling."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-122",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 61.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.63921568627451, 0.941176470588235, 0.933333333333333, 1.0 ],
+									"border" : 3,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-6",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 202.0, 270.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 3.0, 1.0, 378.0, 142.0 ],
+									"proportion" : 0.5,
+									"rounded" : 0
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-122", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 525.0, 1293.5, 131.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"Preset Descriptions\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 386.0, 1120.0, 183.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.0, 432.0, 264.0, 24.0 ],
+					"text" : "Open Input Audio Mixing Panel",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 107.0, 404.0, 194.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 517.0, 10.0, 76.0, 22.0 ],
+									"text" : "r to-windows"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 517.0, 100.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 517.0, 72.0, 39.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-4",
+									"index" : 5,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 517.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 314.0, 72.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 109.0, 383.0, 20.0 ],
+									"text" : "Microphone Input Level"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 31.0, 72.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 35.0, 383.0, 20.0 ],
+									"text" : "Audio File Input Level"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontsize" : 14.0,
+									"id" : "obj-135",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 146.0, 10.0, 189.0, 23.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 10.0, 383.0, 23.0 ],
+									"text" : "Audio Input Mixing",
+									"textjustification" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-96",
+									"lastchannelcount" : 0,
+									"maxclass" : "live.gain~",
+									"numinlets" : 2,
+									"numoutlets" : 5,
+									"orientation" : 1,
+									"outlettype" : [ "signal", "signal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 305.0, 100.0, 136.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 139.0, 383.0, 47.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "live.gain~[2]",
+											"parameter_mmax" : 6.0,
+											"parameter_mmin" : -70.0,
+											"parameter_shortname" : "Microphone Input Level",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"varname" : "live.gain~[1]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-86",
+									"lastchannelcount" : 0,
+									"maxclass" : "live.gain~",
+									"numinlets" : 2,
+									"numoutlets" : 5,
+									"orientation" : 1,
+									"outlettype" : [ "signal", "signal", "", "float", "list" ],
+									"parameter_enable" : 1,
+									"patching_rect" : [ 50.0, 100.0, 136.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 57.0, 383.0, 47.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_longname" : "live.gain~[1]",
+											"parameter_mmax" : 6.0,
+											"parameter_mmin" : -70.0,
+											"parameter_shortname" : "Audio File Input Level",
+											"parameter_type" : 0,
+											"parameter_unitstyle" : 4
+										}
+
+									}
+,
+									"varname" : "live.gain~"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-56",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-58",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 167.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-62",
+									"index" : 3,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 305.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-76",
+									"index" : 4,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "signal" ],
+									"patching_rect" : [ 422.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-77",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 50.0, 207.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-98",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 167.0, 207.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-99",
+									"index" : 3,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 305.0, 207.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-100",
+									"index" : 4,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 422.0, 207.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"angle" : 270.0,
+									"bgcolor" : [ 0.647058823529412, 0.847058823529412, 0.8, 1.0 ],
+									"border" : 3,
+									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-8",
+									"maxclass" : "panel",
+									"mode" : 0,
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 2.0, 18.0, 128.0, 128.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 2.5, 1.5, 398.0, 189.0 ],
+									"proportion" : 0.5,
+									"rounded" : 0
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-86", 0 ],
+									"source" : [ "obj-56", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-86", 1 ],
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-96", 0 ],
+									"source" : [ "obj-62", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-6", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-96", 1 ],
+									"source" : [ "obj-76", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-77", 0 ],
+									"source" : [ "obj-86", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-98", 0 ],
+									"source" : [ "obj-86", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-100", 0 ],
+									"source" : [ "obj-96", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-99", 0 ],
+									"source" : [ "obj-96", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 99.0, 1219.0, 310.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"Audio Input Mixing\""
 				}
 
 			}
@@ -91,11 +677,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 623.0, 1501.0, 150.0, 33.0 ],
+					"patching_rect" : [ 623.0, 1501.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 833.0, 625.5, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086",
+					"presentation_rect" : [ 1091.5, 472.890625, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086",
 					"textjustification" : 1
 				}
 
@@ -110,7 +696,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 724.0, 1433.0, 152.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 832.0, 603.5, 152.0, 20.0 ],
+					"presentation_rect" : [ 1090.5, 450.890625, 152.0, 20.0 ],
 					"text" : "Refresh Mira Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -317,7 +903,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -789,9 +1375,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 282.978515625, 657.390625, 36.021484375, 28.109375 ],
+					"patching_rect" : [ 282.978515625, 657.390625, 36.021484375, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.99462890625, 549.390625, 36.021484375, 28.109375 ],
+					"presentation_rect" : [ 277.99462890625, 513.890625, 36.021484375, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -942,9 +1528,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 208.0, 1606.961487000000034, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 208.0, 1606.961487000000034, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 653.0, 22.961487000000034, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 653.0, 22.961487000000034, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1397,9 +1983,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1030.0, 346.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1030.0, 346.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 651.0, 177.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 651.0, 177.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1879,9 +2465,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 709.0, 1668.961487000000034, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 709.0, 1668.961487000000034, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 651.0, 154.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 651.0, 154.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2362,9 +2948,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 709.0, 1360.961487000000034, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 709.0, 1360.961487000000034, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 651.0, 131.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 651.0, 131.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2861,9 +3447,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 749.0, 989.961487000000034, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 749.0, 989.961487000000034, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 651.0, 85.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 651.0, 85.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3345,9 +3931,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 722.0, 670.5, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 722.0, 670.5, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 651.0, 108.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 651.0, 108.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3812,9 +4398,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 738.0, 338.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 738.0, 338.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 313.833984375, 177.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 313.833984375, 177.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4284,9 +4870,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 198.0, 1303.961487000000034, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 198.0, 1303.961487000000034, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 313.833984375, 154.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 313.833984375, 154.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4768,9 +5354,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 219.333984375, 989.961487000000034, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 219.333984375, 989.961487000000034, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 313.833984375, 131.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 313.833984375, 131.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -5251,9 +5837,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 225.0, 663.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 225.0, 663.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 313.833984375, 108.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 313.833984375, 108.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -5733,9 +6319,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 225.0, 338.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 225.0, 338.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 313.833984375, 85.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 313.833984375, 85.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6231,7 +6817,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8722,7 +9308,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 169.0, 382.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -8973,10 +9559,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1241.0, 590.0, 150.0, 60.0 ],
+					"patching_rect" : [ 1241.0, 590.0, 150.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1071.0, 417.0, 189.0, 47.0 ],
+					"presentation_rect" : [ 1072.0, 365.18505859375, 189.0, 48.0 ],
 					"text" : "Click and drag points to edit function, vertical grey line displays latest received values."
 				}
 
@@ -8988,10 +9574,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1251.0, 453.0, 151.0, 47.0 ],
+					"patching_rect" : [ 1251.0, 453.0, 151.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1072.0, 286.5, 189.0, 33.0 ],
+					"presentation_rect" : [ 1072.0, 286.5, 189.0, 34.0 ],
 					"text" : "Choose response function and control drawing of preview cursor"
 				}
 
@@ -9003,10 +9589,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1251.0, 283.0, 152.0, 114.0 ],
+					"patching_rect" : [ 1251.0, 283.0, 152.0, 117.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 1072.0, 133.4453125, 189.0, 100.0 ],
+					"presentation_rect" : [ 1072.0, 133.4453125, 189.0, 103.0 ],
 					"text" : "Green: Click and Drag to Edit Filter\n\n\n\nRed: Preview Display of filter effects on input audio signal"
 				}
 
@@ -9018,7 +9604,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1251.0, 215.5, 150.0, 33.0 ],
+					"patching_rect" : [ 1251.0, 215.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1072.0, 64.0, 189.0, 20.0 ],
 					"text" : "Edit Filter Values By Number"
@@ -9032,7 +9618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1251.0, 179.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1251.0, 179.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1072.0, 31.0, 189.0, 20.0 ],
 					"text" : "Choose Scaling of Filter Display"
@@ -9052,9 +9638,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 277.0, 664.0, 35.0283203125, 28.109375 ],
+					"patching_rect" : [ 277.0, 664.0, 35.0283203125, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.99462890625, 689.390625, 35.0283203125, 28.109375 ],
+					"presentation_rect" : [ 457.4716796875, 485.6923828125, 35.0283203125, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "11",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9074,54 +9660,12 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 576.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 284.0, 576.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 489.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 427.3017578125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-137",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 556.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 529.0, 150.0, 20.0 ],
-					"text" : "Microphone Input Volume"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-136",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 491.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 458.0, 150.0, 20.0 ],
-					"text" : "File Input Volume"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontsize" : 14.0,
-					"id" : "obj-135",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 93.0, 453.0, 189.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 436.0, 264.0, 22.0 ],
-					"text" : "Audio Input Mixing",
-					"textjustification" : 1
 				}
 
 			}
@@ -9138,9 +9682,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 245.0, 496.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 245.0, 496.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 374.8359375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 374.8359375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9173,9 +9717,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 281.0, 393.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 281.0, 393.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 291.390625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 291.390625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9189,10 +9733,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.0, 313.0, 150.0, 33.0 ],
+					"patching_rect" : [ 110.0, 313.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 108.0, 251.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 108.0, 251.0, 150.0, 34.0 ],
 					"text" : "Choose Image Version To Be Displayed"
 				}
 
@@ -9298,9 +9842,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.0, 174.0, 150.0, 33.0 ],
+					"patching_rect" : [ 694.0, 174.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 595.0, 264.0, 20.0 ],
+					"presentation_rect" : [ 9.0, 459.390625, 264.0, 20.0 ],
 					"text" : "Mixed Audio Volume Meter"
 				}
 
@@ -9445,7 +9989,7 @@
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 704.0, 150.0, 100.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 617.0, 264.0, 31.0 ]
+					"presentation_rect" : [ 9.0, 481.390625, 264.0, 7.0 ]
 				}
 
 			}
@@ -9463,40 +10007,11 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-96",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"orientation" : 1,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 354.0, 1219.0, 136.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 546.0, 264.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~[2]",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "Microphone Input Level",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-95",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 449.0, 1298.0, 91.0, 22.0 ],
+					"patching_rect" : [ 390.0, 1255.0, 91.0, 22.0 ],
 					"text" : "send~ mic-right"
 				}
 
@@ -9507,7 +10022,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.5, 1298.0, 88.0, 22.0 ],
+					"patching_rect" : [ 196.0, 1255.0, 88.0, 22.0 ],
 					"text" : "send~ file-right"
 				}
 
@@ -9518,7 +10033,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 1298.0, 80.0, 22.0 ],
+					"patching_rect" : [ 99.0, 1255.0, 80.0, 22.0 ],
 					"text" : "send~ file-left"
 				}
 
@@ -9529,37 +10044,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.0, 1298.0, 84.0, 22.0 ],
+					"patching_rect" : [ 293.0, 1255.0, 84.0, 22.0 ],
 					"text" : "send~ mic-left"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-86",
-					"lastchannelcount" : 0,
-					"maxclass" : "live.gain~",
-					"numinlets" : 2,
-					"numoutlets" : 5,
-					"orientation" : 1,
-					"outlettype" : [ "signal", "signal", "", "float", "list" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 99.0, 1219.0, 136.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 480.0, 264.0, 47.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "live.gain~[1]",
-							"parameter_mmax" : 6.0,
-							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "Audio File Input Level",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.gain~"
 				}
 
 			}
@@ -9773,7 +10259,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 658.5, 1048.0, 131.0, 35.0 ],
+					"patching_rect" : [ 658.5, 1048.0, 131.0, 36.0 ],
 					"text" : "loadmess pattrstorage audio_disintegrate"
 				}
 
@@ -9933,7 +10419,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -9973,7 +10459,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10025,7 +10511,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10065,7 +10551,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10253,7 +10739,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Audio_to_Video/Audio Disintegration/other/disintegrate_icon_crop.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Audio_to_Video/Windows Builds/Audio Disintegration/other/disintegrate_icon_crop.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.audiodisintegrate",
 						"cantclosetoplevelpatchers" : 1,
@@ -10268,7 +10754,7 @@
 						"preffilename" : "Audio Disintegration Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -10288,9 +10774,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 808.9892578125, 637.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 808.9892578125, 637.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 253.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 253.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10310,9 +10796,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 766.9892578125, 1117.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 766.9892578125, 1117.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 202.109375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 202.109375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10332,9 +10818,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 486.0, 32.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 486.0, 32.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 148.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 148.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10354,9 +10840,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 59.99462890625, 40.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 59.99462890625, 40.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 101.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 101.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10376,9 +10862,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 538.0, 711.8203125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 538.0, 711.8203125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 61.671875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 61.671875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10398,9 +10884,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 442.0, 138.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 442.0, 138.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.0, 13.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 283.0, 13.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10414,9 +10900,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 891.0, 931.0, 150.0, 33.0 ],
+					"patching_rect" : [ 891.0, 931.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 324.0, 576.390625, 374.0, 20.0 ],
+					"presentation_rect" : [ 324.0, 439.6923828125, 374.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -10424,15 +10910,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-66",
-					"linecount" : 81,
+					"linecount" : 61,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1048.0, 840.0, 162.0, 1092.0 ],
+					"patching_rect" : [ 1048.0, 840.0, 165.0, 848.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 39,
-					"presentation_rect" : [ 324.0, 31.390625, 380.0, 529.0 ],
-					"text" : "The \"Audio Disintegration\" application explores how to use filtered audio to affect a video stream. In this case, we are reducing or boosting different parts of the audio frequency spectrum and then taking the amplitude of the result. The amplitude (or energy) of the resulting signal is translated into displacement of the pixels in the video by a varying amount.\n\nWe have supplied you with multiple paramaters by which to affect the output of the application, Image Type, Audio File Playback Rate, File vs. Mic Mixing, Audio Filtering, and a Customizable Response Curve.\n\nThe image type allows you to toggle between the original full color image being displaced, or an edges only filtered image being used.\n\nThe audio file playback rate allows you to choose how quickly or slowly to play the sound in a loaded file.\n\nThe File vs. Mic Mixing allows you to determine the amount of type of audio input to be used for filtering and analysis. You can hear the result of your mix through the audio monitor.\n\nThe audio filtering allows you to modify the properties of the filter used to boost or cut various parts of the audio spectrum. You can find these controls to the right of this text.\n\nThe response curve allows you to set the amount of displacement based on the analyzed amount of energy.  You can use this curve to designate differing values based on the observed energy levels. Play with the click & drag display to create your own custom curve.\n\nWe have 3 presets to try out:\n1 - More bass / lower end audio results in a clearer image.\n\n2 - All frequencies are boosted, enabling small increases to have large imapacts.\n\n3 - The higher frequency sounds are retained, and increses in that portion of the audio spectrum increase blurriness of the image following a natural-logarithm scaling."
+					"presentation_linecount" : 29,
+					"presentation_rect" : [ 324.0, 31.390625, 380.0, 407.0 ],
+					"text" : "The \"Audio Disintegration\" application explores how to use filtered audio to affect a video stream. In this case, we are reducing or boosting different parts of the audio frequency spectrum and then taking the amplitude of the result. The amplitude (or energy) of the resulting signal is translated into displacement of the pixels in the video by a varying amount.\n\nWe have supplied you with multiple paramaters by which to affect the output of the application, Image Type, Audio File Playback Rate, File vs. Mic Mixing, Audio Filtering, and a Customizable Response Curve.\n\nThe image type allows you to toggle between the original full color image being displaced, or an edges only filtered image being used.\n\nThe audio file playback rate allows you to choose how quickly or slowly to play the sound in a loaded file.\n\nThe File vs. Mic Mixing allows you to determine the amount of type of audio input to be used for filtering and analysis. You can hear the result of your mix through the audio monitor.\n\nThe audio filtering allows you to modify the properties of the filter used to boost or cut various parts of the audio spectrum. You can find these controls to the right of this text.\n\nThe response curve allows you to set the amount of displacement based on the analyzed amount of energy.  You can use this curve to designate differing values based on the observed energy levels. Play with the click & drag display to create your own custom curve."
 				}
 
 			}
@@ -10483,7 +10969,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 654.0, 709.375, 150.0, 33.0 ],
+					"patching_rect" : [ 654.0, 709.375, 150.0, 34.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -10598,7 +11084,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.5, 1093.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 875.0, 562.390625, 150.0, 20.0 ],
+					"presentation_rect" : [ 362.0, 463.5, 109.0, 20.0 ],
 					"text" : "Choose a preset"
 				}
 
@@ -10624,7 +11110,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 632.0, 590.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 662.890625, 150.0, 20.0 ],
+					"presentation_rect" : [ 9.0, 491.890625, 150.0, 20.0 ],
 					"text" : "Adjust Audio Output Level"
 				}
 
@@ -10653,7 +11139,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 573.0, 628.0, 230.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 684.890625, 264.0, 47.0 ],
+					"presentation_rect" : [ 9.0, 513.890625, 264.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -10704,7 +11190,7 @@
 					"patching_rect" : [ 658.5, 1112.0, 100.0, 40.0 ],
 					"pattrstorage" : "audio_disintegrate",
 					"presentation" : 1,
-					"presentation_rect" : [ 776.0, 556.390625, 89.0, 32.0 ]
+					"presentation_rect" : [ 366.0, 482.390625, 89.0, 32.0 ]
 				}
 
 			}
@@ -11584,6 +12070,41 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-102", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-102", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"source" : [ "obj-102", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-102", 4 ],
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
@@ -11656,16 +12177,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-102", 2 ],
+					"order" : 0,
 					"source" : [ "obj-112", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-102", 0 ],
+					"order" : 1,
 					"source" : [ "obj-112", 0 ]
 				}
 
@@ -11703,6 +12224,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-123", 1 ],
 					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-125", 0 ],
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -12028,14 +12556,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
+					"destination" : [ "obj-102", 0 ],
 					"source" : [ "obj-193", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-102", 2 ],
 					"source" : [ "obj-194", 0 ]
 				}
 
@@ -12579,14 +13107,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 1 ],
+					"destination" : [ "obj-102", 1 ],
 					"source" : [ "obj-75", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
+					"destination" : [ "obj-102", 0 ],
 					"source" : [ "obj-75", 0 ]
 				}
 
@@ -12656,21 +13184,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"midpoints" : [ 137.75, 1284.0, 194.0, 1284.0 ],
-					"source" : [ "obj-86", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-88", 0 ]
 				}
@@ -12709,35 +13222,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
-					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
-					"midpoints" : [ 392.75, 1284.0, 458.5, 1284.0 ],
-					"source" : [ "obj-96", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-96", 1 ],
+					"destination" : [ "obj-102", 3 ],
 					"source" : [ "obj-97", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-96", 0 ],
+					"destination" : [ "obj-102", 2 ],
 					"source" : [ "obj-97", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-102::obj-86" : [ "live.gain~[1]", "Audio File Input Level", 0 ],
+			"obj-102::obj-96" : [ "live.gain~[2]", "Microphone Input Level", 0 ],
 			"obj-120" : [ "number", "number", 0 ],
 			"obj-182::obj-10" : [ "umenu", "umenu", 0 ],
 			"obj-182::obj-105" : [ "live.tab[3]", "live.tab[2]", 0 ],
@@ -12770,8 +13270,6 @@
 			"obj-49" : [ "button", "button", 0 ],
 			"obj-78" : [ "multislider", "multislider", 0 ],
 			"obj-80" : [ "live.tab[1]", "live.tab[1]", 0 ],
-			"obj-86" : [ "live.gain~[1]", "Audio File Input Level", 0 ],
-			"obj-96" : [ "live.gain~[2]", "Microphone Input Level", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -12781,8 +13279,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.noise.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -12794,92 +13292,96 @@
 			}
 , 			{
 				"name" : "sc.texture.gain.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gain.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.repos.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.repos.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.biquad.2peakamp.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Audio_to_Video/Audio Disintegration/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Audio_to_Video/Windows Builds/Audio Disintegration/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "audio_disintegrate.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Audio_to_Video/Audio Disintegration/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Audio_to_Video/Windows Builds/Audio Disintegration/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.slide.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.edge.sobel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "disintegrate_icon_crop.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Audio_to_Video/Audio Disintegration/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 4/Application Projects/Audio_to_Video/Windows Builds/Audio Disintegration/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.mo.time.mxo",
-				"type" : "iLaX"
+				"name" : "jit.mo.time.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

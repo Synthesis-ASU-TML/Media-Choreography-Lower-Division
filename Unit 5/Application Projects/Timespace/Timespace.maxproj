@@ -1,8 +1,8 @@
 {
-	"name" : "Delay Sequences",
+	"name" : "Timespace",
 	"version" : 1,
-	"creationdate" : 3676104369,
-	"modificationdate" : 3684236955,
+	"creationdate" : 3687076960,
+	"modificationdate" : 3687077256,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,35 +10,22 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"A Sequence of Delays.maxpat" : 			{
+			"Timespace.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
-
-		}
 ,
-		"media" : 		{
+			"sc.texture.timespace.rgb.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"code" : 		{
-
-		}
-,
-		"externals" : 		{
-
-		}
-,
-		"other" : 		{
-			"delays_icon.icns" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
-,
-			"delays_icon.ico" : 			{
-				"kind" : "file",
-				"local" : 1
+			"timespace.jxs" : 			{
+				"kind" : "shader"
 			}
 
 		}

@@ -5850,7 +5850,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u420004085"
+									"varname" : "u500002723"
 								}
 
 							}
@@ -6750,7 +6750,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Bleep Sequencer/other/bleep_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Bleep Sequencer/other/bleep_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.bleepsequence",
 						"cantclosetoplevelpatchers" : 1,
@@ -6902,11 +6902,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 42,
+					"linecount" : 41,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 180.0, 586.0 ],
+					"patching_rect" : [ 27.0, 779.0, 183.0, 572.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
 					"presentation_rect" : [ 276.0, 32.59375, 246.0, 448.0 ],

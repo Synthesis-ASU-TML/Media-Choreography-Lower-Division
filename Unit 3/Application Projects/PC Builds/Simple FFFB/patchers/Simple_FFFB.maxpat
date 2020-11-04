@@ -131,6 +131,18 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 391.0, 101.0, 146.0, 22.0 ],
+													"text" : "udpreceive 8000 CNMAT"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-81",
 													"linecount" : 27,
@@ -932,7 +944,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 391.0, 99.0, 121.0, 22.0 ],
+													"patching_rect" : [ 391.0, 128.0, 121.0, 22.0 ],
 													"text" : "routepass FullPacket"
 												}
 
@@ -1093,7 +1105,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
+													"destination" : [ "obj-5", 0 ],
 													"source" : [ "obj-13", 0 ]
 												}
 
@@ -1571,6 +1583,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-47", 0 ],
 													"source" : [ "obj-48", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-14", 0 ],
+													"source" : [ "obj-5", 0 ]
 												}
 
 											}
@@ -3914,7 +3933,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u893001079"
+									"varname" : "u594013979"
 								}
 
 							}
@@ -19472,7 +19491,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1159.5, 449.0, 171.0, 696.0 ],
+					"patching_rect" : [ 1159.5, 449.0, 173.0, 696.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 34,
 					"presentation_rect" : [ 259.0, 34.5, 255.0, 476.0 ],

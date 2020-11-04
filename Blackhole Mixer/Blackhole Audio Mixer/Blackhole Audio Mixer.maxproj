@@ -1,8 +1,8 @@
 {
-	"name" : "Delay Sequences",
+	"name" : "Blackhole Audio Mixer",
 	"version" : 1,
-	"creationdate" : 3676104369,
-	"modificationdate" : 3684236955,
+	"creationdate" : 3687178167,
+	"modificationdate" : 3687180946,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,7 +10,7 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"A Sequence of Delays.maxpat" : 			{
+			"Blackhole Audio Mixer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -19,25 +19,8 @@
 		}
 ,
 		"media" : 		{
-
-		}
-,
-		"code" : 		{
-
-		}
-,
-		"externals" : 		{
-
-		}
-,
-		"other" : 		{
-			"delays_icon.icns" : 			{
-				"kind" : "file",
-				"local" : 1
-			}
-,
-			"delays_icon.ico" : 			{
-				"kind" : "file",
+			"Mute_Button.png" : 			{
+				"kind" : "imagefile",
 				"local" : 1
 			}
 
