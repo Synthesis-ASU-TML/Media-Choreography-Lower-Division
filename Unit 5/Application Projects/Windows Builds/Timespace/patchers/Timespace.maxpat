@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 581.0, 140.0, 788.0, 324.0 ],
+		"rect" : [ 581.0, 140.0, 788.0, 364.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,94 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"fontface" : 1,
+					"fontlink" : 1,
+					"id" : "obj-30",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 379.5, 272.0, 22.673828125, 21.40625 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 380.5, 275.0, 22.673828125, 21.40625 ],
+					"rounded" : 100.0,
+					"text" : "8",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 8.0, 111.0, 172.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 113.40625, 172.0, 20.0 ],
+					"text" : "Movie Playback Rate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 632.0, 70.0, 77.0, 22.0 ],
+					"text" : "prepend rate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 631.75, 46.0, 29.5, 22.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 12.0,
+					"id" : "obj-13",
+					"maxclass" : "live.tab",
+					"num_lines_patching" : 1,
+					"num_lines_presentation" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 634.0, 19.0, 147.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 130.0, 372.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Rewind", "Pause", "Play" ],
+							"parameter_longname" : "live.tab",
+							"parameter_mmax" : 2,
+							"parameter_shortname" : "live.tab",
+							"parameter_type" : 2,
+							"parameter_unitstyle" : 0
+						}
+
+					}
+,
+					"varname" : "live.tab"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-33",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -55,14 +143,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-31",
-					"linecount" : 29,
+					"linecount" : 28,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 65.0, 150.0, 395.0 ],
+					"patching_rect" : [ 434.0, 65.0, 152.0, 382.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 413.0, 43.0, 356.0, 181.0 ],
+					"presentation_rect" : [ 413.0, 43.0, 358.0, 181.0 ],
 					"text" : "The Timespace application is what we consider to be a \"temporal effect\", meaning that the way in which it modifies a video stream has a focus on time rather than explicitly on color or forms. In this case, a source movie and a mask are loaded into the application. The movie is read into a circular buffer, meaning that a certain number of the past frames are held in memory by the application. For each pixel, the mask tells the application which of those stored frames to sample, white being furthest in the past and black being live. \n\nWe have provided some pre-made masks, or you can load an image / video of your own as a mask. Feel free to experiment with both options. "
 				}
 
@@ -135,7 +223,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 685.0, 91.0, 67.0, 22.0 ],
+					"patching_rect" : [ 613.0, 168.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Timespace/other/timespace_icon.icns",
@@ -175,7 +263,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 379.5, 241.0, 22.673828125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 240.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 173.5, 275.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -192,7 +280,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 58.0, 7.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 95.59375, 372.5, 21.40625 ],
+					"presentation_rect" : [ 6.0, 90.0, 372.5, 21.40625 ],
 					"text" : "Load Input Movie File",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"usetextovercolor" : 1
@@ -220,7 +308,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.0, 152.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 168.0, 372.5, 20.0 ],
+					"presentation_rect" : [ 6.0, 203.0, 372.5, 20.0 ],
 					"text" : "Set Recording Video Codec (jpeg suggested)"
 				}
 
@@ -239,7 +327,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 713.5, 513.0, 22.673828125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.5, 240.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 251.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -260,7 +348,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 578.5, 494.0, 22.673828125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 216.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 217.5, 225.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -281,7 +369,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 94.6630859375, 35.0, 22.673828125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 220.5, 190.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 176.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -302,7 +390,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 185.9130859375, 530.0, 22.673828125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 141.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 130.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -323,7 +411,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 405.326171875, 92.59375, 22.673828125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 95.59375, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 90.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -411,7 +499,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 469.408203125, 269.5, 330.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 262.0, 373.0, 47.0 ],
+					"presentation_rect" : [ 6.0, 297.0, 373.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -599,7 +687,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Connor’s Powerbeats³", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -651,7 +739,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Connor’s Powerbeats³", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -691,7 +779,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -885,7 +973,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 225.5, 188.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.5, 119.0, 205.0, 20.0 ],
+					"presentation_rect" : [ 173.5, 154.0, 205.0, 20.0 ],
 					"text" : "Or load an image / video as a mask"
 				}
 
@@ -924,7 +1012,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 126.0, 35.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 216.0, 372.5, 20.0 ],
+					"presentation_rect" : [ 6.0, 251.0, 372.5, 20.0 ],
 					"text" : "Restart File Playback",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -939,7 +1027,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.0, 81.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 119.0, 157.0, 20.0 ],
+					"presentation_rect" : [ 6.0, 154.0, 157.0, 20.0 ],
 					"text" : "Choose a Preloaded Mask"
 				}
 
@@ -966,7 +1054,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 442.0, 95.0, 188.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.5, 141.0, 205.0, 22.0 ],
+					"presentation_rect" : [ 173.5, 176.0, 205.0, 22.0 ],
 					"text" : "Load Mask Image / Video",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -984,7 +1072,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 244.0, 103.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 141.0, 157.0, 22.0 ]
+					"presentation_rect" : [ 6.0, 176.0, 157.0, 22.0 ]
 				}
 
 			}
@@ -1083,7 +1171,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 611.5, 513.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.5, 240.0, 170.0, 20.0 ],
+					"presentation_rect" : [ 208.5, 275.0, 170.0, 20.0 ],
 					"text" : "Stop Recording",
 					"textoncolor" : [ 0.92156862745098, 0.92156862745098, 0.92156862745098, 1.0 ],
 					"usetextovercolor" : 1
@@ -1147,7 +1235,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 476.5, 494.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 240.0, 161.5, 20.0 ],
+					"presentation_rect" : [ 6.0, 275.0, 161.5, 20.0 ],
 					"text" : "Start Recording",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"usetextovercolor" : 1
@@ -1276,7 +1364,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 31.0, 530.0, 150.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 190.0, 209.5, 22.0 ]
+					"presentation_rect" : [ 6.0, 225.0, 209.5, 22.0 ]
 				}
 
 			}
@@ -1350,6 +1438,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -1359,6 +1454,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1394,6 +1496,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-20", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1590,6 +1699,7 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-13" : [ "live.tab", "live.tab", 0 ],
 			"obj-46" : [ "live.gain~", "Preview Audio Volume", 0 ],
 			"parameterbanks" : 			{
 
