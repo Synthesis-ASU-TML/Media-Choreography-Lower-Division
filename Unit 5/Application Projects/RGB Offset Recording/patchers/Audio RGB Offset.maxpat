@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 360.0, 104.0, 678.0, 700.0 ],
+		"rect" : [ 360.0, 104.0, 671.0, 700.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 0,
-		"enablevscroll" : 0,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-128",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1112.5, 1001.0, 65.0, 22.0 ],
+					"text" : "r world-out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-127",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 465.0, 111.0, 67.0, 22.0 ],
+					"text" : "s world-out"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-174",
 					"maxclass" : "newobj",
@@ -400,8 +423,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 1055.0, 1025.599609375, 40.0, 22.0 ],
-					"text" : "jit.vcr"
+					"patching_rect" : [ 1021.5, 1033.0, 110.0, 22.0 ],
+					"text" : "jit.vcr @codec jpeg"
 				}
 
 			}
@@ -845,7 +868,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1505.0, 366.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.0, 571.7578125, 298.0, 20.0 ],
+					"presentation_rect" : [ 368.0, 572.7578125, 298.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020"
 				}
 
@@ -853,11 +876,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-111",
-					"linecount" : 70,
+					"linecount" : 68,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 366.0, 164.0, 945.0 ],
+					"patching_rect" : [ 1339.0, 366.0, 168.0, 918.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 39,
 					"presentation_rect" : [ 368.0, 40.7578125, 301.0, 529.0 ],
@@ -1317,7 +1340,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 465.0, 111.0, 81.0, 22.0 ],
+					"patching_rect" : [ 361.0, 106.0, 81.0, 22.0 ],
 					"text" : "s from-render"
 				}
 
@@ -1839,7 +1862,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI" ],
+									"items" : [ "None", ",", "Connor’s Powerbeats³", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1891,7 +1914,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Video Capture Audio", ",", "Record From Chrome" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Connor’s Powerbeats³", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1931,7 +1954,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2353,7 +2376,7 @@
 					"patching_rect" : [ 415.0, 273.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 70.0, 192.5, 68.0, 20.0 ],
-					"text" : "149.63º"
+					"text" : "180.14º"
 				}
 
 			}
@@ -2447,7 +2470,7 @@
 					"patching_rect" : [ 693.0, 264.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.00537109375, 192.5, 67.0, 20.0 ],
-					"text" : "146.58º"
+					"text" : "0.14º"
 				}
 
 			}
@@ -3306,14 +3329,14 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 590.500000000000114, 971.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"blue-direction" : [ 656.779661016941645 ],
-						"green-direction" : [ 665.254237288136665 ],
+						"blue-direction" : [ 250.0 ],
+						"green-direction" : [ 750.0 ],
 						"mode-menu" : [ 1 ],
-						"offset-max" : [ 0.2 ]
+						"offset-max" : [ 0.05 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u312004199"
+					"varname" : "u356002000"
 				}
 
 			}
@@ -3586,13 +3609,20 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 465.0, 82.0, 274.0, 22.0 ],
-					"text" : "jit.world \"Audio RGB Offset\" @erase_color 0 0 0 1"
+					"patching_rect" : [ 465.0, 82.0, 373.0, 22.0 ],
+					"text" : "jit.world \"Audio RGB Offset\" @erase_color 0 0 0 1 @output_matrix 1"
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-127", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-1", 1 ]
@@ -3804,6 +3834,13 @@
 					"midpoints" : [ 295.5, 1191.0, 497.0, 1191.0 ],
 					"order" : 0,
 					"source" : [ "obj-126", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 2 ],
+					"source" : [ "obj-128", 0 ]
 				}
 
 			}
@@ -4370,7 +4407,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -4378,7 +4415,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
