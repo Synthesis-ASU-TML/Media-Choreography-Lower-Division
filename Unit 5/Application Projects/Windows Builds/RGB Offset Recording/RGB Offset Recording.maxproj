@@ -2,7 +2,7 @@
 	"name" : "RGB Offset Recording",
 	"version" : 1,
 	"creationdate" : 3677591746,
-	"modificationdate" : 3677675994,
+	"modificationdate" : 3687458299,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -45,6 +45,11 @@
 ,
 		"other" : 		{
 			"rgbshift_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"rgbshift_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

@@ -2,7 +2,7 @@
 	"name" : "Origin",
 	"version" : 1,
 	"creationdate" : 3676891362,
-	"modificationdate" : 3676986428,
+	"modificationdate" : 3687410542,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -32,6 +32,11 @@
 ,
 		"other" : 		{
 			"origin_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"origin_icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

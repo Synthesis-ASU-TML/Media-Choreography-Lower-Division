@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 869.0, 99.0, 633.0, 754.0 ],
+		"rect" : [ 258.0, 98.0, 926.0, 596.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -99,9 +99,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.99462890625, 645.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 170.99462890625, 645.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.99462890625, 647.8828125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 435.49462890625, 544.85009765625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -121,9 +121,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 251.99462890625, 575.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 251.99462890625, 575.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 251.99462890625, 575.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 435.49462890625, 497.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -143,9 +143,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 170.99462890625, 563.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 170.99462890625, 563.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.99462890625, 563.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 147.576656341552734, 508.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -165,9 +165,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 221.99462890625, 486.8828125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 221.99462890625, 486.8828125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.99462890625, 483.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 374.99462890625, 424.7734375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -187,9 +187,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 146.0, 457.8828125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 146.0, 457.8828125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.99462890625, 457.8828125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 125.99462890625, 437.8828125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -209,9 +209,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 545.0, 313.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 545.0, 313.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 545.0, 315.8828125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 526.0, 267.8828125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -231,9 +231,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 173.0, 84.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 173.0, 84.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 15.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 79.99462890625, 55.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -263,7 +263,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 351.0, 869.0, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 385.0, 33.0, 242.0, 53.0 ],
+					"presentation_rect" : [ 366.0, 13.0, 242.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -289,7 +289,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 877.0, 284.0, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 877.0, 284.0, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -303,7 +303,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 745.0, 284.0, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 745.0, 284.0, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -354,7 +354,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 355.0, 302.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 288.0, 236.0, 27.0 ],
+					"presentation_rect" : [ 337.0, 240.0, 236.0, 27.0 ],
 					"text" : "Microphone Controls"
 				}
 
@@ -381,7 +381,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Origin/other/origin_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Origin/other/origin_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.origin",
 						"cantclosetoplevelpatchers" : 1,
@@ -396,7 +396,7 @@
 						"preffilename" : "Origin Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -410,9 +410,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 850.0, 645.0, 150.0, 33.0 ],
+					"patching_rect" : [ 850.0, 645.0, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 721.0, 279.0, 20.0 ],
+					"presentation_rect" : [ 617.0, 368.0, 279.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020"
 				}
 
@@ -431,7 +431,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 172.0, 378.0, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 271.0, 253.0, 53.0 ],
+					"presentation_rect" : [ 18.0, 251.0, 253.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[3]",
@@ -455,10 +455,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 703.60546875, 645.0, 153.0, 476.0 ],
+					"patching_rect" : [ 703.60546875, 645.0, 157.0, 489.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 20,
-					"presentation_rect" : [ 346.0, 444.0, 280.0, 275.0 ],
+					"presentation_rect" : [ 617.0, 91.0, 280.0, 282.0 ],
 					"text" : "The \"Origin\" application is the starting point for the exquisite corpse exercise. Students will choose either to blend pieces of pre-recorded media or to add live recorded elements and turn them into a short movie file with both video and audio components.\n\nThere are controls for each of the input modalities, video files, cameras, audio files, and microphones. These controls vary based on the device in modality in question. Preview capabilities have been provided for both video and audio. As a suggestion, choose an output audio device that cannot be detected by your microphone.\n\nWhen all settings are to your liking, press the start recording button to bring up a save prompt to choose a location for the output movie file. When you have finished your recording, press the stop recording button."
 				}
 
@@ -473,7 +473,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 703.60546875, 618.0, 224.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 415.0, 279.0, 27.0 ],
+					"presentation_rect" : [ 617.0, 62.0, 279.0, 27.0 ],
 					"text" : "Origin"
 				}
 
@@ -488,7 +488,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 536.0, 176.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 344.0, 236.0, 27.0 ],
+					"presentation_rect" : [ 18.0, 324.0, 236.0, 27.0 ],
 					"text" : "Camera Controls"
 				}
 
@@ -502,9 +502,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 703.60546875, 0.5, 237.0, 47.0 ],
+					"patching_rect" : [ 703.60546875, 0.5, 237.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 46.0, 271.0, 27.0 ],
+					"presentation_rect" : [ 77.0, 26.0, 271.0, 27.0 ],
 					"text" : "Enable Application Rendering"
 				}
 
@@ -519,7 +519,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 280.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 423.0, 236.0, 27.0 ],
+					"presentation_rect" : [ 18.0, 403.0, 236.0, 27.0 ],
 					"text" : "Media Recording Settings"
 				}
 
@@ -534,7 +534,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.0, 284.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 120.0, 236.0, 27.0 ],
+					"presentation_rect" : [ 337.0, 72.0, 236.0, 27.0 ],
 					"text" : "Audio File Controls"
 				}
 
@@ -552,7 +552,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 145.0, 773.0, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 594.0, 242.0, 53.0 ],
+					"presentation_rect" : [ 187.5, 492.0, 242.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -579,7 +579,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 113.0, 0.5, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 122.0, 236.0, 27.0 ],
+					"presentation_rect" : [ 18.0, 102.0, 236.0, 27.0 ],
 					"text" : "Video File Controls"
 				}
 
@@ -594,7 +594,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1055.0, 120.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 151.59375, 128.0, 21.40625 ],
+					"presentation_rect" : [ 337.0, 103.59375, 128.0, 21.40625 ],
 					"text" : "Load Audio File"
 				}
 
@@ -633,7 +633,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 431.921875, 374.0, 110.7109375, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 485.2890625, 151.59375, 123.7109375, 21.40625 ],
+					"presentation_rect" : [ 466.2890625, 103.59375, 123.7109375, 21.40625 ],
 					"text" : "Restart Audio File"
 				}
 
@@ -658,7 +658,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 384.0, 319.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 177.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 337.0, 129.0, 150.0, 20.0 ],
 					"text" : "Audio File Playback Rate"
 				}
 
@@ -688,7 +688,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 587.0, 341.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 559.0, 199.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 540.0, 151.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -704,7 +704,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 384.0, 341.0, 200.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 199.0, 200.0, 24.0 ],
+					"presentation_rect" : [ 337.0, 151.0, 200.0, 24.0 ],
 					"setminmax" : [ -2.0, 2.0 ],
 					"thickness" : 5
 				}
@@ -720,9 +720,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 687.0, 100.0, 183.2109375, 25.875 ],
+					"patching_rect" : [ 687.0, 100.0, 183.2109375, 26.3984375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 317.0, 183.2109375, 25.875 ],
+					"presentation_rect" : [ 337.0, 269.0, 183.2109375, 26.3984375 ],
 					"text" : "Configure Audio Device"
 				}
 
@@ -806,7 +806,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 55.0, 170.0, 47.0 ],
+									"patching_rect" : [ 95.0, 55.0, 170.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 5.0, 329.0, 27.0 ],
 									"text" : "Configure Audio Device Settings"
@@ -829,7 +829,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -869,7 +869,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -921,7 +921,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Video Capture Audio", ",", "Record From Chrome" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -961,7 +961,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1154,7 +1154,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 728.0, 486.0, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 348.0, 253.0, 53.0 ],
+					"presentation_rect" : [ 337.0, 300.0, 253.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70.0 ],
@@ -1187,7 +1187,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 384.0, 486.0, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.0, 223.0, 253.0, 53.0 ],
+					"presentation_rect" : [ 337.0, 175.0, 253.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1224,7 +1224,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 325.0, 87.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 219.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 199.0, 150.0, 20.0 ],
 					"text" : "Video Playback Rate"
 				}
 
@@ -1266,7 +1266,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 528.0, 109.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 241.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 221.0, 221.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1282,7 +1282,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 325.0, 109.0, 200.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 241.0, 200.0, 24.0 ],
+					"presentation_rect" : [ 18.0, 221.0, 200.0, 24.0 ],
 					"setminmax" : [ -2.0, 2.0 ],
 					"thickness" : 5
 				}
@@ -1298,7 +1298,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 20.0, 103.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 151.0, 143.5, 20.0 ],
+					"presentation_rect" : [ 18.0, 131.0, 143.5, 20.0 ],
 					"text" : "Load Movie File"
 				}
 
@@ -1349,7 +1349,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.921875, 76.0, 143.5, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.5, 151.0, 143.5, 20.0 ],
+					"presentation_rect" : [ 161.5, 131.0, 143.5, 20.0 ],
 					"text" : "Restart Video File"
 				}
 
@@ -1386,7 +1386,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.0, 27.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 173.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 153.0, 150.0, 20.0 ],
 					"text" : "Video Looping Mode"
 				}
 
@@ -1405,7 +1405,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 37.0, 49.0, 287.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 195.0, 287.0, 25.0 ],
+					"presentation_rect" : [ 18.0, 175.0, 287.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "No Looping", "Loop Forward", "Palindrome Loop" ],
@@ -1450,7 +1450,6 @@
 , 			{
 				"box" : 				{
 					"fontface" : 0,
-					"fontlink" : 1,
 					"fontsize" : 16.0,
 					"id" : "obj-37",
 					"maxclass" : "textbutton",
@@ -1459,13 +1458,14 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 755.0, 127.1640625, 25.875 ],
+					"patching_rect" : [ 14.0, 755.0, 127.164054870605469, 26.3984375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 649.0, 127.1640625, 25.875 ],
+					"presentation_rect" : [ 18.0, 546.0, 411.164054870605469, 26.3984375 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop Recording",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1491,7 +1491,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 687.0, 12.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 27.0, 65.0, 65.0 ]
+					"presentation_rect" : [ 10.0, 7.0, 65.0, 65.0 ]
 				}
 
 			}
@@ -1527,7 +1527,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 328.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 452.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 432.0, 100.0, 20.0 ],
 					"text" : "Video Source"
 				}
 
@@ -1557,7 +1557,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 350.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 474.0, 100.0, 20.0 ],
+					"presentation_rect" : [ 18.0, 454.0, 100.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "File", "Camera" ],
@@ -1617,10 +1617,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 669.0, 150.0, 33.0 ],
+					"patching_rect" : [ 8.0, 669.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 37.0, 537.0, 130.0, 33.0 ],
+					"presentation_rect" : [ 16.582027435302734, 482.0, 130.0, 34.0 ],
 					"text" : "Audio  Channel Configuration"
 				}
 
@@ -1633,7 +1633,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 510.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 497.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 184.0, 437.8828125, 150.0, 20.0 ],
 					"text" : "Audio Source"
 				}
 
@@ -1723,7 +1723,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 691.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 572.0, 130.0, 20.0 ],
+					"presentation_rect" : [ 16.582027435302734, 517.0, 130.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Mono", "Stereo" ],
@@ -1750,9 +1750,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 536.0, 199.0, 178.749984741210938, 25.875 ],
+					"patching_rect" : [ 536.0, 199.0, 178.75, 26.3984375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 373.0, 178.749984741210938, 25.875 ],
+					"presentation_rect" : [ 18.0, 353.0, 178.75, 26.3984375 ],
 					"text" : "Open Camera Settings"
 				}
 
@@ -1770,7 +1770,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 532.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 516.0, 242.0, 20.0 ],
+					"presentation_rect" : [ 184.0, 456.8828125, 242.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Movie File", "Audio File", "Microphone" ],
@@ -2053,7 +2053,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1153.0, 278.0, 13.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 113.0, 304.0, 215.0 ],
+					"presentation_rect" : [ 10.0, 93.0, 304.0, 215.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2072,7 +2072,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1153.0, 278.0, 4.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 113.0, 281.0, 167.0 ],
+					"presentation_rect" : [ 327.0, 65.0, 281.0, 167.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2091,7 +2091,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 280.0, 13.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 334.0, 304.0, 74.0 ],
+					"presentation_rect" : [ 10.0, 314.0, 304.0, 74.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2110,7 +2110,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 346.0, 284.0, 13.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 284.0, 281.0, 124.0 ],
+					"presentation_rect" : [ 327.0, 236.0, 281.0, 124.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2129,7 +2129,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 451.0, 13.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 415.0, 270.0, 270.0 ],
+					"presentation_rect" : [ 9.0, 395.0, 462.0, 184.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -2739,14 +2739,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.matrix.camera.simple.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/matrix",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/matrix",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/matrix",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/matrix",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

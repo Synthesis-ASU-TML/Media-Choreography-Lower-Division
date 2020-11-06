@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 581.0, 140.0, 788.0, 364.0 ],
+		"rect" : [ 280.0, 163.0, 788.0, 364.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 643.0, 115.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
 					"fontface" : 1,
 					"fontlink" : 1,
@@ -50,9 +62,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 379.5, 272.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 379.5, 272.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 275.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 275.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -133,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 572.0, 250.0, 150.0, 33.0 ],
+					"patching_rect" : [ 572.0, 250.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 413.0, 226.0, 356.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU. October 2020"
@@ -147,10 +159,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 434.0, 65.0, 152.0, 382.0 ],
+					"patching_rect" : [ 434.0, 65.0, 155.0, 393.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 413.0, 43.0, 358.0, 181.0 ],
+					"presentation_rect" : [ 413.0, 43.0, 361.0, 186.0 ],
 					"text" : "The Timespace application is what we consider to be a \"temporal effect\", meaning that the way in which it modifies a video stream has a focus on time rather than explicitly on color or forms. In this case, a source movie and a mask are loaded into the application. The movie is read into a circular buffer, meaning that a certain number of the past frames are held in memory by the application. For each pixel, the mask tells the application which of those stored frames to sample, white being furthest in the past and black being live. \n\nWe have provided some pre-made masks, or you can load an image / video of your own as a mask. Feel free to experiment with both options. "
 				}
 
@@ -227,7 +239,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Timespace/other/timespace_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Timespace/other/timespace_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.timespace",
 						"cantclosetoplevelpatchers" : 1,
@@ -242,7 +254,7 @@
 						"preffilename" : "Timespace Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -261,9 +273,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 379.5, 241.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 379.5, 241.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.5, 275.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 173.5, 275.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -306,7 +318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.0, 152.0, 150.0, 33.0 ],
+					"patching_rect" : [ 23.0, 152.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.0, 203.0, 372.5, 20.0 ],
 					"text" : "Set Recording Video Codec (jpeg suggested)"
@@ -325,9 +337,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 713.5, 513.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 713.5, 513.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 251.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 251.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -346,9 +358,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 578.5, 494.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 578.5, 494.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 217.5, 225.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 217.5, 225.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -367,9 +379,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.6630859375, 35.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 94.6630859375, 35.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 176.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 176.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -388,9 +400,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 185.9130859375, 530.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 185.9130859375, 530.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 130.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 130.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -409,9 +421,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 405.326171875, 92.59375, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 405.326171875, 92.59375, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 380.5, 90.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 380.5, 90.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -430,9 +442,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 126.0, 401.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 126.0, 401.0, 22.673827648162842, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.9130859375, 28.0, 22.673828125, 21.40625 ],
+					"presentation_rect" : [ 86.9130859375, 28.0, 22.673827648162842, 21.798828125 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -647,7 +659,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -687,7 +699,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -739,7 +751,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -779,7 +791,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -971,7 +983,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.5, 188.0, 150.0, 33.0 ],
+					"patching_rect" : [ 225.5, 188.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.5, 154.0, 205.0, 20.0 ],
 					"text" : "Or load an image / video as a mask"
@@ -1564,6 +1576,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -1710,15 +1729,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.timespace.rgb.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Timespace/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Timespace/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -1729,8 +1748,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
