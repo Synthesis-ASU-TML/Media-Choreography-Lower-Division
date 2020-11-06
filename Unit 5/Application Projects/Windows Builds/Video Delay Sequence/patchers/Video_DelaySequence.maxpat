@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 398.0, 113.0, 612.0, 613.0 ],
+		"rect" : [ 376.0, 85.0, 612.0, 594.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -370,11 +370,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1132.0, 933.0, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 66.0, 570.5, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"patching_rect" : [ 1132.0, 933.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -387,8 +384,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1233.0, 873.0, 155.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 63.5, 548.5, 155.0, 20.0 ],
 					"text" : "Refresh Mira Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -594,7 +589,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -931,9 +926,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1039.0, 463.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1039.0, 463.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 244.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 244.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1472,9 +1467,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1196.0, 1054.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1196.0, 1054.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 220.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 220.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1966,9 +1961,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1215.0, 776.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1215.0, 776.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 196.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 196.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2460,9 +2455,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 893.0, 1054.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 893.0, 1054.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 172.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 172.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2981,9 +2976,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 912.0, 776.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 912.0, 776.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 148.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 148.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3505,9 +3500,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 518.0, 871.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 518.0, 871.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 124.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 124.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4035,9 +4030,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 527.0, 566.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 527.0, 566.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 100.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 100.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4503,9 +4498,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 527.0, 323.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 527.0, 323.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 76.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 76.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4980,9 +4975,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 85.0, 581.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 85.0, 581.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 52.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 52.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6465,9 +6460,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 112.1669921875, 274.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 112.1669921875, 274.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 341.0, 28.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 341.0, 28.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6621,7 +6616,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8540,7 +8535,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 149.0, 335.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -8738,9 +8733,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 493.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 280.0, 493.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 493.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 493.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -8760,9 +8755,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 211.0, 361.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 211.0, 361.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.9892578125, 363.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 246.9892578125, 363.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9709,9 +9704,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 833.0, 218.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 833.0, 218.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 285.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 285.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10321,9 +10316,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 514.25, 155.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 514.25, 155.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 214.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 214.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10386,9 +10381,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 223.0, 16.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 223.0, 16.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 278.0, 166.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 166.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10721,7 +10716,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10761,7 +10756,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10813,7 +10808,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -10853,7 +10848,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11063,9 +11058,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 557.9892578125, 712.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 557.9892578125, 712.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 116.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 276.0, 116.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -11085,9 +11080,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 21.0, 880.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 21.0, 880.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.0, 11.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 275.0, 11.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -11107,9 +11102,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 666.99462890625, 16.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 666.99462890625, 16.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 43.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 276.0, 43.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -11136,7 +11131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.5, 916.0, 150.0, 33.0 ],
+					"patching_rect" : [ 105.5, 916.0, 150.0, 34.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -11149,7 +11144,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1541.0, 571.0, 271.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 329.0, 548.5, 271.0, 20.0 ],
+					"presentation_rect" : [ 329.0, 563.5, 271.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -11161,10 +11156,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1541.0, 54.5, 276.0, 516.0 ],
+					"patching_rect" : [ 1541.0, 54.5, 276.0, 531.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 38,
-					"presentation_rect" : [ 329.0, 30.5, 276.0, 516.0 ],
+					"presentation_rect" : [ 329.0, 30.5, 276.0, 531.0 ],
 					"text" : "The \"Video Delay Sequence\" patch downsamples an input video stream into 10 stripes, these 10 stripes are then used to determine the pitch shift and delay length of 10 buffers of the input audio. We have given you access to several parameters with which to control nature of the output, Playback Rate, Analysis Planes, Pitch Shift Range, Delay Length Range, and Dry/Wet Mix controls.\n\nThe playback rate allows you to set the master speed at which the audio track is played, anywhere from rewind to play at normal speed.\n\nThe analysis planes allow you to control which qualities of the video impact the sound output. Your options are the hue, saturation, luminance, red, green, and blue planes. Hue denotes which color a pixel is, saturation represents the intensity of color, and luminance is the value for the brightness.\n\nThe pitch shift range sets the degree to which the application will modify the pitch of the incoming audio. -2400 is a drop in pitch by 2 octaves, while 0 is no change, and 2400 is a raise of pitch by 2 octaves.\n\nThe delay length range determines the minimum and maximum delay that can be applied. 0 is no delay, 1000 is one full second, and the maximum of 5000 is five full seconds.\n\nThe dry/wet mix controls allow you to fade between the effect audio and the original audio. When the dial is set to 0, only the original audio will play. When the dial is set to 127, only the effect audio will play."
 				}
 
@@ -11197,9 +11192,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 514.25, 9.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 514.25, 9.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 87.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 276.0, 87.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -11213,7 +11208,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.25, 3.5, 150.0, 33.0 ],
+					"patching_rect" : [ 362.25, 3.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 69.5, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
@@ -11365,7 +11360,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1156.0, 532.0, 238.0, 35.0 ],
+					"patching_rect" : [ 1156.0, 532.0, 238.0, 36.0 ],
 					"text" : "vexpr ($f1 / 255.) * $f2 + $f3 @scalarmode 1"
 				}
 
@@ -12507,61 +12502,65 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.delaysequencer~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.delaydesigner~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound/poly",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound/poly",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound/poly",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/sound/poly",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delaywithfeedback.gendsp",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.16floats.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dw.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delay_sequence_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 4/Application Projects/Video_to_Audio/Video Delay Sequence/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Video Delay Sequence/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "cv.jit.resize.mxo",
-				"type" : "iLaX"
+				"name" : "cv.jit.resize.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
