@@ -1,8 +1,8 @@
 {
-	"name" : "RGB Offset Recording",
+	"name" : "Color Trail",
 	"version" : 1,
-	"creationdate" : 3677591746,
-	"modificationdate" : 3677675994,
+	"creationdate" : 3676888683,
+	"modificationdate" : 3677162775,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,32 +10,31 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Audio RGB Offset.maxpat" : 			{
+			"Video Color Trail Effect.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"sc.pattr.strip.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 
 		}
 ,
 		"media" : 		{
-			"rgbshift_icon.png" : 			{
+			"Color Trail Icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 
 		}
 ,
-		"data" : 		{
-			"rgb-offset.json" : 			{
-				"kind" : "json",
+		"code" : 		{
+			"tp.slide.ignorealpha.jxs" : 			{
+				"kind" : "shader",
 				"local" : 1
 			}
+
+		}
+,
+		"data" : 		{
 
 		}
 ,
@@ -44,7 +43,7 @@
 		}
 ,
 		"other" : 		{
-			"rgbshift_icon.icns" : 			{
+			"color_trail_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
@@ -62,7 +61,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 0,
+	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",

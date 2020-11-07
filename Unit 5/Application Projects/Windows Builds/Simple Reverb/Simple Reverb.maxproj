@@ -1,8 +1,8 @@
 {
-	"name" : "RGB Offset Recording",
+	"name" : "Simple Reverb",
 	"version" : 1,
-	"creationdate" : 3677591746,
-	"modificationdate" : 3677675994,
+	"creationdate" : 3676897498,
+	"modificationdate" : 3677156708,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,41 +10,24 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Audio RGB Offset.maxpat" : 			{
+			"Simple_Reverb.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"sc.pattr.strip.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 
 		}
 ,
 		"media" : 		{
-			"rgbshift_icon.png" : 			{
+			"Simple reverb Icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 
 		}
 ,
-		"data" : 		{
-			"rgb-offset.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-
-		}
-,
-		"externals" : 		{
-
-		}
-,
 		"other" : 		{
-			"rgbshift_icon.icns" : 			{
+			"reverb_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
@@ -62,7 +45,7 @@
 	}
 ,
 	"detailsvisible" : 0,
-	"amxdtype" : 0,
+	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",

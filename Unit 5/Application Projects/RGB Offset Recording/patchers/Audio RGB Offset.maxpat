@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 360.0, 104.0, 671.0, 700.0 ],
+		"rect" : [ 360.0, 104.0, 741.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,55 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "playbar",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 24.25, 233.5546875, 320.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.50537109375, 170.5, 262.0, 16.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-176",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 907.0, 1029.0, 81.0, 22.0 ],
+					"text" : "prepend write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-175",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 843.0, 930.0, 156.0, 22.0 ],
+					"text" : "loadmess name output.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "bang" ],
+					"patching_rect" : [ 907.0, 1001.0, 92.0, 22.0 ],
+					"text" : "savedialog mov"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-128",
 					"maxclass" : "newobj",
@@ -217,7 +266,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 280.0, 686.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 661.8828125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 281.50537109375, 499.8828125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -239,7 +288,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 333.0, 425.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 425.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 332.50537109375, 393.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -345,18 +394,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-154",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1053.75, 884.099609375, 34.0, 22.0 ],
-					"text" : "write"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontsize" : 16.0,
 					"id" : "obj-155",
@@ -368,11 +405,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1014.75, 828.099609375, 127.1640625, 25.875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 661.8828125, 267.5, 25.875 ],
+					"presentation_rect" : [ 10.50537109375, 499.8828125, 267.5, 25.875 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop Recording",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -400,7 +438,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1055.0, 946.0, 123.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 421.7578125, 320.0, 47.0 ],
+					"presentation_rect" : [ 10.50537109375, 443.7578125, 320.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -621,8 +659,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 607.0, 1204.0, 267.5, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 619.7578125, 267.5, 28.0 ],
 					"size" : 98.0
 				}
 
@@ -635,8 +671,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 377.0, 1204.0, 151.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 595.7578125, 66.0, 20.0 ],
 					"text" : "TO",
 					"textjustification" : 1
 				}
@@ -649,8 +683,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 1168.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 573.7578125, 150.0, 20.0 ],
 					"text" : "Preset Blending"
 				}
 
@@ -688,9 +720,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 487.5, 1204.0, 100.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 179.0, 595.7578125, 100.0, 22.0 ]
+					"patching_rect" : [ 487.5, 1204.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -703,9 +733,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 320.0, 1204.0, 100.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 595.7578125, 100.0, 22.0 ]
+					"patching_rect" : [ 320.0, 1204.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -785,8 +813,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "clientwindow" ],
 					"patching_rect" : [ 382.399999999999977, 872.0, 270.0, 90.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 479.7578125, 270.0, 90.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -801,7 +827,7 @@
 					"patching_rect" : [ 70.7607421875, 284.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 70.0, 281.0, 186.7607421875, 33.0 ],
+					"presentation_rect" : [ 71.50537109375, 303.0, 186.7607421875, 33.0 ],
 					"text" : "Maximum Offset Distance (Percent of Image)"
 				}
 
@@ -814,7 +840,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 129.0, 260.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.7607421875, 258.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 108.26611328125, 280.0, 150.0, 20.0 ],
 					"text" : "Offset Mixing Mode"
 				}
 
@@ -842,7 +868,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 266.0, 728.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 257.0, 100.0, 22.0 ],
+					"presentation_rect" : [ 10.50537109375, 279.0, 100.0, 22.0 ],
 					"varname" : "mode-menu"
 				}
 
@@ -868,7 +894,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1505.0, 366.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.0, 572.7578125, 298.0, 20.0 ],
+					"presentation_rect" : [ 372.0, 485.9921875, 298.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020"
 				}
 
@@ -876,14 +902,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-111",
-					"linecount" : 68,
+					"linecount" : 67,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 366.0, 168.0, 918.0 ],
+					"patching_rect" : [ 1339.0, 366.0, 171.0, 905.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 39,
-					"presentation_rect" : [ 368.0, 40.7578125, 301.0, 529.0 ],
+					"presentation_linecount" : 33,
+					"presentation_rect" : [ 372.0, 33.0, 356.0, 449.0 ],
 					"text" : "The recording verion of the \"Audio RGB Offset\" application takes in a movie file, (Video + Audio) and filters the audio channels to only pass the low or high spectrum noises. The loudness of the filtered low sounds control the offset of the Green component of the video. The loudness of the high sounds controls the offset of the Blue component of the video. You can listen to the filtered audio by changing the tab selected for #5.\n\nIn this updated version, we have exposed various parameters for exploration. These parameters include the direction of offset for both Green and Blue components, the method which is used to mix the offset colors with the original colors, and the maximum percent offset that the components can be.\n\nThe offset direction allows you to set the angle at which the given component will be moved. (labelled in degrees for ease of reading) Any portions of the offset color that extend beyond the edges of the image will be wrapped to the other side, try setting the maximum percent offset high to see it.\n\nThe Offset Mixing Mode controls the method by which the original colors and offset colors are combined. When set to \"additive\", the offset colors are added to the original pixel colors. In \"Replace\" mode, the offset Green and Blue values replace their original counterparts.\n\nThe Maximum Percent Offset controls how far the color components can be shifted in any direction. This value is the percent of the image dimensions that the components can travel. For example, a setting of 0.05 is equivalent to 5% of the image while 0.5 equals 50% of the image. Any pixels that are shifted beyond the edges of the screen are wrapped back around to the other side of the screen."
 				}
 
@@ -898,7 +924,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1339.0, 336.0, 193.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.0, 12.0, 298.0, 27.0 ],
+					"presentation_rect" : [ 372.0, 4.2421875, 298.0, 27.0 ],
 					"text" : "Audio RGB Offset"
 				}
 
@@ -930,7 +956,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 335.0, 442.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 370.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 332.50537109375, 338.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -952,7 +978,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 335.0, 383.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 327.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 332.50537109375, 295.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -974,7 +1000,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 330.0, 338.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 238.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 277.50537109375, 258.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1716,7 +1742,9 @@
 					"patching_rect" : [ 1149.408203125, 326.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 64.796875, 264.0, 21.40625 ],
-					"text" : "Configure Audio Device"
+					"text" : "Configure Audio Device",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1862,7 +1890,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Connor’s Powerbeats³", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1914,7 +1942,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Connor’s Powerbeats³", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1954,7 +1982,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : [ 44100, ",", 48000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2193,7 +2221,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 647.0, 576.0, 320.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 331.0, 320.0, 21.0 ],
+					"presentation_rect" : [ 10.50537109375, 353.0, 320.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Original Audio", "Filtered For Green", "Filtered For Blue" ],
@@ -2289,7 +2317,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 598.0, 153.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.00537109375, 170.5, 128.0, 20.0 ],
+					"presentation_rect" : [ 142.5107421875, 190.5, 128.0, 20.0 ],
 					"text" : "Blue Offset Direction"
 				}
 
@@ -2302,7 +2330,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 320.0, 163.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 170.5, 129.0, 20.0 ],
+					"presentation_rect" : [ 10.50537109375, 190.5, 129.0, 20.0 ],
 					"text" : "Green Offset Direction"
 				}
 
@@ -2375,7 +2403,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.0, 273.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 192.5, 68.0, 20.0 ],
+					"presentation_rect" : [ 71.50537109375, 212.5, 68.0, 20.0 ],
 					"text" : "180.14º"
 				}
 
@@ -2419,7 +2447,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 320.0, 184.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 192.5, 59.0, 59.0 ],
+					"presentation_rect" : [ 10.50537109375, 212.5, 59.0, 59.0 ],
 					"size" : 1000.0,
 					"varname" : "green-direction"
 				}
@@ -2469,7 +2497,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 693.0, 264.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.00537109375, 192.5, 67.0, 20.0 ],
+					"presentation_rect" : [ 203.5107421875, 212.5, 67.0, 20.0 ],
 					"text" : "0.14º"
 				}
 
@@ -2513,7 +2541,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.0, 175.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.00537109375, 192.5, 59.0, 59.0 ],
+					"presentation_rect" : [ 142.5107421875, 212.5, 59.0, 59.0 ],
 					"size" : 1000.0,
 					"varname" : "blue-direction"
 				}
@@ -2567,7 +2595,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 646.0, 753.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 364.0, 320.0, 47.0 ],
+					"presentation_rect" : [ 10.50537109375, 386.0, 320.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -3336,7 +3364,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u356002000"
+					"varname" : "u634009837"
 				}
 
 			}
@@ -3388,7 +3416,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 539.399999999999977, 479.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 286.5, 59.0, 22.0 ],
+					"presentation_rect" : [ 10.50537109375, 308.5, 59.0, 22.0 ],
 					"varname" : "offset-max"
 				}
 
@@ -3560,7 +3588,9 @@
 					"patching_rect" : [ 33.0, 130.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 100.0, 264.0, 20.0 ],
-					"text" : "Load Movie File"
+					"text" : "Load Movie File",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -3853,6 +3883,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-176", 0 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-132", 0 ]
 				}
@@ -4068,13 +4105,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-158", 0 ],
-					"source" : [ "obj-154", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-155", 0 ]
 				}
@@ -4082,15 +4112,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-153", 0 ],
-					"source" : [ "obj-156", 0 ]
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-156", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-154", 0 ],
-					"source" : [ "obj-156", 1 ]
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-156", 0 ]
 				}
 
 			}
@@ -4217,6 +4247,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-155", 0 ],
 					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-175", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
+					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-177", 0 ]
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 140.0, 92.0, 964.0, 553.0 ],
+		"rect" : [ 360.0, 104.0, 741.0, 538.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,112 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-185",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 185.5, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 183.8828125, 264.0, 20.0 ],
-					"text" : "Set Video Playback Rate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-184",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, -45.0, 60.0, 22.0 ],
-					"text" : "position 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-181",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 195.0, -71.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 263.8828125, 264.0, 20.0 ],
-					"text" : "Restart Playback",
-					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-180",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, -19.5, 77.0, 22.0 ],
-					"text" : "prepend rate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-179",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 39.0, -85.0, 29.5, 22.0 ],
-					"text" : "- 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-178",
-					"maxclass" : "multislider",
+					"id" : "obj-177",
+					"maxclass" : "playbar",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"orientation" : 0,
-					"outlettype" : [ "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 39.0, -58.0, 134.0, 30.0 ],
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 24.25, 233.5546875, 320.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 205.8828125, 260.0, 31.0 ],
-					"thickness" : 5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-177",
-					"maxclass" : "live.tab",
-					"num_lines_patching" : 1,
-					"num_lines_presentation" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 39.0, -107.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 238.8828125, 264.0, 20.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_enum" : [ "Rewind", "Pause", "Play" ],
-							"parameter_longname" : "live.tab[2]",
-							"parameter_mmax" : 2,
-							"parameter_shortname" : "live.tab[2]",
-							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"varname" : "live.tab"
+					"presentation_rect" : [ 10.50537109375, 170.5, 262.0, 16.0 ]
 				}
 
 			}
@@ -156,23 +58,32 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 39.0, -131.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"patching_rect" : [ 907.0, 1029.0, 81.0, 22.0 ],
+					"text" : "prepend write"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-175",
-					"linecount" : 28,
-					"maxclass" : "comment",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 793.0, 163.0, 153.0, 393.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 16,
-					"presentation_rect" : [ 668.0, 40.7578125, 267.0, 227.0 ],
-					"text" : "The Offset Mixing Mode controls the method by which the original colors and offset colors are combined. When set to \"additive\", the offset colors are added to the original pixel colors. In \"Replace\" mode, the offset Green and Blue values replace their original counterparts.\n\nThe Maximum Percent Offset controls how far the color components can be shifted in any direction. This value is the percent of the image dimensions that the components can travel. For example, a setting of 0.05 is equivalent to 5% of the image while 0.5 equals 50% of the image. Any pixels that are shifted beyond the edges of the screen are wrapped back around to the other side of the screen."
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 843.0, 930.0, 156.0, 22.0 ],
+					"text" : "loadmess name output.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "bang" ],
+					"patching_rect" : [ 907.0, 1001.0, 92.0, 22.0 ],
+					"text" : "savedialog mov"
 				}
 
 			}
@@ -353,9 +264,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 686.0, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 280.0, 686.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 649.0, 399.8828125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 281.50537109375, 499.8828125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -375,9 +286,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 333.0, 425.0, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 333.0, 425.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.99462890625, 513.03369140625, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 332.50537109375, 393.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -404,7 +315,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1148.0, 823.537109375, 63.0, 36.0 ],
+					"patching_rect" : [ 1148.0, 823.537109375, 63.0, 35.0 ],
 					"text" : "loadmess varname"
 				}
 
@@ -483,18 +394,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-154",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1053.75, 884.099609375, 34.0, 22.0 ],
-					"text" : "write"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontsize" : 16.0,
 					"id" : "obj-155",
@@ -506,11 +405,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1014.75, 828.099609375, 127.1640625, 25.875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.0, 399.8828125, 267.5, 25.875 ],
+					"presentation_rect" : [ 10.50537109375, 499.8828125, 267.5, 25.875 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop Recording",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -538,7 +438,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1055.0, 946.0, 123.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 503.8828125, 320.0, 47.0 ],
+					"presentation_rect" : [ 10.50537109375, 443.7578125, 320.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -924,10 +824,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 70.7607421875, 284.0, 150.0, 34.0 ],
+					"patching_rect" : [ 70.7607421875, 284.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 69.99462890625, 407.2578125, 186.7607421875, 34.0 ],
+					"presentation_rect" : [ 71.50537109375, 303.0, 186.7607421875, 33.0 ],
 					"text" : "Maximum Offset Distance (Percent of Image)"
 				}
 
@@ -940,7 +840,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 129.0, 260.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 106.75537109375, 384.2578125, 150.0, 20.0 ],
+					"presentation_rect" : [ 108.26611328125, 280.0, 150.0, 20.0 ],
 					"text" : "Offset Mixing Mode"
 				}
 
@@ -968,7 +868,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 266.0, 728.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 383.2578125, 100.0, 22.0 ],
+					"presentation_rect" : [ 10.50537109375, 279.0, 100.0, 22.0 ],
 					"varname" : "mode-menu"
 				}
 
@@ -992,9 +892,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1505.0, 366.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1505.0, 366.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 668.0, 269.7578125, 264.0, 20.0 ],
+					"presentation_rect" : [ 372.0, 485.9921875, 298.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020"
 				}
 
@@ -1002,15 +902,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-111",
-					"linecount" : 39,
+					"linecount" : 67,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 366.0, 174.0, 558.0 ],
+					"patching_rect" : [ 1339.0, 366.0, 171.0, 905.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 24,
-					"presentation_rect" : [ 368.0, 40.7578125, 301.0, 351.0 ],
-					"text" : "The recording verion of the \"Audio RGB Offset\" application takes in a movie file, (Video + Audio) and filters the audio channels to only pass the low or high spectrum noises. The loudness of the filtered low sounds control the offset of the Green component of the video. The loudness of the high sounds controls the offset of the Blue component of the video. You can listen to the filtered audio by changing the tab selected for #5.\n\nIn this updated version, we have exposed various parameters for exploration. These parameters include the direction of offset for both Green and Blue components, the method which is used to mix the offset colors with the original colors, and the maximum percent offset that the components can be.\n\nThe offset direction allows you to set the angle at which the given component will be moved. (labelled in degrees for ease of reading) Any portions of the offset color that extend beyond the edges of the image will be wrapped to the other side, try setting the maximum percent offset high to see it.\n\n"
+					"presentation_linecount" : 33,
+					"presentation_rect" : [ 372.0, 33.0, 356.0, 449.0 ],
+					"text" : "The recording verion of the \"Audio RGB Offset\" application takes in a movie file, (Video + Audio) and filters the audio channels to only pass the low or high spectrum noises. The loudness of the filtered low sounds control the offset of the Green component of the video. The loudness of the high sounds controls the offset of the Blue component of the video. You can listen to the filtered audio by changing the tab selected for #5.\n\nIn this updated version, we have exposed various parameters for exploration. These parameters include the direction of offset for both Green and Blue components, the method which is used to mix the offset colors with the original colors, and the maximum percent offset that the components can be.\n\nThe offset direction allows you to set the angle at which the given component will be moved. (labelled in degrees for ease of reading) Any portions of the offset color that extend beyond the edges of the image will be wrapped to the other side, try setting the maximum percent offset high to see it.\n\nThe Offset Mixing Mode controls the method by which the original colors and offset colors are combined. When set to \"additive\", the offset colors are added to the original pixel colors. In \"Replace\" mode, the offset Green and Blue values replace their original counterparts.\n\nThe Maximum Percent Offset controls how far the color components can be shifted in any direction. This value is the percent of the image dimensions that the components can travel. For example, a setting of 0.05 is equivalent to 5% of the image while 0.5 equals 50% of the image. Any pixels that are shifted beyond the edges of the screen are wrapped back around to the other side of the screen."
 				}
 
 			}
@@ -1024,7 +924,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1339.0, 336.0, 193.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.0, 12.0, 298.0, 27.0 ],
+					"presentation_rect" : [ 372.0, 4.2421875, 298.0, 27.0 ],
 					"text" : "Audio RGB Offset"
 				}
 
@@ -1054,9 +954,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 335.0, 442.4453125, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 335.0, 442.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.99462890625, 473.1435546875, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 332.50537109375, 338.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1076,9 +976,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 335.0, 383.9453125, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 335.0, 383.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 330.99462890625, 442.4453125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 332.50537109375, 295.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1098,9 +998,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 330.0, 338.4453125, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 330.0, 338.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 275.99462890625, 364.2578125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 277.50537109375, 258.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1120,9 +1020,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 236.0, 151.4453125, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 236.0, 151.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 230.75, 18.9453125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 230.75, 18.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1142,9 +1042,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 280.0, 193.9453125, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 280.0, 193.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 61.4453125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 276.0, 61.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1164,9 +1064,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 221.4453125, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 278.0, 221.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 95.9453125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 276.0, 95.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1180,7 +1080,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 87.0, 156.0, 150.0, 34.0 ],
+					"patching_rect" : [ 87.0, 156.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 23.0, 166.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -1193,11 +1093,11 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.900000000000091, 16.109375, 67.0, 22.0 ],
+					"patching_rect" : [ 761.0, 22.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/RGB Offset Recording/other/rgbshift_icon.icns",
-						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/RGB Offset Recording/other/rgbshift_icon.ico",
+						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.rgboffset2",
 						"cantclosetoplevelpatchers" : 1,
@@ -1212,7 +1112,7 @@
 						"preffilename" : "RGB Offset Recording Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 1
+						"usesearchpath" : 0
 					}
 ,
 					"text" : "standalone"
@@ -1288,7 +1188,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 473.0, 411.0, 247.0, 35.0 ],
-									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -1302,9 +1202,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 473.0, 376.0, 164.740234375, 21.798828125 ],
+									"patching_rect" : [ 473.0, 376.0, 164.740234375, 21.40625 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 199.259765625, 6.0, 164.740234375, 21.798828125 ],
+									"presentation_rect" : [ 199.259765625, 6.0, 164.740234375, 21.40625 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.12156862745098, 0.090196078431373, 0.588235294117647, 1.0 ]
 								}
@@ -1661,9 +1561,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 261.25, 10.0, 26.0107421875, 28.6982421875 ],
+					"patching_rect" : [ 261.25, 10.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 144.4453125, 26.0107421875, 28.6982421875 ],
+					"presentation_rect" : [ 276.0, 144.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1677,7 +1577,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.25, 4.5, 150.0, 34.0 ],
+					"patching_rect" : [ 109.25, 4.5, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 126.5, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
@@ -1842,7 +1742,9 @@
 					"patching_rect" : [ 1149.408203125, 326.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 64.796875, 264.0, 21.40625 ],
-					"text" : "Configure Audio Device"
+					"text" : "Configure Audio Device",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1925,7 +1827,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 95.0, 55.0, 170.0, 48.0 ],
+									"patching_rect" : [ 95.0, 55.0, 170.0, 47.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 5.0, 5.0, 329.0, 27.0 ],
 									"text" : "Configure Audio Device Settings"
@@ -1948,7 +1850,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1988,7 +1890,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2040,7 +1942,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2080,7 +1982,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
+									"items" : [ 44100, ",", 48000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2319,7 +2221,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 647.0, 576.0, 320.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 446.0, 320.0, 21.0 ],
+					"presentation_rect" : [ 10.50537109375, 353.0, 320.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Original Audio", "Filtered For Green", "Filtered For Blue" ],
@@ -2415,7 +2317,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 598.0, 153.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.0, 296.7578125, 128.0, 20.0 ],
+					"presentation_rect" : [ 142.5107421875, 190.5, 128.0, 20.0 ],
 					"text" : "Blue Offset Direction"
 				}
 
@@ -2428,7 +2330,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 320.0, 163.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 296.7578125, 129.0, 20.0 ],
+					"presentation_rect" : [ 10.50537109375, 190.5, 129.0, 20.0 ],
 					"text" : "Green Offset Direction"
 				}
 
@@ -2501,7 +2403,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.0, 273.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.99462890625, 318.7578125, 68.0, 20.0 ],
+					"presentation_rect" : [ 71.50537109375, 212.5, 68.0, 20.0 ],
 					"text" : "180.14º"
 				}
 
@@ -2545,7 +2447,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 320.0, 184.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 318.7578125, 59.0, 59.0 ],
+					"presentation_rect" : [ 10.50537109375, 212.5, 59.0, 59.0 ],
 					"size" : 1000.0,
 					"varname" : "green-direction"
 				}
@@ -2595,7 +2497,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 693.0, 264.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 318.7578125, 67.0, 20.0 ],
+					"presentation_rect" : [ 203.5107421875, 212.5, 67.0, 20.0 ],
 					"text" : "0.14º"
 				}
 
@@ -2639,7 +2541,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.0, 175.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.0, 318.7578125, 59.0, 59.0 ],
+					"presentation_rect" : [ 142.5107421875, 212.5, 59.0, 59.0 ],
 					"size" : 1000.0,
 					"varname" : "blue-direction"
 				}
@@ -2693,7 +2595,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 646.0, 753.0, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 469.0, 320.0, 47.0 ],
+					"presentation_rect" : [ 10.50537109375, 386.0, 320.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -3457,13 +3359,12 @@
 					"restore" : 					{
 						"blue-direction" : [ 250.0 ],
 						"green-direction" : [ 750.0 ],
-						"live.tab" : [ 1.0 ],
 						"mode-menu" : [ 1 ],
 						"offset-max" : [ 0.05 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u368003279"
+					"varname" : "u634009837"
 				}
 
 			}
@@ -3515,7 +3416,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 539.399999999999977, 479.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.99462890625, 412.7578125, 59.0, 22.0 ],
+					"presentation_rect" : [ 10.50537109375, 308.5, 59.0, 22.0 ],
 					"varname" : "offset-max"
 				}
 
@@ -3687,7 +3588,9 @@
 					"patching_rect" : [ 33.0, 130.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.0, 100.0, 264.0, 20.0 ],
-					"text" : "Load Movie File"
+					"text" : "Load Movie File",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -3980,6 +3883,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-176", 0 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-132", 0 ]
 				}
@@ -4195,13 +4105,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-158", 0 ],
-					"source" : [ "obj-154", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-155", 0 ]
 				}
@@ -4209,15 +4112,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-153", 0 ],
-					"source" : [ "obj-156", 0 ]
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-156", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-154", 0 ],
-					"source" : [ "obj-156", 1 ]
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-156", 0 ]
 				}
 
 			}
@@ -4349,50 +4252,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-177", 0 ],
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-175", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-158", 0 ],
 					"source" : [ "obj-176", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-179", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-177", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-180", 0 ],
-					"source" : [ "obj-178", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-178", 0 ],
-					"source" : [ "obj-179", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-180", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-184", 0 ],
-					"source" : [ "obj-181", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-184", 0 ]
 				}
 
 			}
@@ -5159,7 +5034,6 @@
  ],
 		"parameters" : 		{
 			"obj-157" : [ "live.gain~[1]", "Recording Volume", 0 ],
-			"obj-177" : [ "live.tab[2]", "live.tab[2]", 0 ],
 			"obj-22" : [ "live.tab[1]", "live.tab", 0 ],
 			"obj-52" : [ "live.gain~", "Preview Volume", 0 ],
 			"obj-95" : [ "live.tab", "live.tab", 0 ],
@@ -5172,21 +5046,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "rgb-offset.json",
-				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/RGB Offset Recording/data",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/RGB Offset Recording/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rgbshift_icon.png",
-				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/RGB Offset Recording/media",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/RGB Offset Recording/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.pattr.strip.maxpat",
-				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/RGB Offset Recording/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/RGB Offset Recording/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -5198,8 +5072,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxe64",
-				"type" : "mx64"
+				"name" : "jit.movie~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

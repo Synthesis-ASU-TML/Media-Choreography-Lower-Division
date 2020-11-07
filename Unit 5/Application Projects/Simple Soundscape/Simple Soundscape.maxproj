@@ -1,8 +1,8 @@
 {
-	"name" : "RGB Offset Recording",
+	"name" : "Simple Soundscape",
 	"version" : 1,
-	"creationdate" : 3677591746,
-	"modificationdate" : 3677675994,
+	"creationdate" : 3676105664,
+	"modificationdate" : 3684836425,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,30 +10,17 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Audio RGB Offset.maxpat" : 			{
+			"Simple_Soundscape.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"sc.pattr.strip.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 
 		}
 ,
 		"media" : 		{
-			"rgbshift_icon.png" : 			{
+			"soundscape_icon.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1
-			}
-
-		}
-,
-		"data" : 		{
-			"rgb-offset.json" : 			{
-				"kind" : "json",
 				"local" : 1
 			}
 
@@ -44,7 +31,7 @@
 		}
 ,
 		"other" : 		{
-			"rgbshift_icon.icns" : 			{
+			"soundscape_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
