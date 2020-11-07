@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 513.0, 156.0, 755.0, 503.0 ],
+		"rect" : [ 335.0, 115.0, 755.0, 503.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,33 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Color Trail",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 204.0, 897.0, 148.0, 22.0 ],
+					"text" : "loadmess title \"Color Trail\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 204.0, 923.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.88, 0.755, 0.472, 1.0 ],
 					"fontface" : 1,
@@ -51,9 +77,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 258.333333194255829, 61.416665822267532, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 258.333333194255829, 61.416665822267532, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 64.119791269302368, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 64.119791269302368, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -117,7 +143,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 822.5, 248.75, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 822.5, 248.75, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -131,7 +157,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 693.5, 248.75, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 693.5, 248.75, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -241,14 +267,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-175",
-					"linecount" : 51,
+					"linecount" : 50,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 831.0, 513.0, 173.0, 690.0 ],
+					"patching_rect" : [ 831.0, 513.0, 177.0, 696.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 21,
-					"presentation_rect" : [ 295.333333194255829, 39.109375, 451.0, 288.0 ],
+					"presentation_rect" : [ 295.333333194255829, 39.109375, 454.0, 296.0 ],
 					"text" : "The \"Color Trails\" application tracks the amount of motion in a video and maps a color value to it by using the rgb graph of the sc.texture.colormap object. Values on the left side are mapped to areas with little to no motion whereas values on the right are mapped to areas with higher or the most amount of motion. The Y-axis is the strength of each relative color value. By playing around and drawing different patterns in the graph you can quickly generate a wide variety of blends and colors.\n\nThe Trail Amount slider allows for control of how long the color and shape of motion remain before fading out. The trails function by checking the difference in intensity between the current frame and the previous frame of video. When the intensity of the current frame is equal-to or greater the value in the same pixel of the the previous frame, the new value immdiately replaces the old value. When the new value is less than the previous value, the difference between the two values is computed, divided by \"trail amount\" and then subtracted from the previous value. This process creates the incremental decay of the trails as the pixel values fade towards black.\n\nIn an algorithm:\nWhen new-value ≥ old-value; Output-value = new-value\nWhen new-value < old-value; Output-value = old-value - (difference / trail-amount)\ndifference = old-value - new-value"
 				}
 
@@ -347,9 +373,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 232.333333194255829, 209.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 232.333333194255829, 209.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.49999988079071, 430.057293057441711, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 396.49999988079071, 430.057293057441711, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -411,7 +437,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/other/color_trail_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/other/Color Trail Icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.colortrail",
 						"cantclosetoplevelpatchers" : 1,
@@ -426,7 +452,7 @@
 						"preffilename" : "Color Trail Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -459,9 +485,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 488.9892578125, 686.1953125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 488.9892578125, 686.1953125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 269.002605557441711, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 269.002605557441711, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -481,9 +507,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 442.99462890625, 730.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 442.99462890625, 730.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 500.161295413970947, 389.057293057441711, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 500.161295413970947, 389.057293057441711, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -497,10 +523,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 479.0, 728.0, 150.0, 33.0 ],
+					"patching_rect" : [ 479.0, 728.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.666666507720947, 451.557293057441711, 250.0, 33.0 ],
+					"presentation_rect" : [ 4.666666507720947, 451.557293057441711, 250.0, 34.0 ],
 					"text" : "Set Playback Volume and Configure Audio Device"
 				}
 
@@ -518,9 +544,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 256.655925095081329, 395.614584028720856, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 256.655925095081329, 395.614584028720856, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.833333194255829, 425.502605557441711, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.833333194255829, 425.502605557441711, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -553,9 +579,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 37.49462890625, 164.111981749534607, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 37.49462890625, 164.111981749534607, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 103.471353769302368, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 103.471353769302368, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -575,9 +601,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 221.2392578125, 90.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 221.2392578125, 90.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 24.416665822267532, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 24.416665822267532, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -703,7 +729,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -743,7 +769,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -795,7 +821,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -835,7 +861,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1020,10 +1046,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 534.75, 605.5, 170.0, 47.0 ],
+					"patching_rect" : [ 534.75, 605.5, 170.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.666666507720947, 354.057293057441711, 253.5, 33.0 ],
+					"presentation_rect" : [ 4.666666507720947, 354.057293057441711, 253.5, 34.0 ],
 					"text" : "Or choose a Preset \n(Shift-Click on box to save your own)"
 				}
 
@@ -1104,9 +1130,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 611.2392578125, -2.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 611.2392578125, -2.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.333333194255829, 159.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 260.333333194255829, 159.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1120,7 +1146,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.25, 683.75, 150.0, 33.0 ],
+					"patching_rect" : [ 331.25, 683.75, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.166666507720947, 197.057293057441711, 173.0, 20.0 ],
 					"text" : "Draw in the Colors of the Trails"
@@ -1267,10 +1293,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1002.0, 513.0, 153.0, 100.0 ],
+					"patching_rect" : [ 1002.0, 513.0, 153.0, 103.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 295.333333194255829, 329.109375, 450.0, 47.0 ],
+					"presentation_rect" : [ 295.333333194255829, 329.109375, 450.0, 48.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\n\nRevised by Connor Rawls, Synthesis, AME, ASU, 7/9/2020"
 				}
 
@@ -1785,6 +1811,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-47", 0 ]
 				}
@@ -1898,49 +1931,49 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.presence.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/code",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.colormap.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.slide.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "color_map.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Color Trail/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Color Trail/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

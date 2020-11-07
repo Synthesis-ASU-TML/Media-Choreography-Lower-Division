@@ -2,7 +2,7 @@
 	"name" : "Color Trail",
 	"version" : 1,
 	"creationdate" : 3676888683,
-	"modificationdate" : 3677162775,
+	"modificationdate" : 3687552621,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -44,6 +44,11 @@
 ,
 		"other" : 		{
 			"color_trail_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"Color Trail Icon.ico" : 			{
 				"kind" : "file",
 				"local" : 1
 			}

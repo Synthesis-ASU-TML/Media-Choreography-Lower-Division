@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 432.0, 79.0, 603.0, 560.0 ],
+		"rect" : [ 432.0, 85.0, 603.0, 560.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -636,7 +636,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 701.0, 894.0, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 701.0, 894.0, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -650,7 +650,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 563.0, 894.0, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 563.0, 894.0, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -1042,10 +1042,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1152.0, 529.0, 170.0, 422.0 ],
+					"patching_rect" : [ 1152.0, 529.0, 170.0, 434.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 22,
-					"presentation_rect" : [ 343.5, 38.447918057441711, 252.0, 301.0 ],
+					"presentation_rect" : [ 343.5, 38.447918057441711, 252.0, 310.0 ],
 					"text" : "The \"Rota Feedback\" application takes video input and applies 2D transformations through an iterative feedback process which then blends back in with the original video. The feedback slider can be used to control the amount of feedback being mixed back in while the experimental feedback parameters can be used to generate a wide variety of different patterns.\n\nAnchor Point: sets where in the video the transformations happen around.\n\nZoom: sets how much the video is zoomed in with each iteration\n\nOffset: sets by how many pixels the video is offset with each iteration.\n\nTheta: sets the amount of rotation around the anchor points in radians. Functional range of 0 to 2Pi."
 				}
 
@@ -1075,7 +1075,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Rotation Feedback/other/rotation_feedback_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Rotation Feedback/other/Rota Feedback Icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.rotationfeedback",
 						"cantclosetoplevelpatchers" : 1,
@@ -1090,7 +1090,7 @@
 						"preffilename" : "Rotation Feedback Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -1121,9 +1121,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 412.0, 704.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 412.0, 704.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 525.8515625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 297.0, 525.8515625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1329,7 +1329,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1369,7 +1369,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1421,7 +1421,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1461,7 +1461,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1652,9 +1652,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 358.9892578125, 171.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 358.9892578125, 171.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 419.8515625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 297.0, 419.8515625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1674,9 +1674,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1147.4892578125, 219.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1147.4892578125, 219.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 290.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 297.0, 290.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1690,7 +1690,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1152.0, 253.0, 153.0, 33.0 ],
+					"patching_rect" : [ 1152.0, 253.0, 153.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 204.609375, 215.0, 20.0 ],
 					"text" : "Experiment with Feedback Parameters"
@@ -1710,9 +1710,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.5, 304.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 11.5, 304.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.49462890625, 172.942707300186157, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 303.49462890625, 172.942707300186157, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1783,9 +1783,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 626.2392578125, 17.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 626.2392578125, 17.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.49462890625, 126.997394800186157, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 303.49462890625, 126.997394800186157, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1894,9 +1894,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 178.0, 196.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 178.0, 196.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.49462890625, 66.390625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 303.49462890625, 66.390625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1916,9 +1916,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 224.7392578125, 11.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 224.7392578125, 11.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.49462890625, 19.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 303.49462890625, 19.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1935,8 +1935,7 @@
 					"patching_rect" : [ 46.0, 20.0, 172.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.0, 8.5, 174.0, 20.0 ],
-					"text" : "Enable Application Rendering",
-					"textjustification" : 0
+					"text" : "Enable Application Rendering"
 				}
 
 			}
@@ -1961,10 +1960,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1140.75, 468.0, 245.0, 74.0 ],
+					"patching_rect" : [ 1140.75, 468.0, 245.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 343.5, 344.0, 245.0, 74.0 ],
+					"presentation_rect" : [ 343.5, 344.0, 245.0, 75.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\n\nRevised By Connor Rawls, Synthesis, AME, ASU, 7/9/2020"
 				}
 
@@ -2019,7 +2018,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 206.0, 371.0, 30.0, 33.0 ],
+					"patching_rect" : [ 206.0, 371.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 182.0, 367.5, 43.0, 20.0 ],
 					"text" : "0.16"
@@ -2310,7 +2309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 136.5, 313.0, 29.0, 47.0 ],
+					"patching_rect" : [ 136.5, 313.0, 29.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 223.0, 178.052082300186157, 61.0, 20.0 ],
 					"text" : "79.30%"
@@ -2645,7 +2644,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.0, 253.0, 106.0, 33.0 ],
+					"patching_rect" : [ 19.0, 253.0, 106.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.0, 178.052082300186157, 112.0, 20.0 ],
 					"text" : "Feedback Amount"
@@ -3601,22 +3600,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.alphablend.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.alphablend.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -3628,42 +3627,42 @@
 			}
 , 			{
 				"name" : "sc.texture.constant.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.alphareplace.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.alphareplace.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.rotate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "simple_rota.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code/Displace",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code/Displace",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code/Displace",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/code/Displace",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

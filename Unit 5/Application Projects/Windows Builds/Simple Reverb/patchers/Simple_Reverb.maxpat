@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 272.0, 95.0, 1158.0, 503.0 ],
+		"rect" : [ 129.0, 105.0, 1158.0, 522.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 266.0, 1103.0, 182.0, 22.0 ],
+					"text" : "loadmess title \"Simple Reverb 2\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 266.0, 1142.4453125, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-322",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 17.0, 150.0, 33.0 ],
+					"patching_rect" : [ 322.0, 17.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 319.5, 12.0, 172.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -2425,7 +2450,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -3388,7 +3412,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 1,
@@ -4508,8 +4531,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 1025.0, 151.0, 33.0 ],
-					"text" : "Mira Controls available at: http://192.168.0.16:8086"
+					"patching_rect" : [ 36.0, 1025.0, 151.0, 34.0 ],
+					"text" : "Mira Controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -4749,7 +4772,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -6355,7 +6378,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 104.0, 213.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -6369,9 +6392,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 104.0, 183.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 104.0, 183.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ -2.0, 145.59375, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ -2.0, 145.59375, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.054901960784314, 0.0, 0.996078431372549, 1.0 ]
 								}
@@ -6576,9 +6599,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1083.0, 206.796875, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1083.0, 206.796875, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 607.5, 33.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 607.5, 33.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6593,9 +6616,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 756.0, 736.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 756.0, 736.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 187.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 187.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6610,9 +6633,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 781.0, 567.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 781.0, 567.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 162.59375, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 162.59375, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6627,9 +6650,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 788.0, 399.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 788.0, 399.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 139.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 139.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6644,9 +6667,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 788.0, 235.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 788.0, 235.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 115.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 115.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6661,9 +6684,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 475.0, 736.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 475.0, 736.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 188.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 188.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6678,9 +6701,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 475.0, 567.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 475.0, 567.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 164.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 164.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6695,9 +6718,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 482.0, 399.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 482.0, 399.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 140.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 140.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6712,9 +6735,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 482.0, 235.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 482.0, 235.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 116.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 116.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6729,9 +6752,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 79.0, 736.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 79.0, 736.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 187.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 187.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6746,9 +6769,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 79.0, 560.796875, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 79.0, 560.796875, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 163.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 163.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6763,9 +6786,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.0, 399.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 86.0, 399.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 140.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 140.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6780,9 +6803,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.0, 235.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 86.0, 235.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 116.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 116.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -10541,7 +10564,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u292003512"
+									"varname" : "u798005743"
 								}
 
 							}
@@ -15770,7 +15793,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -17770,7 +17793,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 520.5, 519.5, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 520.5, 519.5, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -17784,7 +17807,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.5, 519.5, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 391.5, 519.5, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -17949,10 +17972,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1482.0, 265.0, 157.0, 315.0 ],
+					"patching_rect" : [ 1482.0, 265.0, 157.0, 324.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 14,
-					"presentation_rect" : [ 446.5, 82.0, 248.0, 194.0 ],
+					"presentation_rect" : [ 446.5, 82.0, 248.0, 200.0 ],
 					"text" : "Reverb is an audio processing technique that simulates the reverberance of sound inside a room. A small room where the walls are close together will have very little reverb however a cathederal with walls and a ceiling very far apart while have a lot of reverb. The Reverb Sliders control the amount of reverb per audio track. No reverb is known as a \"dry\" signal whereas a lot of reverb is know as a \"wet\" signal. The playback rate allows for further control of the sound. Toggling the timestretch button will change whether the pitch of the sound is modulated by the playback rate or not."
 				}
 
@@ -18441,9 +18464,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 836.9892578125, 727.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 836.9892578125, 727.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.4892578125, 245.8515625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 710.4892578125, 245.8515625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -18754,7 +18777,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/other/reverb_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Simple Reverb/other/Simple reverb Icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.simplereverb2",
 						"cantclosetoplevelpatchers" : 1,
@@ -18769,7 +18792,7 @@
 						"preffilename" : "Simple Reverb2 Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -18893,7 +18916,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -18933,7 +18956,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -18985,7 +19008,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -19025,7 +19048,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -19216,9 +19239,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 843.4892578125, 236.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 843.4892578125, 236.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.49462890625, 456.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 339.49462890625, 456.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -19334,10 +19357,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1482.0, 579.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1482.0, 579.0, 150.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 446.5, 281.6484375, 242.0, 47.0 ],
+					"presentation_rect" : [ 446.5, 281.6484375, 242.0, 48.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\nRevised by CRawls 7/28/2020"
 				}
 
@@ -19463,9 +19486,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 887.978515625, 236.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 887.978515625, 236.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 696.5, 72.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 696.5, 72.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -19485,9 +19508,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 805.49462890625, -1.5546875, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 805.49462890625, -1.5546875, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 350.5, 392.109375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 350.5, 392.109375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -19507,9 +19530,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 801.4892578125, 225.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 801.4892578125, 225.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 365.9892578125, 261.109375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 365.9892578125, 261.109375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -19529,9 +19552,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 159.000000000000028, 793.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 159.000000000000028, 793.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.5, 8.6484375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 249.5, 8.6484375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -19946,7 +19969,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1536.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 1536.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 127.90625, 251.500000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -19961,7 +19984,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1347.5, 182.0, 53.0, 47.0 ],
+					"patching_rect" : [ 1347.5, 182.0, 53.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 104.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -19976,7 +19999,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1184.5, 182.0, 70.0, 47.0 ],
+					"patching_rect" : [ 1184.5, 182.0, 70.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 82.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -19991,7 +20014,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 995.5, 182.0, 70.0, 47.0 ],
+					"patching_rect" : [ 995.5, 182.0, 70.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 59.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -20301,7 +20324,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.0, 971.0, 170.740234375, 21.40625 ],
+					"patching_rect" : [ 137.0, 971.0, 170.740219116210938, 21.798828125 ],
 					"text" : "Refresh Miraweb Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -21719,6 +21742,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-308", 0 ],
 					"source" : [ "obj-320", 0 ]
 				}
@@ -22306,7 +22336,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Simple reverb Icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Simple Reverb/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
@@ -22319,29 +22349,33 @@
 			}
 , 			{
 				"name" : "sc.reverb~.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.dw.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 191.0, 186.0, 1203.0, 473.0 ],
+		"rect" : [ 98.0, 124.0, 1203.0, 473.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,33 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Vid2Audio Delays",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 962.0, 972.0, 188.0, 22.0 ],
+					"text" : "loadmess title \"Vid2Audio Delays\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-149",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 961.0, 1031.0, 67.0, 22.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-174",
 					"maxclass" : "newobj",
@@ -75,9 +101,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 271.0, 127.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 271.0, 127.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 129.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.0, 129.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -129,7 +155,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 16.0, 387.0, 150.0, 33.0 ],
+					"patching_rect" : [ 16.0, 387.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 423.5, 257.0, 20.0 ],
 					"text" : "Replacement Audio Playback Rate"
@@ -473,9 +499,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 237.0, -80.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 237.0, -80.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.5, 26.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 239.5, 26.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -489,7 +515,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.0, -74.0, 150.0, 33.0 ],
+					"patching_rect" : [ 81.0, -74.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.5, 26.0, 170.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -590,9 +616,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.0, 507.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 149.0, 507.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 873.0, 361.5703125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 873.0, 361.5703125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -612,9 +638,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 421.6953125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 287.0, 421.6953125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 904.9892578125, 188.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 904.9892578125, 188.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -634,9 +660,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 704.9892578125, 85.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 704.9892578125, 85.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 703.9892578125, 86.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 703.9892578125, 86.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -757,7 +783,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 1336.0, 24.0, 105.0, 35.0 ],
+					"patching_rect" : [ 1336.0, 24.0, 105.0, 36.0 ],
 					"text" : "routepass store remove read write"
 				}
 
@@ -864,7 +890,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1307.0, 93.5, 105.0, 35.0 ],
+					"patching_rect" : [ 1307.0, 93.5, 105.0, 36.0 ],
 					"text" : "r open-audio-status"
 				}
 
@@ -1113,7 +1139,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 317.0, 353.0, 113.0, 62.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -1127,9 +1153,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 5.0, 48.0, 140.9453125, 21.40625 ],
+									"patching_rect" : [ 5.0, 48.0, 140.9453125, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 8.0, 48.0, 140.9453125, 21.40625 ],
+									"presentation_rect" : [ 8.0, 48.0, 140.9453125, 21.798828125 ],
 									"text" : "Visit Synthesis On Web",
 									"textcolor" : [ 0.070588235294118, 0.16078431372549, 0.847058823529412, 1.0 ],
 									"textoncolor" : [ 0.086274509803922, 0.152941176470588, 0.941176470588235, 1.0 ]
@@ -1311,7 +1337,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 805.0, 1060.59375, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 805.0, 1060.59375, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -1325,7 +1351,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 674.0, 1060.59375, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 674.0, 1060.59375, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -1391,7 +1417,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 516.58203125, 934.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 516.58203125, 934.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1412,6 +1438,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"fontface" : 0,
 					"fontlink" : 1,
 					"fontsize" : 16.0,
@@ -1422,9 +1449,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 387.41796875, 934.0, 127.1640625, 25.875 ],
+					"patching_rect" : [ 387.41796875, 934.0, 127.164054870605469, 26.3984375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 732.0, 362.6875, 127.1640625, 25.875 ],
+					"presentation_rect" : [ 732.0, 362.6875, 127.164054870605469, 26.3984375 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop Recording",
@@ -1453,7 +1480,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1281.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1281.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1147.0, 35.5, 46.0, 20.0 ],
 					"text" : "0.08",
@@ -1469,7 +1496,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1252.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1252.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1101.0, 35.5, 46.0, 20.0 ],
 					"text" : "0.10",
@@ -1485,7 +1512,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1221.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1221.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1054.0, 36.0, 46.0, 20.0 ],
 					"text" : "0.13",
@@ -1501,7 +1528,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1192.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1192.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1009.0, 36.0, 46.0, 20.0 ],
 					"text" : "0.18",
@@ -1517,7 +1544,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1161.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1161.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 963.0, 35.5, 46.0, 20.0 ],
 					"text" : "0.24",
@@ -1533,7 +1560,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1132.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1132.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 916.0, 35.5, 46.0, 20.0 ],
 					"text" : "0.32",
@@ -1549,7 +1576,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1101.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1101.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 870.0, 35.5, 46.0, 20.0 ],
 					"text" : "0.42",
@@ -1565,7 +1592,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1072.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1072.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 821.5, 35.5, 46.0, 20.0 ],
 					"text" : "0.56",
@@ -1581,7 +1608,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1041.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1041.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 780.0, 35.5, 46.0, 20.0 ],
 					"text" : "0.75",
@@ -1597,7 +1624,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1012.0, 824.0, 30.0, 33.0 ],
+					"patching_rect" : [ 1012.0, 824.0, 30.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 732.0, 35.5, 46.0, 20.0 ],
 					"text" : "1.00",
@@ -2522,7 +2549,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u524005024"
+					"varname" : "u327007461"
 				}
 
 			}
@@ -2635,7 +2662,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/other/delay_sequence_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/other/delay_sequence_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.vid2audiodelay",
 						"cantclosetoplevelpatchers" : 1,
@@ -2650,7 +2677,7 @@
 						"preffilename" : "Vid2Audio Delays Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -2774,7 +2801,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-33",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire" ],
+									"items" : [ "None", ",", "ad_asio", "Voicemeeter AUX Virtual ASIO", ",", "ad_asio", "Voicemeeter Insert Virtual ASIO", ",", "ad_asio", "Voicemeeter Virtual ASIO", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_portaudio", "MME", ",", "ad_portaudio", "Windows DirectSound", ",", "ad_portaudio", "ASIO", ",", "ad_portaudio", "Windows WASAPI", ",", "ad_portaudio", "Windows WDM-KS", ",", "ad_rewire" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2814,7 +2841,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
+									"items" : [ "None", ",", "Speakers (Realtek High Definiti", ",", "VoiceMeeter Aux Input (VB-Audio", ",", "VoiceMeeter Input (VB-Audio Voi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2866,7 +2893,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini", ",", "VoiceMeeter Output (VB-Audio Vo", ",", "VoiceMeeter Aux Output (VB-Audi" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -2906,7 +2933,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-5",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3109,9 +3136,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 29.0, 782.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 29.0, 782.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.9892578125, 262.25, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 257.9892578125, 262.25, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3131,9 +3158,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1290.0, 141.6484375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1290.0, 141.6484375, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 271.0, 70.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 271.0, 70.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3153,9 +3180,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 27.9892578125, -22.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 27.9892578125, -22.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 101.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.0, 101.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3182,7 +3209,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.25, 1140.0, 150.0, 33.0 ],
+					"patching_rect" : [ 106.25, 1140.0, 150.0, 34.0 ],
 					"text" : "Enable Application Audio Processing"
 				}
 
@@ -3236,10 +3263,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.0, 45.5, 279.0, 476.0 ],
+					"patching_rect" : [ 706.0, 45.5, 279.0, 489.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 27,
-					"presentation_rect" : [ 316.0, 42.0, 389.0, 368.0 ],
+					"presentation_rect" : [ 316.0, 42.0, 393.0, 379.0 ],
 					"text" : "This application is an expanded version of the \"Video Delay Sequence\" app in Unit 4. We have exposed more parameters to explore, added a preset system, and included the ability to record your creations to a movie file.\n\nFirst, we will discuss the parameters that you now have access to. There are 4 total parameters to modify covering the pitch shifting range and the volume of each layer of audio delay.\n\nMax Pitch Up & Down control the amount (in octaves) that the delayed audio can be pitch shifted. By default they are set to be evenly distributed in both directions, but it is encouraged to explore unbalancing the distribution or setting one of the values to 0 to prevent the pitch being shifted in that direction.\n\nThe maximum delay controls the amount of delay any given layer can have in comparison to the layer before it. Using the default setting of 1 second, the first layer has a maximum possible delay of 1 second, while the last layer could be delayed by as much as 10 seconds.\n\nThe last parameter controls the individual volumes (or gains) for each delay layer. The default setting is that each layer has roughly 75% of the volume as the layer to the left.\n\nWe have included preset controls to help facilitate exploration. Feel free to store settings and write groups of presets out as files for loading between sessions."
 				}
 
@@ -3253,7 +3280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 706.0, 20.0, 271.0, 47.0 ],
+					"patching_rect" : [ 706.0, 20.0, 271.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 316.0, 13.5, 379.0, 27.0 ],
 					"text" : "Video Delay Sequence (Recording Version)"
@@ -3273,9 +3300,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 570.25, -108.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 570.25, -108.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 173.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.0, 173.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -3289,7 +3316,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.25, -113.5, 150.0, 33.0 ],
+					"patching_rect" : [ 418.25, -113.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 155.5, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
@@ -4269,6 +4296,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-149", 0 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-18", 0 ]
 				}
@@ -4924,42 +4958,42 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.delaysequencer~.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "poly.delaydesigner~.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delaywithfeedback.gendsp",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/code",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.16floats.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/utilities",
-				"patcherrelativepath" : "../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/utilities",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/utilities",
+				"patcherrelativepath" : "../../../../../../Max 8/Packages/SC/patchers/utilities",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vid2audio-delays.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.pattr.strip.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -4972,18 +5006,18 @@
 			}
 , 			{
 				"name" : "delay_sequence_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Vid2Audio Delays Recording/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 5/Application Projects/Windows Builds/Vid2Audio Delays Recording/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.movie~.mxo",
-				"type" : "iLaX"
+				"name" : "jit.movie~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "cv.jit.resize.mxo",
-				"type" : "iLaX"
+				"name" : "cv.jit.resize.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
