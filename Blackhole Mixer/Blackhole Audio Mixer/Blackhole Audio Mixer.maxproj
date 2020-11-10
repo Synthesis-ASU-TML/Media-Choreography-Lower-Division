@@ -2,7 +2,7 @@
 	"name" : "Blackhole Audio Mixer",
 	"version" : 1,
 	"creationdate" : 3687178167,
-	"modificationdate" : 3687180946,
+	"modificationdate" : 3687189038,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,6 +21,29 @@
 		"media" : 		{
 			"Mute_Button.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"mixer_icon.psd" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"mixer_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"mixer_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"mixer_icon.ico" : 			{
+				"kind" : "file",
 				"local" : 1
 			}
 

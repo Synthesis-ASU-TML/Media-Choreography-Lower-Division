@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 579.0, 79.0, 1031.0, 643.0 ],
+		"rect" : [ 421.0, 110.0, 1031.0, 477.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 349.0, 303.0, 81.0, 22.0 ],
+					"text" : "prepend write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 661.0, 223.0, 156.0, 22.0 ],
+					"text" : "loadmess name output.mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "bang" ],
+					"patching_rect" : [ 349.0, 279.0, 92.0, 22.0 ],
+					"text" : "savedialog mov"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.88, 0.755, 0.472, 1.0 ],
 					"fontface" : 1,
 					"fontlink" : 1,
@@ -53,7 +89,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 293.0, 408.703125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.0, 405.703125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 318.0, 298.0703125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -91,8 +127,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 12.0, 350.2578125, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 353.4453125, 264.0, 20.0 ],
 					"text" : "Preset Controls"
 				}
 
@@ -105,7 +139,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 211.7578125, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 209.0, 301.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 159.3671875, 301.0, 20.0 ],
 					"text" : "Video Playback Controls"
 				}
 
@@ -123,9 +157,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 319.0, 223.703125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 357.24462890625, 187.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 224.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 318.0, 175.3125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -141,22 +175,22 @@
 					"outlettype" : [ "", "int" ],
 					"patching_rect" : [ 172.0, 135.0, 320.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 231.0, 301.0, 16.0 ]
+					"presentation_rect" : [ 11.0, 181.3671875, 301.0, 16.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-118",
-					"linecount" : 24,
+					"linecount" : 43,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1223.0, 113.0, 159.0, 328.0 ],
+					"patching_rect" : [ 1223.0, 113.0, 161.0, 583.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 14,
-					"presentation_rect" : [ 710.0, 56.4453125, 318.0, 194.0 ],
-					"text" : "Next up is the preset system. We have provided an interface for you to experiment with parameter settings in a way that allows for quick storage and recall, even in the midst of recording. You can use either the graphical interface or the options in the \"Controls\" menu above. Don't be afraid to save a separate set of presets to use between sessions.\n\nFinally, we have included a recording button at the bottom of the window. (Also available in the \"Controls\" menu). When you are ready to record, hit start, choose an output location, and go.\n\nHave fun and good luck!"
+					"presentation_linecount" : 23,
+					"presentation_rect" : [ 675.0107421875, 39.4453125, 318.0, 315.0 ],
+					"text" : "The last parameter is the Decreasing Smoothing Steps. Similar to the increasing smoothing steps, this parameter regulates the amount the pitch can drop between frames. The decreasing steps are used when the new pitch is lower than the previous pitch. In that case, the difference between the pitches is calculated, divided by the decreasing steps, and subtracted from the previous pitch; the result becoming the modified (or smoothed) pitch.\n\nNext up is the preset system. We have provided an interface for you to experiment with parameter settings in a way that allows for quick storage and recall, even in the midst of recording. You can use either the graphical interface or the options in the \"Controls\" menu above. Don't be afraid to save a separate set of presets to use between sessions.\n\nFinally, we have included a recording button at the bottom of the window. (Also available in the \"Controls\" menu). When you are ready to record, hit start, choose an output location, and go.\n\nHave fun and good luck!"
 				}
 
 			}
@@ -175,7 +209,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 282.0, 29.203125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.0, 27.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 245.0, 16.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -189,9 +223,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 73.0, 38.0, 150.0, 33.0 ],
+					"patching_rect" : [ 49.0, 26.7578125, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 31.5, 175.0, 20.0 ],
+					"presentation_rect" : [ 68.0, 20.5, 175.0, 20.0 ],
 					"text" : "Enable Application Rendering"
 				}
 
@@ -211,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 307.0, 322.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.0, 517.703125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 307.0, 351.0703125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -227,7 +261,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 664.908203125, 474.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 253.7578125, 301.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 204.125, 301.0, 20.0 ],
 					"text" : "Hue to Pitch Shift Effect Smoothing Controls"
 				}
 
@@ -247,7 +281,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 309.0, 405.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 314.0, 592.765625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 293.9892578125, 422.25, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -262,7 +296,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 153.0, 402.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 142.1640625, 596.8203125, 150.0, 20.0 ],
+					"presentation_rect" : [ 139.1640625, 430.1875, 150.0, 20.0 ],
 					"text" : "Media Recording Controls"
 				}
 
@@ -755,8 +789,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "clientwindow" ],
 					"patching_rect" : [ 721.5, 574.0, 275.0, 88.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 375.7578125, 275.0, 88.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -775,18 +807,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-63",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 279.0, 34.0, 22.0 ],
-					"text" : "write"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 0,
 					"fontlink" : 1,
 					"fontsize" : 16.0,
@@ -799,11 +819,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 310.0, 223.0, 127.1640625, 25.875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 593.8828125, 127.1640625, 25.875 ],
+					"presentation_rect" : [ 10.0, 427.25, 127.1640625, 25.875 ],
 					"text" : "Start Recording",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Stop Recording",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -840,7 +861,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 766.908203125, 311.5, 152.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 275.7578125, 249.0, 20.0 ],
+					"presentation_rect" : [ 63.0, 226.125, 249.0, 20.0 ],
 					"text" : "Hue Response Smoothing Window Size"
 				}
 
@@ -869,7 +890,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 714.908203125, 317.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 275.7578125, 50.0, 22.0 ],
+					"presentation_rect" : [ 11.0, 226.125, 50.0, 22.0 ],
 					"varname" : "window-size"
 				}
 
@@ -883,7 +904,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 676.908203125, 433.0, 156.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 324.7578125, 249.0, 20.0 ],
+					"presentation_rect" : [ 63.0, 275.125, 249.0, 20.0 ],
 					"text" : "Hue Response Decreasing Smoothing Steps"
 				}
 
@@ -897,7 +918,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 404.166666666666742, 440.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.0, 299.7578125, 249.0, 20.0 ],
+					"presentation_rect" : [ 63.0, 250.125, 249.0, 20.0 ],
 					"text" : "Hue Response Increasing Smoothing Steps"
 				}
 
@@ -937,11 +958,12 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 160.0, 338.0, 137.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 468.7578125, 137.0, 20.0 ],
+					"presentation_rect" : [ 162.0, 302.125, 137.0, 20.0 ],
 					"text" : "Bypass Filter",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"texton" : "Play Modified Audio",
-					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -957,7 +979,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 326.5, 343.0, 123.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 492.7578125, 289.0, 47.0 ],
+					"presentation_rect" : [ 10.0, 326.125, 289.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -984,7 +1006,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.0, 696.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 14.0, 55.0, 55.0 ]
+					"presentation_rect" : [ 11.0, 3.0, 55.0, 55.0 ]
 				}
 
 			}
@@ -1007,8 +1029,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 350.25, 420.5, 40.0, 22.0 ],
-					"text" : "jit.vcr"
+					"patching_rect" : [ 350.25, 420.5, 110.0, 22.0 ],
+					"text" : "jit.vcr @codec jpeg"
 				}
 
 			}
@@ -1036,7 +1058,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 556.166666666666742, 440.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 299.7578125, 50.0, 22.0 ],
+					"presentation_rect" : [ 11.0, 250.125, 50.0, 22.0 ],
 					"varname" : "smooth-steps-up"
 				}
 
@@ -1053,7 +1075,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 622.0, 440.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 323.7578125, 50.0, 22.0 ],
+					"presentation_rect" : [ 11.0, 274.125, 50.0, 22.0 ],
 					"varname" : "smooth-steps-down"
 				}
 
@@ -1067,16 +1089,16 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 721.5, 690.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -70.0 ],
+						"live.gain~" : [ -1.18110236220474 ],
 						"live.gain~[1]" : [ -70.0 ],
-						"live.tab" : [ 0.0 ],
+						"live.tab" : [ 2.0 ],
 						"smooth-steps-down" : [ 50.0 ],
 						"smooth-steps-up" : [ 50.0 ],
 						"window-size" : [ 127 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u587001973"
+					"varname" : "u463005404"
 				}
 
 			}
@@ -1111,7 +1133,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.0, 1036.0, 67.0, 22.0 ],
+					"patching_rect" : [ 81.0, 836.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 5/Application Projects/Hue PShift Recording/other/hue_pitch_shift_icon.icns",
@@ -1147,8 +1169,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 695.0, 55.0, 141.408203125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 83.5546875, 264.0, 21.40625 ],
-					"text" : "Configure Audio Device"
+					"presentation_rect" : [ 11.0, 62.5546875, 264.0, 21.40625 ],
+					"text" : "Configure Audio Device",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1294,7 +1318,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-29",
-									"items" : [ "None", ",", "Built-in Output", ",", "HDMI" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI", ",", "Yeti Stereo Microphone" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1346,7 +1370,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-11",
-									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Blue Snowball", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Video Capture Audio", ",", "Record From Chrome" ],
+									"items" : [ "None", ",", "Blackmagic UltraStudio Mini Recorder", ",", "Yeti Stereo Microphone", ",", "HD Webcam C525", ",", "NDI Audio", ",", "Max Out", ",", "Loopback Audio", ",", "Record From Chrome", ",", "Unit 1 Audio" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1572,7 +1596,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1069.0, 43.4453125, 306.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.0, 253.7578125, 271.0, 20.0 ],
+					"presentation_rect" : [ 675.0107421875, 355.8125, 271.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020"
 				}
 
@@ -1592,15 +1616,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"linecount" : 80,
+					"linecount" : 59,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1069.0, 113.0, 157.0, 1079.0 ],
+					"patching_rect" : [ 1069.0, 113.0, 161.0, 811.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 40,
-					"presentation_rect" : [ 386.0, 56.4453125, 321.0, 543.0 ],
-					"text" : "We are presenting to you a second version of the \"Hue Pitch Shift\" application from Unit 4. In this modified application, the ability to record your media has been added along with access to new parameters and preset creation controls.\n\nFirst, we will discuss the new parameters that have been exposed to you. All three are focused on the \"smoothness\" of the pitch shifting done in response to the hue of the input video stream. Working top to bottom, there is the Smoothing Window Size, Smoothing Increasing Steps, and Smoothing Decreasing Steps. All 3 are aimed at controlling the amount the output effect jumps on any given sample. \n\nThe Smoothing Window Size controls how many consecutive samples are averaged to come up with the adjusted (or smoothed) output value from the hue analysis. Larger values (approaching 255) casue the output value to move only small amounts per frame, while smaller windows (approaching 3) cause the output value to swing more drastically between frames.\n\nThe Increasing Smoothing Steps controls how much the pitch can be increased each frame. In the case that the new pitch, dictated by the output value from the smoothing window, is higher than the previous pitch, the difference between the two pitches is calculated, divided by the steps, and added to the previous pitch. Similar to the smoothing window, higher steps correspond to smaller changes and vice versa.\n\nThe last parameter is the Decreasing Smoothing Steps. Similar to the increasing smoothing steps, this parameter regulates the amount the pitch can drop between frames. The decreasing steps are used when the new pitch is lower than the previous pitch. In that case, the difference between the pitches is calculated, divided by the decreasing steps, and subtracted from the previous pitch; the result becoming the modified (or smoothed) pitch."
+					"presentation_linecount" : 31,
+					"presentation_rect" : [ 348.0107421875, 39.4453125, 325.0, 435.0 ],
+					"text" : "We are presenting to you a second version of the \"Hue Pitch Shift\" application from Unit 4. In this modified application, the ability to record your media has been added along with access to new parameters and preset creation controls.\n\nFirst, we will discuss the new parameters that have been exposed to you. All three are focused on the \"smoothness\" of the pitch shifting done in response to the hue of the input video stream. Working top to bottom, there is the Smoothing Window Size, Smoothing Increasing Steps, and Smoothing Decreasing Steps. All 3 are aimed at controlling the amount the output effect jumps on any given sample. \n\nThe Smoothing Window Size controls how many consecutive samples are averaged to come up with the adjusted (or smoothed) output value from the hue analysis. Larger values (approaching 255) casue the output value to move only small amounts per frame, while smaller windows (approaching 3) cause the output value to swing more drastically between frames.\n\nThe Increasing Smoothing Steps controls how much the pitch can be increased each frame. In the case that the new pitch, dictated by the output value from the smoothing window, is higher than the previous pitch, the difference between the two pitches is calculated, divided by the steps, and added to the previous pitch. Similar to the smoothing window, higher steps correspond to smaller changes and vice versa.\n\n"
 				}
 
 			}
@@ -1615,7 +1639,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1069.0, 65.4453125, 306.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 386.0, 27.4453125, 316.0, 27.0 ],
+					"presentation_rect" : [ 348.0107421875, 10.4453125, 316.0, 27.0 ],
 					"text" : "Hue Pitch Shift (Recording Version)"
 				}
 
@@ -1635,7 +1659,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 661.0, 65.4453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 80.203125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 55.8515625, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1657,7 +1681,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 26.0, 65.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 125.203125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 85.2578125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1679,7 +1703,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 15.0, 569.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 320.0, 295.703125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 318.0, 246.0703125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1694,7 +1718,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 174.0, 569.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 468.7578125, 150.0, 20.0 ],
+					"presentation_rect" : [ 10.0, 302.125, 150.0, 20.0 ],
 					"text" : "Adjust Audio Output Level"
 				}
 
@@ -1726,7 +1750,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 502.25, 6.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 169.203125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 278.0, 129.2578125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1742,7 +1766,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.25, 0.5, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 151.2578125, 264.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 111.3125, 264.0, 20.0 ],
 					"text" : "Set Video Playback Resolution"
 				}
 
@@ -1819,7 +1843,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 274.0, 34.0, 264.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 173.2578125, 264.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 133.3125, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
@@ -1931,8 +1955,8 @@
 					"patching_rect" : [ 49.0, 252.0, 73.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
-						"pitchshift" : [ 0.250144447376639 ],
-						"pitchshiftcent" : [ -2399 ],
+						"pitchshift" : [ 0.510506062853597 ],
+						"pitchshiftcent" : [ -1164 ],
 						"quality" : "best",
 						"reportlatency" : 0,
 						"usecents" : 0
@@ -1964,7 +1988,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 49.0, 562.0, 123.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 541.7578125, 289.0, 47.0 ],
+					"presentation_rect" : [ 10.0, 375.125, 289.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -2027,8 +2051,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 49.0, 65.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 129.2578125, 264.0, 20.0 ],
-					"text" : "Load Movie File"
+					"presentation_rect" : [ 11.0, 89.3125, 264.0, 20.0 ],
+					"text" : "Load Movie File",
+					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -2421,6 +2447,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-56", 0 ]
 				}
@@ -2463,8 +2503,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-63", 0 ]
+					"destination" : [ "obj-54", 0 ],
+					"source" : [ "obj-64", 1 ]
 				}
 
 			}
@@ -2472,13 +2512,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
-					"source" : [ "obj-64", 1 ]
 				}
 
 			}
@@ -2509,6 +2542,13 @@
 					"destination" : [ "obj-76", 0 ],
 					"order" : 0,
 					"source" : [ "obj-66", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-67", 0 ]
 				}
 
 			}
