@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 439.0, 90.0, 781.0, 642.0 ],
+		"rect" : [ 278.0, 108.0, 964.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1459,11 +1459,11 @@
 									"presentation_rect" : [ 389.6669921875, 853.0, 60.0, 60.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
+											"parameter_shortname" : "toggle",
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_type" : 2,
-											"parameter_longname" : "toggle",
-											"parameter_mmax" : 1.0,
-											"parameter_shortname" : "toggle"
+											"parameter_longname" : "toggle"
 										}
 
 									}
@@ -1907,10 +1907,10 @@
 									"presentation_rect" : [ 142.0, 198.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v[6]",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -2018,10 +2018,10 @@
 									"presentation_rect" : [ 389.6669921875, 818.0, 416.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_longname" : "slider[5]",
 											"parameter_mmax" : 200.0,
-											"parameter_shortname" : "slider"
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0,
+											"parameter_longname" : "slider[5]"
 										}
 
 									}
@@ -2426,10 +2426,10 @@
 									"presentation_rect" : [ 142.0, 175.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v[5]",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -2537,10 +2537,10 @@
 									"presentation_rect" : [ 389.5054931640625, 785.0, 416.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_longname" : "slider[4]",
 											"parameter_mmax" : 200.0,
-											"parameter_shortname" : "slider"
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0,
+											"parameter_longname" : "slider[4]"
 										}
 
 									}
@@ -2945,10 +2945,10 @@
 									"presentation_rect" : [ 142.0, 152.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v[4]",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -3042,10 +3042,10 @@
 									"presentation_rect" : [ 389.5054931640625, 751.0, 416.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_longname" : "slider[3]",
 											"parameter_mmax" : 928.0,
-											"parameter_shortname" : "slider"
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0,
+											"parameter_longname" : "slider[3]"
 										}
 
 									}
@@ -3450,10 +3450,10 @@
 									"presentation_rect" : [ 142.0, 129.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v[3]",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -3547,10 +3547,10 @@
 									"presentation_rect" : [ 389.5054931640625, 716.0, 416.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_longname" : "slider[2]",
 											"parameter_mmax" : 1216.0,
-											"parameter_shortname" : "slider"
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0,
+											"parameter_longname" : "slider[2]"
 										}
 
 									}
@@ -3955,10 +3955,10 @@
 									"presentation_rect" : [ 142.0, 106.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v[2]",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -4100,10 +4100,10 @@
 									"presentation_rect" : [ 389.5054931640625, 683.0, 416.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_longname" : "slider[1]",
 											"parameter_mmax" : 200.0,
-											"parameter_shortname" : "slider"
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0,
+											"parameter_longname" : "slider[1]"
 										}
 
 									}
@@ -4172,10 +4172,10 @@
 									"presentation_rect" : [ 389.5054931640625, 650.0, 416.0, 26.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_type" : 0,
-											"parameter_longname" : "slider",
 											"parameter_mmax" : 200.0,
-											"parameter_shortname" : "slider"
+											"parameter_shortname" : "slider",
+											"parameter_type" : 0,
+											"parameter_longname" : "slider"
 										}
 
 									}
@@ -4580,10 +4580,10 @@
 									"presentation_rect" : [ 142.0, 83.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v[1]",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -5040,10 +5040,10 @@
 									"presentation_rect" : [ 142.0, 60.0, 50.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_shortname" : "p0v",
 											"parameter_type" : 3,
 											"parameter_longname" : "p0v",
-											"parameter_invisible" : 1,
-											"parameter_shortname" : "p0v"
+											"parameter_invisible" : 1
 										}
 
 									}
@@ -5106,11 +5106,11 @@
 									"presentation_rect" : [ 8.5, 8.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
+											"parameter_mmax" : 1.0,
+											"parameter_shortname" : "umenu",
 											"parameter_enum" : [ "to Max 1", "to Max 2" ],
 											"parameter_type" : 2,
-											"parameter_longname" : "umenu",
-											"parameter_mmax" : 1.0,
-											"parameter_shortname" : "umenu"
+											"parameter_longname" : "umenu"
 										}
 
 									}
@@ -6547,7 +6547,7 @@
 					"patching_rect" : [ 1798.0, -2.0, 156.0, 878.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 28,
-					"presentation_rect" : [ 678.0, 44.0, 370.0, 382.0 ],
+					"presentation_rect" : [ 703.0, 44.0, 370.0, 382.0 ],
 					"text" : "Preset List:\n                   1: A very basic view of the app. Low density feathers \n                       with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the \n                       image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. \n                       feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade\n                       and short length. Great for creating a visual history of\n                       the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a\n                       comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to\n                       estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density\n                       and maximum length. How much original details can\n                       you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear\n                       thorny or as if they had porcupine spines drawn on."
 				}
 
@@ -6555,15 +6555,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-121",
-					"linecount" : 94,
+					"linecount" : 44,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1606.0, 99.0, 171.0, 1267.0 ],
+					"patching_rect" : [ 1606.0, 99.0, 182.0, 596.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 42,
-					"presentation_rect" : [ 307.0, 44.0, 386.0, 570.0 ],
-					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The optical flow techniques (in this case, specifically Horn-Schunk flow) aim to help a computer understand motion and 2D directionality in a video stream. To accomplish this task, the algorithm compares the current frame to the previous frame and uses a gradiated approach to estimate how pixels in the 2 frames have moved. The result, is that every pixel is assigned a value for both the X & Y axis representing an estimation of the amount of motion. The Vector Fields take these values and use the to draw a \"feather\" or line with a corresponding length and direction. To explore the visualization and artistic potentials for this variety of technique, we have provided you with several parameters and presets. For best viewing, we would suggest using the output window in fullscreen mode.\n\nThe first parameter is the feather density. These values determine the number of feathers that will be drawn across the frame as well as vertically in the frame. Regardless of the value entered, the app will evenly space each feather from its neighbors. You can use this parameter to get a higher resolution view of the analysis or a more general sense of motion. The minimum values are 64x32 and the maximum is 1280x960.\n\nThe second parameter is the feather scale. Changing the value here will modify the maximum length of all of the feathers. The value when the slider is fully to the left is 0.1% of the motion vector length. The value when the slider is fully to the right is 5% of the motion vector length.\n\nThe third parameter is the feather fade. Fade in this app corresponds the rate at which the feathers will reduce in size towards being off when nothing is actively moving at their base. When the slider is fully left, the value is 90% length retained or 10% loss per frame. When fully to the right, the value is 100% retained, or no change in length until overwritten by new motion at that position.\n\nThe fourth parameter is the image outline. For ease understanding, you can turn on an outline of the input video that is displayed along with the vector field feathers. If you have looked at the \"Colored Edges\" application, you may recognize this as the same effect. Beyond being a preview feature, this functionality has been included as a demonstration of the ability to layer individual effects atop each other to create functional and artisitic composites."
+					"presentation_linecount" : 24,
+					"presentation_rect" : [ 302.20001220703125, 44.0, 394.0, 328.0 ],
+					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The algorithm compares the current frame to the previous frame and estimates how esch pixel has moved in horizontally and vertically.  This Vector Fields app draws a \"feather\" lines  corresponding to those pixel displacements (vectors). For best viewing, we would suggest using the output window in fullscreen mode.\n\nYou can load a video file and set its playback rate from -1 reverse to +1 normal.\n\nThe first parameters are the numbers of feathers drawn across the width and height of the video.\n\nThe Feather Scale sets the maximum length of the feathers.  Minimum (all the way to the left) is 0.1% of the pixel displacement. Maximum is 100% of the displacement.\n\nFeather Shrink corresponds the rate at which the feathers will shrink like rubber bands. When the slider is fully left, they shrink most rapidly; when fully to the right, they stay fixed until replaced by a new motion at that position.\n\nToggling image outline blends in the colored edges of the input video.  (See the Colored Edges app!)"
 				}
 
 			}
@@ -6604,14 +6604,14 @@
 					"patching_rect" : [ 1009.0, 871.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"feather-fade" : [ 0.953882575035095 ],
-						"feather-scale" : [ 0.032413825392723 ],
+						"feather-scale" : [ 0.876071035861969 ],
 						"num-points-x" : [ 153 ],
 						"num-points-y" : [ 197 ],
 						"outline-bypass" : [ 1 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u133001837"
+					"varname" : "u666001051"
 				}
 
 			}
@@ -6901,7 +6901,7 @@
 					"patching_rect" : [ 1238.25, 452.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.75, 457.0, 150.0, 20.0 ],
-					"text" : "Feather Fade"
+					"text" : "Feather Shrink"
 				}
 
 			}
@@ -6967,7 +6967,7 @@
 					"patching_rect" : [ 1026.25, 476.0, 196.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.75, 408.5546875, 264.0, 40.0 ],
-					"setminmax" : [ 0.001000000047497, 0.050000000745058 ],
+					"setminmax" : [ 0.001000000047497, 1.0 ],
 					"slidercolor" : [ 0.03921568627451, 0.090196078431373, 0.662745098039216, 1.0 ],
 					"thickness" : 10,
 					"varname" : "feather-scale"
@@ -7504,12 +7504,12 @@
 					"presentation_rect" : [ 6.75, 283.0, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "live.tab[1]",
 							"parameter_enum" : [ "Rewind", "Pause", "Play" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab[1]",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "live.tab[1]"
+							"parameter_longname" : "live.tab[1]"
 						}
 
 					}
@@ -7779,12 +7779,12 @@
 					"presentation_rect" : [ 6.75, 122.0, 264.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
+							"parameter_mmax" : 2.0,
+							"parameter_shortname" : "live.tab",
 							"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
 							"parameter_type" : 2,
 							"parameter_unitstyle" : 0,
-							"parameter_longname" : "live.tab",
-							"parameter_mmax" : 2.0,
-							"parameter_shortname" : "live.tab"
+							"parameter_longname" : "live.tab"
 						}
 
 					}
@@ -8448,23 +8448,23 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-41::obj-98" : [ "p0v[5]", "p0v", 0 ],
 			"obj-41::obj-20" : [ "p0v[1]", "p0v", 0 ],
-			"obj-41::obj-39" : [ "slider", "slider", 0 ],
-			"obj-41::obj-9" : [ "umenu", "umenu", 0 ],
-			"obj-8" : [ "live.tab", "live.tab", 0 ],
 			"obj-53" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-41::obj-82" : [ "p0v[4]", "p0v", 0 ],
+			"obj-41::obj-98" : [ "p0v[5]", "p0v", 0 ],
 			"obj-41::obj-51" : [ "p0v[2]", "p0v", 0 ],
-			"obj-41::obj-90" : [ "slider[5]", "slider", 0 ],
+			"obj-41::obj-74" : [ "slider[4]", "slider", 0 ],
 			"obj-41::obj-47" : [ "slider[1]", "slider", 0 ],
 			"obj-41::obj-113" : [ "p0v[6]", "p0v", 0 ],
-			"obj-41::obj-82" : [ "p0v[4]", "p0v", 0 ],
-			"obj-41::obj-74" : [ "slider[4]", "slider", 0 ],
+			"obj-41::obj-39" : [ "slider", "slider", 0 ],
 			"obj-41::obj-68" : [ "p0v[3]", "p0v", 0 ],
-			"obj-41::obj-118" : [ "toggle", "toggle", 0 ],
+			"obj-41::obj-59" : [ "slider[3]", "slider", 0 ],
 			"obj-41::obj-32" : [ "p0v", "p0v", 0 ],
 			"obj-41::obj-28" : [ "slider[2]", "slider", 0 ],
-			"obj-41::obj-59" : [ "slider[3]", "slider", 0 ],
+			"obj-41::obj-118" : [ "toggle", "toggle", 0 ],
+			"obj-41::obj-9" : [ "umenu", "umenu", 0 ],
+			"obj-41::obj-90" : [ "slider[5]", "slider", 0 ],
+			"obj-8" : [ "live.tab", "live.tab", 0 ],
 			"parameterbanks" : 			{
 
 			}
