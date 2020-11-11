@@ -2,8 +2,8 @@
 	"name" : "Audio Analysis",
 	"version" : 1,
 	"creationdate" : 3687870305,
-	"modificationdate" : 3687889311,
-	"viewrect" : [ 2266.0, 254.0, 300.0, 500.0 ],
+	"modificationdate" : 3687940972,
+	"viewrect" : [ 61.0, 138.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -23,11 +23,37 @@
 
 		}
 ,
+		"media" : 		{
+			"analysis_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"analysis_icon.psd" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+
+		}
+,
 		"code" : 		{
 
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
+			"analysis_icon.ico" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
+,
+			"analysis_icon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 

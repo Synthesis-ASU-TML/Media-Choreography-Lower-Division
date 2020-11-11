@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2754.0, 301.0, 368.0, 473.0 ],
+		"rect" : [ 580.0, 135.0, 368.0, 473.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -14741,7 +14741,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 43.308608999999997, 130.393707000000006, 69.0, 23.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 2754, 301, 3122, 774, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 580, 135, 948, 608, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
 
@@ -17831,6 +17831,7 @@
 				"implicit" : 1
 			}
  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 		"editing_bgcolor" : [ 0.383421, 0.41285, 0.444468, 1.0 ]
 	}
