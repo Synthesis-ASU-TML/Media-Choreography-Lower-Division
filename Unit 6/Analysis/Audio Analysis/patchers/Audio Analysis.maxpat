@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 305.0, 170.0, 645.0, 640.0 ],
+		"rect" : [ 236.0, 135.0, 645.0, 640.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,486 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 733.0, 186.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.0, 241.0, 143.0, 20.0 ],
+					"text" : "Analysis Explanation",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 119.0, 110.0, 289.0, 532.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 370.0, 207.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 326.0, 151.0, 100.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-7",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 361.0, 106.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-5",
+									"linecount" : 22,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 224.0, 281.0, 301.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 22,
+									"presentation_rect" : [ 4.0, 224.0, 281.0, 301.0 ],
+									"text" : "slope : the slope of a line that bounds the amplitude for all frequencies in the signal. Positive when the sample is trending up towards the higher frequencies, negative when the sample is trending down toward the lower frequencies.\n\nskewness : Is the signal assymetrical? Values > 0 denote assymetry below the centroid, values < 0 denote assymetry above the centroid.\n\nspread : The width in Hz of the area around the spectral peak that has an energy above the first standard deviation. A measure of how broad or precise the spectral peak is.\n\ncentroid : The frequency in Hz which is at the center of the spectral peak.\n\nkurtosis : a measure of the shape of the spectral peak. When = 3, the peak follows normal distribution, or bell curve. Values < 3 denote a flatter peak, and values > 3 denote a sharper peak."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontface" : 1,
+									"fontsize" : 14.0,
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 202.0, 281.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 4.0, 202.0, 281.0, 22.0 ],
+									"text" : "Spectral Measurements"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"linecount" : 11,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 48.0, 281.0, 154.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 11,
+									"presentation_rect" : [ 4.0, 48.0, 281.0, 154.0 ],
+									"text" : "min : The minimum amount of energy in the audio signal\n\nmean : The average amount of energy in the audio signal\n\nmax : The largest amount of energy in the audio signal\n\nsum : The total amount of energy in the audio signal."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontface" : 1,
+									"fontsize" : 14.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 26.0, 281.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 4.0, 26.0, 281.0, 22.0 ],
+									"text" : "Amplitude Measurements"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"fontface" : 1,
+									"fontsize" : 16.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 4.0, 2.0, 281.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 4.0, 2.0, 281.0, 24.0 ],
+									"text" : "Audio Analysis Explanation"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 729.0, 239.0, 138.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"Analysis Explanation\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-86",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 537.5, 3.40625, 150.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.0, 213.796875, 418.0, 20.0 ],
+					"text" : "Connor Rawls, Synthesis @ ASU, Arizona State University November 2020"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 213.5, 472.0, 110.0, 22.0 ],
+					"text" : "loadmess varname"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"id" : "obj-83",
+					"linecount" : 33,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1068.0, 37.0, 150.0, 449.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 13,
+					"presentation_rect" : [ 219.0, 33.0, 418.0, 181.0 ],
+					"text" : "The \"Audio Analysis\" application takes in both audio files and audio streams for inspection. Using the provided sliders, you can mix the two input sources together and then filter them before analysis is run. \n\nWe have included the ability to specify a folder to use for loading all of your media and preset files. Just push the \"Choose Project Folder\" button. \n\nWe have 9 measures that are being tracked from this application. You can view them using the \"PReview Output Data\" button. Four of the measurements focus on the amplitude of the audio signal. The other five measurments are focused on spectral analysis of the signal. You can view a more in-depth explanation of the measurements by pressing the \"Analysis Explanation\" button."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"fontface" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-81",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 343.0, 6.5, 193.0, 27.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.0, 4.0, 418.0, 27.0 ],
+					"text" : "Audio Analysis"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 47.0, 569.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 442.375, 603.5, 167.25, 20.0 ],
+					"text" : "Preview Output Data",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 966.0, 130.0, 236.0, 202.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 284.0, 75.0, 112.0, 22.0 ],
+									"text" : "o.route /coefficients"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "FullPacket" ],
+									"patching_rect" : [ 230.0, 45.0, 73.0, 22.0 ],
+									"text" : "o.route /freq"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 319.0, 196.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 319.0, 169.0, 39.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 2,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 319.0, 134.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 0,
+									"fontsize" : 12.0,
+									"id" : "obj-76",
+									"linecount" : 13,
+									"maxclass" : "o.display",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 104.0, 232.0, 197.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 13,
+									"presentation_rect" : [ 1.0, 2.0, 232.0, 197.0 ],
+									"text" : "/amp : {\n\t/min : 4.3998e-07,\n\t/mean : 0.00343696,\n\t/max : 0.166604,\n\t/sum : 1.75973\n},\n/spectral : {\n\t/slope : -1.17114e-08,\n\t/skewness : 5.55421,\n\t/spread : 1387.18,\n\t/centroid : 505.512,\n\t/kurtosis : 38.1729\n}",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-77",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "FullPacket" ],
+									"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"source" : [ "obj-4", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
+									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-77", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 36.0, 612.5, 98.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p \"Data Preview\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "newobj",
@@ -118,7 +598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 456.0, 165.0, 20.0 ],
+					"patching_rect" : [ 414.0, 494.0, 165.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 456.0, 390.5, 140.0, 20.0 ],
 					"text" : "Preset Controls",
@@ -343,7 +823,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 571.0, 51.0, 22.673828125, 21.40625 ],
+					"patching_rect" : [ 561.0, 54.0, 22.673828125, 21.40625 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 175.0, 4.0, 22.673828125, 21.40625 ],
 					"rounded" : 100.0,
@@ -359,7 +839,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 14.5, 150.0, 20.0 ],
+					"patching_rect" : [ 542.5, 429.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 215.5, 420.5, 57.0, 20.0 ],
 					"text" : "Q-Value",
@@ -374,7 +854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 14.5, 150.0, 20.0 ],
+					"patching_rect" : [ 542.5, 429.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 157.0, 420.5, 57.0, 20.0 ],
 					"text" : "Level",
@@ -389,7 +869,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 428.0, 8.5, 150.0, 20.0 ],
+					"patching_rect" : [ 537.5, 423.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 96.0, 420.5, 57.0, 20.0 ],
 					"text" : "Freq",
@@ -404,7 +884,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.0, 14.5, 150.0, 20.0 ],
+					"patching_rect" : [ 522.5, 429.5, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 398.5, 83.0, 20.0 ],
 					"text" : "Filter Mode",
@@ -420,7 +900,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.0, 14.5, 165.0, 20.0 ],
+					"patching_rect" : [ 522.5, 429.5, 165.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 136.0, 393.0, 235.0, 20.0 ],
 					"text" : "Audio Filtering Controls",
@@ -436,7 +916,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.0, 8.5, 164.0, 20.0 ],
+					"patching_rect" : [ 522.5, 423.5, 164.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 302.0, 300.0, 20.0 ],
 					"text" : "Audio Analysis Mixing",
@@ -506,7 +986,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 315.0, 72.5, 163.0, 20.0 ],
+					"patching_rect" : [ 1037.0, 178.5, 163.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 174.0, 148.0, 20.0 ],
 					"text" : "Live Input Controls",
@@ -650,8 +1130,7 @@
 						}
 
 					}
-,
-					"varname" : "live.gain~[3]"
+
 				}
 
 			}
@@ -673,7 +1152,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 500.75, 390.5, 215.0, 22.0 ],
-					"restore" : [ 1433.583740234375 ],
+					"restore" : [ 1481.993455659630627 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -692,7 +1171,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 500.75, 364.5, 220.0, 22.0 ],
-					"restore" : [ 0.95195198059082 ],
+					"restore" : [ 1.158823753453432 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -711,7 +1190,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 501.0, 336.5, 189.0, 22.0 ],
-					"restore" : [ 0.5 ],
+					"restore" : [ 0.286 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -758,7 +1237,7 @@
 					"patching_rect" : [ 126.25, 306.5, 360.0, 155.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 468.5, 360.0, 155.0 ],
-					"setfilter" : [ 0, 3, 1, 0, 0, 1433.583740234375, 0.95195198059082, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 3, 1, 0, 0, 1481.993408203125, 1.158823728561401, 0.28600001335144, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"varname" : "filtergraph"
 				}
 
@@ -1568,10 +2047,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 555.5, 651.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -70.0 ],
+						"live.gain~" : [ 1.295373202316625 ],
 						"live.gain~[1]" : [ -70.0 ],
-						"live.gain~[2]" : [ -70.0 ],
-						"live.gain~[3]" : [ -70.0 ]
+						"live.gain~[2]" : [ -2.892561983471083 ]
 					}
 ,
 					"text" : "autopattr",
@@ -1682,9 +2160,9 @@
 						"appicon_mac" : "",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "com.mycompany.myprogram",
+						"bundleidentifier" : "org.asu.ame.synthesis.aanalysis",
 						"cantclosetoplevelpatchers" : 1,
-						"cefsupport" : 1,
+						"cefsupport" : 0,
 						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
@@ -1692,9 +2170,9 @@
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 0,
-						"preffilename" : "Max 8 Preferences",
+						"preffilename" : "Audio Analysis Preferences",
 						"searchformissingfiles" : 1,
-						"statusvisible" : 1,
+						"statusvisible" : 0,
 						"usesearchpath" : 0
 					}
 ,
@@ -3136,6 +3614,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"order" : 1,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"order" : 0,
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -3265,8 +3752,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-78", 1 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-88", 0 ]
 				}
 
 			}
@@ -3508,6 +4016,10 @@
 			}
 , 			{
 				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.display.mxo",
 				"type" : "iLaX"
 			}
  ],
