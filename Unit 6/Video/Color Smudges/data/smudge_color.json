@@ -1,0 +1,33 @@
+{
+	"pattrstorage" : 	{
+		"name" : "smudge_color",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "default",
+				"data" : 				{
+					"sc.texture.fold.mirror::drawto" : [ "smudgy" ],
+					"sc.texture.rotate::bypass" : [ 0.0 ],
+					"sc.texture.rotate::theta" : [ 0.019607845544815 ],
+					"sc.texture.rotate::offset" : [ 0.0, 0.0 ],
+					"sc.texture.rotate::zoom" : [ 1.0, 1.0 ],
+					"sc.texture.rotate::anchor" : [ 0.509803928434849, 0.666666701436043 ],
+					"sc.texture.rotate::zoom_linked" : [ 1.0 ],
+					"sc.texture.translate::drawto" : [ "smudgy" ],
+					"sc.texture.translate::shift_amt" : [ 0.0, 0.0 ],
+					"sc.texture.dstdim::dstdim" : [ 0.25, 0.75, 0.25, 0.75 ],
+					"sc.texture.dstdim::bypass" : [ 0.0 ],
+					"sc.texture.dstdim::dst_position" : [ 0.25, 0.25 ],
+					"sc.texture.dstdim::dst_size" : [ 0.5, 0.5 ],
+					"sc.texture.syphon.out::servername" : [ "" ],
+					"sc.texture.syphon.out::drawto" : [ "smudgy" ],
+					"sc.texture.invert::bypass" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
