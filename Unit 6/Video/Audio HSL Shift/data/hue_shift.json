@@ -8,11 +8,22 @@
 					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 0.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 10.0 ],
 					"slide_up" : [ 10.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -23,11 +34,22 @@
 					"audio_divisor" : [ 10000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 0.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 100.0 ],
 					"slide_up" : [ 100.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -38,11 +60,22 @@
 					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 0.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 50.0 ],
 					"slide_up" : [ 50.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -53,11 +86,22 @@
 					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 1.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 10.0 ],
 					"slide_up" : [ 10.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -65,14 +109,25 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"audio_divisor" : [ 10000.0 ],
+					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 1.0 ],
-					"live.tab[1]" : [  ],
-					"slide_down" : [ 100.0 ],
-					"slide_up" : [ 100.0 ],
+					"slide_down" : [ 50.0 ],
+					"slide_up" : [ 50.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -83,11 +138,22 @@
 					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 1.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 50.0 ],
 					"slide_up" : [ 50.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -98,11 +164,22 @@
 					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 2.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 10.0 ],
 					"slide_up" : [ 10.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -113,11 +190,22 @@
 					"audio_divisor" : [ 10000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 2.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 100.0 ],
 					"slide_up" : [ 100.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}
@@ -128,11 +216,22 @@
 					"audio_divisor" : [ 1000.0 ],
 					"live.gain~" : [  ],
 					"live.tab" : [ 2.0 ],
-					"live.tab[1]" : [  ],
 					"slide_down" : [ 50.0 ],
 					"slide_up" : [ 50.0 ],
+					"effect-mult" : [ 5.0 ],
 					"sc.texture.rgb2hsl::bypass" : [ 0.0 ],
-					"sc.texture.hsl2rgb::bypass" : [ 0.0 ]
+					"sc.texture.hsl2rgb::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "a_hue_shift" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.5 ]
 				}
 
 			}

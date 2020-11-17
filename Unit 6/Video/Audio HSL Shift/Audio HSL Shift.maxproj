@@ -2,7 +2,7 @@
 	"name" : "Audio HSL Shift",
 	"version" : 1,
 	"creationdate" : 3676285443,
-	"modificationdate" : 3676294201,
+	"modificationdate" : 3688358658,
 	"viewrect" : [ 25.0, 104.0, 300.0, 933.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"Audio Status.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
