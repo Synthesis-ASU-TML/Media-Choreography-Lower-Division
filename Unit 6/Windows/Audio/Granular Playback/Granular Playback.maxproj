@@ -2,7 +2,7 @@
 	"name" : "Granular Playback",
 	"version" : 1,
 	"creationdate" : 3676898702,
-	"modificationdate" : 3687984758,
+	"modificationdate" : 3687989444,
 	"viewrect" : [ 118.0, 95.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,12 +18,7 @@
 ,
 			"Audio Status.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 6/Analysis/Audio Analysis/patchers",
-					"projectrelativepath" : "../../Analysis/Audio Analysis/patchers"
-				}
-
+				"local" : 1
 			}
 
 		}
@@ -37,10 +32,6 @@
 		}
 ,
 		"code" : 		{
-
-		}
-,
-		"data" : 		{
 
 		}
 ,
