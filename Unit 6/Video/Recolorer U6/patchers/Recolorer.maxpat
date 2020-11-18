@@ -178,7 +178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 571.0, 116.0, 153.0, 342.0 ],
+					"patching_rect" : [ 571.0, 116.0, 156.0, 342.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
 					"presentation_rect" : [ 554.0, 41.0, 238.0, 221.0 ],
@@ -1061,7 +1061,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
 									"patching_rect" : [ 39.0, 211.5, 382.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto Smudges @automatic 1 @vol 0."
+									"text" : "jit.movie @output_texture 1 @drawto recolor @automatic 1 @vol 0."
 								}
 
 							}
