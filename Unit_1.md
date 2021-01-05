@@ -28,6 +28,7 @@ Unit 1 is designed as the foot wetting section.  Ideally the applications suppli
     - Takes a video file as input and re-renders each frame using [Voronoi (or cellular) noise](https://thebookofshaders.com/12/) patterns.
     - Meant to give the option to explore structured methods of distoriting images.
     
-    ### Unit Download
-    - [**MacOS**](https://drive.google.com/file/d/1VONSEwog24jy8YTZ3uEbq7NM7vNvmTmM/view?usp=sharing) - File Only Input
-    - [**Windows**](https://drive.google.com/drive/folders/1A1Ycr4KxG3CO4VZtwS6hgOC61twKJWRY?usp=sharing) - File Only Input
+### Unit Download
+    
+- [**MacOS**](https://drive.google.com/file/d/1VONSEwog24jy8YTZ3uEbq7NM7vNvmTmM/view?usp=sharing) - File Only Input
+- [**Windows**](https://drive.google.com/drive/folders/1A1Ycr4KxG3CO4VZtwS6hgOC61twKJWRY?usp=sharing) - File Only Input
