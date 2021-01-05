@@ -2,7 +2,7 @@
 
 ### Project Goals
 
-- Create a series of applications built from Max/MSP/Jitter to enable students and collaborators to use some of the same realtime media manipulation techniques as are available to Synthesis @ ASU.
+- Create a series of applications built from [Max/MSP/Jitter](https://cycling74.com/) to enable students and collaborators to use some of the same realtime media manipulation techniques as are available to Synthesis @ ASU.
 - Provide software for teaching students and others interested in how to create "Media Environments" entry level tools to experiement with effects and media without the need to code them directly. 
 
 
