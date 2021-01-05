@@ -8,7 +8,8 @@
 ### Unit Descriptions and Download Links
 - [Unit 1](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_1): Introduction to Media Choreography Software
     - A feet wettting of sorts. Simplified versions of audio and video processing software.
-
+- [Unit 2](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_2): Introduction to Video Effects & Media Curation
+    - Learning some techniques for modifying colors, basic computer vision, examining motion in videos
 
 ### Support or Contact
 
