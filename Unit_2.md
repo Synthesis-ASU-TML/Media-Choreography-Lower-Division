@@ -26,6 +26,6 @@ This unit is designed to give students access to different kinds of visual effec
 MacOS | Windows
 [File Input Only](https://drive.google.com/file/d/1TqXtwVltafHMW-GAwOeTwRVYl-H6KdIn/view?usp=sharing) | [File Input Only](https://drive.google.com/drive/folders/1zXgvxnLe1n9nK6aY_aE5cSvj9nupcZSN?usp=sharing)
 
-##
+##  
 
 [< Unit 1](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_1) | [Repo Home](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division) | [Unit 3 >](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_3)
