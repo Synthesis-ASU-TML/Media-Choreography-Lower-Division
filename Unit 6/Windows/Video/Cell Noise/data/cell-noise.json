@@ -1,0 +1,54 @@
+{
+	"pattrstorage" : 	{
+		"name" : "cell-noise",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"noise-scale" : [ 5 ],
+					"timescale" : [ 0.01 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"noise-scale" : [ 50 ],
+					"timescale" : [ 0.01 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"noise-scale" : [ 10 ],
+					"timescale" : [ 0.01 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"noise-scale" : [ 75 ],
+					"timescale" : [ 0.01 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"noise-scale" : [ 200 ],
+					"timescale" : [ 0.01 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

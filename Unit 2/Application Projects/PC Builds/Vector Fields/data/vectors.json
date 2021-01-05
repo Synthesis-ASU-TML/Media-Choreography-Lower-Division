@@ -1,0 +1,257 @@
+{
+	"pattrstorage" : 	{
+		"name" : "vectors",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.010437499731779 ],
+					"sc.mesh.vectorfields::dim" : [ 64, 32 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.950382649898529 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.950382649898529 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.950382649898529 ],
+					"feather-scale" : [ 0.010437499731779 ],
+					"num-points-x" : [ 64 ],
+					"outline-bypass" : [ 1 ],
+					"num-points-y" : [ 32 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.011187500320375 ],
+					"sc.mesh.vectorfields::dim" : [ 64, 960 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.908035695552826 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.908035695552826 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.908035695552826 ],
+					"feather-scale" : [ 0.010437499731779 ],
+					"num-points-x" : [ 64 ],
+					"outline-bypass" : [ 1 ],
+					"num-points-y" : [ 960 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.010437499731779 ],
+					"sc.mesh.vectorfields::dim" : [ 1280, 32 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.908545911312103 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.908545911312103 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.908545911312103 ],
+					"feather-scale" : [ 0.010437499731779 ],
+					"num-points-x" : [ 1280 ],
+					"outline-bypass" : [ 1 ],
+					"num-points-y" : [ 32 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.011187500320375 ],
+					"sc.mesh.vectorfields::dim" : [ 640, 320 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.944770395755768 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.944770395755768 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.944770395755768 ],
+					"feather-scale" : [ 0.010437499731779 ],
+					"num-points-x" : [ 640 ],
+					"outline-bypass" : [ 1 ],
+					"num-points-y" : [ 320 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.011187500320375 ],
+					"sc.mesh.vectorfields::dim" : [ 640, 320 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.949298501014709 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.949298501014709 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.944770395755768 ],
+					"feather-scale" : [ 0.010437499731779 ],
+					"num-points-x" : [ 640 ],
+					"outline-bypass" : [ 0 ],
+					"num-points-y" : [ 320 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.024437500163913 ],
+					"sc.mesh.vectorfields::dim" : [ 1280, 960 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.899999976158142 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.899999976158142 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.899999976158142 ],
+					"feather-scale" : [ 0.024437500163913 ],
+					"num-points-x" : [ 1280 ],
+					"outline-bypass" : [ 0 ],
+					"num-points-y" : [ 960 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.050000000745058 ],
+					"sc.mesh.vectorfields::dim" : [ 64, 48 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.899999976158142 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.899999976158142 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.899999976158142 ],
+					"feather-scale" : [ 0.050000000745058 ],
+					"num-points-x" : [ 64 ],
+					"outline-bypass" : [ 0 ],
+					"num-points-y" : [ 48 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"sc.mesh.vectorfields::scale" : [ 0.050000000745058 ],
+					"sc.mesh.vectorfields::dim" : [ 64, 48 ],
+					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
+					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
+					"sc.mesh.vectorfields::blend_enable" : [ 1 ],
+					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.989668369293213 ],
+					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
+					"sc.mesh.vectorfields::leak" : [ 0.989668369293213 ],
+					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
+					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
+					"sc.texture.opflow::opflow_force" : [ 1.0 ],
+					"sc.texture.opflow::offset" : [ 3.0, 3.0 ],
+					"sc.texture.edge.sobel::drawto" : [ "Vector Fields" ],
+					"sc.texture.binaryop::op" : [ "*" ],
+					"sc.texture.binaryop::bypass" : [ 0.0 ],
+					"sc.texture.binaryop[1]::op" : [ "+" ],
+					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
+					"feather-fade" : [ 0.989668369293213 ],
+					"feather-scale" : [ 0.050000000745058 ],
+					"num-points-x" : [ 64 ],
+					"outline-bypass" : [ 1 ],
+					"num-points-y" : [ 48 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

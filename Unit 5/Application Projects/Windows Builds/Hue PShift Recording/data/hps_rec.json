@@ -1,0 +1,45 @@
+{
+	"pattrstorage" : 	{
+		"name" : "hps_rec",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "Default",
+				"data" : 				{
+					"sc.avg.window::window_size" : [ 127.0 ],
+					"smooth-steps-up" : [ 50.0 ],
+					"smooth-steps-down" : [ 50.0 ],
+					"window-size" : [ 127 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "Jittery",
+				"data" : 				{
+					"sc.avg.window::window_size" : [ 5.0 ],
+					"smooth-steps-up" : [ 1.0 ],
+					"smooth-steps-down" : [ 1.0 ],
+					"window-size" : [ 5 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "Very Slow Response",
+				"data" : 				{
+					"sc.avg.window::window_size" : [ 255.0 ],
+					"smooth-steps-up" : [ 255.0 ],
+					"smooth-steps-down" : [ 255.0 ],
+					"window-size" : [ 255 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
