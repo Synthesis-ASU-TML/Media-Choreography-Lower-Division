@@ -13,7 +13,7 @@
 
 ### Support or Contact
 
-- Connor Rawls - Lead Developer : connor.rawls@asu.edu
+- Connor Rawls - Lead Developer : [connor.rawls@asu.edu](connor.rawls@asu.edu)
 
 #### Disclaimer
 
