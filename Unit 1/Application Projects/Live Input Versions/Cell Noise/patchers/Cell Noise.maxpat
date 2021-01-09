@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Cell Noise",
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
@@ -243,7 +244,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 94.0, 78.0, 642.0, 498.0 ],
+						"rect" : [ 84.0, 110.0, 643.0, 492.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1081,8 +1082,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 39.0, 211.5, 377.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto contours @automatic 1 @vol 0."
+									"patching_rect" : [ 39.0, 211.5, 395.0, 22.0 ],
+									"text" : "jit.movie @output_texture 1 @drawto \"Cell Noise\" @automatic 1 @vol 0."
 								}
 
 							}
@@ -3160,7 +3161,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u328001577"
+									"varname" : "u141007627"
 								}
 
 							}
@@ -7578,7 +7579,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u504001579"
+					"varname" : "u540007720"
 				}
 
 			}
