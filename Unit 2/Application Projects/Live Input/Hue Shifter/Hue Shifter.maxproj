@@ -1,16 +1,16 @@
 {
-	"name" : "Motion Edges",
+	"name" : "Hue Shifter",
 	"version" : 1,
-	"creationdate" : 3676022800,
-	"modificationdate" : 3676110426,
-	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
+	"creationdate" : 3676022746,
+	"modificationdate" : 3676027803,
+	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Motion Edges.maxpat" : 			{
+			"Hue Shifter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
@@ -18,19 +18,8 @@
 
 		}
 ,
-		"code" : 		{
-			"op.pass.jxs" : 			{
-				"kind" : "shader"
-			}
-,
-			"sobel.jxs" : 			{
-				"kind" : "shader"
-			}
-
-		}
-,
 		"other" : 		{
-			"motion_edges_icon.icns" : 			{
+			"hue_shift_icon.icns" : 			{
 				"kind" : "file",
 				"local" : 1
 			}
