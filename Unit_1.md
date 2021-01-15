@@ -34,4 +34,8 @@ Unit 1 is designed as the foot wetting section.  Ideally the applications suppli
 [File Input Only](https://drive.google.com/uc?export=download&id=1VONSEwog24jy8YTZ3uEbq7NM7vNvmTmM) | [File Input Only](https://drive.google.com/uc?export=download&id=17-rqWsM_QYHBEUVhI_IVJrhTEW39qBhs)
 [Live Input](https://drive.google.com/uc?export=download&id=1vlGAQ38uwG9hJMmGBt52OIqmVMXXW-hL) | Live Input Coming Soon
 
+
+### Demo Videos
+We are currently creating a series of videos showing some of the functionalities of these applications. [Click Here](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_1Demo) to view them.
+
 [< Back To Main](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division) | [Unit 2 >](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_2)
