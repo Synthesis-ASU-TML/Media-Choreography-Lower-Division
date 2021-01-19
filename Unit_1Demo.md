@@ -14,7 +14,7 @@ An introductory application to give experience with using noise (or psuedo-rando
 ### Hue Shadow
 An introductory application to give experience with the structure of video data. Takes the saturation and luminance of one video and replaces the hue with the hue component of a different video. Aims to show students how images as we perceive them digitally are structured and rely on more than just colors to convey their content.
 
-{% include youtubePlayer.html id="x_plgJVZcOE" %}
+{% include youtubePlayer.html id="x_pIgJVZcOE" %}
 
 ### Droney
 An introductory application to give experience with how changes in aspects such as playback speed can have profound effects on the output of a piece of audio data. Takes in two audio files, chops them into small pieces (or grains) and then plays them back at verying, slow speeds.
