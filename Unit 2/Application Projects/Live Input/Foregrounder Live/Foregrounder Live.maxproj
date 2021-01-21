@@ -2,8 +2,8 @@
 	"name" : "Foregrounder Live",
 	"version" : 1,
 	"creationdate" : 3676022682,
-	"modificationdate" : 3687328836,
-	"viewrect" : [ 105.0, 134.0, 300.0, 500.0 ],
+	"modificationdate" : 3694028633,
+	"viewrect" : [ 28.0, 122.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -18,8 +18,36 @@
 
 		}
 ,
+		"media" : 		{
+
+		}
+,
 		"code" : 		{
 			"op.pass.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.palette.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.sRGB2XYZ.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.smooth.gaussian.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.brightness.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.palette.nosat.jxs" : 			{
+				"kind" : "shader"
+			}
+,
+			"cwjr.recolor.XYZ.jxs" : 			{
 				"kind" : "shader"
 			}
 

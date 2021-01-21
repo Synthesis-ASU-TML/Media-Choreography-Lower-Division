@@ -239,6 +239,18 @@
 						"title" : "Video Input Settings",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-63",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 216.0, 261.5, 73.0, 22.0 ],
+									"text" : "loadmess 0."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-62",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
@@ -1021,6 +1033,7 @@
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "live.tab",
+									"multiline" : 0,
 									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
 									"numinlets" : 1,
@@ -1544,6 +1557,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"order" : 0,
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 1,
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-7", 0 ]
 								}
@@ -1622,8 +1651,9 @@
 					"patching_rect" : [ 139.666656494140625, 984.33331298828125, 273.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 377.0, 198.5, 185.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 370.5, 196.5, 185.0, 33.0 ],
+					"text" : "Mira controls available at: http://192.168.0.16:8086",
+					"textjustification" : 1
 				}
 
 			}
@@ -2592,7 +2622,7 @@
 									"patching_rect" : [ 1448.6669921875, 632.5, 155.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 91.571441650390625, 672.0, 376.0, 20.0 ],
-									"text" : "Background Update Rate: 0.00%",
+									"text" : "Background Update Rate: 100.00%",
 									"textcolor" : [ 0.996078431606293, 0.996078431606293, 0.996078431606293, 1.0 ],
 									"textjustification" : 1
 								}
@@ -7255,7 +7285,7 @@
 						"bundleidentifier" : "org.asu.ame.synthesis.fglive",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -7552,6 +7582,7 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "live.tab",
+					"multiline" : 0,
 					"num_lines_patching" : 1,
 					"num_lines_presentation" : 1,
 					"numinlets" : 1,

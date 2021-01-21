@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 193.0, 79.0, 654.0, 325.0 ],
+		"rect" : [ 86.0, 98.0, 654.0, 325.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,30 @@
 		"title" : "Hue Shifter Live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 505.0, 260.0, 40.0, 22.0 ],
+					"text" : "* 100."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 505.0, 236.0, 32.0, 22.0 ],
+					"text" : "/ 0.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-91",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 497.0, 275.0, 150.0, 33.0 ],
+					"patching_rect" : [ 505.0, 312.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.75, 130.4453125, 264.0, 20.0 ],
 					"text" : "Auto Hue Shift Speed: 0.00",
@@ -72,11 +96,11 @@
 				"box" : 				{
 					"id" : "obj-87",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.0, 250.0, 209.0, 22.0 ],
-					"text" : "sprintf set Auto Hue Shift Speed: %.2f"
+					"patching_rect" : [ 505.0, 287.0, 220.0, 22.0 ],
+					"text" : "sprintf set Auto Hue Shift Speed: %.2f%"
 				}
 
 			}
@@ -97,7 +121,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "multislider[4]",
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 0.100000001490116,
 							"parameter_mmin" : 0.000099999997474,
 							"parameter_shortname" : "multislider",
 							"parameter_type" : 0
@@ -105,7 +129,7 @@
 
 					}
 ,
-					"setminmax" : [ 0.000099999997474, 1.0 ],
+					"setminmax" : [ 0.000099999997474, 0.100000001490116 ],
 					"slidercolor" : [ 0.086274509803922, 0.07843137254902, 0.498039215686275, 1.0 ],
 					"varname" : "multislider[3]"
 				}
@@ -207,7 +231,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 17.0, 53.0, 644.0, 496.0 ],
+						"rect" : [ 17.0, 53.0, 645.0, 497.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -237,6 +261,18 @@
 						"assistshowspatchername" : 0,
 						"title" : "Video Input Settings",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-63",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 264.0, 276.0, 73.0, 22.0 ],
+									"text" : "loadmess 0."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-62",
 									"maxclass" : "newobj",
@@ -1020,6 +1056,7 @@
 								"box" : 								{
 									"id" : "obj-22",
 									"maxclass" : "live.tab",
+									"multiline" : 0,
 									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
 									"numinlets" : 1,
@@ -1538,6 +1575,22 @@
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
 									"source" : [ "obj-62", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"order" : 0,
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"order" : 1,
+									"source" : [ "obj-63", 0 ]
 								}
 
 							}
@@ -2081,7 +2134,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 342.0, 186.0 ],
+						"rect" : [ 59.0, 104.0, 344.0, 186.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2112,13 +2165,37 @@
 						"title" : "MIDI Settings",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-47",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 1371.6669921875, 622.5, 40.0, 22.0 ],
+									"text" : "* 100."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 1371.6669921875, 577.5, 32.0, 22.0 ],
+									"text" : "/ 0.1"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 1,
 									"id" : "obj-88",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1369.6669921875, 619.461487000000034, 151.0, 33.0 ],
+									"patching_rect" : [ 1371.6669921875, 707.5, 151.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 270.716449439525604, 656.922974000000067, 243.0, 20.0 ],
 									"text" : "Auto Hue Shift Speed 0.00",
@@ -2144,7 +2221,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "multislider[3]",
-											"parameter_mmax" : 1.0,
+											"parameter_mmax" : 0.100000001490116,
 											"parameter_mmin" : 0.000099999997474,
 											"parameter_shortname" : "multislider",
 											"parameter_type" : 0
@@ -2152,7 +2229,7 @@
 
 									}
 ,
-									"setminmax" : [ 0.000099999997474, 1.0 ],
+									"setminmax" : [ 0.000099999997474, 0.100000001490116 ],
 									"slidercolor" : [ 0.086274509803922, 0.07843137254902, 0.498039215686275, 1.0 ],
 									"varname" : "multislider[3]"
 								}
@@ -2175,11 +2252,11 @@
 									"id" : "obj-91",
 									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 1,
+									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1369.6669921875, 578.961487000000034, 182.0, 35.0 ],
-									"text" : "sprintf set Auto Hue Shift Speed %.2f"
+									"patching_rect" : [ 1371.6669921875, 667.0, 144.0, 35.0 ],
+									"text" : "sprintf set Auto Hue Shift Speed %.2f%"
 								}
 
 							}
@@ -2201,8 +2278,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1307.6669921875, 505.961486999999977, 123.0, 22.0 ],
-									"text" : "scale 0 127 0.0001 1."
+									"patching_rect" : [ 1307.6669921875, 505.961486999999977, 130.0, 22.0 ],
+									"text" : "scale 0 127 0.0001 0.1"
 								}
 
 							}
@@ -2685,15 +2762,14 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "multislider[2]",
-											"parameter_mmax" : 3.140000104904175,
-											"parameter_mmin" : -3.140000104904175,
+											"parameter_mmax" : 1.0,
 											"parameter_shortname" : "multislider",
 											"parameter_type" : 0
 										}
 
 									}
 ,
-									"setminmax" : [ -3.140000104904175, 3.140000104904175 ],
+									"setminmax" : [ 0.0, 1.0 ],
 									"slidercolor" : [ 0.086274509803922, 0.07843137254902, 0.498039215686275, 1.0 ],
 									"varname" : "multislider[2]"
 								}
@@ -2885,8 +2961,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1047.6669921875, 498.0, 127.0, 22.0 ],
-									"text" : "scale 0 127 -3.14 3.14"
+									"patching_rect" : [ 1047.6669921875, 498.0, 97.0, 22.0 ],
+									"text" : "scale 0 127 0. 1."
 								}
 
 							}
@@ -4934,7 +5010,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 5.0, 68.0, 326.0, 337.0 ],
+										"rect" : [ 5.0, 68.0, 338.0, 344.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 1,
 										"default_fontsize" : 12.0,
@@ -4991,11 +5067,11 @@
 												"box" : 												{
 													"id" : "obj-7",
 													"maxclass" : "newobj",
-													"numinlets" : 3,
+													"numinlets" : 5,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1132.0, 270.0, 53.0, 22.0 ],
-													"text" : "clip 0. 1."
+													"patching_rect" : [ 1132.0, 270.0, 125.0, 22.0 ],
+													"text" : "zmap 0. 1. 0.0001 0.1"
 												}
 
 											}
@@ -5003,15 +5079,15 @@
 												"box" : 												{
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 													"id" : "obj-34",
-													"linecount" : 41,
+													"linecount" : 40,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 69.0, 44.0, 152.0, 556.0 ],
+													"patching_rect" : [ 69.0, 44.0, 152.0, 543.0 ],
 													"presentation" : 1,
 													"presentation_linecount" : 21,
-													"presentation_rect" : [ 18.0, 40.0, 291.0, 288.0 ],
-													"text" : "/hshift/vol - [0. - 1.] : Sets the video playback volume.\n                                 0 is muted, 1 is maximum\n                                 volume.\n\n/hshift/rate - [0. - 1.] : Sets the video playback rate. 0\n                                   is rewind, 0.5 is paused, and 1.\n                                   is normal playing speed.\n\n/hshift/auto - (0|1) : Sets the automatic hue shift\n                                mode. 0 is off and 1 is on.\n\n/hshift/autospeed [0. - 1.] : Sets the shift rate in auto\n                                           mode. 0 is the slowest\n                                           allowed rate of 0.0001 per\n                                           frame. 1 is a step size of\n                                           1/3PI per frame.\n\n/hshift/manual - [0. - 1.] : Sets the manual hue shift\n                                        amount. Only has an effect\n                                        automatic hue shift is set to \n                                        off."
+													"presentation_rect" : [ 18.0, 40.0, 301.0, 288.0 ],
+													"text" : "/hshift/vol - [0. - 1.] : Sets the video playback volume.\n                                 0 is muted, 1 is maximum\n                                 volume.\n\n/hshift/rate - [0. - 1.] : Sets the video playback rate. 0\n                                   is rewind, 0.5 is paused, and 1.\n                                   is normal playing speed.\n\n/hshift/auto - (0|1) : Sets the automatic hue shift\n                                mode. 0 is off and 1 is on.\n\n/hshift/autospeed [0. - 1.] : Sets the shift rate in auto\n                                           mode. 0 is the slowest\n                                           allowed rate of 0.0001 per\n                                           frame. 1 is 0.1 or 10% shift per frame.\n\n/hshift/manual - [0. - 1.] : Sets the manual hue shift\n                                        amount. Only has an effect\n                                        automatic hue shift is set to \n                                        off."
 												}
 
 											}
@@ -5055,11 +5131,11 @@
 												"box" : 												{
 													"id" : "obj-27",
 													"maxclass" : "newobj",
-													"numinlets" : 5,
+													"numinlets" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 943.25, 270.0, 126.0, 22.0 ],
-													"text" : "zmap -1. 1. -3.14 3.14"
+													"patching_rect" : [ 943.25, 270.0, 53.0, 22.0 ],
+													"text" : "clip 0. 1."
 												}
 
 											}
@@ -5169,7 +5245,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 445.0, 34.0, 100.0, 20.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 188.0, 17.0, 121.0, 20.0 ],
+													"presentation_rect" : [ 198.0, 17.0, 121.0, 20.0 ],
 													"text" : "Reset",
 													"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 												}
@@ -5184,7 +5260,7 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 326.0, 34.0, 117.0, 20.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 69.0, 17.0, 117.0, 20.0 ],
+													"presentation_rect" : [ 79.0, 17.0, 117.0, 20.0 ],
 													"text" : "OSC Receiving Port"
 												}
 
@@ -5213,7 +5289,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 275.0, 33.0, 50.0, 22.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 18.0, 16.0, 50.0, 22.0 ]
+													"presentation_rect" : [ 18.0, 16.0, 68.0, 22.0 ]
 												}
 
 											}
@@ -5853,6 +5929,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-47", 0 ],
+									"source" : [ "obj-39", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
@@ -5888,6 +5971,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-91", 0 ],
+									"source" : [ "obj-47", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
 									"source" : [ "obj-48", 0 ]
 								}
@@ -5918,6 +6008,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
 									"source" : [ "obj-5", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-89", 0 ],
+									"source" : [ "obj-5", 4 ]
 								}
 
 							}
@@ -6197,7 +6294,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-91", 0 ],
+									"destination" : [ "obj-39", 0 ],
 									"order" : 0,
 									"source" : [ "obj-89", 0 ]
 								}
@@ -6668,7 +6765,7 @@
 						"bundleidentifier" : "org.asu.ame.synthesis.hshift2",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -6678,7 +6775,7 @@
 						"preffilename" : "Hue Shifter Live Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -7631,6 +7728,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -7661,6 +7765,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -7838,16 +7949,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-4", 0 ],
+					"order" : 0,
 					"source" : [ "obj-89", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-85", 0 ],
+					"order" : 1,
 					"source" : [ "obj-89", 0 ]
 				}
 
