@@ -5,7 +5,12 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.010437499731779 ],
+					"feather-fade" : [ 0.950382649898529 ],
+					"feather-scale" : [ 0.5 ],
+					"num-points-x" : [ 64 ],
+					"num-points-y" : [ 32 ],
+					"outline-bypass" : [ 1 ],
+					"sc.mesh.vectorfields::scale" : [ 0.5 ],
 					"sc.mesh.vectorfields::dim" : [ 64, 32 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -13,7 +18,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.950382649898529 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.950382649898529 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -24,11 +28,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.950382649898529 ],
-					"feather-scale" : [ 0.010437499731779 ],
-					"num-points-x" : [ 64 ],
-					"outline-bypass" : [ 1 ],
-					"num-points-y" : [ 32 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -36,7 +46,12 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.011187500320375 ],
+					"feather-fade" : [ 0.908035695552826 ],
+					"feather-scale" : [ 0.295468032360077 ],
+					"num-points-x" : [ 64 ],
+					"num-points-y" : [ 960 ],
+					"outline-bypass" : [ 1 ],
+					"sc.mesh.vectorfields::scale" : [ 0.295468032360077 ],
 					"sc.mesh.vectorfields::dim" : [ 64, 960 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -44,7 +59,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.908035695552826 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.908035695552826 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -55,11 +69,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.908035695552826 ],
-					"feather-scale" : [ 0.010437499731779 ],
-					"num-points-x" : [ 64 ],
-					"outline-bypass" : [ 1 ],
-					"num-points-y" : [ 960 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -67,7 +87,12 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.010437499731779 ],
+					"feather-fade" : [ 0.908545911312103 ],
+					"feather-scale" : [ 0.390239328145981 ],
+					"num-points-x" : [ 1280 ],
+					"num-points-y" : [ 32 ],
+					"outline-bypass" : [ 1 ],
+					"sc.mesh.vectorfields::scale" : [ 0.390239328145981 ],
 					"sc.mesh.vectorfields::dim" : [ 1280, 32 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -75,7 +100,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.908545911312103 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.908545911312103 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -86,11 +110,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.908545911312103 ],
-					"feather-scale" : [ 0.010437499731779 ],
-					"num-points-x" : [ 1280 ],
-					"outline-bypass" : [ 1 ],
-					"num-points-y" : [ 32 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -98,7 +128,12 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.011187500320375 ],
+					"feather-fade" : [ 0.944770395755768 ],
+					"feather-scale" : [ 0.169750973582268 ],
+					"num-points-x" : [ 640 ],
+					"num-points-y" : [ 320 ],
+					"outline-bypass" : [ 1 ],
+					"sc.mesh.vectorfields::scale" : [ 0.169750973582268 ],
 					"sc.mesh.vectorfields::dim" : [ 640, 320 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -106,7 +141,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.944770395755768 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.944770395755768 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -117,11 +151,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.944770395755768 ],
-					"feather-scale" : [ 0.010437499731779 ],
-					"num-points-x" : [ 640 ],
-					"outline-bypass" : [ 1 ],
-					"num-points-y" : [ 320 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -129,7 +169,12 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.011187500320375 ],
+					"feather-fade" : [ 0.944770395755768 ],
+					"feather-scale" : [ 0.074979647994041 ],
+					"num-points-x" : [ 640 ],
+					"num-points-y" : [ 320 ],
+					"outline-bypass" : [ 0 ],
+					"sc.mesh.vectorfields::scale" : [ 0.074979647994041 ],
 					"sc.mesh.vectorfields::dim" : [ 640, 320 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -137,7 +182,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.949298501014709 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.949298501014709 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -148,11 +192,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.944770395755768 ],
-					"feather-scale" : [ 0.010437499731779 ],
-					"num-points-x" : [ 640 ],
-					"outline-bypass" : [ 0 ],
-					"num-points-y" : [ 320 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -160,7 +210,12 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.024437500163913 ],
+					"feather-fade" : [ 0.899999976158142 ],
+					"feather-scale" : [ 0.051770348101854 ],
+					"num-points-x" : [ 1280 ],
+					"num-points-y" : [ 960 ],
+					"outline-bypass" : [ 0 ],
+					"sc.mesh.vectorfields::scale" : [ 0.051770348101854 ],
 					"sc.mesh.vectorfields::dim" : [ 1280, 960 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -168,7 +223,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.899999976158142 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.899999976158142 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -179,11 +233,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.899999976158142 ],
-					"feather-scale" : [ 0.024437500163913 ],
-					"num-points-x" : [ 1280 ],
-					"outline-bypass" : [ 0 ],
-					"num-points-y" : [ 960 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -191,7 +251,12 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.050000000745058 ],
+					"feather-fade" : [ 0.899999976158142 ],
+					"feather-scale" : [ 0.38637113571167 ],
+					"num-points-x" : [ 64 ],
+					"num-points-y" : [ 48 ],
+					"outline-bypass" : [ 0 ],
+					"sc.mesh.vectorfields::scale" : [ 0.38637113571167 ],
 					"sc.mesh.vectorfields::dim" : [ 64, 48 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -199,7 +264,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.899999976158142 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.899999976158142 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -210,11 +274,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.899999976158142 ],
-					"feather-scale" : [ 0.050000000745058 ],
-					"num-points-x" : [ 64 ],
-					"outline-bypass" : [ 0 ],
-					"num-points-y" : [ 48 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -222,7 +292,12 @@
 			"8" : 			{
 				"id" : 8,
 				"data" : 				{
-					"sc.mesh.vectorfields::scale" : [ 0.050000000745058 ],
+					"feather-fade" : [ 1.0 ],
+					"feather-scale" : [ 0.5 ],
+					"num-points-x" : [ 64 ],
+					"num-points-y" : [ 48 ],
+					"outline-bypass" : [ 1 ],
+					"sc.mesh.vectorfields::scale" : [ 0.5 ],
 					"sc.mesh.vectorfields::dim" : [ 64, 48 ],
 					"sc.mesh.vectorfields::title" : [ "sc.mesh.vectorfields" ],
 					"sc.mesh.vectorfields::depth_enable" : [ 0 ],
@@ -230,7 +305,6 @@
 					"sc.mesh.vectorfields::transform_reset" : [ 2 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::leak" : [ 0.989668369293213 ],
 					"sc.mesh.vectorfields::sc.texture.leakyintegrator::bypass" : [ 0.0 ],
-					"sc.mesh.vectorfields::leak" : [ 0.989668369293213 ],
 					"sc.texture.opflow::diff_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_thresh" : [ 0.0 ],
 					"sc.texture.opflow::opflow_lambda" : [ 0.03 ],
@@ -241,11 +315,17 @@
 					"sc.texture.binaryop::bypass" : [ 0.0 ],
 					"sc.texture.binaryop[1]::op" : [ "+" ],
 					"sc.texture.binaryop[1]::bypass" : [ 0.0 ],
-					"feather-fade" : [ 0.989668369293213 ],
-					"feather-scale" : [ 0.050000000745058 ],
-					"num-points-x" : [ 64 ],
-					"outline-bypass" : [ 1 ],
-					"num-points-y" : [ 48 ]
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Vector Fields" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
