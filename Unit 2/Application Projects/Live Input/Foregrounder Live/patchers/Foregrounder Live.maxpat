@@ -1094,9 +1094,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
+									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 39.0, 211.5, 389.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto foreground @automatic 1 @vol 0."
+									"text" : "jit.movie @automatic 1 @vol 0."
 								}
 
 							}
@@ -1651,7 +1651,7 @@
 					"patching_rect" : [ 139.666656494140625, 984.33331298828125, 273.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 370.5, 196.5, 185.0, 33.0 ],
+					"presentation_rect" : [ 367.0, 234.0, 185.0, 33.0 ],
 					"text" : "Mira controls available at: http://192.168.0.16:8086",
 					"textjustification" : 1
 				}

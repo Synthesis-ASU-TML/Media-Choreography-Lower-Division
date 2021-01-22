@@ -2115,9 +2115,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 39.0, 211.5, 368.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto recolor @automatic 1 @vol 0."
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 39.0, 211.5, 174.0, 22.0 ],
+									"text" : "jit.movie @automatic 1 @vol 0."
 								}
 
 							}

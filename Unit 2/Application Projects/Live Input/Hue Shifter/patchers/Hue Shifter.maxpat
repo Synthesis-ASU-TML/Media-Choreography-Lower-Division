@@ -1117,9 +1117,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
+									"outlettype" : [ "jit_matrix", "" ],
 									"patching_rect" : [ 39.0, 211.5, 389.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto \"Hue Shift\" @automatic 1 @vol 0."
+									"text" : "jit.movie @automatic 1 @vol 0."
 								}
 
 							}
@@ -2198,7 +2198,7 @@
 									"patching_rect" : [ 1371.6669921875, 707.5, 151.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 270.716449439525604, 656.922974000000067, 243.0, 20.0 ],
-									"text" : "Auto Hue Shift Speed 0.00",
+									"text" : "Auto Hue Shift Speed 0.10%",
 									"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 									"textjustification" : 1
 								}
@@ -6501,7 +6501,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 0.0, 0.0, 276.0, 47.0 ],
-									"text" : "Hue Shifter Live 0.3a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
+									"text" : "Hue Shifter Live 0.4a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
 							}
