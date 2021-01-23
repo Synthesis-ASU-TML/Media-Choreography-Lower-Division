@@ -1081,9 +1081,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 39.0, 211.5, 395.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto \"Cell Noise\" @automatic 1 @vol 0."
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 39.0, 211.5, 174.0, 22.0 ],
+									"text" : "jit.movie @automatic 1 @vol 0."
 								}
 
 							}
@@ -3161,7 +3161,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u141007627"
+									"varname" : "u823005568"
 								}
 
 							}
@@ -5007,7 +5007,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5018,9 +5018,9 @@
 									"presentation_rect" : [ 8.5, 8.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "to Max 1", "to Max 2" ],
+											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -7088,7 +7088,7 @@
 						"bundleidentifier" : "org.asu.ame.synthesis.cellnoise",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -7579,7 +7579,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u540007720"
+					"varname" : "u977005414"
 				}
 
 			}

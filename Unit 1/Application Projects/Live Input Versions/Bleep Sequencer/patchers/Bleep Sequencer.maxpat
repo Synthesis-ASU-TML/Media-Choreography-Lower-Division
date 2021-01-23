@@ -38,7 +38,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Bleep Sequencer Live",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-158",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 281.0, 106.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-161",
 					"maxclass" : "newobj",
@@ -3914,7 +3927,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3925,9 +3938,9 @@
 									"presentation_rect" : [ 5.5, 6.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "to Max 1", "to Max 2" ],
+											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -5905,7 +5918,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u041009095"
+									"varname" : "u856006819"
 								}
 
 							}
@@ -6753,7 +6766,7 @@
 						"bundleidentifier" : "org.asu.ame.synthesis.bleeplive",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -6900,11 +6913,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 43,
+					"linecount" : 42,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 177.0, 583.0 ],
+					"patching_rect" : [ 27.0, 779.0, 180.0, 570.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
 					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
@@ -8166,7 +8179,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontlink" : 1,
 					"id" : "obj-10",
 					"maxclass" : "textbutton",
@@ -8751,6 +8763,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-158", 0 ]
 				}
 
 			}
