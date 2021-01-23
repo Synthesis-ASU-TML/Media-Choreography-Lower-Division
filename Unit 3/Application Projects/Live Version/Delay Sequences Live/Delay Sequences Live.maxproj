@@ -1,8 +1,8 @@
 {
-	"name" : "Delay Sequences",
+	"name" : "Delay Sequences Live",
 	"version" : 1,
 	"creationdate" : 3676104369,
-	"modificationdate" : 3684236955,
+	"modificationdate" : 3694259537,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"Audio Status.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
