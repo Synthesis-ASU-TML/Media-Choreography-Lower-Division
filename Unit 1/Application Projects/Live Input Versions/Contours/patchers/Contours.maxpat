@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 621.0, 198.0, 595.0, 242.0 ],
+		"rect" : [ 208.0, 133.0, 602.0, 242.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -520,6 +520,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-2",
 					"maxclass" : "live.tab",
+					"multiline" : 0,
 					"num_lines_patching" : 1,
 					"num_lines_presentation" : 1,
 					"numinlets" : 1,
@@ -1417,9 +1418,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 39.0, 211.5, 377.0, 22.0 ],
-									"text" : "jit.movie @output_texture 1 @drawto contours @automatic 1 @vol 0."
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 39.0, 211.5, 174.0, 22.0 ],
+									"text" : "jit.movie @automatic 1 @vol 0."
 								}
 
 							}
@@ -3721,7 +3722,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-6",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3732,9 +3733,9 @@
 									"presentation_rect" : [ 8.0, 6.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "to Max 1", "to Max 2" ],
+											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -4960,6 +4961,31 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 27.0, 34.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 27.0, 7.0, 202.0, 22.0 ],
+									"text" : "loadmess title \"About Contours Live\""
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-8",
 									"linecount" : 4,
 									"maxclass" : "comment",
@@ -4969,7 +4995,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 1.0, 2.0, 411.0, 33.0 ],
-									"text" : "Contours v0.3a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
+									"text" : "Contours Live v0.4a\nCopyright 2020 Connor Rawls, Synthesis @ ASU, Arizona State University"
 								}
 
 							}
@@ -5075,6 +5101,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-6", 0 ]
 								}
@@ -5127,7 +5160,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 792.0, 85.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Contours", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "Load", "Video", "File/K", ";", "#X", "item", 5, 3, "-", ";", "#X", "item", 5, 4, "MIDI", "Settings/M", ";", "#X", "item", 5, 5, "OSC", "Settings/U", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Contours", "Live", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering", "On", "/", "Off/J", ";", "#X", "item", 5, 2, "Load", "Video", "File/K", ";", "#X", "item", 5, 3, "-", ";", "#X", "item", 5, 4, "MIDI", "Settings/M", ";", "#X", "item", 5, 5, "OSC", "Settings/U", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -5221,7 +5254,7 @@
 						"bundleidentifier" : "org.asu.ame.synthesis.contours2",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,

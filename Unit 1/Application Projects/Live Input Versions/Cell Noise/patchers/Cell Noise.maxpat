@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 126.0, 129.0, 524.0, 316.0 ],
+		"rect" : [ 126.0, 129.0, 533.0, 305.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 188.74462890625, 75.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.74462890625, 75.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 210.74462890625, 74.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -70,7 +70,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 93.52734375, 169.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.75, 118.02734375, 169.0, 20.0 ],
+					"presentation_rect" : [ 33.75, 117.02734375, 169.0, 20.0 ],
 					"text" : "Cell Resolution 2 x 2",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -158,7 +158,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 305.5, 36.02734375, 169.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 155.02734375, 169.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 154.02734375, 169.0, 20.0 ],
 					"text" : "Animation Speed 10.00%",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -178,7 +178,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 305.5, 31.0, 169.0, 30.0546875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 150.0, 169.0, 30.0546875 ],
+					"presentation_rect" : [ 34.0, 149.0, 169.0, 30.0546875 ],
 					"setminmax" : [ 0.0, 0.100000001490116 ],
 					"slidercolor" : [ 0.109803921568627, 0.16078431372549, 0.698039215686274, 1.0 ]
 				}
@@ -219,7 +219,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 165.0, 53.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.75, 75.9453125, 168.75, 31.0 ],
+					"presentation_rect" : [ 33.75, 74.9453125, 168.75, 31.0 ],
 					"text" : "Video Input Settings",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -3161,7 +3161,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u823005568"
+									"varname" : "u904006676"
 								}
 
 							}
@@ -6056,7 +6056,7 @@
 					"patching_rect" : [ 190.0, 701.5, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 13.0, 228.59375, 155.0, 33.0 ],
+					"presentation_rect" : [ 34.0, 227.59375, 155.0, 33.0 ],
 					"text" : "Mira controls available at: http://192.168.0.16:8086"
 				}
 
@@ -6071,7 +6071,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 318.0, 639.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 206.59375, 165.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 205.59375, 165.0, 20.0 ],
 					"text" : "Refresh Miraweb Connection",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -6512,7 +6512,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 184.0, 282.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 183.0, 165.0, 20.0 ],
+					"presentation_rect" : [ 34.0, 182.0, 165.0, 20.0 ],
 					"text" : "Bypass Filter",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"texton" : "Show Original Video",
@@ -6541,7 +6541,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 573.0, -82.5546875, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 272.0, 267.0, 20.0 ],
+					"presentation_rect" : [ 248.0, 271.0, 267.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, July 2020 "
 				}
 
@@ -6556,7 +6556,7 @@
 					"patching_rect" : [ 1007.0, -7.0, 152.0, 382.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 17,
-					"presentation_rect" : [ 228.0, 36.0, 265.0, 234.0 ],
+					"presentation_rect" : [ 249.0, 35.0, 265.0, 234.0 ],
 					"text" : "The \"Cell Noise\" application demonstrates how pseudo-randomness can create interesting effects when combined with input media. In this example, we are utilizing on of the more structured varieties of \"noise\", cell noise (also called Worley noise, very similar to Voronoi noise)\n\nCellular noise functions by computing a grid of cell center points. Each pixel drawn in the output image finds the center of the 9 nearest cells and includes itself in the cell who's center is closest. When the cells appear to move on screen, that is due to the center points being animated. Each pixel is assigned the color of the input image at the position of the cell center point."
 				}
 
@@ -6571,7 +6571,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 995.0, -43.0, 234.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 7.0, 265.0, 27.0 ],
+					"presentation_rect" : [ 249.0, 6.0, 265.0, 27.0 ],
 					"text" : "Cellular Noise"
 				}
 
@@ -6601,7 +6601,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 325.712890625, 525.59375, 189.42578125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -4.212890625, 266.0, 189.42578125, 21.40625 ],
+					"presentation_rect" : [ 16.787109375, 265.0, 189.42578125, 21.40625 ],
 					"text" : "Learn More About Cellular Noise",
 					"textoncolor" : [ 0.070588235294118, 0.0, 0.772549019607843, 1.0 ]
 				}
@@ -6674,7 +6674,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 292.49462890625, 174.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.74462890625, 150.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 210.74462890625, 149.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6696,7 +6696,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 588.0, 121.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.74462890625, 19.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 210.74462890625, 18.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6718,7 +6718,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 526.5, -82.5546875, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.74462890625, 113.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 210.74462890625, 112.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6734,7 +6734,7 @@
 					"patching_rect" : [ 757.0, 21.0, 167.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 65.75537109375, 19.0, 115.74462890625, 33.0 ],
+					"presentation_rect" : [ 86.75537109375, 18.0, 115.74462890625, 33.0 ],
 					"text" : "Enable Application Rendering"
 				}
 
@@ -6908,7 +6908,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 683.0, 389.0, 404.0, 405.0 ],
+						"rect" : [ 99.0, 94.0, 404.0, 405.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -6937,6 +6937,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 676.0, 115.0, 208.0, 22.0 ],
+									"text" : "loadmess title \"About Cell Noise Live\""
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-9",
 									"linecount" : 2,
@@ -6978,7 +6990,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 5.0, 5.0, 274.0, 33.0 ],
-									"text" : "Cell Noise v0.3a\nCopyright 2020 Connor Rawls & Synthesis@ASU"
+									"text" : "Cell Noise Live v0.4a\nCopyright 2020 Connor Rawls & Synthesis@ASU"
 								}
 
 							}
@@ -7048,6 +7060,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -7149,7 +7168,7 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 432.0, 372.0, 66.0, 22.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Cell", "Noise", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Play", "/", "Pause/P", ";", "#X", "item", 5, 4, "Load", "File/1", ";", "#X", "item", 5, 5, "-", ";", "#X", "item", 5, 6, "MIDI", "Settings/M", ";", "#X", "item", 5, 7, "OSC", "Settings/U", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "Cell", "Noise", "Live", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "Controls", ";", "#X", "item", 5, 1, "Rendering/J", ";", "#X", "item", 5, 2, "-", ";", "#X", "item", 5, 3, "Play", "/", "Pause/P", ";", "#X", "item", 5, 4, "Load", "File/1", ";", "#X", "item", 5, 5, "-", ";", "#X", "item", 5, 6, "MIDI", "Settings/M", ";", "#X", "item", 5, 7, "OSC", "Settings/U", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
 
@@ -7579,7 +7598,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u977005414"
+					"varname" : "u765006702"
 				}
 
 			}
@@ -7712,7 +7731,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 729.0, 21.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.75, 12.0, 54.0, 54.0 ]
+					"presentation_rect" : [ 33.75, 11.0, 54.0, 54.0 ]
 				}
 
 			}
@@ -7753,7 +7772,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 388.0, 88.5, 169.0, 30.0546875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.75, 113.0, 169.0, 30.0546875 ],
+					"presentation_rect" : [ 33.75, 112.0, 169.0, 30.0546875 ],
 					"setminmax" : [ 2.0, 500.0 ],
 					"slidercolor" : [ 0.109803921568627, 0.16078431372549, 0.698039215686274, 1.0 ]
 				}

@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Droney Live",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-343",
@@ -144,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.0, 47.0546875, 186.0, 42.0 ],
+					"patching_rect" : [ 5.0, 47.0546875, 188.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 48.0, 428.0, 24.0 ],
 					"text" : "Input & Playback Mode Controls",
@@ -911,7 +912,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1869.0, 728.0, 49.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "120000"
 				}
 
@@ -988,7 +988,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1727.0, 879.0, 73.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "size 120000"
 				}
 
@@ -1341,7 +1340,7 @@
 					"patching_rect" : [ 419.5, 1344.0, 160.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 353.4453125, 425.0, 20.0 ],
-					"text" : "Final Pitch Shift: 0.52 Octaves",
+					"text" : "Final Pitch Shift: 1.00 Octaves",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1430,8 +1429,8 @@
 					"patching_rect" : [ 219.75, 1531.0, 120.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"enabled" : [ 1 ],
-						"pitchshift" : [ 1.435612775318817 ],
-						"pitchshiftcent" : [ 626 ],
+						"pitchshift" : [ 2.0 ],
+						"pitchshiftcent" : [ 1200 ],
 						"quality" : "better",
 						"reportlatency" : 0,
 						"usecents" : 0
@@ -1966,7 +1965,7 @@
 						"bundleidentifier" : "org.asu.ame.synthesis.droneylive",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -5134,6 +5133,7 @@
 										"style" : "",
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
+										"title" : "OSC Controls",
 										"boxes" : [ 											{
 												"box" : 												{
 													"id" : "obj-39",
@@ -7033,7 +7033,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7044,9 +7044,9 @@
 									"presentation_rect" : [ 8.5, 8.0, 100.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "to Max 1", "to Max 2" ],
+											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 1,
+											"parameter_mmax" : 2,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -8614,6 +8614,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"title" : "About Droney Live",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -11580,7 +11581,7 @@
 					"patching_rect" : [ 258.5, 352.0, 157.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 97.0, 297.0, 20.0 ],
-					"text" : "Opus.mp3"
+					"text" : "No File Loaded..."
 				}
 
 			}
@@ -11607,7 +11608,7 @@
 					"patching_rect" : [ 72.0, 352.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 134.0, 74.0, 297.0, 20.0 ],
-					"text" : "51. Credits.mp3"
+					"text" : "No File Loaded..."
 				}
 
 			}
@@ -14137,8 +14138,8 @@
 			}
 , 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 6/Audio/Simple FFFB/patchers",
-				"patcherrelativepath" : "../../../../Audio/Simple FFFB/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Live Input Versions/Droney/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
