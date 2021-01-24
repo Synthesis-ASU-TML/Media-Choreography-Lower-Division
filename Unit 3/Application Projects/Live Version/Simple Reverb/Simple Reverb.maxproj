@@ -2,7 +2,7 @@
 	"name" : "Simple Reverb",
 	"version" : 1,
 	"creationdate" : 3676897498,
-	"modificationdate" : 3677156708,
+	"modificationdate" : 3694271148,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -15,6 +15,11 @@
 				"local" : 1,
 				"toplevel" : 1
 			}
+,
+			"Audio Status.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -23,6 +28,14 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
+
+		}
+,
+		"code" : 		{
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,
