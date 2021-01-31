@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 375.0, 109.0, 1158.0, 501.0 ],
+		"rect" : [ 95.0, 128.0, 1158.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -77,9 +77,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 676.9892578125, 355.8125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 676.9892578125, 355.8125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 679.9892578125, 353.8125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 679.9892578125, 353.8125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -392,7 +392,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.0, 1165.0, 68.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set audio-1"
 				}
 
@@ -1035,11 +1034,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.0, 1025.0, 151.0, 33.0 ],
+					"patching_rect" : [ 36.0, 1025.0, 151.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 446.5, 428.0, 171.0, 33.0 ],
-					"text" : "Mira Controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 446.5, 428.0, 171.0, 34.0 ],
+					"text" : "Mira Controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -1279,7 +1278,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -3005,7 +3004,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 104.0, 213.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -3019,9 +3018,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 104.0, 183.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 104.0, 183.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 73.1298828125, 287.59375, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ 73.1298828125, 287.59375, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.054901960784314, 0.0, 0.996078431372549, 1.0 ]
 								}
@@ -3226,9 +3225,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1083.0, 206.796875, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1083.0, 206.796875, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 607.5, 33.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 607.5, 33.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3243,9 +3242,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 756.0, 736.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 756.0, 736.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 187.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 187.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3260,9 +3259,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 781.0, 567.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 781.0, 567.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 162.59375, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 162.59375, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3277,9 +3276,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 788.0, 399.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 788.0, 399.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 139.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 139.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3294,9 +3293,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 788.0, 235.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 788.0, 235.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 800.0, 115.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 800.0, 115.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3311,9 +3310,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 475.0, 736.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 475.0, 736.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 188.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 188.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3328,9 +3327,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 475.0, 567.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 475.0, 567.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 164.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 164.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3345,9 +3344,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 482.0, 399.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 482.0, 399.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 140.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 140.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3362,9 +3361,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 482.0, 235.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 482.0, 235.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 515.0, 116.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 515.0, 116.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3379,9 +3378,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 79.0, 736.59375, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 79.0, 736.59375, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 187.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 187.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3396,9 +3395,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 79.0, 560.796875, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 79.0, 560.796875, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 163.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 163.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3413,9 +3412,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.0, 399.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 86.0, 399.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 140.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 140.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3430,9 +3429,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 86.0, 235.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 86.0, 235.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 240.0, 116.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 240.0, 116.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -7191,7 +7190,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u404002888"
+									"varname" : "u564008798"
 								}
 
 							}
@@ -12420,7 +12419,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14670,7 +14669,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 520.5, 519.5, 104.054679870605469, 21.40625 ],
+					"patching_rect" : [ 520.5, 519.5, 104.0546875, 21.798828125 ],
 					"text" : "Set PC App Icon"
 				}
 
@@ -14684,7 +14683,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 391.5, 519.5, 110.0546875, 21.40625 ],
+					"patching_rect" : [ 391.5, 519.5, 110.0546875, 21.798828125 ],
 					"text" : "Set Mac App Icon"
 				}
 
@@ -14906,7 +14905,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 597.5, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 597.5, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 179.9609375, 146.0, 20.0 ],
 					"text" : "Track 4 Reverb Amount:"
@@ -14921,7 +14920,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 575.5, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 575.5, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 143.1640625, 146.0, 20.0 ],
 					"text" : "Track 3 Reverb Amount:"
@@ -14936,7 +14935,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 557.0, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 557.0, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 107.6640625, 146.0, 20.0 ],
 					"text" : "Track 2 Reverb Amount:"
@@ -14951,7 +14950,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 987.5, 535.0, 100.0, 33.0 ],
+					"patching_rect" : [ 987.5, 535.0, 100.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 868.0, 71.90625, 146.0, 20.0 ],
 					"text" : "Track 1 Reverb Amount:"
@@ -14977,10 +14976,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1418.0, 428.0, 157.0, 315.0 ],
+					"patching_rect" : [ 1418.0, 428.0, 157.0, 324.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 14,
-					"presentation_rect" : [ 446.5, 82.0, 248.0, 194.0 ],
+					"presentation_rect" : [ 446.5, 82.0, 248.0, 200.0 ],
 					"text" : "Reverb is an audio processing technique that simulates the reverberance of sound inside a room. A small room where the walls are close together will have very little reverb however a cathederal with walls and a ceiling very far apart while have a lot of reverb. The Reverb Sliders control the amount of reverb per audio track. No reverb is known as a \"dry\" signal whereas a lot of reverb is know as a \"wet\" signal. The playback rate allows for further control of the sound. Toggling the timestretch button will change whether the pitch of the sound is modulated by the playback rate or not."
 				}
 
@@ -15481,9 +15480,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 836.9892578125, 727.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 836.9892578125, 727.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 721.0, 121.109375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 721.0, 121.109375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -15798,12 +15797,12 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/other/reverb_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Simple Reverb/other/reverb_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.simplereverb",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 0,
+						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -15861,9 +15860,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 843.4892578125, 236.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 843.4892578125, 236.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 699.9892578125, 281.8125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 699.9892578125, 281.8125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -15979,10 +15978,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1418.0, 742.0, 150.0, 74.0 ],
+					"patching_rect" : [ 1418.0, 742.0, 150.0, 75.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 446.5, 281.6484375, 242.0, 47.0 ],
+					"presentation_rect" : [ 446.5, 281.6484375, 242.0, 48.0 ],
 					"text" : "Andrew Robinson, Synthesis, AME, ASU, June 2020\nRevised by CRawls 7/28/2020"
 				}
 
@@ -16204,9 +16203,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 887.978515625, 236.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 887.978515625, 236.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 356.5, 270.9609375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 356.5, 270.9609375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16226,9 +16225,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 805.49462890625, -1.5546875, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 805.49462890625, -1.5546875, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.5, 12.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 446.5, 12.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16360,9 +16359,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 801.4892578125, 225.890625, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 801.4892578125, 225.890625, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 415.4892578125, 90.1015625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 415.4892578125, 90.1015625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16382,9 +16381,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 149.000000000000028, 724.6484375, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 149.000000000000028, 724.6484375, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.5, 8.6484375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 249.5, 8.6484375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -16798,7 +16797,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1536.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 1536.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 127.90625, 251.500000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -16813,7 +16812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1347.5, 182.0, 53.0, 47.0 ],
+					"patching_rect" : [ 1347.5, 182.0, 53.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 104.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -16828,7 +16827,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1184.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 1184.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 82.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -16843,7 +16842,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 995.5, 182.0, 72.0, 33.0 ],
+					"patching_rect" : [ 995.5, 182.0, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 143.499999999999972, 59.90625, 252.000000000000028, 20.0 ],
 					"text" : "File: No File Loaded"
@@ -17161,9 +17160,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 137.0, 971.0, 170.740234375, 21.40625 ],
+					"patching_rect" : [ 137.0, 971.0, 170.740219116210938, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.5, 404.59375, 170.740234375, 21.40625 ],
+					"presentation_rect" : [ 446.5, 404.59375, 170.740219116210938, 21.798828125 ],
 					"text" : "Refresh Miraweb Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -19702,14 +19701,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Live Version/Simple Reverb/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/Live Version/PC Builds/Simple Reverb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Live Version/Simple Reverb/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/Live Version/PC Builds/Simple Reverb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -19722,8 +19721,8 @@
 			}
 , 			{
 				"name" : "Simple reverb Icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/media",
-				"patcherrelativepath" : "../../../Simple Reverb/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/Live Version/PC Builds/Simple Reverb/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -19734,12 +19733,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
