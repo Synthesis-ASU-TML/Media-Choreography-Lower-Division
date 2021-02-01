@@ -20,6 +20,7 @@ This unit is designed to give students access to different kinds of audio effect
 ### Download Links
 
 **MacOS**|**Windows**
-[File Input Only](https://drive.google.com/uc?export=download&id=1jmeEQS3mv9A0bTgi8EmA9zbCZouIVhxt)|[File Input Only](https://drive.google.com/uc?export=download&id=1-phS0Gn1PGzi65XZhxMHx3VfvycyMIeN)
+[File Input Only](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.0a/Mac-MC-Unit-3.dmg)|[File Input Only](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.0a/Windows-MC-Unit-3.zip)
+[Live Input](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.1a/Mac-MC_Unit-3_Live.tar.gz) | [Live Input](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.1a/Windows-MC_Unit-3_Live.exe)
 
 [< Unit 2](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_2)|[Repo Home](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division)|[Unit 4 >](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_4)

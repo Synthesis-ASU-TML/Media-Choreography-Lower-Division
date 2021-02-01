@@ -24,8 +24,8 @@ This unit is designed to give students access to different kinds of visual effec
 ### Download Links
 
 **MacOS** | **Windows**
-[File Input Only](https://drive.google.com/uc?export=download&id=1TqXtwVltafHMW-GAwOeTwRVYl-H6KdIn) | [File Input Only](https://drive.google.com/uc?export=download&id=1ZC-EX1qy5Ei2uT9i7bxY2Jz0UaSTjKUl)
-[Live Input](https://drive.google.com/uc?export=download&id=1I4BiTuDcLBhpuYB7q0Fl1nnUOzo33bXA) | File Input Coming Soon
+[File Input Only](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.0a/Mac-MC-Unit-2.dmg) | [File Input Only](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.0a/Windows-MC-Unit-2.zip)
+[Live Input](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.1a/Mac-MC_Unit-2_Live.tar.gz) | [Live Input](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.1a/Windows-MC_Unit-2_Live.exe)
  
 
 [< Unit 1](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_1) | [Repo Home](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division) | [Unit 3 >](https://synthesis-asu-tml.github.io/Media-Choreography-Lower-Division/Unit_3)
