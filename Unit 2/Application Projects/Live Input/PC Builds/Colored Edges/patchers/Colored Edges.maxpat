@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 273.0, 146.0, 598.0, 197.0 ],
+		"rect" : [ 149.0, 138.0, 598.0, 197.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 551.0, 58.0, 135.0, 35.0 ],
+					"patching_rect" : [ 551.0, 58.0, 135.0, 36.0 ],
 					"text" : "loadmess title \"Colored Edges Live\""
 				}
 
@@ -100,7 +100,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 94.0, 78.0, 644.0, 490.0 ],
+						"rect" : [ 94.0, 78.0, 648.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -130,6 +130,144 @@
 						"assistshowspatchername" : 0,
 						"title" : "Video Input Settings",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-74",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 430.0, 332.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 395.5, 334.0, 150.0, 20.0 ],
+									"text" : "Sender Name"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-72",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 787.0, 304.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-71",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 787.0, 367.0, 115.0, 22.0 ],
+									"text" : "getavailablesenders"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-69",
+									"maxclass" : "textbutton",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 787.0, 335.0, 100.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 399.0, 380.0, 232.0, 20.0 ],
+									"text" : "Get Available Senders",
+									"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+									"usetextovercolor" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-64",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 962.0, 160.0, 37.0, 22.0 ],
+									"text" : "clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-65",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 858.0, 277.0, 125.0, 22.0 ],
+									"text" : "prepend sendername"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-66",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 858.0, 160.0, 98.0, 22.0 ],
+									"text" : "prepend append"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-67",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 858.0, 123.0, 157.0, 22.0 ],
+									"text" : "route SpoutSender clear"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"allowdrag" : 0,
+									"id" : "obj-68",
+									"items" : "Spout DX9 Sender",
+									"maxclass" : "umenu",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "", "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 858.0, 235.0, 158.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 399.0, 354.0, 232.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_gl_texture", "" ],
+									"patching_rect" : [ 744.0, 179.0, 105.0, 22.0 ],
+									"text" : "jit.gl.spoutreceiver"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-63",
 									"maxclass" : "newobj",
@@ -209,7 +347,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 39.0, 280.5, 155.0, 35.0 ],
+									"patching_rect" : [ 39.0, 280.5, 155.0, 36.0 ],
 									"text" : "jit.gl.texture @dim 640 360 @adapt 0"
 								}
 
@@ -234,7 +372,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 494.0, 413.0, 155.0, 35.0 ],
+									"patching_rect" : [ 494.0, 413.0, 155.0, 36.0 ],
 									"text" : "jit.gl.texture @dim 640 360 @adapt 0"
 								}
 
@@ -258,7 +396,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.75, 213.5, 150.0, 33.0 ],
+									"patching_rect" : [ 20.75, 213.5, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 19.75, 207.0, 264.0, 20.0 ],
 									"text" : "Set Video Playback Volume"
@@ -359,9 +497,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 801.0, 26.0, 312.0, 33.0 ],
+									"patching_rect" : [ 801.0, 26.0, 312.0, 34.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 72.25, 419.0, 244.0, 33.0 ],
+									"presentation_rect" : [ 72.25, 419.0, 244.0, 34.0 ],
 									"text" : "Video Input Settings",
 									"textjustification" : 1
 								}
@@ -412,8 +550,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 776.0, 71.0, 238.0, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 397.0, 305.0, 229.0, 27.0 ],
-									"text" : "Syphon Input Controls",
+									"presentation_rect" : [ 397.0, 305.0, 239.0, 27.0 ],
+									"text" : "Spout Input Controls",
 									"textjustification" : 1
 								}
 
@@ -710,29 +848,6 @@
 									"clickthrough" : 0,
 									"enablehscroll" : 0,
 									"enablevscroll" : 0,
-									"id" : "obj-15",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "sc.texture.syphon.input.maxpat",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "jit_gl_texture" ],
-									"patching_rect" : [ 744.0, 105.5, 235.0, 92.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 400.0, 334.0, 229.0, 92.0 ],
-									"varname" : "sc.texture.syphon.input",
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
 									"id" : "obj-14",
 									"lockeddragscroll" : 0,
 									"maxclass" : "bpatcher",
@@ -772,7 +887,7 @@
 									"patching_rect" : [ 254.0, 443.5, 158.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 228.75, 341.0, 145.0, 33.0 ],
+									"presentation_rect" : [ 228.75, 341.0, 145.0, 34.0 ],
 									"text" : "Mixed Syphon & Camera",
 									"textjustification" : 1
 								}
@@ -789,7 +904,7 @@
 									"patching_rect" : [ 35.0, 443.5, 72.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 14.75, 341.0, 62.0, 33.0 ],
+									"presentation_rect" : [ 14.75, 341.0, 62.0, 34.0 ],
 									"text" : "Movie File",
 									"textjustification" : 1
 								}
@@ -840,7 +955,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 79.75, 121.390625, 26.0107421875, 28.109375 ],
+									"patching_rect" : [ 79.75, 121.390625, 26.0107421875, 28.6982421875 ],
 									"rounded" : 100.0,
 									"text" : "3",
 									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -854,7 +969,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 230.25, -10.0, 150.0, 33.0 ],
+									"patching_rect" : [ 230.25, -10.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 14.75, 62.5, 264.0, 20.0 ],
 									"text" : "Set Video Playback Resolution"
@@ -1074,7 +1189,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 997.0, 234.0, 128.0, 128.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 393.5, 305.0, 242.0, 127.0 ],
+									"presentation_rect" : [ 393.5, 305.0, 242.0, 102.0 ],
 									"proportion" : 0.5,
 									"rounded" : 0
 								}
@@ -1118,6 +1233,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-67", 0 ],
+									"source" : [ "obj-15", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
 									"source" : [ "obj-16", 0 ]
 								}
@@ -1147,7 +1269,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1155,7 +1277,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1465,8 +1587,71 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-68", 0 ],
+									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-67", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-66", 0 ],
+									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-65", 0 ],
+									"source" : [ "obj-68", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-71", 0 ],
+									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-71", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-69", 0 ],
+									"source" : [ "obj-72", 0 ]
 								}
 
 							}
@@ -1522,7 +1707,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 232.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 284.0, 232.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1583,11 +1768,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 628.0, 150.0, 33.0 ],
+					"patching_rect" : [ 256.0, 628.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 166.0, 151.5, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 166.0, 151.5, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -1819,7 +2004,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -2000,7 +2185,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 83.0, 58.0, 386.0, 287.0 ],
+						"rect" : [ 83.0, 58.0, 392.0, 296.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -2091,14 +2276,14 @@
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"id" : "obj-25",
-									"linecount" : 46,
+									"linecount" : 45,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 113.0, 284.0, 152.0, 623.0 ],
+									"patching_rect" : [ 113.0, 284.0, 155.0, 627.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 18,
-									"presentation_rect" : [ 10.0, 32.0, 371.0, 248.0 ],
+									"presentation_rect" : [ 10.0, 32.0, 373.0, 255.0 ],
 									"text" : "/cedges/vol [0. - 1.] : Set the playback volume of the application. 0 is \n                                  muted, and 1 is full volume.\n\n/cedges/rate [-1. - 1.] : Set the playback rate of the application. -1 is \n                                   full reverse 0 is pause, and 1 is play at \n                                   normal speed.\n\n/cedges/iblend1 [0. - 1.] : Sets the blending amount between video\n                                         file input and the blending of the live input\n                                         video sources (iblend2). A setting of 0 is\n                                         fully the video file and 1 is fully the live\n                                         input sources. A setting between 0 & 1 will\n                                         be a mix of the inputs.\n\n/cedges/iblend2 [0. - 1.] : Sets the blending amount between the 2\n                                         live input video sources. 0 is fully the\n                                         camera and 1 is fully Syphon. A setting\n                                         between 0 & 1 will be a mix of the inputs."
 								}
 
@@ -2151,7 +2336,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 435.0, 42.0, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 188.0, 7.0, 100.0, 20.0 ],
+									"presentation_rect" : [ 207.0, 6.0, 100.0, 20.0 ],
 									"text" : "Reset OSC Port",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2249,7 +2434,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 307.0, 42.0, 124.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 62.0, 7.0, 124.0, 20.0 ],
+									"presentation_rect" : [ 81.0, 6.0, 124.0, 20.0 ],
 									"text" : "OSC Receiving Port"
 								}
 
@@ -2266,7 +2451,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 255.0, 41.0, 50.0, 22.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 10.0, 6.0, 50.0, 22.0 ],
+									"presentation_rect" : [ 10.0, 6.0, 69.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_longname" : "number",
@@ -2536,7 +2721,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 573.0, 948.0, 151.0, 33.0 ],
+									"patching_rect" : [ 573.0, 948.0, 151.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1431.205456078052521, 685.5, 402.0, 20.0 ],
 									"text" : "Camera to Syphon Blending: 0.00",
@@ -2553,7 +2738,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 214.8330078125, 916.5, 151.0, 33.0 ],
+									"patching_rect" : [ 214.8330078125, 916.5, 151.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1431.205456078052521, 651.0, 402.0, 20.0 ],
 									"text" : "File to Live Blending: 0.00%",
@@ -2806,9 +2991,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 493.6669921875, 627.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 493.6669921875, 627.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 129.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 129.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3191,10 +3376,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 485.1669921875, 698.5, 66.0, 47.0 ],
+									"patching_rect" : [ 485.1669921875, 698.5, 68.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 8.5, 129.0, 121.0, 33.0 ],
+									"presentation_rect" : [ 8.5, 129.0, 121.0, 34.0 ],
 									"text" : "Camera to Syphon Blending"
 								}
 
@@ -3267,9 +3452,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 114.0, 613.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 114.0, 613.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 106.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 106.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3652,7 +3837,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.5, 684.5, 66.0, 47.0 ],
+									"patching_rect" : [ 105.5, 684.5, 66.0, 48.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 106.0, 121.0, 20.0 ],
 									"text" : "File To Live Blending"
@@ -3726,7 +3911,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 856.0, 472.0, 150.0, 33.0 ],
+									"patching_rect" : [ 856.0, 472.0, 150.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1424.205456078052521, 812.0, 415.0, 20.0 ],
 									"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
@@ -3741,10 +3926,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 860.0, 383.0, 232.0, 87.0 ],
+									"patching_rect" : [ 860.0, 383.0, 232.0, 89.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 1424.205456078052521, 752.0, 415.0, 60.0 ],
+									"presentation_rect" : [ 1424.205456078052521, 752.0, 419.0, 62.0 ],
 									"text" : "The \"Colored Edges\" application uses a fast sobel edge detection algorithm to identify edges in each frame of the video. The edges are then colored with the original input media source. All pixels not on an edge are shaded black instead."
 								}
 
@@ -3773,7 +3958,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 535.6669921875, 521.5, 145.0, 35.0 ],
+									"patching_rect" : [ 535.6669921875, 521.5, 145.0, 36.0 ],
 									"text" : "sprintf set Playback Rate %.2f"
 								}
 
@@ -3809,7 +3994,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 108.5, 10.0, 66.0, 33.0 ],
+									"patching_rect" : [ 108.5, 10.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 110.5, 9.0, 87.0, 20.0 ],
 									"text" : "MIDI Devices"
@@ -3837,9 +4022,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 456.333984375, 298.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 456.333984375, 298.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 83.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 83.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4222,7 +4407,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 449.1669921875, 387.0, 66.0, 33.0 ],
+									"patching_rect" : [ 449.1669921875, 387.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 84.0, 121.0, 20.0 ],
 									"text" : "Playback Rate"
@@ -4286,9 +4471,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 112.6669921875, 298.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 112.6669921875, 298.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 278.0, 60.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 278.0, 60.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4683,7 +4868,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 105.5, 387.0, 66.0, 33.0 ],
+									"patching_rect" : [ 105.5, 387.0, 66.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.5, 61.0, 121.0, 20.0 ],
 									"text" : "Playback Volume"
@@ -4705,7 +4890,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5481,7 +5666,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 598.0, 506.0, 31.0, 35.0 ],
+					"patching_rect" : [ 598.0, 506.0, 31.0, 36.0 ],
 					"text" : "s load"
 				}
 
@@ -5580,7 +5765,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 79.0, 209.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -5825,12 +6010,12 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Colored Edges/other/colored_edges_icon.icns",
-						"appicon_win" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Colored Edges/other/colored_edges_icon.ico",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/Live Input/PC Builds/Colored Edges/other/colored_edges_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.celive",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 0,
+						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -5854,10 +6039,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 373.0, 174.0, 150.0, 33.0 ],
+					"patching_rect" : [ 373.0, 174.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 355.0, 138.5, 232.0, 33.0 ],
+					"presentation_rect" : [ 355.0, 138.5, 232.0, 34.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
 				}
 
@@ -5875,7 +6060,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 283.0, 174.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 283.0, 174.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5895,9 +6080,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 287.0, 121.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 287.0, 121.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 122.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 122.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5917,9 +6102,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 284.0, 74.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 284.0, 74.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 78.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 78.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5939,9 +6124,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 379.0, 297.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 379.0, 297.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 29.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 285.0, 29.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5955,10 +6140,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 293.0, 232.0, 87.0 ],
+					"patching_rect" : [ 445.0, 293.0, 232.0, 89.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 355.0, 49.0, 232.0, 87.0 ],
+					"presentation_rect" : [ 355.0, 49.0, 232.0, 89.0 ],
 					"text" : "The \"Colored Edges\" application uses a fast sobel edge detection algorithm to identify edges in each frame of the video. The edges are then colored with the original input media source. All pixels not on an edge are shaded black instead."
 				}
 
@@ -5985,9 +6170,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 17.5, 150.0, 33.0 ],
+					"patching_rect" : [ 208.0, 17.5, 150.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 104.5, 264.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 107.5, 264.0, 20.0 ],
 					"text" : "Set Video Rendering Resolution"
 				}
 
@@ -5999,7 +6184,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 342.0, 170.5, 150.0, 33.0 ],
+					"patching_rect" : [ 342.0, 170.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 34.0, 169.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -6509,22 +6694,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.texture.edge.sobel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.binaryop.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -6536,50 +6721,47 @@
 			}
 , 			{
 				"name" : "colored_edges_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Colored Edges/media",
-				"patcherrelativepath" : "../../../Colored Edges/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/Live Input/PC Builds/Colored Edges/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.camera.simple.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hflip.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "sc.texture.syphon.input.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "jit.gl.syphonclient.mxo",
-				"type" : "iLaX"
+				"name" : "jit.gl.spoutreceiver.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
