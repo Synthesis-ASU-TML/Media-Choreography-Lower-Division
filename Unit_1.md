@@ -32,7 +32,7 @@ Unit 1 is designed as the foot wetting section.  Ideally the applications suppli
     
 **MacOS** | **Windows**
 [File Input Only](https://drive.google.com/uc?export=download&id=1VONSEwog24jy8YTZ3uEbq7NM7vNvmTmM) | [File Input Only](https://drive.google.com/uc?export=download&id=17-rqWsM_QYHBEUVhI_IVJrhTEW39qBhs)
-[Live Input](https://drive.google.com/uc?export=download&id=1vlGAQ38uwG9hJMmGBt52OIqmVMXXW-hL) | Live Input Coming Soon
+[Live Input](https://drive.google.com/uc?export=download&id=1vlGAQ38uwG9hJMmGBt52OIqmVMXXW-hL) | [Live Input](https://github.com/Synthesis-ASU-TML/Media-Choreography-Lower-Division/releases/download/v1.1a/Windows-MC_Unit-1_Live.exe)
 
 
 ### Demo Videos
