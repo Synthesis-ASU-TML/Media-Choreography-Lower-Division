@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Bleep Sequencer Live",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-161",
@@ -199,9 +200,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 226.25, 183.0, 134.04296875, 21.40625 ],
+					"patching_rect" : [ 226.25, 183.0, 134.042961120605469, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 197.390625, 134.04296875, 21.40625 ],
+					"presentation_rect" : [ 11.0, 197.390625, 134.042961120605469, 21.798828125 ],
 					"text" : "Using Audio From File",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"texton" : "Using Audio From Mic",
@@ -252,11 +253,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 289.0, 1252.0, 150.0, 33.0 ],
+					"patching_rect" : [ 289.0, 1252.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 306.5, 531.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 306.5, 531.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -476,7 +477,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -946,9 +947,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1204.6669921875, 331.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1204.6669921875, 331.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 147.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 147.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -1441,9 +1442,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 902.6669921875, 316.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 902.6669921875, 316.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 124.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 124.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2963,9 +2964,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 615.6669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 615.6669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 101.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 101.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3459,9 +3460,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 338.6669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 338.6669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 78.5, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 78.5, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -3914,7 +3915,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4093,9 +4094,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 76.1669921875, 312.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 76.1669921875, 312.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 327.5, 56.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 327.5, 56.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -5242,9 +5243,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 442.09375, 36.021484375, 28.109375 ],
+					"patching_rect" : [ 235.0, 442.09375, 36.021484375, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 519.59375, 36.021484375, 28.109375 ],
+					"presentation_rect" : [ 231.0, 519.59375, 36.021484375, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -5258,7 +5259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1341.0, 519.5, 150.0, 33.0 ],
+					"patching_rect" : [ 1341.0, 519.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 220.796875, 213.0, 20.0 ],
 					"text" : "Onset Detection Frequencey Range"
@@ -5905,7 +5906,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u041009095"
+									"varname" : "u314012816"
 								}
 
 							}
@@ -6534,7 +6535,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 86.6298828125, 257.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -6549,9 +6550,9 @@
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
 									"parameter_mappable" : 0,
-									"patching_rect" : [ 86.6298828125, 228.0, 164.740234375, 21.40625 ],
+									"patching_rect" : [ 86.6298828125, 228.0, 164.740234375, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 3.0, 457.0, 164.740234375, 21.40625 ],
+									"presentation_rect" : [ 3.0, 457.0, 164.740234375, 21.798828125 ],
 									"text" : "Visit Synthesis On The Web",
 									"textoncolor" : [ 0.074509803921569, 0.0, 0.588235294117647, 1.0 ]
 								}
@@ -6748,7 +6749,7 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Bleep Sequencer/other/bleep_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/PC Builds/Bleep Sequencer/other/bleep_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.bleeplive",
 						"cantclosetoplevelpatchers" : 1,
@@ -6763,7 +6764,7 @@
 						"preffilename" : "Bleep Sequencer Live Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -6777,10 +6778,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.99462890625, 710.0, 150.0, 47.0 ],
+					"patching_rect" : [ 33.99462890625, 710.0, 150.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 276.0, 469.59375, 235.0, 33.0 ],
+					"presentation_rect" : [ 276.0, 469.59375, 235.0, 34.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, September 2020"
 				}
 
@@ -6798,9 +6799,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 827.9892578125, 15.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 827.9892578125, 15.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 266.796875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 266.796875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6900,14 +6901,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 43,
+					"linecount" : 42,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 177.0, 583.0 ],
+					"patching_rect" : [ 27.0, 779.0, 180.0, 586.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
-					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
+					"presentation_rect" : [ 276.0, 32.59375, 246.0, 448.0 ],
 					"text" : "The \"Bleep Track\" application analyzes the input audio stream and finds the center frequency, maximum amplitude, and any onsets of the loaded audio sample. On the next allowed onset, a \"bleep\" is made using the detected values. \n\nAn onset, is the beginning of a note. Any instrument, voice, or anything that creates noise is capable of a detectable onset. For this app, we have provided a method by which to filter the audio stream to only look  for onsets in specific portions of the frequency spectrum. Experiment with each to find which produces the results you like best.\n\nEach \"bleep\" has a base frequency that is equivalent to the detected center of the spectral frequency spread from the input audio. Each of the sub-bleeps is a certain number of steps away based on the menu selection. A \"whole step\" is similar to playing a note 1 higher on the c-major scale. Half-steps are similar to playing the next flat or sharp note. Other arbitrary partial steps find the pitches between traditional western-musical notes.\n\nFeel free to explore the effects created by modifying the timing of the bleeps and the step size between \"sub-bleeps\"."
 				}
 
@@ -6940,9 +6941,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 208.9892578125, 346.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 208.9892578125, 346.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 373.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 373.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6962,9 +6963,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 94.99462890625, 355.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 94.99462890625, 355.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 319.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 319.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6984,9 +6985,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 183.0, 526.4453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 183.0, 526.4453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 444.09375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 444.09375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7006,9 +7007,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 711.0, 36.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 711.0, 36.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 184.59375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 184.59375, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7028,9 +7029,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 332.0, 131.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 332.0, 131.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 123.5390625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 123.5390625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7050,9 +7051,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 62.0, 131.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 62.0, 131.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 75.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 75.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7072,9 +7073,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 144.9892578125, 45.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 144.9892578125, 45.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 45.40625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 45.40625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7094,9 +7095,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 312.37939453125, 40.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 312.37939453125, 40.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 15.296875, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 236.0, 15.296875, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -7123,7 +7124,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 346.9453125, 152.0, 33.0 ],
+					"patching_rect" : [ 231.0, 346.9453125, 152.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 422.09375, 213.0, 20.0 ],
 					"text" : "Bleep Audio Track Output Level"
@@ -7137,7 +7138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 346.9453125, 152.0, 33.0 ],
+					"patching_rect" : [ 27.0, 346.9453125, 152.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 353.09375, 213.0, 20.0 ],
 					"text" : "Origial Audio Track Output Level"
@@ -7478,7 +7479,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1409.0, 327.0, 143.0, 33.0 ],
+					"patching_rect" : [ 1409.0, 327.0, 143.0, 34.0 ],
 					"text" : "Setting Gain of harmonic frequencies "
 				}
 
@@ -7670,7 +7671,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1011.0, 65.5, 115.0, 47.0 ],
+					"patching_rect" : [ 1011.0, 65.5, 115.0, 48.0 ],
 					"text" : "Step Sizes only young people can hear."
 				}
 
@@ -7694,7 +7695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1063.0, 147.5, 115.0, 33.0 ],
+					"patching_rect" : [ 1063.0, 147.5, 115.0, 34.0 ],
 					"text" : "Big Brother's step sizes"
 				}
 
@@ -7706,7 +7707,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 939.75, 147.5, 115.0, 33.0 ],
+					"patching_rect" : [ 939.75, 147.5, 115.0, 34.0 ],
 					"text" : "Steps sizes of the beast"
 				}
 
@@ -7718,7 +7719,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 866.75, 59.0, 115.0, 60.0 ],
+					"patching_rect" : [ 866.75, 59.0, 115.0, 62.0 ],
 					"text" : "The answer to the question \"Does this sound a little dissonant to you?\""
 				}
 
@@ -7816,7 +7817,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 841.0, 421.0, 143.0, 33.0 ],
+					"patching_rect" : [ 841.0, 421.0, 143.0, 34.0 ],
 					"text" : "Calculating Harmonic Frequencies"
 				}
 
@@ -8174,9 +8175,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 219.0, 157.5, 212.76953125, 21.40625 ],
+					"patching_rect" : [ 219.0, 157.5, 212.76953125, 21.798828125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 106.7421875, 212.76953125, 21.40625 ],
+					"presentation_rect" : [ 15.0, 106.7421875, 212.76953125, 21.798828125 ],
 					"text" : "Restart Playback at Beginning of File",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -9725,7 +9726,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/patchers",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/Live Input Versions/PC Builds/Bleep Sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -9738,216 +9739,220 @@
 			}
 , 			{
 				"name" : "sc.audioAnalysis.dict.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bleep_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/Live Input Versions/PC Builds/Bleep Sequencer/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onsetdetect.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 1/Application Projects/Live Input Versions/PC Builds/Bleep Sequencer/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zsa.ampstats~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.ampstats~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.spread~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.spread~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.centroid~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.centroid~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.slope~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.slope~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.mfcc~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.mfcc~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.freqpeak~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.freqpeak~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.fund.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.fund.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.skewness~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.skewness~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.kurtosis~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.kurtosis~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.mel~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.mel~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "zsa.bark~.mxo",
-				"type" : "iLaX"
+				"name" : "zsa.bark~.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0
