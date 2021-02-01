@@ -2,7 +2,7 @@
 	"name" : "Colored Edges",
 	"version" : 1,
 	"creationdate" : 3676022601,
-	"modificationdate" : 3679087843,
+	"modificationdate" : 3695016623,
 	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -28,12 +28,18 @@
 ,
 		"code" : 		{
 			"op.pass.jxs" : 			{
-				"kind" : "shader"
+				"kind" : "shader",
+				"local" : 1
 			}
 ,
 			"sobel.jxs" : 			{
-				"kind" : "shader"
+				"kind" : "shader",
+				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,

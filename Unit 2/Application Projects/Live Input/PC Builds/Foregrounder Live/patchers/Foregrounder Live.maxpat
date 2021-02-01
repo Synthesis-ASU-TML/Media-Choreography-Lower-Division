@@ -1835,7 +1835,7 @@
 					"patching_rect" : [ 139.666656494140625, 984.33331298828125, 273.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 364.75, 196.5, 185.0, 34.0 ],
+					"presentation_rect" : [ 367.0, 234.0, 185.0, 34.0 ],
 					"text" : "Mira controls available at: http://192.168.0.17:8086",
 					"textjustification" : 1
 				}
@@ -7479,7 +7479,7 @@
 						"preffilename" : "Foregrounder Live Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
