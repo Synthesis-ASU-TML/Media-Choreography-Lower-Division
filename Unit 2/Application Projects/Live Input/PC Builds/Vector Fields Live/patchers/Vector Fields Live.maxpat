@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 210.0, 131.0, 708.0, 471.0 ],
+		"rect" : [ 325.0, 134.0, 708.0, 471.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,228 +40,7 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-98",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 5,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 392.0, 428.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 0,
-						"enablevscroll" : 0,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"title" : "Preset Descriptions",
-						"boxes" : [ 							{
-								"box" : 								{
-									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-									"fontface" : 1,
-									"fontsize" : 18.0,
-									"id" : "obj-119",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 94.0, 878.0, 213.0, 27.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 9.0, 9.0, 370.0, 27.0 ],
-									"text" : "Preset Descriptions"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
-									"id" : "obj-122",
-									"linecount" : 65,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 257.0, 54.0, 156.0, 878.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 28,
-									"presentation_rect" : [ 9.0, 36.0, 370.0, 382.0 ],
-									"text" : "Preset List:\n                   1: A very basic view of the app. Low density feathers \n                       with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the \n                       image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. \n                       feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade\n                       and short length. Great for creating a visual history of\n                       the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a\n                       comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to\n                       estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density\n                       and maximum length. How much original details can\n                       you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear\n                       thorny or as if they had porcupine spines drawn on."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.0, 23.0, 198.0, 22.0 ],
-									"text" : "loadmess title \"Preset Descriptions\""
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-3",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 19.0, 101.0, 67.0, 22.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
-									"text" : "thispatcher"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "front" ],
-									"patching_rect" : [ 19.0, 63.0, 39.0, 22.0 ],
-									"text" : "t front"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-1",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 15.0, 30.0, 30.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-2", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 819.0, 291.0, 59.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p Presets"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-97",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 580.0, 273.109375, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 302.20001220703125, 401.0, 216.0, 31.0 ],
-					"text" : "View Preset Descriptions",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
-					"fontface" : 1,
-					"fontlink" : 1,
-					"fontsize" : 18.0,
-					"id" : "obj-95",
-					"ignoreclick" : 1,
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 273.75, 124.890625, 26.0107421875, 28.109375 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 137.9453125, 26.0107421875, 28.109375 ],
-					"rounded" : 100.0,
-					"text" : "3",
-					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-81",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 147.0, 394.109375, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 12.75, 84.0, 258.0, 31.0 ],
-					"text" : "Video Input Settings",
-					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"usetextovercolor" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-91",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
@@ -277,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 95.0, 95.0, 650.0, 502.0 ],
+						"rect" : [ 83.0, 72.0, 644.0, 490.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -711,7 +490,6 @@
 									"fontsize" : 12.0,
 									"id" : "obj-27",
 									"maxclass" : "live.tab",
-									"multiline" : 0,
 									"num_lines_patching" : 1,
 									"num_lines_presentation" : 1,
 									"numinlets" : 1,
@@ -724,7 +502,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "Rewind", "Pause", "Play" ],
-											"parameter_longname" : "live.tab[2]",
+											"parameter_longname" : "live.tab[4]",
 											"parameter_mmax" : 2,
 											"parameter_shortname" : "live.tab[2]",
 											"parameter_type" : 2,
@@ -895,7 +673,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "jit_gl_texture" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 744.0, 105.5, 235.0, 92.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 400.0, 334.0, 229.0, 92.0 ],
@@ -999,7 +777,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_gl_texture", "" ],
-									"patching_rect" : [ 42.5, 551.0, 93.0, 22.0 ],
+									"patching_rect" : [ 42.5, 554.0, 93.0, 22.0 ],
 									"text" : "sc.texture.xfade",
 									"varname" : "sc.texture.xfade"
 								}
@@ -1018,7 +796,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 79.75, 121.390625, 26.0107421875, 28.109375 ],
+									"patching_rect" : [ 79.75, 121.390625, 26.0107421875, 28.6982421875 ],
 									"rounded" : 100.0,
 									"text" : "3",
 									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1116,7 +894,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_enum" : [ "640x360", "1280x720", "1920x1080" ],
-											"parameter_longname" : "live.tab[3]",
+											"parameter_longname" : "live.tab[5]",
 											"parameter_mmax" : 2,
 											"parameter_shortname" : "live.tab",
 											"parameter_type" : 2,
@@ -1165,7 +943,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 39.0, 211.5, 409.0, 22.0 ],
+									"patching_rect" : [ 39.0, 211.5, 174.0, 22.0 ],
 									"text" : "jit.movie @automatic 1 @vol 0."
 								}
 
@@ -1178,7 +956,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 42.5, 625.0, 30.0, 30.0 ]
+									"patching_rect" : [ 42.5, 595.5, 30.0, 30.0 ]
 								}
 
 							}
@@ -1674,7 +1452,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 32.0, 437.0, 134.0, 22.0 ],
+					"patching_rect" : [ 32.0, 454.0, 134.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1683,7 +1461,228 @@
 					}
 ,
 					"text" : "p \"Video Input Settings\"",
-					"varname" : "Video Input Settings"
+					"varname" : "Video Input Settings[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-98",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 5,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 59.0, 104.0, 392.0, 428.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 1,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"title" : "Preset Descriptions",
+						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+									"fontface" : 1,
+									"fontsize" : 18.0,
+									"id" : "obj-119",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 94.0, 878.0, 213.0, 27.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 9.0, 9.0, 370.0, 27.0 ],
+									"text" : "Preset Descriptions"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+									"id" : "obj-122",
+									"linecount" : 65,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 257.0, 54.0, 156.0, 878.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 28,
+									"presentation_rect" : [ 9.0, 36.0, 370.0, 382.0 ],
+									"text" : "Preset List:\n                   1: A very basic view of the app. Low density feathers \n                       with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the \n                       image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. \n                       feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade\n                       and short length. Great for creating a visual history of\n                       the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a\n                       comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to\n                       estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density\n                       and maximum length. How much original details can\n                       you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear\n                       thorny or as if they had porcupine spines drawn on."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 60.0, 23.0, 198.0, 22.0 ],
+									"text" : "loadmess title \"Preset Descriptions\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 19.0, 101.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "front" ],
+									"patching_rect" : [ 19.0, 63.0, 39.0, 22.0 ],
+									"text" : "t front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 19.0, 15.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 819.0, 291.0, 59.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p Presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 580.0, 273.109375, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 302.20001220703125, 401.0, 216.0, 31.0 ],
+					"text" : "View Preset Descriptions",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"fontface" : 1,
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-95",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 273.75, 124.890625, 26.0107421875, 28.6982421875 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 272.75, 137.9453125, 26.0107421875, 28.6982421875 ],
+					"rounded" : 100.0,
+					"text" : "3",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 147.0, 394.109375, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 12.75, 84.0, 258.0, 31.0 ],
+					"text" : "Video Input Settings",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"usetextovercolor" : 1
 				}
 
 			}
@@ -1769,12 +1768,12 @@
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/other/vector_icon.icns",
-						"appicon_win" : "",
+						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/Live Input/PC Builds/Vector Fields Live/other/vector_icon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.synthesis.vflive",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 0,
+						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -1784,7 +1783,7 @@
 						"preffilename" : "Vector Fields Live Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -1822,11 +1821,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 158.0, 1231.0, 150.0, 33.0 ],
+					"patching_rect" : [ 158.0, 1231.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 551.20001220703125, 428.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 551.20001220703125, 428.0, 150.0, 34.0 ],
+					"text" : "Mira controls available at: http://192.168.0.17:8086"
 				}
 
 			}
@@ -2046,7 +2045,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 65.0, 337.0, 131.0, 35.0 ],
-									"text" : ";\rmax launchbrowser $1"
+									"text" : ";\r\nmax launchbrowser $1"
 								}
 
 							}
@@ -2371,9 +2370,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1601.833984375, 661.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1601.833984375, 661.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 245.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 245.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -2861,9 +2860,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1316.833984375, 671.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1316.833984375, 671.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 222.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 222.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4236,9 +4235,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1880.333984375, 321.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1880.333984375, 321.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 198.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 198.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -4756,9 +4755,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1565.333984375, 316.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1565.333984375, 316.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 175.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 175.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -5276,9 +5275,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 1285.333984375, 316.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 1285.333984375, 316.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 152.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 152.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -5782,9 +5781,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 984.333984375, 310.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 984.333984375, 310.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 129.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 129.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6288,9 +6287,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 710.333984375, 310.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 710.333984375, 310.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 106.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 106.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -6914,9 +6913,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 439.333984375, 289.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 439.333984375, 289.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 83.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 83.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -7363,9 +7362,9 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 95.6669921875, 289.0, 24.666015625, 21.40625 ],
+									"patching_rect" : [ 95.6669921875, 289.0, 24.666015625, 21.798828125 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 294.0, 60.0, 24.666015625, 21.40625 ],
+									"presentation_rect" : [ 294.0, 60.0, 24.666015625, 21.798828125 ],
 									"text" : "C",
 									"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
@@ -7782,7 +7781,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -9311,7 +9310,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 216.0, 306.0, 247.0, 35.0 ],
-									"text" : ";\rmax launchbrowser www.synthesiscenter.net"
+									"text" : ";\r\nmax launchbrowser www.synthesiscenter.net"
 								}
 
 							}
@@ -9482,7 +9481,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 810.0, 150.0, 47.0 ],
+					"patching_rect" : [ 79.0, 810.0, 150.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.20001220703125, 374.0, 370.0, 20.0 ],
 					"text" : "Connor Rawls, Synthesis, AME, ASU, September 2020"
@@ -9496,7 +9495,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1798.0, -2.0, 156.0, 878.0 ],
+					"patching_rect" : [ 1798.0, -2.0, 156.0, 903.0 ],
 					"text" : "Preset List:\n                   1: A very basic view of the app. Low density feathers \n                       with a relatively quick fade. Outlines included.\n\n                   2: A great preset for visualizing horizontal motion in the \n                       image. Achieved by having very few, but dense,\n                       columns of feathers.\n\n                   3: Preset for visualizing vertical motion in the image. \n                       feather dimensions are the inverse of preset 2.\n\n                   4: Uses a medium density of feathers with medium fade\n                       and short length. Great for creating a visual history of\n                       the manner in which things have moved.\n\n                   5: Preset 4 without image outlines enabled. Use it as a\n                       comparison point between the 2 presets.\n\n                   6: Maximum density of feathers. Notice your ability to\n                       estimate what the original image looked like using\n                       only the drawn feathers.\n\n                   7: No outlines again, with feathers at minimum density\n                       and maximum length. How much original details can\n                       you infer at this setting?\n\n                   8: Uses a high fade amount to make the outlines appear\n                       thorny or as if they had porcupine spines drawn on."
 				}
 
@@ -9504,14 +9503,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-121",
-					"linecount" : 41,
+					"linecount" : 40,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1606.0, 99.0, 197.0, 556.0 ],
+					"patching_rect" : [ 1606.0, 99.0, 203.0, 558.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 24,
-					"presentation_rect" : [ 302.20001220703125, 44.0, 399.0, 328.0 ],
+					"presentation_rect" : [ 302.20001220703125, 44.0, 399.0, 338.0 ],
 					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The algorithm compares the current frame to the previous frame and estimates how esch pixel has moved in horizontally and vertically.  This Vector Fields app draws a \"feather\" lines  corresponding to those pixel displacements (vectors). For best viewing, we would suggest using the output window in fullscreen mode.\n\nYou can load a video file and set its playback rate from -1 reverse to +1 normal.\n\nThe first parameters are the numbers of feathers drawn across the width and height of the video.\n\nThe Feather Scale sets the maximum length of the feathers.  Minimum (all the way to the left) is 0.1% of the pixel displacement. Maximum is 100% of the displacement.\n\nFeather Shrink corresponds the rate at which the feathers will shrink like rubber bands. When the slider is fully left, they shrink most rapidly; when fully to the right, they stay fixed until replaced by a new motion at that position.\n\nToggling image outline blends in the colored edges of the input video.  (See the Colored Edges app!)"
 				}
 
@@ -9552,15 +9551,15 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1009.0, 871.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"feather-fade" : [ 1.0 ],
+						"feather-fade" : [ 0.963662803173065 ],
 						"feather-scale" : [ 0.5 ],
 						"num-points-x" : [ 64 ],
 						"num-points-y" : [ 48 ],
-						"outline-bypass" : [ 1 ]
+						"outline-bypass" : [ 0 ]
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u128009769"
+					"varname" : "u913009311"
 				}
 
 			}
@@ -9662,7 +9661,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 515.75, 754.9453125, 36.021484375, 28.109375 ],
+					"patching_rect" : [ 515.75, 754.9453125, 36.021484375, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9682,7 +9681,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1441.24462890625, 485.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1441.24462890625, 485.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9702,9 +9701,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1097.75, 420.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1097.75, 420.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 432.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 432.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9724,9 +9723,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 828.74462890625, 476.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 828.74462890625, 476.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 187.75, 401.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 187.75, 401.0, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9746,9 +9745,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 632.75, 471.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 632.75, 471.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.75, 324.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 238.75, 324.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9768,9 +9767,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1012.99462890625, 361.9453125, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 1012.99462890625, 361.9453125, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 262.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 262.9453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9790,9 +9789,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 417.2392578125, 509.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 417.2392578125, 509.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 24.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 24.4453125, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -9806,7 +9805,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.5, 509.5, 150.0, 33.0 ],
+					"patching_rect" : [ 337.5, 509.5, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.75, 28.5, 190.0, 20.0 ],
 					"text" : "Enable Application Rendering"
@@ -9950,7 +9949,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 863.25, 442.0, 150.0, 33.0 ],
+					"patching_rect" : [ 863.25, 442.0, 150.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.75, 119.0, 264.0, 20.0 ],
 					"text" : "Number of Feathers Across and Down"
@@ -10378,9 +10377,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 733.2392578125, 389.5, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 733.2392578125, 389.5, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 192.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 192.5, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10400,9 +10399,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 27.9892578125, 273.0, 26.0107421875, 28.109375 ],
+					"patching_rect" : [ 27.9892578125, 273.0, 26.0107421875, 28.6982421875 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.75, 86.890625, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 272.75, 86.890625, 26.0107421875, 28.6982421875 ],
 					"rounded" : 100.0,
 					"text" : "2",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10443,7 +10442,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 447.25, 541.5, 252.0, 35.0 ],
+					"patching_rect" : [ 447.25, 541.5, 252.0, 36.0 ],
 					"text" : "jit.world \"Vector Fields\" @erase_color 0 0 0 1 @shared 1"
 				}
 
@@ -10540,7 +10539,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -10724,6 +10723,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -10822,15 +10828,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 1 ],
+					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-91", 0 ]
 				}
 
 			}
@@ -10876,8 +10875,8 @@
 			"obj-41::obj-9" : [ "umenu", "umenu", 0 ],
 			"obj-41::obj-90" : [ "slider[5]", "slider", 0 ],
 			"obj-41::obj-98" : [ "p0v[5]", "p0v", 0 ],
-			"obj-91::obj-22" : [ "live.tab[3]", "live.tab", 0 ],
-			"obj-91::obj-27" : [ "live.tab[2]", "live.tab[2]", 0 ],
+			"obj-6::obj-22" : [ "live.tab[5]", "live.tab", 0 ],
+			"obj-6::obj-27" : [ "live.tab[4]", "live.tab[2]", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -10887,22 +10886,22 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.mesh.vectorfields.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/Live Input/PC Builds/Vector Fields Live/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.leakyintegrator.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
@@ -10914,92 +10913,92 @@
 			}
 , 			{
 				"name" : "sc.texture.opflow.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.rgb2luma.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hsflow.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code/cv",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code/cv",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code/cv",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code/cv",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.edge.sobel.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.binaryop.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vectors.json",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Live Input/Vector Fields Live/data",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/Live Input/PC Builds/Vector Fields Live/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "vector_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 2/Application Projects/Vector Fields/media",
-				"patcherrelativepath" : "../../../Vector Fields/media",
+				"bootpath" : "~/Documents/Media-Choreography-Lower-Division/Unit 2/Application Projects/Live Input/PC Builds/Vector Fields Live/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.camera.simple.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hflip.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.syphon.input.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "mira.frame.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "mira.status.mxo",
-				"type" : "iLaX"
+				"name" : "o.route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "jit.gl.syphonclient.mxo",
-				"type" : "iLaX"
+				"name" : "mira.status.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0

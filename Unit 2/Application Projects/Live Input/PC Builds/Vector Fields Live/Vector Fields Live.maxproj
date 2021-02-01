@@ -2,8 +2,8 @@
 	"name" : "Vector Fields Live",
 	"version" : 1,
 	"creationdate" : 3683705583,
-	"modificationdate" : 3687329095,
-	"viewrect" : [ 19.0, 98.0, 300.0, 500.0 ],
+	"modificationdate" : 3695023014,
+	"viewrect" : [ 32.0, 122.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"sc.mesh.vectorfields.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -32,6 +37,10 @@
 		}
 ,
 		"code" : 		{
+			"cwjr.vectorvertex.jxs" : 			{
+				"kind" : "shader"
+			}
+,
 			"sobel.jxs" : 			{
 				"kind" : "shader"
 			}
