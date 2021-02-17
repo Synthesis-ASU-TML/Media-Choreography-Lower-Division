@@ -2,7 +2,7 @@
 	"name" : "Cell Noise",
 	"version" : 1,
 	"creationdate" : 3677350231,
-	"modificationdate" : 3677453191,
+	"modificationdate" : 3696353938,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -39,6 +39,10 @@
 				"kind" : "json",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 ,

@@ -5,8 +5,21 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"button[1]" : [  ],
 					"noise-scale" : [ 5 ],
-					"timescale" : [ 0.01 ]
+					"timescale" : [ 0.01 ],
+					"MIDI Settings::midi" : [  ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [  ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [  ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [  ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [  ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [  ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [  ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [  ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [  ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [  ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [  ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [  ]
 				}
 
 			}
@@ -14,8 +27,21 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"noise-scale" : [ 50 ],
-					"timescale" : [ 0.01 ]
+					"button[1]" : [ 0.0 ],
+					"noise-scale" : [ 14.523668639053254 ],
+					"timescale" : [ 0.01 ],
+					"MIDI Settings::midi" : [ -1 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Cell Noise" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -23,8 +49,21 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"noise-scale" : [ 10 ],
-					"timescale" : [ 0.01 ]
+					"button[1]" : [ 0.0 ],
+					"noise-scale" : [ 35.150887573964496 ],
+					"timescale" : [ 0.050887574722781 ],
+					"MIDI Settings::midi" : [ -1 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Cell Noise" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -32,8 +71,21 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
-					"noise-scale" : [ 75 ],
-					"timescale" : [ 0.01 ]
+					"button[1]" : [ 0.0 ],
+					"noise-scale" : [ 135.34023668639054 ],
+					"timescale" : [ 0.0 ],
+					"MIDI Settings::midi" : [ -1 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Cell Noise" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}
@@ -41,8 +93,21 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
+					"button[1]" : [ 0.0 ],
 					"noise-scale" : [ 200 ],
-					"timescale" : [ 0.01 ]
+					"timescale" : [ 0.100000001490116 ],
+					"MIDI Settings::midi" : [ -1 ],
+					"Video Input Settings::sc.texture.xfade::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade::xfade" : [ 0.0 ],
+					"Video Input Settings::sc.texture.camera.simple::texture_name" : [ 0 ],
+					"Video Input Settings::sc.texture.camera.simple::automatic[1]" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::unique" : [ 1 ],
+					"Video Input Settings::sc.texture.camera.simple::hflip" : [ 1.0 ],
+					"Video Input Settings::sc.texture.syphon.input::drawto" : [ "Cell Noise" ],
+					"Video Input Settings::sc.texture.syphon.input::servername" : [ "" ],
+					"Video Input Settings::sc.texture.syphon.input::appname" : [ "" ],
+					"Video Input Settings::sc.texture.xfade[1]::bypass" : [ 0.0 ],
+					"Video Input Settings::sc.texture.xfade[1]::xfade" : [ 0.0 ]
 				}
 
 			}

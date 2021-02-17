@@ -6269,7 +6269,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u592004643"
+									"varname" : "u149002355"
 								}
 
 							}
@@ -7127,7 +7127,7 @@
 						"preffilename" : "Bleep Sequencer Live Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -7268,7 +7268,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 779.0, 189.0, 543.0 ],
+					"patching_rect" : [ 27.0, 779.0, 193.0, 543.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
 					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
