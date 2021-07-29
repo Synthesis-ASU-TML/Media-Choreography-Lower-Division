@@ -5099,7 +5099,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 1628.0, 1001.0, 40.0, 22.0 ],
+					"patching_rect" : [ 1545.5, 994.0, 40.0, 22.0 ],
 					"text" : "t i i i"
 				}
 
@@ -15499,7 +15499,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u377002442"
+									"varname" : "u496006570"
 								}
 
 							}
@@ -21032,7 +21032,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-9",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -23718,7 +23718,7 @@
 						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Granular Playback/other/granular_icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.synthesis.granularplayback3",
+						"bundleidentifier" : "org.asu.ame.synthesis.grainlive",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
 						"copysupport" : 0,
@@ -24949,7 +24949,7 @@
 					"patching_rect" : [ 1400.5, 177.0, 69.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 134.75, 305.0, 20.0 ],
-					"text" : "File: 14 - Murial's Ride.mp3"
+					"text" : "File: No File Loaded"
 				}
 
 			}
@@ -24972,14 +24972,14 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-127",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1072.5, 177.0, 69.0, 60.0 ],
+					"patching_rect" : [ 1072.5, 177.0, 50.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 89.75, 305.0, 20.0 ],
-					"text" : "File: 11 - DJ Bogart Takes Cont..."
+					"text" : "File: No File Loaded"
 				}
 
 			}
@@ -24987,14 +24987,14 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-126",
-					"linecount" : 19,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 914.5, 177.0, 19.0, 261.0 ],
+					"patching_rect" : [ 914.5, 177.0, 21.0, 167.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 133.5, 66.75, 305.0, 20.0 ],
-					"text" : "File: 6 - Blue Moose Man.mp3"
+					"text" : "File: No File Loaded"
 				}
 
 			}
@@ -27052,16 +27052,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-314", 0 ],
-					"order" : 1,
-					"source" : [ "obj-315", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-393", 0 ],
-					"order" : 0,
 					"source" : [ "obj-315", 0 ]
 				}
 
@@ -27105,7 +27096,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-320", 0 ],
+					"destination" : [ "obj-379", 0 ],
 					"source" : [ "obj-319", 0 ]
 				}
 
