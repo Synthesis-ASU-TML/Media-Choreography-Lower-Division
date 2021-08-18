@@ -102,12 +102,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-67",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2204.0, 331.0, 420.0, 26.0 ],
-					"text" : "script sendbox ndi presentation_rect 5 50 270 212"
+					"patching_rect" : [ 2204.0, 331.0, 395.0, 43.0 ],
+					"text" : "script sendbox ndi presentation_rect 5 50 270 235"
 				}
 
 			}
@@ -187,8 +188,6 @@
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 2129.0, 507.0, 270.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 50.0, 270.0, 212.0 ],
 					"varname" : "ndi",
 					"viewvisibility" : 1
 				}
@@ -200,7 +199,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "stop", "" ],
+					"outlettype" : [ "start", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -212,7 +211,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -247,7 +246,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "stop" ],
-									"patching_rect" : [ 50.0, 175.0, 76.0, 26.0 ],
+									"patching_rect" : [ 50.0, 175.0, 76.0, 22.0 ],
 									"text" : "t b stop"
 								}
 
@@ -259,8 +258,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 91.0, 257.0, 437.0, 26.0 ],
-									"text" : "script sendbox movie presentation_rect 5 50 270 212"
+									"patching_rect" : [ 91.0, 257.0, 437.0, 22.0 ],
+									"text" : "script sendbox movie presentation_rect 5 50 270 235"
 								}
 
 							}
@@ -271,7 +270,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 123.0, 294.0, 303.0, 26.0 ],
+									"patching_rect" : [ 123.0, 294.0, 303.0, 22.0 ],
 									"text" : "script sendbox movie presentation 1"
 								}
 
@@ -283,7 +282,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 216.0, 303.0, 26.0 ],
+									"patching_rect" : [ 50.0, 216.0, 303.0, 22.0 ],
 									"text" : "script sendbox movie presentation 0"
 								}
 
@@ -295,7 +294,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 50.0, 100.0, 67.0, 26.0 ],
+									"patching_rect" : [ 50.0, 100.0, 67.0, 22.0 ],
 									"text" : "sel 0 1"
 								}
 
@@ -307,7 +306,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "start" ],
-									"patching_rect" : [ 91.0, 141.0, 101.0, 26.0 ],
+									"patching_rect" : [ 91.0, 141.0, 101.0, 22.0 ],
 									"text" : "t b b start"
 								}
 
@@ -554,7 +553,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1599.0, 314.0, 445.0, 26.0 ],
-					"text" : "script sendbox syphon presentation_rect 5 50 270 212"
+					"text" : "script sendbox syphon presentation_rect 5 50 270 235"
 				}
 
 			}
@@ -648,7 +647,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 270.0, 150.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 264.0, 201.0, 24.0 ],
+					"presentation_rect" : [ 5.0, 287.0, 201.0, 24.0 ],
 					"text" : "Video Output Mode",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -662,7 +661,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.0, 265.0, 12.0, 12.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 264.0, 270.0, 22.0 ],
+					"presentation_rect" : [ 5.0, 287.0, 270.0, 22.0 ],
 					"rounded" : 0
 				}
 
@@ -735,8 +734,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1006.0, 299.0, 452.0, 26.0 ],
-					"text" : "script sendbox camera presentation_rect 5 50 270 212"
+					"patching_rect" : [ 1006.0, 299.0, 445.0, 26.0 ],
+					"text" : "script sendbox camera presentation_rect 5 50 270 235"
 				}
 
 			}
@@ -865,7 +864,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 558.5, 625.0, 270.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 290.0, 270.0, 20.0 ],
+					"presentation_rect" : [ 5.0, 313.0, 270.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Matrix", "Texture" ],
@@ -1162,7 +1161,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 161.0, 502.0, 270.0, 212.0 ],
+					"patching_rect" : [ 161.0, 502.0, 270.0, 235.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.0, 50.0, 270.0, 235.0 ],
 					"varname" : "movie",
 					"viewvisibility" : 1
 				}
@@ -1845,11 +1846,12 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"fontname" : [ "Monaco" ],
+					"textjustification" : [ 0 ],
+					"fontsize" : [ 14.0 ],
 					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"fontface" : [ 1 ],
+					"fontname" : [ "Monaco" ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1860,8 +1862,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textjustification" : [ 0 ],
-					"fontsize" : [ 14.0 ]
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",

@@ -415,6 +415,22 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "vol",
+					"displaymode" : 8,
+					"id" : "obj-18",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 61.0, 307.0, 150.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 208.0, 263.0, 26.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -494,6 +510,13 @@
 					"destination" : [ "obj-21", 0 ],
 					"order" : 0,
 					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -657,13 +680,12 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
 					"textjustification" : [ 0 ],
 					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
 					"fontname" : [ "Monaco" ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -673,7 +695,8 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-
+,
+					"fontface" : [ 1 ]
 				}
 ,
 				"parentstyle" : "",

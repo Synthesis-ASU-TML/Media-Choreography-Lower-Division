@@ -2,7 +2,7 @@
 	"name" : "common",
 	"version" : 1,
 	"creationdate" : 3710324002,
-	"modificationdate" : 3710398504,
+	"modificationdate" : 3711697704,
 	"viewrect" : [ 1463.0, 139.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -25,12 +25,27 @@
 				"local" : 1
 			}
 ,
+			"audio_mic.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"video_syphon.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"video_ndi.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Audio-Source.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"audio_file.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -44,12 +59,7 @@
 		"other" : 		{
 			"Connor.maxstyle" : 			{
 				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Styles",
-					"projectrelativepath" : "../../../../../../../Users/CRawls/Documents/Max 8/Styles"
-				}
-
+				"local" : 1
 			}
 
 		}
