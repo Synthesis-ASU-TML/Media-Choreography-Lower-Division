@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 262.0, 173.0, 1360.0, 539.0 ],
+		"rect" : [ 285.0, 99.0, 1360.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -41,6 +41,42 @@
 		"title" : "Background Subtraction Explained",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 548.0, 17.0, 261.0, 26.0 ],
+					"text" : "window flags grow, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 829.0, 81.0, 277.0, 26.0 ],
+					"text" : "window flags nogrow, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 828.0, 22.0, 76.0, 26.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 30.0,
 					"id" : "obj-72",
 					"linecount" : 3,
@@ -69,7 +105,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1.5986328125, 285.75, 24.4013671875, 25.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5986328125, 284.25, 24.4013671875, 25.5 ],
+					"presentation_rect" : [ 2.5986328125, 343.25, 24.4013671875, 25.5 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
@@ -126,21 +162,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 489.0, 175.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1167.0, 329.5, 175.0, 26.0 ]
+					"presentation_rect" : [ 1158.5, 388.5, 175.0, 26.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-62",
-					"linecount" : 23,
+					"linecount" : 20,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 911.0, 370.0, 168.0, 409.0 ],
+					"patching_rect" : [ 749.0, 677.0, 185.0, 356.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 911.0, 368.0, 433.0, 146.0 ],
+					"presentation_rect" : [ 902.5, 427.0, 445.0, 146.0 ],
 					"text" : "The output mode, or \"color_out\", toggles between passing the subtracted feed with its original colors, or a black and white binary feed. The full color mode is great for applications that seek to blend a foreground object with a new background. For installations that utilize motion tracking, you may be better served by using the binary, or \"presence\", video output stream.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -155,9 +191,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 911.0, 370.0, 128.0, 128.0 ],
+					"patching_rect" : [ 722.0, 988.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 911.0, 368.0, 433.0, 164.0 ],
+					"presentation_rect" : [ 902.5, 427.0, 433.0, 164.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -171,9 +207,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 911.0, 330.0, 213.0, 31.0 ],
+					"patching_rect" : [ 673.0, 696.0, 213.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 911.0, 328.0, 258.0, 31.0 ],
+					"presentation_rect" : [ 902.5, 387.0, 258.0, 31.0 ],
 					"text" : "Output Mode",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -185,9 +221,9 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 911.0, 330.0, 128.0, 128.0 ],
+					"patching_rect" : [ 773.5, 670.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 911.0, 328.0, 433.0, 31.0 ],
+					"presentation_rect" : [ 902.5, 387.0, 433.0, 31.0 ],
 					"rounded" : 0
 				}
 
@@ -203,21 +239,21 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 452.0, 175.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 726.0, 329.5, 175.0, 26.0 ]
+					"presentation_rect" : [ 717.5, 388.5, 175.0, 26.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"linecount" : 26,
+					"linecount" : 24,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 507.5, 470.0, 160.0, 461.0 ],
+					"patching_rect" : [ 730.0, 700.0, 177.0, 426.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 9,
-					"presentation_rect" : [ 470.0, 368.0, 433.0, 164.0 ],
+					"presentation_linecount" : 8,
+					"presentation_rect" : [ 461.5, 427.0, 445.0, 146.0 ],
 					"text" : "The adaptation rate, or \"learning\", is the speed at which the image that is referenced for subtraction is updated over time. The reason for using the learning parameter is to give the system flexibility in environments where the background may change periodically. In these cases, the module can automatically adapt to the new background. Generally you will want to set this parameter below 0.05.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -232,9 +268,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 394.0, 128.0, 128.0 ],
+					"patching_rect" : [ 726.0, 660.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 470.0, 368.0, 433.0, 164.0 ],
+					"presentation_rect" : [ 461.5, 427.0, 433.0, 164.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -249,9 +285,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 354.0, 213.0, 56.0 ],
+					"patching_rect" : [ 626.0, 653.0, 213.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 470.0, 328.0, 258.0, 31.0 ],
+					"presentation_rect" : [ 461.5, 387.0, 258.0, 31.0 ],
 					"text" : "Background Adapting",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -263,9 +299,9 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 481.0, 354.0, 128.0, 128.0 ],
+					"patching_rect" : [ 726.0, 620.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 470.0, 328.0, 433.0, 31.0 ],
+					"presentation_rect" : [ 461.5, 387.0, 433.0, 31.0 ],
 					"rounded" : 0
 				}
 
@@ -273,14 +309,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 29,
+					"linecount" : 26,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 392.0, 151.0, 514.0 ],
+					"patching_rect" : [ 752.0, 691.0, 168.0, 461.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 29.0, 368.0, 433.0, 164.0 ],
+					"presentation_rect" : [ 20.5, 427.0, 437.0, 164.0 ],
 					"text" : "This parameter is the most important when using background subtraction. The threshold determines the minimum difference between the color of any pixel in the new video and the corresponding pixel in the background reference frame. The higher you set the threshold will cause the output to be more restrictive. The lower threshold settings cause more of the image to be passed, with 0 causing all pixels to pass the threshold test.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -295,9 +331,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 392.0, 128.0, 128.0 ],
+					"patching_rect" : [ 764.0, 670.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 368.0, 433.0, 164.0 ],
+					"presentation_rect" : [ 20.5, 427.0, 433.0, 164.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -314,7 +350,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 360.0, 414.0, 175.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 329.5, 171.0, 26.0 ]
+					"presentation_rect" : [ 279.5, 388.5, 171.0, 26.0 ]
 				}
 
 			}
@@ -327,9 +363,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 352.0, 213.0, 56.0 ],
+					"patching_rect" : [ 626.0, 844.0, 213.0, 56.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 328.0, 258.0, 31.0 ],
+					"presentation_rect" : [ 20.5, 387.0, 258.0, 31.0 ],
 					"text" : "Background Threshold",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -341,9 +377,9 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 352.0, 128.0, 128.0 ],
+					"patching_rect" : [ 758.0, 644.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 328.0, 433.0, 31.0 ],
+					"presentation_rect" : [ 20.5, 387.0, 433.0, 31.0 ],
 					"rounded" : 0
 				}
 
@@ -357,9 +393,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 258.5, 251.0, 96.0 ],
+					"patching_rect" : [ 722.0, 802.5, 251.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.5, 279.0, 1033.5, 36.0 ],
+					"presentation_rect" : [ 302.0, 338.0, 1033.5, 36.0 ],
 					"text" : "Background Subtraction Parameters",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -372,9 +408,9 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 258.5, 128.0, 128.0 ],
+					"patching_rect" : [ 722.0, 802.5, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 310.5, 279.0, 1033.5, 36.0 ],
+					"presentation_rect" : [ 302.0, 338.0, 1033.5, 36.0 ],
 					"rounded" : 0
 				}
 
@@ -382,11 +418,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"linecount" : 33,
+					"linecount" : 27,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 492.5, 311.0, 150.0, 584.0 ],
+					"patching_rect" : [ 743.0, 748.0, 160.0, 479.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 302.0, 49.5, 463.0, 164.0 ],
@@ -404,7 +440,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 376.0, 34.0, 251.0, 96.0 ],
+					"patching_rect" : [ 581.0, 1047.0, 251.0, 96.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.0, 8.0, 463.0, 36.0 ],
 					"text" : "What is Background Subtraction?",
@@ -419,7 +455,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 424.0, 454.0, 150.0, 76.0 ],
+					"patching_rect" : [ 816.0, 696.0, 150.0, 76.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 769.0, 7.5, 345.0, 24.0 ],
 					"text" : "Color vs. No Color Subtraction Example",
@@ -434,7 +470,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 882.0, 329.0, 224.0, 158.0 ],
+					"patching_rect" : [ 882.0, 348.0, 224.0, 158.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 769.0, 32.5, 345.0, 218.0 ]
 				}
@@ -492,8 +528,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 40.0, 17.0, 235.0, 26.0 ],
-					"text" : "loadmess read thumbs_up.mp4"
+					"patching_rect" : [ 40.0, 17.0, 286.0, 26.0 ],
+					"text" : "loadmess movie read thumbs_up.mp4"
 				}
 
 			}
@@ -528,13 +564,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 40.0, 348.5, 126.0, 26.0 ],
+					"patching_rect" : [ 40.0, 414.0, 126.0, 26.0 ],
 					"text" : "jit.gl.texture"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@video-mode", 0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -543,14 +580,15 @@
 					"id" : "obj-27",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "video_movie.maxpat",
+					"name" : "Video-Source.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 40.0, 73.5, 272.0, 241.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
+					"patching_rect" : [ 40.0, 55.5, 279.0, 334.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 43.0, 268.0, 237.0 ],
+					"presentation_rect" : [ 25.0, 43.0, 276.0, 287.0 ],
+					"varname" : "Video-Source",
 					"viewvisibility" : 1
 				}
 
@@ -601,7 +639,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 158.0, 412.0, 175.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 282.0, 268.0, 30.0 ],
+					"presentation_rect" : [ 29.0, 341.0, 268.0, 30.0 ],
 					"text" : "Snapshot Background",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textovercolor" : [ 0.494, 0.024, 0.024, 1.0 ],
@@ -1107,7 +1145,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.0, 420.0, 128.0, 128.0 ],
+					"patching_rect" : [ 780.0, 733.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 769.0, 7.5, 345.0, 24.0 ],
 					"rounded" : 0
@@ -1120,7 +1158,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 414.0, 191.0, 128.0, 128.0 ],
+					"patching_rect" : [ 809.0, 735.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.0, 8.0, 463.0, 36.0 ],
 					"rounded" : 0
@@ -1136,7 +1174,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 621.0, 314.0, 128.0, 128.0 ],
+					"patching_rect" : [ 766.0, 613.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.0, 49.5, 463.0, 164.0 ],
 					"proportion" : 0.5,
@@ -1150,7 +1188,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1156.0, 250.0, 128.0, 128.0 ],
+					"patching_rect" : [ 798.0, 626.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1118.0, 7.5, 226.0, 243.0 ],
 					"rounded" : 0
@@ -1159,6 +1197,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-15", 0 ]
@@ -1181,16 +1226,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"order" : 1,
-					"source" : [ "obj-19", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"order" : 0,
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -1309,25 +1345,86 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
+		"parameters" : 		{
+			"obj-27::obj-2" : [ "live.tab", "live.tab", 0 ],
+			"obj-27::obj-42" : [ "live.tab[2]", "live.tab", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
-				"name" : "video_movie.maxpat",
+				"name" : "Video-Source.maxpat",
 				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
-				"patcherrelativepath" : "../../../../common/common/patchers",
+				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "video_movie.maxpat",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"patcherrelativepath" : "../../../../../common/common/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video_camera.maxpat",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"patcherrelativepath" : "../../../../../common/common/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video_syphon.maxpat",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"patcherrelativepath" : "../../../../../common/common/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "video_ndi.maxpat",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"patcherrelativepath" : "../../../../../common/common/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jit.gl.syphonclient.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.ndi.receive~.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"textjustification" : [ 0 ],
-					"fontsize" : [ 14.0 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
 					"fontname" : [ "Monaco" ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1338,7 +1435,12 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontface" : [ 1 ]
+					"textjustification" : [ 0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
