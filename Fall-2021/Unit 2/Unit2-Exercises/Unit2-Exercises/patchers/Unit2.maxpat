@@ -12,7 +12,7 @@
 		"classnamespace" : "box",
 		"rect" : [ 395.0, 190.0, 923.0, 681.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 1,
 		"default_fontname" : "Monaco",
@@ -40,6 +40,92 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
+					"text" : "symbol sobel.png"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 300.0, 748.0, 76.0, 26.0 ],
+					"text" : "sel none"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 851.0, 67.0, 26.0 ],
+					"text" : "read $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"coll_data" : 					{
+						"count" : 3,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ "none" ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ "bg_icon.png" ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "sobel.png" ]
+							}
+ ]
+					}
+,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 300.0, 707.0, 168.0, 26.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"precision" : 6
+					}
+,
+					"text" : "coll icons @embed 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-4",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
+					"pic" : "sobel.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontsize" : 18.0,
 					"id" : "obj-53",
 					"maxclass" : "comment",
@@ -47,7 +133,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 600.0, 165.0, 189.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 62.0, 258.0, 29.0 ],
+					"presentation_rect" : [ 272.0, 63.0, 269.0, 29.0 ],
 					"text" : "Description",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -62,7 +148,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 727.0, 33.0, 4.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 62.0, 258.0, 31.0 ],
+					"presentation_rect" : [ 272.0, 62.0, 269.0, 31.0 ],
 					"rounded" : 0
 				}
 
@@ -177,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.0, 717.0, 76.0, 26.0 ],
+					"patching_rect" : [ 35.0, 682.0, 76.0, 26.0 ],
 					"text" : "zl mth 1"
 				}
 
@@ -236,9 +322,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 44.0, 375.0, 96.0 ],
+					"patching_rect" : [ 317.0, 44.0, 376.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 5.0, 702.0, 51.0 ],
+					"presentation_rect" : [ 3.0, 5.0, 812.0, 51.0 ],
 					"text" : "Unit 2 Reference & Exercises",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -253,7 +339,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.0, 33.0, 383.0, 119.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 702.0, 55.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 812.0, 55.0 ],
 					"rounded" : 0
 				}
 
@@ -273,15 +359,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 16,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 641.0, 150.0, 286.0 ],
+					"patching_rect" : [ 579.0, 641.0, 160.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 272.0, 95.0, 258.0, 146.0 ],
-					"text" : "symbol A quick way to remove the background from a camera feed. Utilizes a reference frame and some simple learning to estimate the parts of an image that are in the background and the parts that make up the foreground.",
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 129.0 ],
+					"text" : "symbol A method to find the borders between objects in an image. These techniques examine how related each pixel is to its neighbors. Pixels that are found to be on a boundary are highlighted.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -639,7 +725,24 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 753.0, 33.0, 23.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 272.0, 95.0, 258.0, 201.0 ],
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 201.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-30",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 552.0, 77.0, 23.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ],
+					"proportion" : 0.5,
 					"rounded" : 0
 				}
 
@@ -837,6 +940,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
+					"order" : 1,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 0,
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -913,13 +1025,57 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"order" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "sobel.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises",
+				"patcherrelativepath" : "..",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Connor",

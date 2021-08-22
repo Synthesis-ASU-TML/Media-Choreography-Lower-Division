@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3712417137,
+	"modificationdate" : 3712434154,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -115,6 +115,16 @@
 			}
 ,
 			"edge-1.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"sobel.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"bg_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
