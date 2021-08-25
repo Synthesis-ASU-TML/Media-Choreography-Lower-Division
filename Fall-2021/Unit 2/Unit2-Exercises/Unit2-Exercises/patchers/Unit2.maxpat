@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 395.0, 190.0, 923.0, 681.0 ],
+		"rect" : [ 163.0, 126.0, 896.0, 313.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -40,14 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 579.0, 568.0, 109.0, 26.0 ],
+					"text" : "route symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
-					"text" : "symbol cover_image.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
+					"text" : "symbol sobel.png"
 				}
 
 			}
@@ -118,7 +130,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "cover_image.png",
+					"pic" : "sobel.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -239,7 +251,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -360,15 +371,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 11,
+					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 641.0, 168.0, 199.0 ],
+					"patching_rect" : [ 579.0, 641.0, 177.0, 181.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
 					"presentation_rect" : [ 272.0, 95.0, 277.0, 129.0 ],
-					"text" : "symbol A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras.",
+					"text" : "A method to find the borders between objects in an image. These techniques examine how related each pixel is to its neighbors. Pixels that are found to be on a boundary are highlighted.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -405,7 +416,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 579.0, 556.0, 160.0, 26.0 ],
+					"patching_rect" : [ 579.0, 536.5, 160.0, 26.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"precision" : 6
@@ -781,7 +792,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1033,6 +1044,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
@@ -1071,7 +1089,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sobel.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
@@ -1081,7 +1099,6 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1092,12 +1109,13 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textjustification" : [ 0 ],
 					"fontface" : [ 1 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
+					"textjustification" : [ 0 ],
 					"fontsize" : [ 14.0 ],
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
