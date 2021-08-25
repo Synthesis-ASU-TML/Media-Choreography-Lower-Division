@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3712434154,
+	"modificationdate" : 3712436546,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -122,6 +122,16 @@
 			"sobel.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
+			}
+,
+			"cover_image.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2",
+					"projectrelativepath" : "../.."
+				}
+
 			}
 ,
 			"bg_icon.png" : 			{
