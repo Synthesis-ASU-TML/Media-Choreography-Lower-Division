@@ -2,7 +2,7 @@
 	"name" : "Exquisite Corpse",
 	"version" : 1,
 	"creationdate" : 3698504490,
-	"modificationdate" : 3698616861,
+	"modificationdate" : 3712907357,
 	"viewrect" : [ 8.0, 169.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -61,7 +61,7 @@
 				"local" : 1
 			}
 ,
-			"Spatial.maxpat" : 			{
+			"spatial.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -116,17 +116,17 @@
 				"local" : 1
 			}
 ,
+			"Audio-Mixing.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"mic-in.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"no-audio-in.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Audio-Mixing.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -149,6 +149,16 @@
 			"audio-distort.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"color_filter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/patchers",
+					"projectrelativepath" : "../../../../Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/patchers"
+				}
+
 			}
 
 		}
@@ -231,7 +241,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Max 7/Packages/SC/media/recolor_palettes",
-					"projectrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/media/recolor_palettes"
+					"projectrelativepath" : "../../../../../../Documents/Max 7/Packages/SC/media/recolor_palettes"
 				}
 
 			}
@@ -240,7 +250,7 @@
 				"kind" : "imagefile",
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Max 7/Packages/SC/media/recolor_palettes",
-					"projectrelativepath" : "../../../../../../../../Users/CRawls/Documents/Max 7/Packages/SC/media/recolor_palettes"
+					"projectrelativepath" : "../../../../../../Documents/Max 7/Packages/SC/media/recolor_palettes"
 				}
 
 			}

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 186.0, 83.0, 1269.0, 885.0 ],
+		"rect" : [ 56.0, 240.0, 1269.0, 432.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 2129.0, 819.0, 261.0, 26.0 ],
-					"text" : "jit.gl.texture @name ndi-input"
+					"patching_rect" : [ 2129.0, 819.0, 286.0, 26.0 ],
+					"text" : "jit.gl.texture @name #0-ndi-input"
 				}
 
 			}
@@ -205,7 +205,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -872,7 +872,7 @@
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -1135,7 +1135,7 @@
 							"parameter_mmax" : 3,
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
-							"parameter_unitstyle" : 0
+							"parameter_unitstyle" : 9
 						}
 
 					}
@@ -1801,7 +1801,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "video_movie.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1814,21 +1814,21 @@
 			}
 , 			{
 				"name" : "video_camera.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_syphon.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_ndi.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1837,20 +1837,14 @@
 				"name" : "jit.gl.syphonclient.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "jit.ndi.receive~.mxo",
-				"type" : "iLaX"
-			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
+					"fontface" : [ 1 ],
 					"textjustification" : [ 0 ],
 					"fontsize" : [ 14.0 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"fontname" : [ "Monaco" ],
 					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -1862,7 +1856,9 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontface" : [ 1 ]
+					"fontname" : [ "Monaco" ],
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
