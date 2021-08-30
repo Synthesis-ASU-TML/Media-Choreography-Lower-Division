@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 44.0, 87.0, 1327.0, 711.0 ],
+		"rect" : [ 8.0, 47.0, 1409.0, 690.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -21,12 +21,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -41,6 +41,497 @@
 		"title" : "Color Filtering Explained",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgoncolor" : [ 0.119753256440163, 0.579624772071838, 0.575239777565002, 1.0 ],
+					"fontsize" : 20.0,
+					"id" : "obj-123",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 396.0, 32.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 31.0, 5.0, 268.0, 53.0 ],
+					"text" : "Start Demo",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"texton" : "Stop Demo",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textovercolor" : [ 0.494, 0.024, 0.024, 1.0 ],
+					"usetextovercolor" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.847331, 0.751866, 0.521653, 1.0 ],
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-122",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 0.0, 347.0, 26.8017578125, 30.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 406.0, 26.8017578125, 30.5 ],
+					"rounded" : 100.0,
+					"text" : "3",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.847331, 0.751866, 0.521653, 1.0 ],
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-121",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3.0, 80.0, 26.8017578125, 30.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 141.5, 26.8017578125, 30.5 ],
+					"rounded" : 100.0,
+					"text" : "2",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.847331, 0.751866, 0.521653, 1.0 ],
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-120",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 108.0, 659.0, 26.8017578125, 30.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 17.0, 26.8017578125, 30.5 ],
+					"rounded" : 100.0,
+					"text" : "1",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "invert",
+					"displaymode" : 8,
+					"id" : "obj-66",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 865.0, 1011.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1219.0, 540.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-116",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1039.0, 565.0, 219.0, 129.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 1038.0, 567.0, 367.0, 76.0 ],
+					"text" : "The filter invert allows you to swap between modes where you can perform a \"green screen\" effect and selecting and showing only one single color range.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.125771552324295, 0.566736698150635, 0.55782812833786, 1.0 ],
+					"id" : "obj-117",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1039.0, 567.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 569.0, 367.0, 74.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-118",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1039.0, 536.0, 160.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 538.0, 351.0, 29.0 ],
+					"text" : "Filter Invert",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1039.0, 536.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 538.0, 367.0, 29.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "threshold",
+					"id" : "obj-33",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 673.0, 1030.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1219.0, 416.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"linecount" : 9,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1031.0, 555.0, 210.0, 164.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 1038.0, 443.0, 367.0, 94.0 ],
+					"text" : "Threshold is the maximum difference between the reference color and the pixel value for filtering to be applied. The threshold is applied to the length of the adjusted difference vector.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.125771552324295, 0.566736698150635, 0.55782812833786, 1.0 ],
+					"id" : "obj-113",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1031.0, 557.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 445.0, 367.0, 92.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-114",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1031.0, 526.0, 160.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 414.0, 351.0, 29.0 ],
+					"text" : "Threshold",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1031.0, 526.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 414.0, 367.0, 29.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "hueTrack",
+					"displaymode" : 8,
+					"id" : "obj-30",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 865.0, 920.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1217.0, 288.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "satTrack",
+					"displaymode" : 8,
+					"id" : "obj-31",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 865.0, 948.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1217.0, 314.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "lumaTrack",
+					"displaymode" : 8,
+					"id" : "obj-32",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 865.0, 976.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1217.0, 340.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 942.0, 523.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1211.0, 284.0, 194.0, 86.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 553.0, 193.0, 146.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 1038.0, 283.0, 367.0, 129.0 ],
+					"text" : "Similar to the RGB \nTracking, these\nparameters dictate \nwhich elements of \nthe HSL colorspace \nare considered when deciding whether to filter out a pixel.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.125771552324295, 0.566736698150635, 0.55782812833786, 1.0 ],
+					"id" : "obj-109",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 553.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 283.0, 367.0, 129.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-110",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 522.0, 160.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 252.0, 351.0, 29.0 ],
+					"text" : "HSL Tracking",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-111",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 692.0, 522.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 252.0, 367.0, 29.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "redTrack",
+					"displaymode" : 8,
+					"id" : "obj-23",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 673.0, 931.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1217.0, 41.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "greenTrack",
+					"displaymode" : 8,
+					"id" : "obj-25",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 673.0, 967.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1217.0, 67.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "blueTrack",
+					"displaymode" : 8,
+					"id" : "obj-26",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 673.0, 1000.0, 182.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1217.0, 93.0, 182.0, 26.0 ],
+					"text_width" : 110.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 927.0, 508.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1211.0, 37.0, 194.0, 86.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-103",
+					"linecount" : 19,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 677.0, 538.0, 193.0, 339.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 12,
+					"presentation_rect" : [ 1038.0, 34.0, 370.0, 216.0 ],
+					"text" : "These are the modes\nused to compare the \npixel colors against\nthe reference color. \nAny channel that is \nenabled, or tracked, will be checked if it meets the threshold. Any untracked channels will be excluded from the comparison. An example would be if only the red channel is set to track, only the red value of the pixels will be considered when deciding which pixels to filter.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.125771552324295, 0.566736698150635, 0.55782812833786, 1.0 ],
+					"id" : "obj-104",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 677.0, 538.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 36.0, 367.0, 214.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-105",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 677.0, 507.0, 160.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 5.0, 351.0, 29.0 ],
+					"text" : "RGB Tracking",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 677.0, 507.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1038.0, 5.0, 367.0, 29.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"attr" : "hueLevel",
 					"id" : "obj-27",
 					"lock" : 1,
@@ -50,7 +541,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 865.0, 832.0, 182.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 838.0, 495.0, 182.0, 26.0 ],
+					"presentation_rect" : [ 848.0, 489.0, 182.0, 26.0 ],
 					"text_width" : 110.0
 				}
 
@@ -66,7 +557,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 865.0, 860.0, 182.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 838.0, 521.0, 182.0, 26.0 ],
+					"presentation_rect" : [ 848.0, 515.0, 182.0, 26.0 ],
 					"text_width" : 110.0
 				}
 
@@ -82,7 +573,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 865.0, 888.0, 182.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 838.0, 547.0, 182.0, 26.0 ],
+					"presentation_rect" : [ 848.0, 541.0, 182.0, 26.0 ],
 					"text_width" : 110.0
 				}
 
@@ -95,7 +586,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 912.0, 493.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 832.0, 490.0, 194.0, 86.0 ],
+					"presentation_rect" : [ 842.0, 484.0, 194.0, 86.0 ],
 					"rounded" : 0
 				}
 
@@ -107,10 +598,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 662.0, 523.0, 177.0, 234.0 ],
+					"patching_rect" : [ 662.0, 523.0, 185.0, 234.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 664.0, 521.0, 362.0, 146.0 ],
+					"presentation_rect" : [ 674.0, 515.0, 370.0, 146.0 ],
 					"text" : "The HSL levels are\nsimilar to the RGB\nlevels, but instead\nof setting a color to test, you set the attributes. Now you specify the shade, the level of saturation, and how bright each pixel needs to be in order to pass the comparison test.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -127,7 +618,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 662.0, 523.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 664.0, 521.0, 362.0, 146.0 ],
+					"presentation_rect" : [ 674.0, 515.0, 362.0, 146.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -142,7 +633,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 662.0, 492.0, 160.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 664.0, 490.0, 273.0, 29.0 ],
+					"presentation_rect" : [ 674.0, 484.0, 273.0, 29.0 ],
 					"text" : "HSL Levels",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -156,7 +647,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 662.0, 492.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 664.0, 490.0, 362.0, 29.0 ],
+					"presentation_rect" : [ 674.0, 484.0, 362.0, 29.0 ],
 					"rounded" : 0
 				}
 
@@ -172,7 +663,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 673.0, 832.0, 182.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.5, 494.0, 182.0, 26.0 ],
+					"presentation_rect" : [ 483.5, 520.0, 182.0, 26.0 ],
 					"text_width" : 110.0
 				}
 
@@ -188,7 +679,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 673.0, 860.0, 182.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.5, 520.0, 182.0, 26.0 ],
+					"presentation_rect" : [ 483.5, 546.0, 182.0, 26.0 ],
 					"text_width" : 110.0
 				}
 
@@ -204,7 +695,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 673.0, 888.0, 182.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 471.5, 546.0, 182.0, 26.0 ],
+					"presentation_rect" : [ 483.5, 572.0, 182.0, 26.0 ],
 					"text_width" : 110.0
 				}
 
@@ -217,7 +708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.0, 532.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 466.0, 490.0, 194.0, 86.0 ],
+					"presentation_rect" : [ 478.0, 516.0, 194.0, 86.0 ],
 					"rounded" : 0
 				}
 
@@ -225,14 +716,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-92",
-					"linecount" : 16,
+					"linecount" : 15,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 213.0, 555.0, 168.0, 286.0 ],
+					"patching_rect" : [ 213.0, 555.0, 177.0, 269.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
-					"presentation_rect" : [ 216.0, 520.0, 443.0, 111.0 ],
+					"presentation_rect" : [ 228.0, 547.0, 443.0, 111.0 ],
 					"text" : "The RGB Levels are the values\nin the 3 color channels that \nyou want to compare the \nincoming video against. With these parameters, you basically are setting a test color, and all pixels that are close enough to that color pass the test.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -249,7 +740,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 213.0, 555.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 520.0, 443.0, 111.0 ],
+					"presentation_rect" : [ 228.0, 547.0, 443.0, 111.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -264,7 +755,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 213.0, 524.0, 160.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 489.0, 354.0, 29.0 ],
+					"presentation_rect" : [ 228.0, 516.0, 354.0, 29.0 ],
 					"text" : "RGB Levels",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -278,7 +769,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 213.0, 524.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 489.0, 443.0, 29.0 ],
+					"presentation_rect" : [ 228.0, 516.0, 443.0, 29.0 ],
 					"rounded" : 0
 				}
 
@@ -301,7 +792,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 778.0, 724.0, 161.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 455.0, 329.0, 197.0, 25.0 ],
+					"presentation_rect" : [ 467.0, 355.0, 197.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "RGB", "HSL" ],
@@ -323,14 +814,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-88",
-					"linecount" : 21,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 211.0, 358.0, 160.0, 374.0 ],
+					"patching_rect" : [ 211.0, 358.0, 168.0, 339.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 216.0, 358.0, 443.0, 129.0 ],
+					"presentation_rect" : [ 228.0, 385.0, 445.0, 129.0 ],
 					"text" : "The Filter Mode determines the colorspace to be used for processing which colors to show or remove. RGB mode keeps the video in the normal RGB color space and uses the level and track settings for RGB. HSL mode transforms the video into the HSL colorspace and uses the level and track settings before converting the video back to RGB.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -347,7 +838,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.0, 358.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 358.0, 443.0, 129.0 ],
+					"presentation_rect" : [ 228.0, 385.0, 443.0, 129.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -362,10 +853,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.0, 327.0, 160.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 327.0, 443.0, 29.0 ],
+					"presentation_rect" : [ 228.0, 354.0, 443.0, 29.0 ],
 					"text" : "Filter Mode",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -377,7 +867,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 211.0, 327.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.0, 327.0, 443.0, 29.0 ],
+					"presentation_rect" : [ 228.0, 354.0, 443.0, 29.0 ],
 					"rounded" : 0
 				}
 
@@ -416,7 +906,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 602.0, 256.5, 235.0, 113.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmax launchbrowser https://commons.wikimedia.org/wiki/File:HSV_color_solid_cylinder_saturation_gray.png"
 				}
 
@@ -432,7 +921,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 595.0, 191.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 299.5, 115.0, 20.0 ],
+					"presentation_rect" : [ 513.0, 301.5, 115.0, 20.0 ],
 					"text" : "Image Source",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -462,7 +951,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 319.0, 191.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 343.0, 299.5, 115.0, 20.0 ],
+					"presentation_rect" : [ 353.0, 301.5, 115.0, 20.0 ],
 					"text" : "Image Source",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -476,7 +965,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1036.0, 201.25, 150.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 185.25, 115.0, 24.0 ],
+					"presentation_rect" : [ 513.0, 187.25, 115.0, 24.0 ],
 					"text" : "HSL Cylinder",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -491,7 +980,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 921.0, 149.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 184.25, 115.0, 25.0 ],
+					"presentation_rect" : [ 513.0, 186.25, 115.0, 25.0 ],
 					"rounded" : 0
 				}
 
@@ -506,9 +995,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 945.0, 320.25, 100.0, 75.0 ],
-					"pic" : "Macintosh HD:/Users/synthesis/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media/hsv-cylinder.png",
+					"pic" : "hsv-cylinder.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 211.25, 115.0, 86.25 ]
+					"presentation_rect" : [ 513.0, 213.25, 115.0, 86.25 ]
 				}
 
 			}
@@ -520,7 +1009,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1085.0, 266.0, 150.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 343.0, 184.25, 115.0, 24.0 ],
+					"presentation_rect" : [ 353.0, 186.25, 115.0, 24.0 ],
 					"text" : "RGB Cube",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -535,7 +1024,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1147.0, 173.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 343.0, 184.25, 115.0, 25.0 ],
+					"presentation_rect" : [ 353.0, 186.25, 115.0, 25.0 ],
 					"rounded" : 0
 				}
 
@@ -549,24 +1038,24 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 945.0, 436.0, 100.0, 100.0 ],
-					"pic" : "Macintosh HD:/Users/synthesis/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media/RGB_color_solid_cube.png",
+					"patching_rect" : [ 945.0, 436.0, 100.0, 75.0 ],
+					"pic" : "RGB_color_solid_cube.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 343.0, 211.25, 115.0, 86.25 ]
+					"presentation_rect" : [ 353.0, 213.25, 115.0, 86.25 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-70",
-					"linecount" : 63,
+					"linecount" : 60,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1063.0, 64.0, 151.0, 1109.0 ],
+					"patching_rect" : [ 1063.0, 64.0, 160.0, 1056.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 25,
-					"presentation_rect" : [ 664.0, 42.0, 362.0, 444.0 ],
+					"presentation_rect" : [ 674.0, 36.0, 370.0, 444.0 ],
 					"text" : "RGB and HSL are two different methods of representing colors on a computer. \n\nRGB (Red-Green-Blue) specifies color by giving the amount of each primary light color to mix. This method mixes light wavelengths in a similar way to mixing paint pigments. RGB is considered the easiest digital color scheme to pick-up and is often visualized as a cube.\n\nHSL (Hue-Saturation-Luminance) specifies color by the shade (hue), how vibrant the shade is (saturation), and how bright the color is (luminance). HSL is commonly used in digital art applications, for example Adobe's Photoshop. It is prefferred due to the speed at which you can select a shade and then use saturation and luminance to quickly modify it to your liking. To accomplish an equivalent modification in the RGB spectrum, you would need to rebalance all 3 of RGB to achieve the desired effect. HSL is commonly visualized as a cylinder.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -583,7 +1072,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1086.0, 165.75, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 664.0, 42.0, 362.0, 444.0 ],
+					"presentation_rect" : [ 674.0, 36.0, 362.0, 444.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -598,7 +1087,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1086.0, 215.25, 160.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 664.0, 11.0, 362.0, 29.0 ],
+					"presentation_rect" : [ 674.0, 5.0, 362.0, 29.0 ],
 					"text" : "RGB vs. HSL",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -613,7 +1102,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1051.0, 149.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 664.0, 11.0, 362.0, 29.0 ],
+					"presentation_rect" : [ 674.0, 5.0, 362.0, 29.0 ],
 					"rounded" : 0
 				}
 
@@ -657,14 +1146,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-63",
-					"linecount" : 20,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1051.0, 158.0, 150.0, 356.0 ],
+					"patching_rect" : [ 1051.0, 158.0, 151.0, 339.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 297.0, 53.0, 362.0, 129.0 ],
+					"presentation_rect" : [ 309.0, 43.0, 362.0, 129.0 ],
 					"text" : "The technique of Color Filtering is a series of methods to either isolate or remove a color or range of colors. For this course, we have selected two primary ways of accomplishing this task, by RGB & HSL. These filtering modes give you two different approaches to specifying colors.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -681,7 +1170,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1070.0, 173.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 53.0, 362.0, 129.0 ],
+					"presentation_rect" : [ 309.0, 43.0, 362.0, 129.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -695,9 +1184,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 710.0, 6.0, 203.0, 66.0 ],
+					"patching_rect" : [ 710.0, 6.0, 210.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 11.0, 362.0, 36.0 ],
+					"presentation_rect" : [ 309.0, 5.0, 362.0, 36.0 ],
 					"text" : "What is Color Filtering?",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -711,7 +1200,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1017.0, 174.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 297.0, 11.0, 362.0, 36.0 ],
+					"presentation_rect" : [ 309.0, 5.0, 362.0, 36.0 ],
 					"rounded" : 0
 				}
 
@@ -1359,7 +1848,7 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 25.0, 450.0, 201.0, 270.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 308.0, 201.0, 296.0 ],
+					"presentation_rect" : [ 26.0, 350.5, 201.0, 296.0 ],
 					"varname" : "cfilter",
 					"viewvisibility" : 1
 				}
@@ -1419,13 +1908,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 326.0, 130.0, 345.0, 43.0 ],
-					"text" : "jit.world cfilter @sync 0 @fps 30 @size 360 240"
+					"patching_rect" : [ 326.0, 130.0, 504.0, 26.0 ],
+					"text" : "jit.world cfilter @sync 0 @fps 30 @size 360 240 @floating 1"
 				}
 
 			}
@@ -1436,8 +1924,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 18.0, 160.0, 26.0 ],
-					"text" : "loadmess file read"
+					"patching_rect" : [ 25.0, 15.0, 277.0, 26.0 ],
+					"text" : "loadmess movie read pyramids.mp4"
 				}
 
 			}
@@ -1459,144 +1947,9 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 25.0, 118.0, 278.0, 286.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 9.0, 278.0, 286.0 ],
+					"presentation_rect" : [ 26.0, 64.0, 278.0, 286.0 ],
 					"varname" : "Video-Source",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "redTrack",
-					"displaymode" : 8,
-					"id" : "obj-23",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 931.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 465.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "greenTrack",
-					"displaymode" : 8,
-					"id" : "obj-25",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 967.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 501.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "blueTrack",
-					"displaymode" : 8,
-					"id" : "obj-26",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 1000.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 534.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "hueTrack",
-					"displaymode" : 8,
-					"id" : "obj-30",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 920.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 376.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "satTrack",
-					"displaymode" : 8,
-					"id" : "obj-31",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 948.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 404.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "lumaTrack",
-					"displaymode" : 8,
-					"id" : "obj-32",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 976.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 432.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "threshold",
-					"id" : "obj-33",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 1030.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 564.0, 182.0, 26.0 ],
-					"text_width" : 110.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "invert",
-					"displaymode" : 8,
-					"id" : "obj-66",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.0, 1011.0, 182.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1061.0, 592.0, 182.0, 26.0 ],
-					"text_width" : 110.0
 				}
 
 			}
@@ -1619,6 +1972,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-123", 0 ]
 				}
 
 			}

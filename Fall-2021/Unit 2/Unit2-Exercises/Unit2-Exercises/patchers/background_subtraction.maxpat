@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 285.0, 99.0, 1360.0, 598.0 ],
+		"rect" : [ 48.0, 66.0, 1360.0, 598.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -21,12 +21,12 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "Background Subtraction Explained",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 377.0, 145.0, 429.0, 26.0 ],
+					"text" : "loadmess sendwindow title \"Background Subtraction\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "message",
@@ -169,14 +181,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-62",
-					"linecount" : 20,
+					"linecount" : 19,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 749.0, 677.0, 185.0, 356.0 ],
+					"patching_rect" : [ 749.0, 677.0, 193.0, 339.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 902.5, 427.0, 445.0, 146.0 ],
+					"presentation_rect" : [ 902.5, 427.0, 454.0, 146.0 ],
 					"text" : "The output mode, or \"color_out\", toggles between passing the subtracted feed with its original colors, or a black and white binary feed. The full color mode is great for applications that seek to blend a foreground object with a new background. For installations that utilize motion tracking, you may be better served by using the binary, or \"presence\", video output stream.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -246,14 +258,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-58",
-					"linecount" : 24,
+					"linecount" : 23,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 730.0, 700.0, 177.0, 426.0 ],
+					"patching_rect" : [ 730.0, 700.0, 185.0, 409.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 8,
-					"presentation_rect" : [ 461.5, 427.0, 445.0, 146.0 ],
+					"presentation_rect" : [ 461.5, 427.0, 454.0, 146.0 ],
 					"text" : "The adaptation rate, or \"learning\", is the speed at which the image that is referenced for subtraction is updated over time. The reason for using the learning parameter is to give the system flexibility in environments where the background may change periodically. In these cases, the module can automatically adapt to the new background. Generally you will want to set this parameter below 0.05.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -309,11 +321,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-56",
-					"linecount" : 26,
+					"linecount" : 25,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 691.0, 168.0, 461.0 ],
+					"patching_rect" : [ 752.0, 691.0, 177.0, 444.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 20.5, 427.0, 437.0, 164.0 ],
@@ -418,11 +430,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-50",
-					"linecount" : 27,
+					"linecount" : 26,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 743.0, 748.0, 160.0, 479.0 ],
+					"patching_rect" : [ 743.0, 748.0, 168.0, 461.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 302.0, 49.5, 463.0, 164.0 ],
@@ -553,7 +565,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 532.0, 104.0, 109.0, 26.0 ],
-					"text" : "size 640 360"
+					"text" : "size 320 180"
 				}
 
 			}
@@ -624,8 +636,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 377.0, 181.0, 177.0, 26.0 ],
-					"text" : "jit.world Background"
+					"patching_rect" : [ 377.0, 181.0, 412.0, 26.0 ],
+					"text" : "jit.world Background @sync 0 @fps 30 @floating 1"
 				}
 
 			}
@@ -683,7 +695,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1347,6 +1359,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1372,14 +1391,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Video-Source.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_movie.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1392,21 +1411,21 @@
 			}
 , 			{
 				"name" : "video_camera.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_syphon.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_ndi.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1415,16 +1434,15 @@
 				"name" : "jit.gl.syphonclient.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "jit.ndi.receive~.mxo",
-				"type" : "iLaX"
-			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontname" : [ "Monaco" ],
+					"fontface" : [ 1 ],
+					"textjustification" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1435,11 +1453,8 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textjustification" : [ 0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"fontname" : [ "Monaco" ],
 					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
 				}
 ,

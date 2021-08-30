@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3712931774,
+	"modificationdate" : 3713171840,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -159,8 +159,18 @@
 				"local" : 1
 			}
 ,
+			"cfilter_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"RGB_color_solid_cube.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"pyramids.mp4" : 			{
+				"kind" : "moviefile",
 				"local" : 1
 			}
 

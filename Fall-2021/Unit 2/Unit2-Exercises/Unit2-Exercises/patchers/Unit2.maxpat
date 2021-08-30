@@ -59,7 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
-					"text" : "symbol sobel.png"
+					"text" : "symbol bg_icon.png"
 				}
 
 			}
@@ -90,7 +90,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 3,
+						"count" : 5,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "cover_image.png" ]
@@ -102,6 +102,14 @@
 , 							{
 								"key" : 2,
 								"value" : [ "sobel.png" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "cover_image.png" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "cfilter_icon.png" ]
 							}
  ]
 					}
@@ -130,7 +138,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "sobel.png",
+					"pic" : "bg_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -283,7 +291,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 3,
+						"count" : 5,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -295,6 +303,14 @@
 , 							{
 								"key" : 2,
 								"value" : [ "edge_detection.maxpat" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "blank" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "color_filter.maxpat" ]
 							}
  ]
 					}
@@ -371,15 +387,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 10,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 641.0, 177.0, 181.0 ],
+					"patching_rect" : [ 579.0, 641.0, 185.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 7,
-					"presentation_rect" : [ 272.0, 95.0, 277.0, 129.0 ],
-					"text" : "A method to find the borders between objects in an image. These techniques examine how related each pixel is to its neighbors. Pixels that are found to be on a boundary are highlighted.",
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 94.0 ],
+					"text" : "A simple way to remove a color or all colors except one. This method utilizes thresholding of different aspects of color to make the filter customizable.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -1088,7 +1104,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "sobel.png",
+				"name" : "bg_icon.png",
 				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
@@ -1099,6 +1115,10 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
+					"fontface" : [ 1 ],
+					"textjustification" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1109,13 +1129,9 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontface" : [ 1 ],
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"textjustification" : [ 0 ],
-					"fontsize" : [ 14.0 ],
+					"fontname" : [ "Monaco" ],
 					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
-					"fontname" : [ "Monaco" ]
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

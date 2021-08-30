@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 388.0, 128.0, 1024.0, 569.0 ],
+		"rect" : [ 203.0, 116.0, 1024.0, 569.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -411,14 +411,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
-					"linecount" : 20,
+					"linecount" : 18,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 883.0, 521.0, 177.0, 356.0 ],
+					"patching_rect" : [ 883.0, 521.0, 185.0, 321.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 248.0, 419.0, 462.0, 129.0 ],
+					"presentation_rect" : [ 248.0, 419.0, 471.0, 129.0 ],
 					"text" : "To decide on which pixels satisfy the requirements to be an edge, the computer references a threshold parameter that we supply. This parameter specifies how different the pixels being compared need to be in order to be considered an edge. The value is between 0 and the Square Root of 3 (~1.73205), by default it is set to 0.25.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -477,7 +477,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 949.0, 530.0, 168.0, 496.0 ],
+					"patching_rect" : [ 949.0, 530.0, 177.0, 496.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 16,
 					"presentation_rect" : [ 709.0, 280.0, 311.0, 286.0 ],
@@ -540,10 +540,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 911.0, 577.5, 160.0, 269.0 ],
+					"patching_rect" : [ 911.0, 577.5, 168.0, 269.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 8,
-					"presentation_rect" : [ 709.0, 99.0, 311.0, 146.0 ],
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 709.0, 99.0, 319.0, 129.0 ],
 					"text" : "The Sobel method utilizes looks for changes in the intensity gradient of the image. In simpler terms, it looks for places where the brightness changes suddenly. The method was first put forward by Irwin Sobel and Gary Feldman in 1968.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -599,11 +599,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
-					"linecount" : 18,
+					"linecount" : 17,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 933.0, 530.0, 151.0, 321.0 ],
+					"patching_rect" : [ 933.0, 530.0, 160.0, 304.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
 					"presentation_rect" : [ 306.0, 99.0, 403.0, 129.0 ],
@@ -725,7 +725,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -916,8 +916,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 358.0, 97.0, 387.0, 26.0 ],
-					"text" : "jit.world Edgey @size 320 240 @sync 0 @fps 30"
+					"patching_rect" : [ 358.0, 97.0, 487.0, 26.0 ],
+					"text" : "jit.world Edgey @size 320 240 @sync 0 @fps 30 @floating 1"
 				}
 
 			}
@@ -1165,35 +1165,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "edge_detector.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.edge.sobel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.edge.distance.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Video-Source.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_movie.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1206,57 +1206,57 @@
 			}
 , 			{
 				"name" : "video_camera.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_syphon.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "video_ndi.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 				"patcherrelativepath" : "../../../../../common/common/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge-orig.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge-0_01.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge-0_5.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge-0_75.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "edge-1.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1264,16 +1264,15 @@
 				"name" : "jit.gl.syphonclient.mxo",
 				"type" : "iLaX"
 			}
-, 			{
-				"name" : "jit.ndi.receive~.mxo",
-				"type" : "iLaX"
-			}
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontname" : [ "Monaco" ],
+					"fontface" : [ 1 ],
+					"textjustification" : [ 0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1284,11 +1283,8 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textjustification" : [ 0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"fontname" : [ "Monaco" ],
 					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
 				}
 ,
