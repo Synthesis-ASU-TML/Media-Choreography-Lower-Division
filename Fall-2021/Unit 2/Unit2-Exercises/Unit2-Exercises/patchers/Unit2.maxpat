@@ -87,7 +87,7 @@
 						"appicon_mac" : "",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.mc294",
+						"bundleidentifier" : "org.asu.ame.mc294.u1",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
 						"copysupport" : 1,
@@ -172,13 +172,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
-					"text" : "symbol bg_icon.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
+					"text" : "symbol cover_image.png"
 				}
 
 			}
@@ -257,7 +257,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "bg_icon.png",
+					"pic" : "cover_image.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -378,6 +378,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -506,15 +507,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 15,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 688.0, 202.0, 269.0 ],
+					"patching_rect" : [ 579.0, 688.0, 210.0, 164.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 10,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 181.0 ],
-					"text" : "A group of basic techniques for changing the appearance of videos by changing the colors. These techniques include using the HSL colorspace for quick and smooth changes, swapping the traditional color palette for something else, and combining two videos to come up with something new.",
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 111.0 ],
+					"text" : "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -1288,9 +1289,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "bg_icon.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
-				"patcherrelativepath" : "../media",
+				"name" : "cover_image.png",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2",
+				"patcherrelativepath" : "../../..",
 				"type" : "PNG",
 				"implicit" : 1
 			}
