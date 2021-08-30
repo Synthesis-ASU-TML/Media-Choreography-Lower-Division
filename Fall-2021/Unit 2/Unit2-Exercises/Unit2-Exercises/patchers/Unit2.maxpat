@@ -41,6 +41,30 @@
 		"title" : "Media Choreography Unit 1",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 300.0, 624.0, 269.0, 26.0 ],
+					"text" : "presentation_rect 272 95 269 76"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 547.0, 573.0, 51.0, 26.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-49",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -140,7 +164,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 579.0, 568.0, 109.0, 26.0 ],
+					"patching_rect" : [ 579.0, 615.0, 109.0, 26.0 ],
 					"text" : "route symbol"
 				}
 
@@ -148,13 +172,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
-					"text" : "symbol cfilter_icon.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
+					"text" : "symbol bg_icon.png"
 				}
 
 			}
@@ -233,7 +257,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "cfilter_icon.png",
+					"pic" : "bg_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -474,7 +498,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.0, 596.0, 101.0, 26.0 ],
+					"patching_rect" : [ 579.0, 643.0, 101.0, 26.0 ],
 					"text" : "prepend set"
 				}
 
@@ -482,15 +506,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 8,
+					"linecount" : 15,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 641.0, 193.0, 146.0 ],
+					"patching_rect" : [ 579.0, 688.0, 202.0, 269.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 272.0, 95.0, 277.0, 94.0 ],
-					"text" : "A simple way to remove a color or all colors except one. This method utilizes thresholding of different aspects of color to make the filter customizable.",
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 181.0 ],
+					"text" : "A group of basic techniques for changing the appearance of videos by changing the colors. These techniques include using the HSL colorspace for quick and smooth changes, swapping the traditional color palette for something else, and combining two videos to come up with something new.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -498,7 +522,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 5,
+						"count" : 9,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras." ]
@@ -518,6 +542,22 @@
 , 							{
 								"key" : 4,
 								"value" : [ "A simple way to remove a color or all colors except one. This method utilizes thresholding of different aspects of color to make the filter customizable." ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "A group of basic techniques for changing the appearance of videos by changing the colors. These techniques include using the HSL colorspace for quick and smooth changes, swapping the traditional color palette for something else, and combining two videos to come up with something new." ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "A quick way to smoothly change the colors of an image through the use of the HSL colorspace." ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "A method to change how the colors of a video are selected by supplying a new swatch image to pick the order of the colors in the drawing spectrum." ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "A technique that utilizes 2 input videos as its source and swaps the hue from one video for the other." ]
 							}
  ]
 					}
@@ -903,7 +943,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1134,6 +1174,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-41", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -1183,6 +1237,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1227,7 +1288,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cfilter_icon.png",
+				"name" : "bg_icon.png",
 				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
