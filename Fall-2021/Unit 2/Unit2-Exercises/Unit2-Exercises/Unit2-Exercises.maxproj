@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3713171840,
+	"modificationdate" : 3713178701,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -90,12 +90,27 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"hsflow.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"optical_flow.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
 			"sobel.png" : 			{
 				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"BRotation.mov" : 			{
+				"kind" : "moviefile",
 				"local" : 1
 			}
 ,
