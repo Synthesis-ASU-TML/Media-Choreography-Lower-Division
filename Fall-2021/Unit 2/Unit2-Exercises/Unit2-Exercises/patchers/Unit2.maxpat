@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 163.0, 126.0, 896.0, 313.0 ],
+		"rect" : [ 163.0, 126.0, 817.0, 299.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -38,7 +38,102 @@
 		"style" : "Connor",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Media Choreography Unit 1",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 357.0, 154.0, 261.0, 26.0 ],
+					"text" : "window flags grow, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 18.0, 93.0, 26.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "org.asu.ame.mc294",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 0,
+						"copysupport" : 1,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 1,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "MC Unit 1 Preferences",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 0,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 287.0, 203.0, 277.0, 26.0 ],
+					"text" : "window flags nogrow, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 265.0, 148.0, 76.0, 26.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 397.0, 187.0, 345.0, 43.0 ],
+					"text" : "loadmess title \"Media Choreography Unit 1\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 397.0, 246.0, 101.0, 26.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
@@ -53,13 +148,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 5,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
-					"text" : "symbol bg_icon.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
+					"text" : "symbol cfilter_icon.png"
 				}
 
 			}
@@ -105,7 +200,7 @@
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "cover_image.png" ]
+								"value" : [ "opflow_icon.png" ]
 							}
 , 							{
 								"key" : 4,
@@ -138,7 +233,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "bg_icon.png",
+					"pic" : "cfilter_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -306,7 +401,7 @@
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "blank" ]
+								"value" : [ "optical_flow.maxpat" ]
 							}
 , 							{
 								"key" : 4,
@@ -353,7 +448,7 @@
 					"patching_rect" : [ 317.0, 44.0, 376.0, 96.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 5.0, 812.0, 51.0 ],
-					"text" : "Unit 2 Reference & Exercises",
+					"text" : "Unit 1 Reference & Exercises",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -391,10 +486,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 641.0, 185.0, 146.0 ],
+					"patching_rect" : [ 579.0, 641.0, 193.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 5,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 94.0 ],
+					"presentation_rect" : [ 272.0, 95.0, 277.0, 94.0 ],
 					"text" : "A simple way to remove a color or all colors except one. This method utilizes thresholding of different aspects of color to make the filter customizable.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -1018,6 +1113,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
@@ -1039,6 +1148,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
@@ -1048,6 +1164,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
@@ -1104,7 +1227,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "bg_icon.png",
+				"name" : "cfilter_icon.png",
 				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",

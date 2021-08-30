@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 266.0, 79.0, 1035.0, 712.0 ],
+		"rect" : [ 212.0, 86.0, 975.0, 480.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
 		"default_fontface" : 1,
 		"default_fontname" : "Monaco",
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -38,7 +38,283 @@
 		"style" : "Connor",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Optical Flow Explained",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 553.0, 42.0, 261.0, 26.0 ],
+					"text" : "window flags grow, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 642.0, 44.0, 277.0, 26.0 ],
+					"text" : "window flags nogrow, window exec"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 643.0, 1.0, 76.0, 26.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-56",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 9.1982421875, 393.25, 26.8017578125, 30.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.1982421875, 392.75, 26.8017578125, 30.5 ],
+					"rounded" : 100.0,
+					"text" : "3",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-55",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7.1982421875, 124.25, 26.8017578125, 30.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.1982421875, 124.25, 26.8017578125, 30.5 ],
+					"rounded" : 100.0,
+					"text" : "2",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.880169, 0.755396, 0.471904, 1.0 ],
+					"fontlink" : 1,
+					"fontsize" : 18.0,
+					"id" : "obj-54",
+					"ignoreclick" : 1,
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 127.0, 589.0, 26.8017578125, 30.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 9.1982421875, 10.25, 26.8017578125, 30.5 ],
+					"rounded" : 100.0,
+					"text" : "1",
+					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "strength",
+					"id" : "obj-11",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 580.0, 334.0, 186.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 781.0, 315.0, 186.0, 26.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"linecount" : 36,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1349.0, 275.0, 151.0, 636.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 7,
+					"presentation_rect" : [ 317.0, 345.0, 655.0, 129.0 ],
+					"text" : "The Motion Strength is a multiplier value for the output movement estimation values. It allows you to control how strong the output motion values are. In the case of this demo we are multiplying the output values by 5 to make them more obvious in the output windows. In other cases where you may connect the Optical flow module to a more sensitive effect, setting the strength to less than 1 may give a more rich appearance. Setting the strength to a negative value will cause the output motion to reverse directions. ",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.125771552324295, 0.566736698150635, 0.55782812833786, 1.0 ],
+					"id" : "obj-50",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1281.0, 342.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 345.0, 655.0, 129.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 20.0,
+					"id" : "obj-51",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1349.0, 342.0, 213.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 312.0, 528.0, 31.0 ],
+					"text" : "Motion Strength",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1281.0, 296.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 312.0, 655.0, 31.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"linecount" : 62,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1174.0, 185.0, 150.0, 1091.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 14,
+					"presentation_rect" : [ 317.0, 52.0, 655.0, 251.0 ],
+					"text" : "Optical Flow is the estimation of how objects and pixels in a video are \"moving\". In the context of this technique, we define motion as being pixels that have changed value between consecutive frames of video. Looking at the output window you can see what portions of the image that the algorithm classifies as being in motion. You may also notice that these \"moving\" regions are all along the edges of objects. The outlinging effect comes from regions of solid color not having significant change of value in the middle of a region, but instead haing noticeable differences on the borders with other regions.\n\nAs a technique, Optical Flow is most often used when you want to use the motion in a video to imapct the final result of your video processing. Applications include fluid models, displacement effects, vector fields, or particle effects.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.125771552324295, 0.566736698150635, 0.55782812833786, 1.0 ],
+					"id" : "obj-46",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1294.0, 306.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 52.0, 655.0, 257.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 30.0,
+					"id" : "obj-45",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 988.0, 16.5, 257.0, 81.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 6.0, 655.0, 44.0 ],
+					"text" : "What is Optical Flow?",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1451.0, 275.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 317.0, 6.0, 655.0, 44.0 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 463.0, 242.0, 93.0, 26.0 ],
+					"text" : "jit.window"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-41",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 723.0, 56.0, 252.0, 43.0 ],
+					"text" : "loadmess title \"Optical Flow Explained\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 728.0, 117.0, 101.0, 26.0 ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+					"text" : "thispatcher"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -1174,6 +1450,7 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "@strength", 5.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -1189,7 +1466,7 @@
 					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 35.0, 382.0, 201.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 38.0, 335.0, 201.0, 72.0 ],
+					"presentation_rect" : [ 38.0, 335.0, 201.0, 61.0 ],
 					"varname" : "hsflow",
 					"viewvisibility" : 1
 				}
@@ -1212,8 +1489,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.0, 125.0, 101.0, 26.0 ],
-					"text" : "floating $1"
+					"patching_rect" : [ 403.0, 125.0, 143.0, 26.0 ],
+					"text" : "sendwindow front"
 				}
 
 			}
@@ -1222,15 +1499,14 @@
 					"bgoncolor" : [ 0.159265547990799, 0.601287126541138, 0.59689337015152, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "textbutton",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 410.0, 87.0, 100.0, 20.0 ],
+					"patching_rect" : [ 403.0, 56.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 410.0, 87.0, 100.0, 20.0 ],
-					"text" : "Show Output Window",
+					"presentation_rect" : [ 38.0, 398.0, 277.0, 20.0 ],
+					"text" : "Bring Output Window to Front",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Hide Output Window",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -1273,21 +1549,6 @@
 					"presentation_rect" : [ 38.0, 47.0, 277.0, 286.0 ],
 					"varname" : "Video-Source",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"attr" : "strength",
-					"id" : "obj-11",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 580.0, 334.0, 186.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 580.0, 334.0, 186.0, 26.0 ]
 				}
 
 			}
@@ -1466,8 +1727,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-61", 0 ]
 				}
 
 			}
