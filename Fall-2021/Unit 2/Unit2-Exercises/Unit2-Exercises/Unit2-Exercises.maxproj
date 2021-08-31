@@ -2,8 +2,8 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3713252776,
-	"viewrect" : [ 191.0, 123.0, 300.0, 500.0 ],
+	"modificationdate" : 3713267458,
+	"viewrect" : [ 129.0, 123.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -102,6 +102,11 @@
 			}
 ,
 			"recolor.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Recoloring.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
