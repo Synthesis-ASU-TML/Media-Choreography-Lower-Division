@@ -2,8 +2,8 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3713183812,
-	"viewrect" : [ 43.0, 129.0, 300.0, 500.0 ],
+	"modificationdate" : 3713252776,
+	"viewrect" : [ 191.0, 123.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -100,10 +100,90 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"recolor.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"cygnus.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"desertwaves.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"eagle.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"faces.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"floatingcities.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"jupiter.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"marocmor.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"mars.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"NGC15.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"pinktrees.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"psychedlic.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"steppes.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"sunsethay.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"trippy2.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"trippycat.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"sobel.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
