@@ -225,8 +225,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
-					"text" : "symbol appicon.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
+					"text" : "symbol recolor-icon.png"
 				}
 
 			}
@@ -257,7 +257,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 6,
+						"count" : 7,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "appicon.png" ]
@@ -281,6 +281,10 @@
 , 							{
 								"key" : 5,
 								"value" : [ "appicon.png" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "recolor-icon.png" ]
 							}
  ]
 					}
@@ -430,7 +434,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -463,7 +466,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 5,
+						"count" : 7,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -483,6 +486,14 @@
 , 							{
 								"key" : 4,
 								"value" : [ "color_filter.maxpat" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "none" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "Recoloring.maxpat" ]
 							}
  ]
 					}
@@ -565,9 +576,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 579.0, 688.0, 227.0, 146.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 111.0 ],
-					"text" : "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras.",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 59.0 ],
+					"text" : "A quick way to smoothly change the colors of an image through the use of the HSL colorspace.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
