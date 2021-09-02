@@ -132,7 +132,7 @@
 					"patching_rect" : [ 200.0, 18.0, 93.0, 26.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media/appicon.icns",
+						"appicon_mac" : "appicon.icns",
 						"appicon_win" : "appicon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.mc294.u1",
@@ -225,8 +225,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
-					"text" : "symbol recolor-icon.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
+					"text" : "symbol appicon.png"
 				}
 
 			}
@@ -434,6 +434,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -570,15 +571,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 8,
+					"linecount" : 24,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 688.0, 227.0, 146.0 ],
+					"patching_rect" : [ 579.0, 688.0, 133.0, 426.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 59.0 ],
-					"text" : "A quick way to smoothly change the colors of an image through the use of the HSL colorspace.",
+					"presentation_linecount" : 10,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 181.0 ],
+					"text" : "A group of basic techniques for changing the appearance of videos by changing the colors. These techniques include using the HSL colorspace for quick and smooth changes, swapping the traditional color palette for something else, and combining two videos to come up with something new.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -612,11 +613,11 @@
 								"value" : [ "A group of basic techniques for changing the appearance of videos by changing the colors. These techniques include using the HSL colorspace for quick and smooth changes, swapping the traditional color palette for something else, and combining two videos to come up with something new." ]
 							}
 , 							{
-								"key" : 6,
+								"key" : 7,
 								"value" : [ "A quick way to smoothly change the colors of an image through the use of the HSL colorspace." ]
 							}
 , 							{
-								"key" : 7,
+								"key" : 6,
 								"value" : [ "A method to change how the colors of a video are selected by supplying a new swatch image to pick the order of the colors in the drawing spectrum." ]
 							}
 , 							{
