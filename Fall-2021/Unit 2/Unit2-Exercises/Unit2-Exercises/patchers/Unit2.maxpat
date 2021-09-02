@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 163.0, 126.0, 817.0, 299.0 ],
+		"rect" : [ 473.0, 141.0, 817.0, 299.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -40,6 +40,54 @@
 		"assistshowspatchername" : 0,
 		"title" : "Media Choreography Unit 1",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 432.0, -51.0, 76.0, 26.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 432.0, -16.0, 202.0, 26.0 ],
+					"text" : "appicon_win appicon.ico"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 200.0, -51.0, 76.0, 26.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 200.0, -16.0, 210.0, 26.0 ],
+					"text" : "appicon_mac appicon.icns"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "message",
@@ -84,13 +132,13 @@
 					"patching_rect" : [ 200.0, 18.0, 93.0, 26.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "",
-						"appicon_win" : "",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media/appicon.icns",
+						"appicon_win" : "appicon.ico",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.mc294.u1",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -99,7 +147,7 @@
 						"overdrive" : 0,
 						"preffilename" : "MC Unit 1 Preferences",
 						"searchformissingfiles" : 1,
-						"statusvisible" : 0,
+						"statusvisible" : 1,
 						"usesearchpath" : 0
 					}
 ,
@@ -172,13 +220,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
-					"text" : "symbol cover_image.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
+					"text" : "symbol appicon.png"
 				}
 
 			}
@@ -209,10 +257,10 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 5,
+						"count" : 6,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "cover_image.png" ]
+								"value" : [ "appicon.png" ]
 							}
 , 							{
 								"key" : 1,
@@ -229,6 +277,10 @@
 , 							{
 								"key" : 4,
 								"value" : [ "cfilter_icon.png" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "appicon.png" ]
 							}
  ]
 					}
@@ -257,7 +309,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "cover_image.png",
+					"pic" : "appicon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -507,11 +559,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 9,
+					"linecount" : 8,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 688.0, 210.0, 164.0 ],
+					"patching_rect" : [ 579.0, 688.0, 227.0, 146.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 272.0, 95.0, 269.0, 111.0 ],
@@ -1245,6 +1297,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-46", 0 ],
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1289,9 +1369,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cover_image.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2",
-				"patcherrelativepath" : "../../..",
+				"name" : "appicon.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1300,10 +1380,7 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"textjustification" : [ 0 ],
-					"fontsize" : [ 14.0 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1314,8 +1391,11 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Monaco" ],
+					"textjustification" : [ 0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
 					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 14.0 ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
 				}
 ,
