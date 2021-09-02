@@ -178,7 +178,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 407.0, 816.0, 50.0, 113.0 ],
-					"text" : "symbol cover_image.png"
+					"text" : "symbol recolor-icon.png"
 				}
 
 			}
@@ -209,7 +209,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 5,
+						"count" : 7,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "cover_image.png" ]
@@ -229,6 +229,14 @@
 , 							{
 								"key" : 4,
 								"value" : [ "cfilter_icon.png" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "cover_image.png" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "recolor-icon.png" ]
 							}
  ]
 					}
@@ -257,7 +265,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "cover_image.png",
+					"pic" : "recolor-icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -378,7 +386,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -411,7 +418,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 5,
+						"count" : 7,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -431,6 +438,14 @@
 , 							{
 								"key" : 4,
 								"value" : [ "color_filter.maxpat" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "none" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "Recoloring.maxpat" ]
 							}
  ]
 					}
@@ -507,15 +522,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 9,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 688.0, 210.0, 164.0 ],
+					"patching_rect" : [ 579.0, 688.0, 219.0, 76.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 111.0 ],
-					"text" : "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras.",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 59.0 ],
+					"text" : "A quick way to smoothly change the colors of an image through the use of the HSL colorspace.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -1289,9 +1304,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cover_image.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2",
-				"patcherrelativepath" : "../../..",
+				"name" : "recolor-icon.png",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}

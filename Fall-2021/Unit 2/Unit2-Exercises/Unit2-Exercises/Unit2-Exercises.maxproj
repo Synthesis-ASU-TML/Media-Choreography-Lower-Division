@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3713267458,
+	"modificationdate" : 3713362857,
 	"viewrect" : [ 129.0, 123.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -114,7 +114,17 @@
 		}
 ,
 		"media" : 		{
+			"recolor-icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"cygnus.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"swatch.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}

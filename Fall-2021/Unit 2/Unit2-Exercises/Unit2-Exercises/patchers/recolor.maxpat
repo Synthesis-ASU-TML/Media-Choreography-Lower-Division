@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 110.0, 116.0, 640.0, 480.0 ],
+		"rect" : [ 337.0, 291.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 14.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-26",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 220.0, 392.5, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,7 +71,7 @@
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 455.0, 196.5, 206.0, 38.0 ],
-					"text" : "sunsethay.png",
+					"text" : "psychedlic.png",
 					"varname" : "textedit"
 				}
 
@@ -133,7 +145,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 563.00537109375, 351.0, 150.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 271.5, 197.0, 24.0 ],
+					"presentation_rect" : [ 2.0, 249.0, 197.0, 24.0 ],
 					"text" : "Pre-Made Palettes",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -189,7 +201,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 311.0, 474.5, 97.0, 26.0 ],
+					"patching_rect" : [ 311.0, 491.5, 97.0, 26.0 ],
 					"text" : "jit.matrix"
 				}
 
@@ -204,7 +216,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 728.0, 286.5, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 323.5, 197.0, 26.0 ],
+					"presentation_rect" : [ 2.0, 301.0, 197.0, 26.0 ],
 					"text" : "Load A Palette",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.494, 0.024, 0.024, 1.0 ],
@@ -1356,7 +1368,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 588.00537109375, 259.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 350.5, 197.0, 26.0 ],
+					"presentation_rect" : [ 2.0, 328.0, 197.0, 26.0 ],
 					"text" : "Create A Palette",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textovercolor" : [ 0.494, 0.024, 0.024, 1.0 ],
@@ -1387,7 +1399,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 558.0, 398.5, 117.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 295.5, 197.0, 26.0 ]
+					"presentation_rect" : [ 2.0, 273.0, 197.0, 26.0 ]
 				}
 
 			}
@@ -1431,7 +1443,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1455,7 +1467,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1468,11 +1480,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 36.0, 11.0, 30.0, 30.0 ]
 				}
 
@@ -1489,12 +1501,12 @@
 					"maxclass" : "bpatcher",
 					"name" : "sc.recolor.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 1,
+					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "jit_gl_texture" ],
+					"outlettype" : [ "jit_gl_texture", "jit_gl_texture" ],
 					"patching_rect" : [ 36.0, 86.0, 203.0, 271.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 197.0, 271.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 197.0, 250.0 ],
 					"varname" : "sc.recolor",
 					"viewvisibility" : 1
 				}
@@ -1508,13 +1520,20 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 728.0, 74.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 271.5, 197.0, 24.0 ],
+					"presentation_rect" : [ 2.0, 249.0, 197.0, 24.0 ],
 					"rounded" : 0
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-1", 0 ]
@@ -1609,7 +1628,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1676,6 +1704,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1703,15 +1738,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "sc.recolor.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
