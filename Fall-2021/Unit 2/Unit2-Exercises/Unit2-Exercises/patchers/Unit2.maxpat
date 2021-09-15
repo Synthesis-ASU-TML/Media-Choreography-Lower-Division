@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,67 @@
 		"assistshowspatchername" : 0,
 		"title" : "Media Choreography Unit 1",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 579.0, 421.0, 29.5, 26.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 579.0, 457.0, 277.0, 43.0 ],
+					"text" : "sprintf cell 0 %ld brgb 255 255 255"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 319.0, 457.0, 252.0, 26.0 ],
+					"text" : "sprintf cell 0 %ld frgb 0 0 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 319.0, 421.0, 29.5, 26.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 313.0, 316.0, 34.0, 26.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-55",
 					"maxclass" : "newobj",
@@ -571,15 +632,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 24,
+					"linecount" : 11,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 688.0, 133.0, 426.0 ],
+					"patching_rect" : [ 579.0, 688.0, 151.0, 199.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 10,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 181.0 ],
-					"text" : "A group of basic techniques for changing the appearance of videos by changing the colors. These techniques include using the HSL colorspace for quick and smooth changes, swapping the traditional color palette for something else, and combining two videos to come up with something new.",
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 111.0 ],
+					"text" : "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -813,7 +874,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 20,
+						"count" : 21,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "Computer Vision Techniques", "bold" ]
@@ -848,50 +909,54 @@
 							}
 , 							{
 								"key" : 8,
-								"value" : [ "Channel Swapping", "normal" ]
+								"value" : [ "BRCOSA", "normal" ]
 							}
 , 							{
 								"key" : 9,
-								"value" : [ "Image Structure Manipulation", "bold" ]
+								"value" : [ "Channel Swapping", "normal" ]
 							}
 , 							{
 								"key" : 10,
-								"value" : [ "Translation", "normal" ]
+								"value" : [ "Image Structure Manipulation", "bold" ]
 							}
 , 							{
 								"key" : 11,
-								"value" : [ "Pixel Displacement", "normal" ]
+								"value" : [ "Translation", "normal" ]
 							}
 , 							{
 								"key" : 12,
-								"value" : [ "Mirroring", "normal" ]
+								"value" : [ "Pixel Displacement", "normal" ]
 							}
 , 							{
 								"key" : 13,
-								"value" : [ "Remapping", "normal" ]
+								"value" : [ "Mirroring", "normal" ]
 							}
 , 							{
 								"key" : 14,
-								"value" : [ "Alpha Blending", "normal" ]
+								"value" : [ "Remapping", "normal" ]
 							}
 , 							{
 								"key" : 15,
-								"value" : [ "End Effects", "bold" ]
+								"value" : [ "Alpha Blending", "normal" ]
 							}
 , 							{
 								"key" : 16,
-								"value" : [ "Contours", "normal" ]
+								"value" : [ "End Effects", "bold" ]
 							}
 , 							{
 								"key" : 17,
-								"value" : [ "Vector Fields", "normal" ]
+								"value" : [ "Contours", "normal" ]
 							}
 , 							{
 								"key" : 18,
-								"value" : [ "Particle Systems", "normal" ]
+								"value" : [ "Vector Fields", "normal" ]
 							}
 , 							{
 								"key" : 19,
+								"value" : [ "Particle Systems", "normal" ]
+							}
+, 							{
+								"key" : 20,
 								"value" : [ "Exercises", "bold" ]
 							}
  ]
@@ -914,7 +979,7 @@
 			}
 , 			{
 				"box" : 				{
-					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 15, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 19, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ] ],
+					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 10, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 11, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 12, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 13, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 14, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 15, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 16, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ], [ 0, 17, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 18, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 19, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 20, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0, -1, -1, -1 ] ],
 					"cols" : 1,
 					"colwidth" : 250,
 					"fontface" : 1,
@@ -1023,7 +1088,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 1 ],
-					"order" : 2,
+					"order" : 4,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1031,7 +1096,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
-					"order" : 1,
+					"order" : 3,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -1039,6 +1104,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-28", 1 ],
+					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 1 ],
+					"order" : 2,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 1 ],
 					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
@@ -1148,6 +1229,13 @@
 					"destination" : [ "obj-28", 0 ],
 					"order" : 0,
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-29", 1 ]
 				}
 
 			}
@@ -1281,6 +1369,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"order" : 1,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"order" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
@@ -1337,8 +1441,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -1382,7 +1514,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "appicon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
@@ -1392,7 +1524,6 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1403,12 +1534,13 @@
 						"autogradient" : 0.0
 					}
 ,
-					"textjustification" : [ 0 ],
-					"fontface" : [ 1 ],
+					"fontname" : [ "Monaco" ],
 					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
+					"fontface" : [ 1 ],
+					"textjustification" : [ 0 ],
 					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ]
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

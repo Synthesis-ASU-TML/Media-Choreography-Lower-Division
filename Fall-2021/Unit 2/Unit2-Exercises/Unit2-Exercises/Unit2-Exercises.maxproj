@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3713362857,
+	"modificationdate" : 3714568598,
 	"viewrect" : [ 129.0, 123.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -20,7 +20,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 					"projectrelativepath" : "../../../../common/common/patchers"
 				}
 
@@ -30,7 +30,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 					"projectrelativepath" : "../../../../common/common/patchers"
 				}
 
@@ -40,7 +40,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 					"projectrelativepath" : "../../../../common/common/patchers"
 				}
 
@@ -50,7 +50,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 					"projectrelativepath" : "../../../../common/common/patchers"
 				}
 
@@ -60,7 +60,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/common/common/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/common/common/patchers",
 					"projectrelativepath" : "../../../../common/common/patchers"
 				}
 
@@ -110,11 +110,66 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"brcosa.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"BRCOSA_Ex.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
+			"appicon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"brcosa_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"edge-orig.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"edge-0_01.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"edge-0_5.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"edge-0_75.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"edge-1.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"RGB_color_solid_cube.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"hsv-cylinder.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"swatch.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -125,11 +180,6 @@
 			}
 ,
 			"cygnus.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"swatch.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -209,41 +259,6 @@
 				"local" : 1
 			}
 ,
-			"edge-0_01.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"edge-0_5.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"edge-0_75.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"edge-1.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"RGB_color_solid_cube.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"hsv-cylinder.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"sobel.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"BRotation.mov" : 			{
 				"kind" : "moviefile",
 				"local" : 1
@@ -268,7 +283,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall-2021/Unit 2",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2",
 					"projectrelativepath" : "../.."
 				}
 
@@ -293,15 +308,14 @@
 				"kind" : "moviefile",
 				"local" : 1
 			}
-,
-			"appicon.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
 
 		}
 ,
 		"code" : 		{
+			"brcosa.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1
+			}
 
 		}
 ,
