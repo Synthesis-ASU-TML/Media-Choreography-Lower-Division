@@ -281,13 +281,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-13",
-					"linecount" : 5,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 816.0, 50.0, 96.0 ],
-					"text" : "symbol appicon.png"
+					"patching_rect" : [ 407.0, 816.0, 50.0, 131.0 ],
+					"text" : "symbol hueshift_icon.png"
 				}
 
 			}
@@ -318,7 +318,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 7,
+						"count" : 9,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "appicon.png" ]
@@ -347,6 +347,14 @@
 								"key" : 6,
 								"value" : [ "recolor-icon.png" ]
 							}
+, 							{
+								"key" : 7,
+								"value" : [ "hueshift_icon.png" ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "brcosa_icon.png" ]
+							}
  ]
 					}
 ,
@@ -374,7 +382,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 300.0, 916.0, 138.0, 125.0 ],
-					"pic" : "appicon.png",
+					"pic" : "hueshift_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 562.0, 78.0, 237.0, 201.0 ]
 				}
@@ -495,7 +503,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "textbutton",
@@ -528,7 +535,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 7,
+						"count" : 9,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -556,6 +563,14 @@
 , 							{
 								"key" : 6,
 								"value" : [ "Recoloring.maxpat" ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "hue-shift-ex.maxpat" ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "BRCOSA_Ex.maxpat" ]
 							}
  ]
 					}
@@ -632,15 +647,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-14",
-					"linecount" : 11,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 688.0, 151.0, 199.0 ],
+					"patching_rect" : [ 579.0, 688.0, 160.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 272.0, 95.0, 269.0, 111.0 ],
-					"text" : "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras.",
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 272.0, 95.0, 269.0, 59.0 ],
+					"text" : "A quick way to smoothly change the colors of an image through the use of the HSL colorspace.",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
 
@@ -648,7 +663,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 9,
+						"count" : 10,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "A group of basic techniques for computer vision applications. These methods of modifying and analyzing images give the computer knowledge about the world seen through cameras." ]
@@ -683,6 +698,10 @@
 							}
 , 							{
 								"key" : 8,
+								"value" : [ "A method of quickly making changes to the Brightness / Contrast / Saturation of a video." ]
+							}
+, 							{
+								"key" : 9,
 								"value" : [ "A technique that utilizes 2 input videos as its source and swaps the hue from one video for the other." ]
 							}
  ]
@@ -1513,7 +1532,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "appicon.png",
+				"name" : "hueshift_icon.png",
 				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall-2021/Unit 2/Unit2-Exercises/Unit2-Exercises/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",

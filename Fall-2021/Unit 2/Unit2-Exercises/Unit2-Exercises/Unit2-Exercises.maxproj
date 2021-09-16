@@ -2,7 +2,7 @@
 	"name" : "Unit2-Exercises",
 	"version" : 1,
 	"creationdate" : 3711697668,
-	"modificationdate" : 3714568598,
+	"modificationdate" : 3714648091,
 	"viewrect" : [ 129.0, 123.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -120,6 +120,16 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"hueshift.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"hue-shift-ex.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -210,6 +220,11 @@
 			}
 ,
 			"marocmor.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"hueshift_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
