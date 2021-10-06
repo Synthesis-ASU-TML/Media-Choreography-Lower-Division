@@ -2,8 +2,8 @@
 	"name" : "Unit-1-Apps",
 	"version" : 1,
 	"creationdate" : 3716281887,
-	"modificationdate" : 3716286151,
-	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
+	"modificationdate" : 3716293376,
+	"viewrect" : [ 74.0, 87.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -101,6 +101,11 @@
 			}
 ,
 			"ndi-output.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ndi-input.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
