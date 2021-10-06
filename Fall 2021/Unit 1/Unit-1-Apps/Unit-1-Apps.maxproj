@@ -2,8 +2,8 @@
 	"name" : "Unit-1-Apps",
 	"version" : 1,
 	"creationdate" : 3716281887,
-	"modificationdate" : 3716293376,
-	"viewrect" : [ 74.0, 87.0, 300.0, 500.0 ],
+	"modificationdate" : 3716299923,
+	"viewrect" : [ 97.0, 159.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -28,6 +28,16 @@
 					"projectrelativepath" : "../Application Projects/Live Input Versions/Cell Noise/patchers"
 				}
 
+			}
+,
+			"ndi-input.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ndi-output-cellnoise.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"ndi-output-bleep.maxpat" : 			{
@@ -58,11 +68,6 @@
 					"projectrelativepath" : "../Application Projects/Live Input Versions/Bleep Sequencer/patchers"
 				}
 
-			}
-,
-			"ndi-output-cellnoise.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"Contours.maxpat" : 			{
@@ -104,23 +109,13 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-,
-			"ndi-input.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
 
 		}
 ,
 		"media" : 		{
-			"bleep_icon.png" : 			{
+			"appicon.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Bleep Sequencer/media",
-					"projectrelativepath" : "../Application Projects/Bleep Sequencer/media"
-				}
-
+				"local" : 1
 			}
 ,
 			"cell_noise_icon.png" : 			{
@@ -143,22 +138,32 @@
 
 			}
 ,
-			"droney_icon.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Droney/media",
-					"projectrelativepath" : "../Application Projects/Live Input Versions/Droney/media"
-				}
-
-			}
-,
 			"hue_match_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Hue Shadow/media",
 					"projectrelativepath" : "../Application Projects/Live Input Versions/Hue Shadow/media"
+				}
+
+			}
+,
+			"bleep_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Bleep Sequencer/media",
+					"projectrelativepath" : "../Application Projects/Bleep Sequencer/media"
+				}
+
+			}
+,
+			"droney_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Droney/media",
+					"projectrelativepath" : "../Application Projects/Live Input Versions/Droney/media"
 				}
 
 			}
@@ -206,6 +211,10 @@
 		}
 ,
 		"other" : 		{
+			"appicon.icns" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 
