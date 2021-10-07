@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 210.0, 155.0, 480.0, 202.0 ],
+		"rect" : [ 544.0, 216.0, 480.0, 202.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,27 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Unit 2 Instruments",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 309.0, 686.0, 77.0, 22.0 ],
+					"text" : "route symbol"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 700.0, 49.0, 22.0 ],
+					"patching_rect" : [ 309.0, 712.0, 49.0, 22.0 ],
 					"text" : "read $1"
 				}
 
@@ -56,7 +69,7 @@
 						"count" : 10,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "appicon.png" ]
+								"value" : [ "folder_image.png" ]
 							}
 , 							{
 								"key" : 1,
@@ -68,7 +81,7 @@
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "none" ]
+								"value" : [ "folder_image.png" ]
 							}
 , 							{
 								"key" : 4,
@@ -84,7 +97,7 @@
 							}
 , 							{
 								"key" : 7,
-								"value" : [ "none" ]
+								"value" : [ "folder_image.png" ]
 							}
 , 							{
 								"key" : 8,
@@ -122,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 309.0, 744.0, 100.0, 100.0 ],
-					"pic" : "motion_particles_icon.png",
+					"pic" : "hue_shift_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 1.0, 199.0, 199.0 ]
 				}
@@ -137,13 +150,13 @@
 					"patching_rect" : [ 239.0, 113.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Macintosh HD:/Users/synthesis/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/other/appicon.icns",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Built Test Applications/AppIcons/unit2icon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.mcunit2",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -153,7 +166,7 @@
 						"preffilename" : "MC Unit 2 Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
-						"usesearchpath" : 0
+						"usesearchpath" : 1
 					}
 ,
 					"text" : "standalone"
@@ -743,6 +756,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
@@ -941,7 +961,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -1097,9 +1117,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "motion_particles_icon.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Motion Particles Live/media",
-				"patcherrelativepath" : "../../Application Projects/Motion Particles Live/media",
+				"name" : "hue_shift_icon.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/media",
+				"patcherrelativepath" : "../../Application Projects/Hue Shifter/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1108,6 +1128,12 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
+					"fontface" : [ 1 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"textjustification" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1118,13 +1144,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Monaco" ],
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"fontface" : [ 1 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"textjustification" : [ 0 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
-					"fontsize" : [ 14.0 ]
+					"fontname" : [ "Monaco" ]
 				}
 ,
 				"parentstyle" : "",
