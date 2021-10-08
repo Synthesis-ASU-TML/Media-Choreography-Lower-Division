@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 481.0, 112.0, 1104.0, 526.0 ],
+		"rect" : [ 302.0, 112.0, 1104.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,169 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Simple Soundscape 3",
+		"title" : "Simple Soundscape",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-352",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 514.0, 764.0, 205.0, 22.0 ],
+					"text" : "sprintf title \"Simple Soundscape: %s\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-351",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 514.0, 740.0, 77.0, 22.0 ],
+					"text" : "route symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-337",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 514.0, 690.0, 59.0, 22.0 ],
+					"text" : "random 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"coll_data" : 					{
+						"count" : 6,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ "Ragnarok" ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ "I Choose You" ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "Revenge of the Loud Noises" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "A Space Odyssey" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "Put Some Windex On It" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "Reloaded" ]
+							}
+ ]
+					}
+,
+					"id" : "obj-336",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 514.0, 716.0, 112.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"precision" : 6
+					}
+,
+					"text" : "coll silly @embed 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-335",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 498.0, 19.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 487.5, 15.609375, 150.0, 20.0 ],
+					"text" : "Mic Input Channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-333",
+					"items" : [ 1, 2, ",", 3, 4, ",", 5, 6, ",", 7, 8, ",", 9, 10, ",", 11, 12, ",", 13, 14, ",", 15, 16 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1283.0, 386.5, 57.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 429.5, 14.609375, 57.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-331",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 285.0, 465.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 275.5, 462.0, 150.0, 20.0 ],
+					"text" : "Audio Output Channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-329",
+					"items" : [ 1, 2, ",", 3, 4, ",", 5, 6, ",", 7, 8, ",", 9, 10, ",", 11, 12, ",", 13, 14, ",", 15, 16 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 51.0, 827.0, 57.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.99462890625, 461.0, 57.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-321",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.499999999999972, 872.0, 74.0, 22.0 ],
+					"text" : "mc.dac~ 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 141.0, 872.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-347",
 					"maxclass" : "newobj",
@@ -51,7 +212,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -245,7 +406,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -439,7 +600,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -633,7 +794,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -938,7 +1099,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 514.0, 697.0, 64.0, 22.0 ],
+					"patching_rect" : [ 514.0, 661.0, 64.0, 22.0 ],
 					"text" : "sel 99 120"
 				}
 
@@ -950,20 +1111,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 514.0, 662.0, 50.5, 22.0 ],
+					"patching_rect" : [ 514.0, 626.0, 50.5, 22.0 ],
 					"text" : "key"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-277",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.0, 742.0, 204.0, 22.0 ],
-					"text" : "title \"Simple Soundscape: Ragnarok\""
 				}
 
 			}
@@ -974,7 +1123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 514.0, 801.0, 67.0, 22.0 ],
+					"patching_rect" : [ 514.0, 821.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -987,8 +1136,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 514.0, 773.0, 226.0, 22.0 ],
-					"text" : "loadmess title \"Simple Soundscape Live\""
+					"patching_rect" : [ 514.0, 793.0, 200.0, 22.0 ],
+					"text" : "loadmess title \"Simple Soundscape\""
 				}
 
 			}
@@ -1369,7 +1518,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1260.5, 490.333333333333314, 164.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.5, 447.5, 164.0, 53.0 ],
+					"presentation_rect" : [ 263.5, 5.5, 164.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -1878,7 +2027,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3109,7 +3258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1779.0, 615.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://192.168.0.16:8086"
+					"text" : "Mira controls available at: http://10.153.31.158:8086"
 				}
 
 			}
@@ -3151,7 +3300,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3525,7 +3674,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6158,7 +6307,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6629,7 +6778,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7014,7 +7163,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7399,7 +7548,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7784,7 +7933,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8186,7 +8335,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8571,7 +8720,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8956,7 +9105,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9341,7 +9490,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9743,7 +9892,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10235,7 +10384,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10620,7 +10769,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11005,7 +11154,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11456,7 +11605,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11869,7 +12018,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13263,7 +13412,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13462,20 +13611,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-60",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 614.0, 549.0, 150.0, 33.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 472.5, 459.0, 236.0, 20.0 ],
-					"text" : "Revised 7/27/2020 CRawls"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontface" : 1,
 					"fontsize" : 18.0,
 					"id" : "obj-47",
@@ -13543,38 +13678,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1420.0, 40.0, 110.0, 22.0 ],
 					"text" : "loadmess \"No File\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 614.0, 612.0, 67.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Soundscape/other/soundscape_icon.icns",
-						"appicon_win" : "",
-						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.synthesis.simplesoundscape3",
-						"cantclosetoplevelpatchers" : 1,
-						"cefsupport" : 0,
-						"copysupport" : 0,
-						"database" : 0,
-						"extensions" : 1,
-						"gensupport" : 1,
-						"midisupport" : 1,
-						"noloadbangdefeating" : 0,
-						"overdrive" : 0,
-						"preffilename" : "Simple Soundscape Live Preferences",
-						"searchformissingfiles" : 1,
-						"statusvisible" : 0,
-						"usesearchpath" : 0
-					}
-,
-					"text" : "standalone"
 				}
 
 			}
@@ -13849,9 +13952,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1009.0, 513.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 472.5, 424.0, 236.0, 33.0 ],
-					"text" : "Connor Rawls, Synthesis, AME, ASU, June 2020"
+					"presentation_rect" : [ 472.5, 444.0, 236.0, 20.0 ],
+					"text" : "Connor Rawls, AME, ASU, June 2020"
 				}
 
 			}
@@ -13865,7 +13967,7 @@
 					"patching_rect" : [ 831.0, 513.0, 187.0, 449.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 27,
-					"presentation_rect" : [ 472.5, 55.5, 236.0, 368.0 ],
+					"presentation_rect" : [ 472.5, 75.5, 236.0, 368.0 ],
 					"text" : "The \"Simple Soundscape\" application provides controls for manipulating up to 4 different audio tracks to create a sonic \"atmosphere\". The controls available are gain, playback rate, and pitch shift amount. The goal of the application exercise is to explore what can be achieved without the use of direct filter controls (frequency, q-value, etc).\n\nThe first available parameter is the gain. Gain controls the universal loudness of a given track, your basic volume control.\n\nThe second available parameter is the playback rate. Here you can choose to have a track playing forwards or backwards anywhere between -2x speed and 2x.\n\nThe third available parameter is the pitch shift. This parameter moves the frequency of the sample up or down by a certain amount. Here, we have labeled the shift amount according to musical notation, giving you the option to shift by up to 2 octaves in either direction."
 				}
 
@@ -13880,7 +13982,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 831.0, 484.0, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 472.5, 28.0, 236.0, 27.0 ],
+					"presentation_rect" : [ 472.5, 50.5, 236.0, 27.0 ],
 					"text" : "Simple Soundscape"
 				}
 
@@ -14071,7 +14173,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15893,14 +15995,14 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.499999999999972, 815.0, 45.0, 45.0 ]
+					"patching_rect" : [ 24.999999999999972, 904.0, 45.0, 45.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-321", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -17148,13 +17250,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-316", 0 ],
-					"source" : [ "obj-277", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-279", 0 ],
 					"source" : [ "obj-278", 1 ]
 				}
@@ -17526,15 +17621,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-277", 0 ],
-					"source" : [ "obj-318", 0 ]
+					"destination" : [ "obj-315", 0 ],
+					"source" : [ "obj-318", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-315", 0 ],
-					"source" : [ "obj-318", 1 ]
+					"destination" : [ "obj-337", 0 ],
+					"source" : [ "obj-318", 0 ]
 				}
 
 			}
@@ -17603,6 +17698,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-321", 0 ],
+					"source" : [ "obj-329", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 3 ],
 					"midpoints" : [ 612.0, 505.0, 172.999999999999972, 505.0 ],
 					"source" : [ "obj-33", 0 ]
@@ -17613,6 +17715,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-271", 0 ],
 					"source" : [ "obj-332", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-266", 0 ],
+					"source" : [ "obj-333", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-351", 0 ],
+					"source" : [ "obj-336", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-336", 0 ],
+					"source" : [ "obj-337", 0 ]
 				}
 
 			}
@@ -17762,6 +17885,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-349", 0 ],
 					"source" : [ "obj-350", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-352", 0 ],
+					"source" : [ "obj-351", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-316", 0 ],
+					"source" : [ "obj-352", 0 ]
 				}
 
 			}
@@ -17923,6 +18060,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-60", 0 ]
 				}
 
 			}
@@ -18336,8 +18480,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Live Version/Simple Soundscape/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/MC Audio/Application Projects/Delay Sequences Live/patchers",
+				"patcherrelativepath" : "../../Delay Sequences Live/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -18349,7 +18493,7 @@
 			}
 , 			{
 				"name" : "soundscape_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Live Version/Simple Soundscape/media",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/MC Audio/Application Projects/Simple Soundscape/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 375.0, 109.0, 1158.0, 501.0 ],
+		"rect" : [ 152.0, 145.0, 1158.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,13 +41,67 @@
 		"title" : "Simple Reverb Live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-298",
+					"items" : [ 1, 2, ",", 3, 4, ",", 5, 6, ",", 7, 8, ",", 9, 10, ",", 11, 12, ",", 13, 14, ",", 15, 16 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 149.000000000000028, 615.0, 57.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 467.0, 385.0, 57.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-296",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.5, 670.0, 74.0, 22.0 ],
+					"text" : "mc.dac~ 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-295",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1454.0, 831.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 526.0, 385.0, 150.0, 20.0 ],
+					"text" : "Audio Output Channels"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"items" : [ 1, 2, ",", 3, 4, ",", 5, 6, ",", 7, 8, ",", 9, 10, ",", 11, 12, ",", 13, 14, ",", 15, 16 ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1394.0, 830.0, 57.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 476.5, 15.0546875, 57.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-325",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 821.0, 198.0, 22.0 ],
-					"text" : "loadmess title \"Simple Reverb Live\""
+					"patching_rect" : [ 19.0, 821.0, 172.0, 22.0 ],
+					"text" : "loadmess title \"Simple Reverb\""
 				}
 
 			}
@@ -392,7 +446,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.0, 1165.0, 68.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "set audio-1"
 				}
 
@@ -1038,8 +1091,8 @@
 					"patching_rect" : [ 36.0, 1025.0, 151.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 446.5, 428.0, 171.0, 33.0 ],
-					"text" : "Mira Controls available at: http://192.168.0.16:8086"
+					"presentation_rect" : [ 362.759765625, 434.6171875, 171.0, 33.0 ],
+					"text" : "Mira Controls available at: http://10.153.31.158:8086"
 				}
 
 			}
@@ -1091,7 +1144,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1560,7 +1613,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2042,7 +2095,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2135,7 +2188,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2228,7 +2281,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2321,7 +2374,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2426,7 +2479,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2962,7 +3015,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3183,7 +3236,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3558,7 +3611,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5147,7 +5200,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5319,7 +5372,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5491,7 +5544,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5663,7 +5716,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5835,7 +5888,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6033,7 +6086,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6222,7 +6275,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6411,7 +6464,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6600,7 +6653,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7238,7 +7291,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7633,7 +7686,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7986,7 +8039,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8381,7 +8434,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8776,7 +8829,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9189,7 +9242,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9584,7 +9637,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9979,7 +10032,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10374,7 +10427,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10786,7 +10839,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11181,7 +11234,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11576,7 +11629,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11971,7 +12024,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12420,7 +12473,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"items" : [ "MIDI Mix", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12431,9 +12484,9 @@
 									"presentation_rect" : [ 13.0, 10.0, 207.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "MIDI Mix", "to Max 1", "to Max 2" ],
+											"parameter_enum" : [ "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 2,
+											"parameter_mmax" : 1,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -14423,7 +14476,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15765,9 +15818,9 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.291777819395065, 0.285195767879486, 0.285199731588364, 1.0 ],
-					"candicane2" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ],
-					"candicane3" : [ 0.129411764705882, 0.996078431372549, 0.0, 1.0 ],
-					"candicane4" : [ 0.0, 0.976470588235294, 0.996078431372549, 1.0 ],
+					"candicane2" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
+					"candicane3" : [ 0.470588235294118, 0.745098039215686, 0.125490196078431, 1.0 ],
+					"candicane4" : [ 0.0, 0.63921568627451, 0.87843137254902, 1.0 ],
 					"candycane" : 4,
 					"contdata" : 1,
 					"id" : "obj-75",
@@ -15782,41 +15835,9 @@
 					"presentation_rect" : [ 753.0, 234.4609375, 270.0, 130.0 ],
 					"setminmax" : [ -2.0, 2.0 ],
 					"size" : 4,
-					"slidercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
 					"spacing" : 1,
 					"thickness" : 5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 391.5, 605.5, 67.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/other/reverb_icon.icns",
-						"appicon_win" : "",
-						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.synthesis.simplereverb",
-						"cantclosetoplevelpatchers" : 1,
-						"cefsupport" : 0,
-						"copysupport" : 0,
-						"database" : 0,
-						"extensions" : 1,
-						"gensupport" : 1,
-						"midisupport" : 1,
-						"noloadbangdefeating" : 0,
-						"overdrive" : 0,
-						"preffilename" : "Simple Reverb Live Preferences",
-						"searchformissingfiles" : 1,
-						"statusvisible" : 0,
-						"usesearchpath" : 0
-					}
-,
-					"text" : "standalone"
 				}
 
 			}
@@ -16276,9 +16297,9 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.364705882352941, 0.356862745098039, 0.356862745098039, 1.0 ],
-					"candicane2" : [ 0.992156862745098, 0.996078431372549, 0.062745098039216, 1.0 ],
-					"candicane3" : [ 0.0, 0.996078431372549, 0.152941176470588, 1.0 ],
-					"candicane4" : [ 0.0, 0.976470588235294, 0.996078431372549, 1.0 ],
+					"candicane2" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
+					"candicane3" : [ 0.470588235294118, 0.745098039215686, 0.125490196078431, 1.0 ],
+					"candicane4" : [ 0.0, 0.63921568627451, 0.87843137254902, 1.0 ],
 					"candycane" : 4,
 					"contdata" : 1,
 					"ghostbar" : 100,
@@ -16294,7 +16315,7 @@
 					"presentation_rect" : [ 753.0, 63.6640625, 397.0, 143.0 ],
 					"setminmax" : [ 0.0, 106.0 ],
 					"size" : 4,
-					"slidercolor" : [ 0.996078431372549, 0.0, 0.0, 1.0 ],
+					"slidercolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
 					"spacing" : 1
 				}
 
@@ -16762,7 +16783,7 @@
 					"maxclass" : "mc.ezdac~",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.5, 638.0, 45.0, 45.0 ]
+					"patching_rect" : [ 195.5, 666.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -17163,7 +17184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 137.0, 971.0, 170.740234375, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.5, 404.59375, 170.740234375, 21.40625 ],
+					"presentation_rect" : [ 362.759765625, 411.2109375, 170.740234375, 21.40625 ],
 					"text" : "Refresh Miraweb Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -17173,7 +17194,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-296", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -17816,21 +17837,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-122", 0 ],
 					"source" : [ "obj-162", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"source" : [ "obj-163", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"midpoints" : [ 530.0, 601.5, 401.0, 601.5 ],
-					"source" : [ "obj-164", 0 ]
 				}
 
 			}
@@ -18893,6 +18899,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-296", 0 ],
+					"source" : [ "obj-298", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-301", 0 ],
 					"source" : [ "obj-299", 0 ]
 				}
@@ -19347,6 +19360,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-321", 0 ],
+					"source" : [ "obj-61", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-63", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -19702,15 +19722,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "yafr2.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Live Version/Simple Reverb/patchers",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/MC Audio/Application Projects/Simple Reverb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Live Version/Simple Reverb/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/MC Audio/Application Projects/Delay Sequences Live/patchers",
+				"patcherrelativepath" : "../../Delay Sequences Live/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19722,8 +19742,8 @@
 			}
 , 			{
 				"name" : "Simple reverb Icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Simple Reverb/media",
-				"patcherrelativepath" : "../../../Simple Reverb/media",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/MC Audio/Application Projects/Simple Reverb/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 416.0, 118.0, 744.0, 627.0 ],
+		"rect" : [ 533.0, 115.0, 744.0, 627.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -798,8 +798,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, -288.3515625, 207.0, 22.0 ],
-					"text" : "loadmess title \"Delay Sequence Live\""
+					"patching_rect" : [ 10.0, -288.3515625, 186.0, 22.0 ],
+					"text" : "loadmess title \"Delay Sequencer\""
 				}
 
 			}
@@ -22503,38 +22503,6 @@
 					"outlettype" : [ "multichannelsignal" ],
 					"patching_rect" : [ 7.0, 1195.0, 97.0, 22.0 ],
 					"text" : "mc.selector~ 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-113",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 92.5, -121.0, 67.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Unit 3/Application Projects/Delay Sequences/other/delays_icon.icns",
-						"appicon_win" : "C:/Users/Owner/Documents/Media-Choreography-Lower-Division/Unit 3/Application Projects/PC Builds/Delay Sequences/other/delays_icon.ico",
-						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.synthesis.delaysequence",
-						"cantclosetoplevelpatchers" : 1,
-						"cefsupport" : 0,
-						"copysupport" : 0,
-						"database" : 0,
-						"extensions" : 1,
-						"gensupport" : 1,
-						"midisupport" : 1,
-						"noloadbangdefeating" : 0,
-						"overdrive" : 0,
-						"preffilename" : "Delay Sequence Live Preferences",
-						"searchformissingfiles" : 1,
-						"statusvisible" : 0,
-						"usesearchpath" : 1
-					}
-,
-					"text" : "standalone"
 				}
 
 			}
