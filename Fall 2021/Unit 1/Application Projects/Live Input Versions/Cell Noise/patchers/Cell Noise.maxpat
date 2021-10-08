@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 347.0, 196.0, 525.0, 344.0 ],
+		"rect" : [ 223.0, 173.0, 525.0, 344.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -361,7 +361,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"title" : "Video Input Settings",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-73",
@@ -6519,7 +6518,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 33.0, 273.6484375, 155.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.19.163:8086",
+					"text" : "Mira controls available at: http://10.153.8.59:8086",
 					"textjustification" : 1
 				}
 
@@ -7016,11 +7015,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1007.0, -7.0, 152.0, 382.0 ],
+					"patching_rect" : [ 1007.0, -7.0, 153.0, 382.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 17,
 					"presentation_rect" : [ 249.0, 35.0, 265.0, 234.0 ],
-					"text" : "The \"Cell Noise\" application demonstrates how pseudo-randomness can create interesting effects when combined with input media. In this example, we are utilizing on of the more structured varieties of \"noise\", cell noise (also called Worley noise, very similar to Voronoi noise)\n\nCellular noise functions by computing a grid of cell center points. Each pixel drawn in the output image finds the center of the 9 nearest cells and includes itself in the cell who's center is closest. When the cells appear to move on screen, that is due to the center points being animated. Each pixel is assigned the color of the input image at the position of the cell center point."
+					"text" : "The \"Cell Noise\" application demonstrates how pseudo-randomness can create interesting effects when combined with input media. In this example, we are utilizing one of the more structured varieties of \"noise\", cell noise (also called Worley noise, very similar to Voronoi noise)\n\nCellular noise functions by computing a grid of cell center points. Each pixel drawn in the output image finds the center of the 9 nearest cells and includes itself in the cell who's center is closest. When the cells appear to move on screen, that is due to the center points being animated. Each pixel is assigned the color of the input image at the position of the cell center point."
 				}
 
 			}
@@ -7605,7 +7604,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 22.0, 607.0, 56.0, 22.0 ],
 					"restore" : 					{
-						"button[1]" : [ 0.0 ],
+						"button[1]" : [ 1.0 ],
 						"noise-scale" : [ 200.0 ],
 						"timescale" : [ 0.01 ]
 					}

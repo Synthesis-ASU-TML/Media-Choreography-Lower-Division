@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Bleep Sequencer Live",
+		"title" : "Bleep Sequencer",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-193",
@@ -843,8 +843,6 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 332.0, 400.0, 136.0, 47.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 117.5, 214.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[5]",
@@ -873,6 +871,8 @@
 					"outlettype" : [ "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 35.0, 409.5, 136.0, 41.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 117.5, 214.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -1478,7 +1478,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 306.5, 531.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.19.163:8086"
+					"text" : "Mira controls available at: http://10.153.8.59:8086"
 				}
 
 			}
@@ -6542,7 +6542,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2216.0, 174.0, 695.0, 480.0 ],
+						"rect" : [ 711.0, 174.0, 695.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6751,7 +6751,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 280.25, 461.0, 360.0, 155.0 ],
-									"setfilter" : [ 0, 1, 1, 0, 0, 2520.825439453125, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"setfilter" : [ 0, 1, 1, 0, 0, 225.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 									"varname" : "filtergraph[1]"
 								}
 
@@ -6939,7 +6939,7 @@
 									"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 280.25, 176.0, 360.0, 155.0 ],
-									"setfilter" : [ 0, 2, 1, 0, 0, 267.577178955078125, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+									"setfilter" : [ 0, 2, 1, 0, 0, 85.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 									"varname" : "filtergraph"
 								}
 
@@ -7122,8 +7122,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 432.25, 0.0, 56.0, 22.0 ],
 									"restore" : 									{
-										"filtergraph" : [ 1, 0, 2, 1, 0, 0, 267.577178955078125, 1.0, 1.0 ],
-										"filtergraph[1]" : [ 1, 0, 1, 1, 0, 0, 2520.825439453125, 1.0, 1.0 ]
+										"filtergraph" : [ 1, 0, 2, 1, 0, 0, 85.0, 1.0, 1.0 ],
+										"filtergraph[1]" : [ 1, 0, 1, 1, 0, 0, 225.0, 1.0, 1.0 ]
 									}
 ,
 									"text" : "autopattr",
@@ -7181,6 +7181,7 @@
 							}
 , 							{
 								"box" : 								{
+									"autorestore" : "onsetdetect.json",
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -7966,7 +7967,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.99462890625, 1165.0, 150.0, 33.0 ],
+					"patching_rect" : [ 26.99462890625, 1165.0, 153.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 469.59375, 246.0, 20.0 ],
 					"text" : "Connor Rawls, AME, ASU, September 2020"
@@ -8088,11 +8089,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 40,
+					"linecount" : 39,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 1234.0, 197.0, 543.0 ],
+					"patching_rect" : [ 20.0, 1234.0, 199.0, 529.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
 					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
@@ -9354,7 +9355,6 @@
 			}
 , 			{
 				"box" : 				{
-					"active" : 0,
 					"fontlink" : 1,
 					"id" : "obj-10",
 					"maxclass" : "textbutton",
@@ -11297,6 +11297,13 @@
 				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Bleep Sequencer/media",
 				"patcherrelativepath" : "../../../Bleep Sequencer/media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "onsetdetect.json",
+				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/data",
+				"patcherrelativepath" : "../../../../Unit-1-Apps/data",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

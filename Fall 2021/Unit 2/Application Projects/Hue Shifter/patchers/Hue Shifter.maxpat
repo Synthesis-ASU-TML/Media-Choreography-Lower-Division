@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Hue Shifter Live",
+		"title" : "Hue Shifter",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-8",
@@ -55,7 +55,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 526.0, 123.0, 22.0 ],
+					"patching_rect" : [ 14.0, 536.0, 123.0, 22.0 ],
 					"text" : "ndi-output-hue-shifter",
 					"varname" : "ndi-output-hue-shifter"
 				}

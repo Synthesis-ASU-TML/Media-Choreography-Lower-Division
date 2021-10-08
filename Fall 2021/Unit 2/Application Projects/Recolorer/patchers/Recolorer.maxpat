@@ -2016,6 +2016,18 @@
 						"title" : "Create A Palette",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-9",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 163.0, 109.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"angle" : 270.0,
 									"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 									"border" : 3,
@@ -2360,7 +2372,7 @@
 , 							{
 								"box" : 								{
 									"angle" : 270.0,
-									"bgcolor" : [ 0.0, 1.0, 1.0, 1.0 ],
+									"bgcolor" : [ 0.930874736485959, 1.0, 0.584415584415584, 1.0 ],
 									"border" : 3,
 									"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-29",
@@ -2929,6 +2941,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-40", 1 ],
 									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -8015,7 +8034,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 556.9892578125, 152.5, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 269.75, 29.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 269.75, 30.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "1",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]

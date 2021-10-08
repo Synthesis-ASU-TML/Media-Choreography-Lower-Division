@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 392.0, 139.0, 708.0, 471.0 ],
+		"rect" : [ 156.0, 183.0, 744.0, 471.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,23 @@
 		"assistshowspatchername" : 0,
 		"title" : "Vector Fields",
 		"boxes" : [ 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-11",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 330.0, 110.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 312.0, 6.5, 4.0, 443.0 ],
+					"proportion" : 0.5,
+					"rounded" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "ezdac~",
@@ -2039,7 +2056,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 580.0, 273.109375, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.20001220703125, 401.0, 216.0, 31.0 ],
+					"presentation_rect" : [ 332.20001220703125, 403.5, 216.0, 31.0 ],
 					"text" : "View Preset Descriptions",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"usetextovercolor" : 1
@@ -2191,7 +2208,7 @@
 					"patching_rect" : [ 158.0, 1231.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 551.20001220703125, 428.0, 150.0, 33.0 ],
+					"presentation_rect" : [ 581.20001220703125, 430.5, 150.0, 33.0 ],
 					"text" : "Mira controls available at: http://10.153.8.59:8086"
 				}
 
@@ -2206,7 +2223,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 259.0, 1148.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 551.20001220703125, 406.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 581.20001220703125, 408.5, 150.0, 20.0 ],
 					"text" : "Refresh Mira Connection",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -9850,8 +9867,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.0, 810.0, 153.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 302.20001220703125, 374.0, 370.0, 20.0 ],
-					"text" : "Connor Rawls, AME, ASU, September 2020"
+					"presentation_rect" : [ 332.20001220703125, 349.5, 370.0, 20.0 ],
+					"text" : "Connor Rawls, AME, ASU, October 2021"
 				}
 
 			}
@@ -9870,15 +9887,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-121",
-					"linecount" : 39,
+					"linecount" : 35,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1606.0, 99.0, 207.0, 529.0 ],
+					"patching_rect" : [ 1606.0, 99.0, 215.0, 476.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 24,
-					"presentation_rect" : [ 302.20001220703125, 44.0, 399.0, 328.0 ],
-					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The algorithm compares the current frame to the previous frame and estimates how esch pixel has moved in horizontally and vertically.  This Vector Fields app draws a \"feather\" lines  corresponding to those pixel displacements (vectors). For best viewing, we would suggest using the output window in fullscreen mode.\n\nYou can load a video file and set its playback rate from -1 reverse to +1 normal.\n\nThe first parameters are the numbers of feathers drawn across the width and height of the video.\n\nThe Feather Scale sets the maximum length of the feathers.  Minimum (all the way to the left) is 0.1% of the pixel displacement. Maximum is 100% of the displacement.\n\nFeather Shrink corresponds the rate at which the feathers will shrink like rubber bands. When the slider is fully left, they shrink most rapidly; when fully to the right, they stay fixed until replaced by a new motion at that position.\n\nToggling image outline blends in the colored edges of the input video.  (See the Colored Edges app!)"
+					"presentation_linecount" : 22,
+					"presentation_rect" : [ 332.20001220703125, 46.5, 399.0, 301.0 ],
+					"text" : "The \"Vector Fields\" application visualizes a common computer vision technique called optical flow. The algorithm compares the current frame to the previous frame and estimates how each pixel has moved horizontally and vertically.  The Vector Fields app draws \"feather\" lines  corresponding to those pixel displacements (vectors). For best viewing, we would suggest using the output window in fullscreen mode.\n\nThe first parameters are the numbers of feathers drawn across the width and height of the video. Use these to create a more sparse or dense image.\n\nThe Feather Scale sets the maximum length of the feathers.  Minimum (all the way to the left) is 0.1% of the pixel displacement. Maximum is 100% of the displacement.\n\nFeather Shrink corresponds the rate at which the feathers will shrink like rubber bands. When the slider is fully left, they shrink most rapidly; when fully to the right, they stay fixed until replaced by a new motion at that position.\n\nToggling image outline blends in the colored edges of the input video.  (See the Colored Edges app!)"
 				}
 
 			}
@@ -9892,7 +9909,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.0, 863.0, 213.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 307.0, 12.0, 369.0, 27.0 ],
+					"presentation_rect" : [ 337.0, 14.5, 369.0, 27.0 ],
 					"text" : "Vector Fields"
 				}
 

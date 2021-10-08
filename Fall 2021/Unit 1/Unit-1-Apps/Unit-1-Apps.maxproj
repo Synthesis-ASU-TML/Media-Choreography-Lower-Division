@@ -2,7 +2,7 @@
 	"name" : "Unit-1-Apps",
 	"version" : 1,
 	"creationdate" : 3716281887,
-	"modificationdate" : 3716300782,
+	"modificationdate" : 3716474005,
 	"viewrect" : [ 48.0, 144.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -114,37 +114,12 @@
 		}
 ,
 		"media" : 		{
-			"appicon.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"cell_noise_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Cell Noise/media",
 					"projectrelativepath" : "../Application Projects/Live Input Versions/Cell Noise/media"
-				}
-
-			}
-,
-			"contours_icon.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Contours/media",
-					"projectrelativepath" : "../Application Projects/Live Input Versions/Contours/media"
-				}
-
-			}
-,
-			"hue_match_icon.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Hue Shadow/media",
-					"projectrelativepath" : "../Application Projects/Live Input Versions/Hue Shadow/media"
 				}
 
 			}
@@ -159,6 +134,16 @@
 
 			}
 ,
+			"contours_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Contours/media",
+					"projectrelativepath" : "../Application Projects/Live Input Versions/Contours/media"
+				}
+
+			}
+,
 			"droney_icon.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1,
@@ -167,6 +152,21 @@
 					"projectrelativepath" : "../Application Projects/Live Input Versions/Droney/media"
 				}
 
+			}
+,
+			"hue_match_icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Hue Shadow/media",
+					"projectrelativepath" : "../Application Projects/Live Input Versions/Hue Shadow/media"
+				}
+
+			}
+,
+			"appicon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
 			}
 
 		}
@@ -203,6 +203,11 @@
 					"projectrelativepath" : "../Application Projects/Live Input Versions/Cell Noise/data"
 				}
 
+			}
+,
+			"onsetdetect.json" : 			{
+				"kind" : "json",
+				"local" : 1
 			}
 
 		}
