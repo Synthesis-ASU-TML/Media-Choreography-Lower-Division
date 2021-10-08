@@ -2,7 +2,7 @@
 	"name" : "MC Audio",
 	"version" : 1,
 	"creationdate" : 3716550844,
-	"modificationdate" : 3716551088,
+	"modificationdate" : 3716552763,
 	"viewrect" : [ 137.0, 163.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -102,7 +102,8 @@
 ,
 			"MC Audio.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
