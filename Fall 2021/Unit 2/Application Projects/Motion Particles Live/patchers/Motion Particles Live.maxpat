@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 342.0, 111.0, 616.0, 333.0 ],
+		"rect" : [ 283.0, 125.0, 821.0, 384.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,64 @@
 		"assistshowspatchername" : 0,
 		"title" : "Motion Particles",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 609.0, 433.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 704.0, 779.0, 77.0, 22.0 ],
+					"text" : "loadmess 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 240.0, 599.0, 83.0, 22.0 ],
+					"text" : "loadmess 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 492.0, 466.0, 93.0, 22.0 ],
+					"text" : "loadmess 0.001"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 454.5, 643.0, 100.0, 22.0 ],
+					"text" : "loadmess 0.0005"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-113",
@@ -153,7 +211,7 @@
 					"patching_rect" : [ 699.5, 905.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.75, 187.4453125, 262.0, 20.0 ],
-					"text" : "Particle Size: 1.00",
+					"text" : "Particle Size: 0.00",
 					"textjustification" : 1
 				}
 
@@ -303,7 +361,7 @@
 					"patching_rect" : [ 419.5, 838.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.75, 151.5, 262.0, 20.0 ],
-					"text" : "Particle Velocity: 0.00",
+					"text" : "Particle Velocity: 0.05",
 					"textjustification" : 1
 				}
 
@@ -375,7 +433,7 @@
 					"patching_rect" : [ 492.0, 587.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.75, 117.5, 262.0, 20.0 ],
-					"text" : "Particle Friction: 1.00",
+					"text" : "Particle Friction: 0.01",
 					"textjustification" : 1
 				}
 
@@ -605,7 +663,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 485.0, 159.0, 629.0, 630.0 ],
+						"rect" : [ 201.0, 125.0, 629.0, 630.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -717,7 +775,9 @@
 									"patching_rect" : [ 206.5, 522.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 486.5, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -789,18 +849,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 792.0, 463.0, 181.0, 22.0 ],
 									"text" : "window flags grow, window exec"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-68",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 33.0, 52.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1412,7 +1460,9 @@
 									"patching_rect" : [ 117.5, 349.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 417.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1536,7 +1586,9 @@
 									"patching_rect" : [ 104.0, 437.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 452.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1880,7 +1932,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1896,7 +1948,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-69", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -2222,6 +2274,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
 									"order" : 0,
 									"source" : [ "obj-65", 0 ]
 								}
@@ -2230,7 +2290,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-65", 0 ]
 								}
 
@@ -2239,13 +2299,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-25", 0 ],
 									"source" : [ "obj-66", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-70", 0 ],
-									"source" : [ "obj-68", 0 ]
 								}
 
 							}
@@ -2455,10 +2508,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 380.0, 150.0, 33.0 ],
+					"patching_rect" : [ 540.0, 380.0, 153.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.0, 173.0, 269.0, 20.0 ],
-					"text" : "Connor Rawls, AME, ASU, June 2020"
+					"presentation_rect" : [ 314.0, 362.109375, 269.0, 20.0 ],
+					"text" : "Connor Rawls, AME, ASU, October 2021"
 				}
 
 			}
@@ -2605,15 +2658,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"linecount" : 12,
+					"linecount" : 63,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 791.0, 457.0, 154.0, 167.0 ],
+					"patching_rect" : [ 791.0, 457.0, 157.0, 851.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 321.0, 84.0, 273.0, 87.0 ],
-					"text" : "The \"Motion Particles\" Application uses the motion detected in the input media to drive a momentum based particle simulation. Each particle is colored according to their starting position from the input media. Each particle's trail depends on the movement in the input media."
+					"presentation_linecount" : 24,
+					"presentation_rect" : [ 314.0, 32.109375, 477.0, 328.0 ],
+					"text" : "The \"Motion Particles\" application uses the motion detected in the input visual media to drive a momentum based particle simulation. The particles have a number of different attributes that pertain to their behavior and the way in which they are disaplyed.\n\nParticle Friction and Particle Velocity are two sides of the same coin. The friction component dictates the rate at which the particles lose speed. Particle Velocity controls the rate at which the particles gain speed. Through the use of these parameters you can moderate and modulate particles behavior between having everything stuck in place or looking like a hurricane of dots.\n\nParticle Size controls the radius of the circles that our particles are drawn as. They can range from tiny dots to moderately sized circles.\n\nParticle Trails controls the amount of motion trails that are drawn behind the particles. At 0, there are no trails. When set to the maximum, the trails fade incredibly slowly, to the point that it may seem they don't fade at all.\n\nEach particle is colored according to their starting position from the input visual media. A particle that spawns on top of a red pixel will be red, while a particle on top of a Green pixel will be Green.\n\nThe Background Blend Mode sets the way in which the original input video will be blended with the output of the particle simulation. For anyone acquainted with Adobe Photoshop, many of these blending modes will look familiar."
 				}
 
 			}
@@ -2627,7 +2680,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 747.5, 428.0, 237.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.0, 55.0, 269.0, 27.0 ],
+					"presentation_rect" : [ 314.0, 3.109375, 470.0, 27.0 ],
 					"text" : "Motion Particles"
 				}
 
@@ -3301,6 +3354,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-97", 2 ],
+					"source" : [ "obj-121", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 1 ],
+					"source" : [ "obj-121", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -3317,6 +3384,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -3351,6 +3425,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -3366,6 +3449,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 4 ],
 					"source" : [ "obj-31", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -3401,6 +3491,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -3446,6 +3543,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-77", 1 ],
 					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-108", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}

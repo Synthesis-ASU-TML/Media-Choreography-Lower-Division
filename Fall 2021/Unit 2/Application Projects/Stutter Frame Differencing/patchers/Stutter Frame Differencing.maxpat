@@ -38,8 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Stutter Frame Differencing Live",
+		"title" : "Stutter Frame Differencing",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 300.0, 302.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
@@ -181,7 +191,9 @@
 									"patching_rect" : [ 206.5, 522.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 486.5, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -876,7 +888,9 @@
 									"patching_rect" : [ 117.5, 349.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 417.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1000,7 +1014,9 @@
 									"patching_rect" : [ 104.0, 437.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 452.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1344,7 +1360,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1360,7 +1376,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-69", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1686,6 +1702,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
 									"order" : 0,
 									"source" : [ "obj-65", 0 ]
 								}
@@ -1694,7 +1718,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-65", 0 ]
 								}
 
@@ -1987,7 +2011,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 42.25, 347.0, 211.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.19.163:8086",
+					"text" : "Mira controls available at: http://10.153.8.59:8086",
 					"textjustification" : 1
 				}
 
@@ -8253,7 +8277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1197.5, 566.5, 150.0, 33.0 ],
+					"patching_rect" : [ 1197.5, 566.5, 153.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 338.5, 359.0, 279.0, 20.0 ],
 					"text" : "Connor Rawls, AME, ASU, June 2020"
@@ -9177,6 +9201,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"order" : 0,
 					"source" : [ "obj-16", 0 ]
@@ -9186,7 +9218,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-16", 0 ]
 				}
 

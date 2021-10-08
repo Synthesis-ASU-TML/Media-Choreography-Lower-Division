@@ -41,6 +41,16 @@
 		"title" : "Hue Shifter Live",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 222.0, 478.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -181,7 +191,9 @@
 									"patching_rect" : [ 206.5, 522.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 486.5, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -876,7 +888,9 @@
 									"patching_rect" : [ 117.5, 349.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 417.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1000,7 +1014,9 @@
 									"patching_rect" : [ 104.0, 437.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 452.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1686,6 +1702,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
 									"order" : 0,
 									"source" : [ "obj-65", 0 ]
 								}
@@ -1694,7 +1718,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-65", 0 ]
 								}
 
@@ -1942,8 +1966,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 937.0, 63.0, 179.0, 22.0 ],
-					"text" : "loadmess title \"Hue Shifter Live\""
+					"patching_rect" : [ 937.0, 63.0, 154.0, 22.0 ],
+					"text" : "loadmess title \"Hue Shifter\""
 				}
 
 			}
@@ -2024,7 +2048,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 43.0, 268.5, 185.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.19.163:8086",
+					"text" : "Mira controls available at: http://10.153.8.59:8086",
 					"textjustification" : 1
 				}
 
@@ -7235,7 +7259,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 403.0, 452.0, 150.0, 33.0 ],
+					"patching_rect" : [ 403.0, 452.0, 153.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 310.0, 268.0, 231.0, 20.0 ],
 					"text" : "Connor Rawls, AME, ASU, June 2020"
@@ -7869,6 +7893,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"order" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 2,
 					"source" : [ "obj-16", 0 ]
 				}
 

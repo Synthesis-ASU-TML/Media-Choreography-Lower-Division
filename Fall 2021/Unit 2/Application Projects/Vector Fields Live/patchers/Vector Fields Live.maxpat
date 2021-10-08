@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 469.0, 131.0, 708.0, 471.0 ],
+		"rect" : [ 392.0, 139.0, 708.0, 471.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Vector Fields",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 404.0, 651.0, 45.0, 45.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -180,7 +191,9 @@
 									"patching_rect" : [ 206.5, 522.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 486.5, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -875,7 +888,9 @@
 									"patching_rect" : [ 117.5, 349.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 417.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -999,7 +1014,9 @@
 									"patching_rect" : [ 104.0, 437.0, 148.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 452.0, 148.0, 33.0 ],
-									"setminmax" : [ 0.0, 1.0 ]
+									"setminmax" : [ 0.0, 1.0 ],
+									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"thickness" : 5
 								}
 
 							}
@@ -1343,7 +1360,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1359,7 +1376,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-69", 0 ],
-									"order" : 2,
+									"order" : 1,
 									"source" : [ "obj-21", 0 ]
 								}
 
@@ -1685,6 +1702,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-20", 0 ],
+									"order" : 1,
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-76", 0 ],
 									"order" : 0,
 									"source" : [ "obj-65", 0 ]
 								}
@@ -1693,7 +1718,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-65", 0 ]
 								}
 
@@ -2167,7 +2192,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 551.20001220703125, 428.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.19.163:8086"
+					"text" : "Mira controls available at: http://10.153.8.59:8086"
 				}
 
 			}
@@ -9823,7 +9848,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 79.0, 810.0, 150.0, 33.0 ],
+					"patching_rect" : [ 79.0, 810.0, 153.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.20001220703125, 374.0, 370.0, 20.0 ],
 					"text" : "Connor Rawls, AME, ASU, September 2020"
@@ -9849,7 +9874,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1606.0, 99.0, 204.0, 529.0 ],
+					"patching_rect" : [ 1606.0, 99.0, 207.0, 529.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 24,
 					"presentation_rect" : [ 302.20001220703125, 44.0, 399.0, 328.0 ],
@@ -10779,13 +10804,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "bang", "" ],
-					"patching_rect" : [ 447.25, 541.5, 252.0, 35.0 ],
-					"text" : "jit.world \"Vector Fields\" @erase_color 0 0 0 1 @shared 1"
+					"patching_rect" : [ 447.25, 541.5, 409.0, 22.0 ],
+					"text" : "jit.world \"Vector Fields\" @erase_color 0 0 0 1 @shared 1 @sync 0 @fps 30"
 				}
 
 			}
@@ -11003,6 +11027,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 2,
 					"source" : [ "obj-4", 0 ]
 				}
 
