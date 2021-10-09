@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,16 +40,6 @@
 		"assistshowspatchername" : 0,
 		"title" : "Motion Particles",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "ezdac~",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 433.0, 45.0, 45.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
@@ -211,7 +201,7 @@
 					"patching_rect" : [ 699.5, 905.0, 159.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 9.75, 187.4453125, 262.0, 20.0 ],
-					"text" : "Particle Size: 0.00",
+					"text" : "Particle Size: 0.15",
 					"textjustification" : 1
 				}
 
@@ -657,7 +647,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2658,14 +2648,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"linecount" : 63,
+					"linecount" : 61,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 791.0, 457.0, 157.0, 851.0 ],
+					"patching_rect" : [ 791.0, 457.0, 161.0, 824.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 24,
-					"presentation_rect" : [ 314.0, 32.109375, 477.0, 328.0 ],
+					"presentation_rect" : [ 314.0, 32.109375, 479.0, 328.0 ],
 					"text" : "The \"Motion Particles\" application uses the motion detected in the input visual media to drive a momentum based particle simulation. The particles have a number of different attributes that pertain to their behavior and the way in which they are disaplyed.\n\nParticle Friction and Particle Velocity are two sides of the same coin. The friction component dictates the rate at which the particles lose speed. Particle Velocity controls the rate at which the particles gain speed. Through the use of these parameters you can moderate and modulate particles behavior between having everything stuck in place or looking like a hurricane of dots.\n\nParticle Size controls the radius of the circles that our particles are drawn as. They can range from tiny dots to moderately sized circles.\n\nParticle Trails controls the amount of motion trails that are drawn behind the particles. At 0, there are no trails. When set to the maximum, the trails fade incredibly slowly, to the point that it may seem they don't fade at all.\n\nEach particle is colored according to their starting position from the input visual media. A particle that spawns on top of a red pixel will be red, while a particle on top of a Green pixel will be Green.\n\nThe Background Blend Mode sets the way in which the original input video will be blended with the output of the particle simulation. For anyone acquainted with Adobe Photoshop, many of these blending modes will look familiar."
 				}
 
@@ -2709,7 +2699,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2969,7 +2959,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3425,15 +3415,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -3751,15 +3732,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "sc.velocity.particles.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.slide.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3771,56 +3752,56 @@
 			}
 , 			{
 				"name" : "sc.texture.xfade.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bypass_dummy.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.camera.simple.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hflip.genjit",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/code",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/code",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/code",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/code",
 				"type" : "gJIT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.syphon.input.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ndi-input.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Unit-2-Apps/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Unit-2-Apps/patchers",
 				"patcherrelativepath" : "../../../Unit-2-Apps/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sc.texture.composite.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/video/texture",
-				"patcherrelativepath" : "../../../../../../../Documents/Max 7/Packages/SC/patchers/video/texture",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/video/texture",
+				"patcherrelativepath" : "../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/video/texture",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ndi-output-particles.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Unit-2-Apps/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Unit-2-Apps/patchers",
 				"patcherrelativepath" : "../../../Unit-2-Apps/patchers",
 				"type" : "JSON",
 				"implicit" : 1

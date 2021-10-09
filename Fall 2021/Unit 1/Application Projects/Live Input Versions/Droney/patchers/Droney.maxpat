@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 427.0, 97.0, 480.0, 667.0 ],
+		"rect" : [ 427.0, 97.0, 480.0, 645.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,8 +61,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1736.5, 473.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 288.947273254394531, 144.2578125, 142.052726745605469, 20.0 ],
 					"text" : "Recording From Mic",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Recording From NDI",
@@ -134,8 +132,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1407.5, 482.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 144.473636627197266, 144.2578125, 142.052726745605469, 20.0 ],
 					"text" : "Recording From Mic",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"texton" : "Recording From NDI",
@@ -150,13 +146,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -278,7 +274,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "jit_matrix", "signal", "signal" ],
+									"outlettype" : [ "jit_matrix", "", "" ],
 									"patching_rect" : [ 50.0, 128.0, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 373.0, 109.0 ],
@@ -423,7 +419,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -723,7 +719,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -944,7 +940,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1214,7 +1210,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1588,7 +1584,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1938,7 +1934,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2286,7 +2282,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2746,7 +2742,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 102.5546875, 157.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 168.2578125, 133.973636627197266, 20.0 ],
+					"presentation_rect" : [ 7.0, 146.2578125, 133.973636627197266, 20.0 ],
 					"text" : "Playback Mode"
 				}
 
@@ -2778,7 +2774,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3037,7 +3033,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ -89.685546875, 158.59375, 147.185546875, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 144.473636627197266, 168.2578125, 142.052726745605469, 21.40625 ],
+					"presentation_rect" : [ 144.473636627197266, 146.2578125, 142.052726745605469, 21.40625 ],
 					"text" : "Using Sound File 1",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"texton" : "Using Recorded Buffer 1",
@@ -3057,7 +3053,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3316,7 +3312,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 294.314453125, 172.59375, 147.185546875, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.947273254394531, 168.2578125, 142.052726745605469, 21.40625 ],
+					"presentation_rect" : [ 288.947273254394531, 146.2578125, 142.052726745605469, 21.40625 ],
 					"text" : "Using Sound File 2",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"texton" : "Using Recorded Buffer 2",
@@ -3335,7 +3331,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 505.5, 107.0, 186.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 194.0546875, 428.0, 24.0 ],
+					"presentation_rect" : [ 7.0, 172.0546875, 428.0, 24.0 ],
 					"text" : "Grain Controls",
 					"textjustification" : 1
 				}
@@ -3351,7 +3347,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 755.5, 276.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 196.25, 253.9453125, 238.75, 20.0 ],
+					"presentation_rect" : [ 196.25, 231.9453125, 238.75, 20.0 ],
 					"text" : "Track 2 Grain Size: 5.00 Seconds",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -3395,7 +3391,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 722.0, 181.0, 313.75, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.3125, 249.4453125, 239.6875, 29.0 ],
+					"presentation_rect" : [ 195.3125, 227.4453125, 239.6875, 29.0 ],
 					"setminmax" : [ 5000.0, 60000.0 ],
 					"slidercolor" : [ 0.101960784313725, 0.062745098039216, 0.737254901960784, 1.0 ]
 				}
@@ -3411,7 +3407,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 455.0, 229.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.125, 223.5, 236.875, 20.0 ],
+					"presentation_rect" : [ 198.125, 201.5, 236.875, 20.0 ],
 					"text" : "Track 1 Grain Size: 5.00 Seconds",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -3455,7 +3451,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 421.5, 134.0, 313.75, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 196.25, 219.0, 238.75, 29.0 ],
+					"presentation_rect" : [ 196.25, 197.0, 238.75, 29.0 ],
 					"setminmax" : [ 5000.0, 60000.0 ],
 					"slidercolor" : [ 0.101960784313725, 0.062745098039216, 0.737254901960784, 1.0 ]
 				}
@@ -3879,7 +3875,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 801.7958984375, 19.890625, 141.408203125, 21.40625 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 249.4453125, 186.0, 29.0 ],
+					"presentation_rect" : [ 7.0, 227.4453125, 186.0, 29.0 ],
 					"text" : "Manual Grain Fade",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -3920,7 +3916,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 419.5, 1344.0, 160.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 377.4453125, 425.0, 20.0 ],
+					"presentation_rect" : [ 7.0, 355.4453125, 425.0, 20.0 ],
 					"text" : "Final Pitch Shift: 1.00 Octaves",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
@@ -3951,7 +3947,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 778.0, 437.0, 186.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 286.0, 428.0, 24.0 ],
+					"presentation_rect" : [ 7.0, 264.0, 428.0, 24.0 ],
 					"text" : "Track Modulation Controls",
 					"textjustification" : 1
 				}
@@ -3970,7 +3966,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 322.25, 1295.0, 20.0, 140.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 372.9453125, 425.5, 29.0 ],
+					"presentation_rect" : [ 7.0, 350.9453125, 425.5, 29.0 ],
 					"setminmax" : [ 0.0, 2400.0 ],
 					"slidercolor" : [ 0.101960784313725, 0.062745098039216, 0.737254901960784, 1.0 ]
 				}
@@ -4096,7 +4092,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 392.99462890625, 36.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.0, 474.0, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 440.0, 452.0, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -4149,7 +4145,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1235.0, 532.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 265.49462890625, 409.5546875, 150.0, 20.0 ],
+					"presentation_rect" : [ 265.49462890625, 387.5546875, 150.0, 20.0 ],
 					"text" : "Refresh Mira Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -4165,8 +4161,8 @@
 					"patching_rect" : [ 1232.0, 597.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 265.49462890625, 431.5546875, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.19.163:8086"
+					"presentation_rect" : [ 265.49462890625, 409.5546875, 150.0, 33.0 ],
+					"text" : "Mira controls available at: http://192.168.0.16:8086"
 				}
 
 			}
@@ -4182,7 +4178,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4539,9 +4535,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1307.0, 1631.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1307.0, 1631.0, 153.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 644.0546875, 428.0, 20.0 ],
+					"presentation_rect" : [ 8.5, 622.0546875, 428.0, 20.0 ],
 					"text" : "Connor Rawls, AME, ASU, September 2020 "
 				}
 
@@ -4557,7 +4553,7 @@
 					"patching_rect" : [ 1307.0, 1323.0, 157.0, 301.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 8.5, 542.0546875, 428.0, 100.0 ],
+					"presentation_rect" : [ 8.5, 520.0546875, 428.0, 100.0 ],
 					"text" : "Droney is an application that creates audio drones by using granular playback techniques on the two loaded audio files. By playing the grains back at very low speeds, the application can produce sounds akin to ambient drones where all of the audio dynamics are drawn from the input media. To add more texture to the sounds, there are varying playback speeds, pitch shifting, and volume modifications being applied behind the scenes. In later units we will expose these parameters for a more full exploration of the technique. "
 				}
 
@@ -4573,7 +4569,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1290.0, 1297.0, 186.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 516.0546875, 428.0, 24.0 ],
+					"presentation_rect" : [ 8.5, 494.0546875, 428.0, 24.0 ],
 					"text" : "Droney"
 				}
 
@@ -4613,7 +4609,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5044,7 +5040,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5552,7 +5548,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6153,7 +6149,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6566,7 +6562,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7202,7 +7198,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7648,7 +7644,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8621,7 +8617,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9195,7 +9191,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11129,7 +11125,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12000,7 +11996,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 492.5, 19.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.0, 420.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 205.0, 398.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "4",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -12022,7 +12018,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 722.0, 19.890625, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 440.0, 236.5, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 440.0, 214.5, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "3",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -12481,7 +12477,7 @@
 					"patching_rect" : [ 1023.0, 502.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 270.49462890625, 339.5, 150.0, 33.0 ],
+					"presentation_rect" : [ 270.49462890625, 317.5, 150.0, 33.0 ],
 					"text" : "Track 2 Minimum Playback Rate"
 				}
 
@@ -12499,7 +12495,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 966.0, 506.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.49462890625, 343.5, 50.0, 22.0 ]
+					"presentation_rect" : [ 213.49462890625, 321.5, 50.0, 22.0 ]
 				}
 
 			}
@@ -12546,7 +12542,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1018.0, 349.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 265.49462890625, 312.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 265.49462890625, 290.0, 150.0, 20.0 ],
 					"text" : "Track 2 Rate Range"
 				}
 
@@ -12564,7 +12560,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 966.0, 349.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.49462890625, 312.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 213.49462890625, 290.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -12733,7 +12729,7 @@
 					"patching_rect" : [ 770.0, 508.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 64.0, 338.0, 135.0, 33.0 ],
+					"presentation_rect" : [ 64.0, 316.0, 135.0, 33.0 ],
 					"text" : "Track 1 Minimum Playback Rate"
 				}
 
@@ -12751,7 +12747,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 713.0, 512.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 342.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 7.0, 320.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -12858,7 +12854,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 765.0, 355.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 59.0, 312.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 59.0, 290.0, 150.0, 20.0 ],
 					"text" : "Track 1 Rate Range"
 				}
 
@@ -12876,7 +12872,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 713.0, 355.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 312.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 7.0, 290.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -12937,7 +12933,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 72.0, 1714.0, 155.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 470.0546875, 426.0, 47.0 ],
+					"presentation_rect" : [ 8.5, 448.0546875, 426.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[4]",
@@ -13418,7 +13414,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 748.0, 52.0, 160.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.0, 222.390625, 160.0, 20.0 ],
+					"presentation_rect" : [ 33.0, 200.390625, 160.0, 20.0 ],
 					"text" : "Automatic Grain Fading"
 				}
 
@@ -13433,7 +13429,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 722.0, 50.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 220.390625, 24.0, 24.0 ]
+					"presentation_rect" : [ 7.0, 198.390625, 24.0, 24.0 ]
 				}
 
 			}
@@ -13553,7 +13549,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 520.0, 50.0, 157.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 424.5546875, 157.0, 20.0 ],
+					"presentation_rect" : [ 53.0, 402.5546875, 157.0, 20.0 ],
 					"text" : "Play / Pause Drone"
 				}
 
@@ -13568,7 +13564,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 492.5, 48.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 412.0546875, 45.0, 45.0 ]
+					"presentation_rect" : [ 8.5, 390.0546875, 45.0, 45.0 ]
 				}
 
 			}
@@ -14156,7 +14152,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 55.75, 370.0, 159.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.0, 74.0, 168.0, 20.0 ]
+					"presentation_rect" : [ 134.0, 74.0, 168.0, 20.0 ],
+					"text" : "No File Loaded..."
 				}
 
 			}
@@ -17035,14 +17032,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "droney_icon.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Droney/media",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Droney/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/patchers",
 				"patcherrelativepath" : "../../Bleep Sequencer/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -17055,14 +17052,14 @@
 			}
 , 			{
 				"name" : "ndi-output-droney.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
 				"patcherrelativepath" : "../../../../Unit-1-Apps/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ndi-input.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
 				"patcherrelativepath" : "../../../../Unit-1-Apps/patchers",
 				"type" : "JSON",
 				"implicit" : 1

@@ -57,7 +57,7 @@
 						"count" : 7,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "appicon.png" ]
+								"value" : [ "folder_image1.png" ]
 							}
 , 							{
 								"key" : 1,
@@ -73,7 +73,7 @@
 							}
 , 							{
 								"key" : 4,
-								"value" : [ "appicon.png" ]
+								"value" : [ "folder_image1.png" ]
 							}
 , 							{
 								"key" : 5,
@@ -111,7 +111,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 309.0, 744.0, 100.0, 100.0 ],
-					"pic" : "appicon.png",
+					"pic" : "folder_image1.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 1.0, 199.0, 199.0 ]
 				}
@@ -126,13 +126,13 @@
 					"patching_rect" : [ 239.0, 113.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/other/appicon.icns",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Built Test Applications/folder_image1.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.mcunit1",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
-						"copysupport" : 1,
+						"copysupport" : 0,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 1,
@@ -1064,9 +1064,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "appicon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/media",
-				"patcherrelativepath" : "../media",
+				"name" : "folder_image1.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Built Test Applications/Unit 2",
+				"patcherrelativepath" : "../../../../../Built Test Applications/Unit 2",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1075,12 +1075,11 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
+					"fontname" : [ "Monaco" ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
 					"fontface" : [ 1 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"textjustification" : [ 0 ],
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1091,7 +1090,8 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Monaco" ]
+					"textjustification" : [ 0 ],
+					"fontsize" : [ 14.0 ]
 				}
 ,
 				"parentstyle" : "",

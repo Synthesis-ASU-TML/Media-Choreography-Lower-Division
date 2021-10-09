@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 544.0, 216.0, 480.0, 202.0 ],
+		"rect" : [ 654.0, 271.0, 480.0, 202.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -135,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 309.0, 744.0, 100.0, 100.0 ],
-					"pic" : "hue_shift_icon.png",
+					"pic" : "folder_image.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 1.0, 199.0, 199.0 ]
 				}
@@ -260,6 +260,7 @@
 			}
 , 			{
 				"box" : 				{
+					"active" : 0,
 					"bgcolor" : [ 0.454901960784314, 0.454901960784314, 0.454901960784314, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 18.0,
@@ -1117,9 +1118,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "hue_shift_icon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/media",
-				"patcherrelativepath" : "../../Application Projects/Hue Shifter/media",
+				"name" : "folder_image.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Built Test Applications/Unit 2",
+				"patcherrelativepath" : "../../../../../Built Test Applications/Unit 2",
 				"type" : "PNG",
 				"implicit" : 1
 			}

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -41,18 +41,6 @@
 		"title" : "Bleep Sequencer",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-193",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 0,
-					"patching_rect" : [ 44.0, 830.0, 95.0, 22.0 ],
-					"text" : "ndi-output-bleep",
-					"varname" : "ndi-output-bleep"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-192",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
@@ -60,8 +48,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 322.5, 272.0, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 166.5, 214.0, 20.0 ],
 					"text" : "NDI Config",
 					"textoncolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -73,13 +59,13 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
+					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -201,7 +187,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "jit_matrix", "signal", "signal" ],
+									"outlettype" : [ "jit_matrix", "", "" ],
 									"patching_rect" : [ 50.0, 134.0, 128.0, 128.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 370.0, 107.0 ],
@@ -310,7 +296,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -480,7 +466,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -650,7 +636,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -891,7 +877,8 @@
 			}
 , 			{
 				"box" : 				{
-					"htabcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
+					"fontface" : 1,
+					"htabcolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 					"id" : "obj-168",
 					"maxclass" : "tab",
 					"numinlets" : 1,
@@ -900,10 +887,10 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 443.978515625, 135.109375, 200.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 208.3515625, 213.0, 18.796875 ],
+					"presentation_rect" : [ 11.0, 185.3515625, 213.0, 18.796875 ],
 					"rounded" : 0.0,
-					"tabcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"tabs" : [ "File", "Mic", "NDI" ]
+					"tabcolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
+					"tabs" : [ "File", "Mic" ]
 				}
 
 			}
@@ -931,7 +918,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1351,7 +1338,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 175.796875, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 186.3515625, 213.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 163.3515625, 213.0, 20.0 ],
 					"text" : "Audio Input Mode"
 				}
 
@@ -1477,8 +1464,8 @@
 					"patching_rect" : [ 289.0, 1252.0, 150.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 306.5, 531.0, 150.0, 33.0 ],
-					"text" : "Mira controls available at: http://10.153.8.59:8086"
+					"presentation_rect" : [ 318.5, 518.9453125, 150.0, 33.0 ],
+					"text" : "Mira controls available at: http://192.168.0.16:8086"
 				}
 
 			}
@@ -1492,7 +1479,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 390.0, 1175.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 306.5, 509.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 318.5, 496.9453125, 150.0, 20.0 ],
 					"text" : "Refresh Mira Connection",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1510,7 +1497,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1942,7 +1929,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2188,7 +2175,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2683,7 +2670,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3067,7 +3054,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4205,7 +4192,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4701,7 +4688,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5335,7 +5322,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6466,7 +6453,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 244.0, 632.34375, 36.021484375, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 527.9453125, 36.021484375, 28.109375 ],
+					"presentation_rect" : [ 231.0, 504.9453125, 36.021484375, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "10",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -6482,7 +6469,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1341.0, 519.5, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 229.1484375, 213.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 206.1484375, 213.0, 20.0 ],
 					"text" : "Onset Detection Frequencey Range"
 				}
 
@@ -6521,7 +6508,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1241.0, 525.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 251.1484375, 213.0, 22.0 ]
+					"presentation_rect" : [ 11.0, 228.1484375, 213.0, 22.0 ]
 				}
 
 			}
@@ -6536,7 +6523,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7127,7 +7114,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u149002355"
+									"varname" : "u584002819"
 								}
 
 							}
@@ -7713,7 +7700,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7989,7 +7976,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 827.9892578125, 15.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 275.1484375, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 252.1484375, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "6",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -8004,7 +7991,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 856.0, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 305.4453125, 213.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 282.4453125, 213.0, 20.0 ],
 					"text" : "Sub-bleep Step Sizes"
 				}
 
@@ -8032,7 +8019,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 754.0, 46.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 327.4453125, 213.0, 22.0 ]
+					"presentation_rect" : [ 11.0, 304.4453125, 213.0, 22.0 ]
 				}
 
 			}
@@ -8089,11 +8076,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-115",
-					"linecount" : 39,
+					"linecount" : 37,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 1234.0, 199.0, 529.0 ],
+					"patching_rect" : [ 20.0, 1234.0, 202.0, 503.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 32,
 					"presentation_rect" : [ 276.0, 32.59375, 246.0, 435.0 ],
@@ -8131,7 +8118,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 208.9892578125, 346.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 381.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 358.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "8",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -8153,7 +8140,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 94.99462890625, 355.9453125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 327.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 304.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "7",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -8175,7 +8162,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 192.0, 716.6953125, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 452.4453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 429.4453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "9",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -8197,7 +8184,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 711.0, 36.0, 26.0107421875, 28.109375 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 231.0, 192.9453125, 26.0107421875, 28.109375 ],
+					"presentation_rect" : [ 231.0, 169.9453125, 26.0107421875, 28.109375 ],
 					"rounded" : 100.0,
 					"text" : "5",
 					"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -8300,7 +8287,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 59.0, 685.25, 152.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 505.9453125, 213.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 482.9453125, 213.0, 20.0 ],
 					"text" : "Main Audio Output Level"
 				}
 
@@ -8314,7 +8301,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 231.0, 346.9453125, 152.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 430.4453125, 213.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 407.4453125, 213.0, 20.0 ],
 					"text" : "Bleep Audio Track Output Level"
 				}
 
@@ -8328,7 +8315,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 27.0, 346.9453125, 152.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 361.4453125, 213.0, 20.0 ],
+					"presentation_rect" : [ 11.0, 338.4453125, 213.0, 20.0 ],
 					"text" : "Origial Audio Track Output Level"
 				}
 
@@ -8341,7 +8328,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 530.5, 36.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 63.0, 279.4453125, 150.0, 20.0 ],
+					"presentation_rect" : [ 63.0, 256.4453125, 150.0, 20.0 ],
 					"text" : "Note Length (in ms)"
 				}
 
@@ -9129,7 +9116,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 649.5, 36.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 279.4453125, 50.0, 22.0 ]
+					"presentation_rect" : [ 11.0, 256.4453125, 50.0, 22.0 ]
 				}
 
 			}
@@ -9254,7 +9241,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 44.0, 707.25, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 527.9453125, 213.0, 47.0 ],
+					"presentation_rect" : [ 11.0, 504.9453125, 213.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[2]",
@@ -9307,7 +9294,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 158.0, 594.5, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 452.4453125, 213.0, 47.0 ],
+					"presentation_rect" : [ 11.0, 429.4453125, 213.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~[1]",
@@ -9336,7 +9323,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 20.0, 594.5, 136.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 381.4453125, 213.0, 47.0 ],
+					"presentation_rect" : [ 11.0, 358.4453125, 213.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -9408,6 +9395,8 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
+					"activebgoncolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 12.0,
 					"id" : "obj-6",
@@ -9434,6 +9423,7 @@
 
 					}
 ,
+					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"varname" : "live.tab"
 				}
 
@@ -10057,7 +10047,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 1 ],
-					"order" : 1,
 					"source" : [ "obj-17", 1 ]
 				}
 
@@ -10065,23 +10054,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-193", 2 ],
-					"order" : 0,
-					"source" : [ "obj-17", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-193", 1 ],
-					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -11134,7 +11106,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Audio Status.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Bleep Sequencer/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -11147,175 +11119,168 @@
 			}
 , 			{
 				"name" : "sc.audioAnalysis.dict.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/SC/patchers/sound",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 7/Packages/SC/patchers/sound",
+				"bootpath" : "~/Documents/Max 8/Packages/SC/patchers/sound",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/SC/patchers/sound",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_ampstats~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_spread~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_centroid~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_slope~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mfcc~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_freqpeak~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_skewness~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_kurtosis~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_mel~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.easy_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "zsa.abs_bark~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/zsa.descriptors/misc",
-				"patcherrelativepath" : "../../../../../../../../Documents/Max 8/Packages/zsa.descriptors/misc",
+				"patcherrelativepath" : "../../../../../../../../../../../Users/CRawls/Documents/Max 8/Packages/zsa.descriptors/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bleep_icon.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Bleep Sequencer/media",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Application Projects/Bleep Sequencer/media",
 				"patcherrelativepath" : "../../../Bleep Sequencer/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onsetdetect.json",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/data",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/data",
 				"patcherrelativepath" : "../../../../Unit-1-Apps/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ndi-input.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
-				"patcherrelativepath" : "../../../../Unit-1-Apps/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ndi-output-bleep.maxpat",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
 				"patcherrelativepath" : "../../../../Unit-1-Apps/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -11374,10 +11339,6 @@
 			}
 , 			{
 				"name" : "jit.ndi.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.ndi.send~.mxo",
 				"type" : "iLaX"
 			}
  ],
