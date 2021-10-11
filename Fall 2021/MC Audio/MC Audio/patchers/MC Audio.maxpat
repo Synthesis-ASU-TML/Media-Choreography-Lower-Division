@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -66,10 +66,10 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 11,
+						"count" : 10,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "appicon.png" ]
+								"value" : [ "mcaicon.png" ]
 							}
 , 							{
 								"key" : 1,
@@ -89,7 +89,7 @@
 							}
 , 							{
 								"key" : 5,
-								"value" : [ "appicon.png" ]
+								"value" : [ "mcaicon.png" ]
 							}
 , 							{
 								"key" : 6,
@@ -97,18 +97,14 @@
 							}
 , 							{
 								"key" : 7,
-								"value" : [ "retune_icon.png" ]
+								"value" : [ "mcaicon.png" ]
 							}
 , 							{
 								"key" : 8,
-								"value" : [ "appicon.png" ]
-							}
-, 							{
-								"key" : 9,
 								"value" : [ "delays_icon.png" ]
 							}
 , 							{
-								"key" : 10,
+								"key" : 9,
 								"value" : [ "droney_icon.png" ]
 							}
  ]
@@ -139,7 +135,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 309.0, 744.0, 100.0, 100.0 ],
-					"pic" : "soundscape_icon.png",
+					"pic" : "mcaicon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 1.0, 199.0, 199.0 ]
 				}
@@ -154,7 +150,7 @@
 					"patching_rect" : [ 164.0, 117.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Built Test Applications/AppIcons/unit2icon.icns",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Built Test Applications/Fall21/mcaicon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
 						"bundleidentifier" : "org.asu.ame.mcaudio",
@@ -359,7 +355,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 11,
+						"count" : 10,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -390,18 +386,14 @@
 							}
 , 							{
 								"key" : 7,
-								"value" : [ "Retuner.maxpat" ]
-							}
-, 							{
-								"key" : 8,
 								"value" : [ "none" ]
 							}
 , 							{
-								"key" : 9,
+								"key" : 8,
 								"value" : [ "A Sequence of Delays.maxpat" ]
 							}
 , 							{
-								"key" : 10,
+								"key" : 9,
 								"value" : [ "Droney.maxpat" ]
 							}
  ]
@@ -673,7 +665,7 @@
 				"box" : 				{
 					"automouse" : 0,
 					"bordercolor" : [ 0.454901960784314, 0.454901960784314, 0.454901960784314, 1.0 ],
-					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 10, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ] ],
+					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 1,
 					"colwidth" : 250,
 					"fontface" : 1,
@@ -689,15 +681,14 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 65.0, 462.0, 270.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 30.0, 270.0, 145.0 ],
-					"rows" : 11
+					"presentation_rect" : [ 4.0, 30.0, 270.0, 145.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 11,
+						"count" : 10,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "Soundscapes", "bold" ]
@@ -728,18 +719,14 @@
 							}
 , 							{
 								"key" : 7,
-								"value" : [ "Retuner", "normal" ]
-							}
-, 							{
-								"key" : 8,
 								"value" : [ "Mix and Mash", "bold" ]
 							}
 , 							{
-								"key" : 9,
+								"key" : 8,
 								"value" : [ "Delay Sequencer", "normal" ]
 							}
 , 							{
-								"key" : 10,
+								"key" : 9,
 								"value" : [ "Droney", "normal" ]
 							}
  ]
@@ -1131,9 +1118,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "soundscape_icon.png",
-				"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/MC Audio/Application Projects/Simple Soundscape/media",
-				"patcherrelativepath" : "../../Application Projects/Simple Soundscape/media",
+				"name" : "mcaicon.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/MC Audio/MC Audio/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1142,13 +1129,6 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"fontface" : [ 1 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"textjustification" : [ 0 ],
-					"fontname" : [ "Monaco" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1158,7 +1138,14 @@
 						"proportion" : 0.5,
 						"autogradient" : 0.0
 					}
-
+,
+					"fontname" : [ "Monaco" ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
+					"textjustification" : [ 0 ],
+					"fontface" : [ 1 ],
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
