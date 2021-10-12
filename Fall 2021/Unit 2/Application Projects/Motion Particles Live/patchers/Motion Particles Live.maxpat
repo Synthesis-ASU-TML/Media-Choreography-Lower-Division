@@ -752,7 +752,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827450980392157, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
 									"contdata" : 1,
 									"ghostbar" : 100,
 									"id" : "obj-76",
@@ -766,7 +766,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 486.5, 148.0, 33.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
-									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"slidercolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 									"thickness" : 5
 								}
 
@@ -1437,7 +1437,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827450980392157, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
 									"contdata" : 1,
 									"ghostbar" : 100,
 									"id" : "obj-20",
@@ -1451,7 +1451,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 417.0, 148.0, 33.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
-									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"slidercolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 									"thickness" : 5
 								}
 
@@ -1563,7 +1563,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.827450980392157, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
 									"contdata" : 1,
 									"ghostbar" : 100,
 									"id" : "obj-8",
@@ -1577,7 +1577,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 78.75, 452.0, 148.0, 33.0 ],
 									"setminmax" : [ 0.0, 1.0 ],
-									"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"slidercolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 									"thickness" : 5
 								}
 
@@ -2648,11 +2648,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"linecount" : 61,
+					"linecount" : 60,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 791.0, 457.0, 161.0, 824.0 ],
+					"patching_rect" : [ 791.0, 457.0, 164.0, 811.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 24,
 					"presentation_rect" : [ 314.0, 32.109375, 479.0, 328.0 ],

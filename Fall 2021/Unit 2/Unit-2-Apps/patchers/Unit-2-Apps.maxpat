@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 654.0, 271.0, 480.0, 202.0 ],
+		"rect" : [ 490.0, 89.0, 480.0, 202.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Unit 2 Instruments",
+		"title" : "Media Choreography Video Instruments",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-10",
@@ -66,10 +66,10 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 14,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ "folder_image.png" ]
+								"value" : [ "fmcvicon.png" ]
 							}
 , 							{
 								"key" : 1,
@@ -81,7 +81,7 @@
 							}
 , 							{
 								"key" : 3,
-								"value" : [ "folder_image.png" ]
+								"value" : [ "mcvicon.png" ]
 							}
 , 							{
 								"key" : 4,
@@ -97,7 +97,7 @@
 							}
 , 							{
 								"key" : 7,
-								"value" : [ "folder_image.png" ]
+								"value" : [ "mcvicon.png" ]
 							}
 , 							{
 								"key" : 8,
@@ -106,6 +106,22 @@
 , 							{
 								"key" : 9,
 								"value" : [ "motion_particles_icon.png" ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "mcvicon.png" ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "cell_noise_icon.png" ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ "contours_icon.png" ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ "hue_match_icon.png" ]
 							}
  ]
 					}
@@ -135,7 +151,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 309.0, 744.0, 100.0, 100.0 ],
-					"pic" : "folder_image.png",
+					"pic" : "recolor_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 1.0, 199.0, 199.0 ]
 				}
@@ -150,10 +166,10 @@
 					"patching_rect" : [ 239.0, 113.0, 67.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
-						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Built Test Applications/AppIcons/unit2icon.icns",
+						"appicon_mac" : "Seagate Backup Plus Drive:/Synthesis/Media_Choreography_Course/Built Test Applications/Fall21/mcvicon.icns",
 						"appicon_win" : "",
 						"audiosupport" : 1,
-						"bundleidentifier" : "org.asu.ame.mcunit2",
+						"bundleidentifier" : "org.asu.ame.mcvideo",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 0,
 						"copysupport" : 0,
@@ -163,7 +179,7 @@
 						"midisupport" : 1,
 						"noloadbangdefeating" : 0,
 						"overdrive" : 0,
-						"preffilename" : "MC Unit 2 Preferences",
+						"preffilename" : "MC Video Preferences",
 						"searchformissingfiles" : 1,
 						"statusvisible" : 0,
 						"usesearchpath" : 1
@@ -212,12 +228,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-32",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.0, 16.0, 191.0, 22.0 ],
-					"text" : "loadmess title \"Unit 2 Instruments\""
+					"patching_rect" : [ 257.0, 16.0, 205.0, 35.0 ],
+					"text" : "loadmess title \"Media Choreography Video Instruments\""
 				}
 
 			}
@@ -355,7 +372,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 14,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -395,6 +412,22 @@
 , 							{
 								"key" : 9,
 								"value" : [ "Motion Particles Live.maxpat" ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "none" ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "Cell Noise.maxpat" ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ "Contours.maxpat" ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ "Hue Shadow.maxpat" ]
 							}
  ]
 					}
@@ -665,7 +698,7 @@
 				"box" : 				{
 					"automouse" : 0,
 					"bordercolor" : [ 0.454901960784314, 0.454901960784314, 0.454901960784314, 1.0 ],
-					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ] ],
+					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 10, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 11, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 12, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 13, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 1,
 					"colwidth" : 250,
 					"fontface" : 1,
@@ -681,14 +714,15 @@
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 65.0, 462.0, 270.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 30.0, 270.0, 145.0 ]
+					"presentation_rect" : [ 4.0, 30.0, 270.0, 145.0 ],
+					"rows" : 14
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 14,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "Coloration", "bold" ]
@@ -728,6 +762,22 @@
 , 							{
 								"key" : 9,
 								"value" : [ "Motion Particles", "normal" ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "Noise & Toys", "bold" ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "Cell Noise", "normal" ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ "Contours", "normal" ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ "Hue Shadow", "normal" ]
 							}
  ]
 					}
@@ -1118,9 +1168,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "folder_image.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Built Test Applications/Unit 2",
-				"patcherrelativepath" : "../../../../../Built Test Applications/Unit 2",
+				"name" : "recolor_icon.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Recolorer/media",
+				"patcherrelativepath" : "../../Application Projects/Recolorer/media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1129,12 +1179,6 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
-					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"fontface" : [ 1 ],
-					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ],
-					"fontsize" : [ 14.0 ],
-					"textjustification" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1145,7 +1189,13 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Monaco" ]
+					"fontname" : [ "Monaco" ],
+					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
+					"textjustification" : [ 0 ],
+					"fontface" : [ 1 ],
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"fontsize" : [ 14.0 ],
+					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
