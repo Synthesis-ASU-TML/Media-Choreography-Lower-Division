@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 316.0, 149.0, 1158.0, 501.0 ],
+		"rect" : [ 152.0, 145.0, 1158.0, 501.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,102 +40,6 @@
 		"assistshowspatchername" : 0,
 		"title" : "Simple Reverb",
 		"boxes" : [ 			{
-				"box" : 				{
-					"id" : "obj-333",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1162.0, 816.0, 67.0, 22.0 ],
-					"text" : "select 4 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-332",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1162.0, 753.0, 72.0, 22.0 ],
-					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-331",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1294.0, 920.0, 67.0, 22.0 ],
-					"text" : "select 3 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-330",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1294.0, 864.0, 72.0, 22.0 ],
-					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-329",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1294.0, 793.0, 67.0, 22.0 ],
-					"text" : "select 2 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-328",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1305.0, 689.0, 67.0, 22.0 ],
-					"text" : "select 1 $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-326",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1294.0, 742.0, 72.0, 22.0 ],
-					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-235",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1305.0, 632.0, 72.0, 22.0 ],
-					"text" : "prepend set"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-298",
 					"items" : [ 1, 2, ",", 3, 4, ",", 5, 6, ",", 7, 8, ",", 9, 10, ",", 11, 12, ",", 13, 14, ",", 15, 16, ",", 17, 18, ",", 19, 20, ",", 21, 22, ",", 23, 24, ",", 25, 26, ",", 27, 28, ",", 29, 30, ",", 31, 32, ",", 33, 34, ",", 35, 36, ",", 37, 38, ",", 39, 40, ",", 41, 42, ",", 43, 44, ",", 45, 46, ",", 47, 48, ",", 49, 50, ",", 51, 52, ",", 53, 54, ",", 55, 56, ",", 57, 58, ",", 59, 60, ",", 61, 62, ",", 63, 64 ],
@@ -343,8 +247,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 698.0, 1165.0, 106.0, 22.0 ],
-					"text" : "set reverb-audio-4"
+					"patching_rect" : [ 698.0, 1165.0, 68.0, 22.0 ],
+					"text" : "set audio-4"
 				}
 
 			}
@@ -376,7 +280,6 @@
 				"box" : 				{
 					"id" : "obj-316",
 					"maxclass" : "textbutton",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
@@ -410,8 +313,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 515.0, 1165.0, 106.0, 22.0 ],
-					"text" : "set reverb-audio-3"
+					"patching_rect" : [ 515.0, 1165.0, 68.0, 22.0 ],
+					"text" : "set audio-3"
 				}
 
 			}
@@ -443,7 +346,6 @@
 				"box" : 				{
 					"id" : "obj-311",
 					"maxclass" : "textbutton",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
@@ -477,8 +379,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 332.0, 1165.0, 106.0, 22.0 ],
-					"text" : "set reverb-audio-2"
+					"patching_rect" : [ 332.0, 1165.0, 68.0, 22.0 ],
+					"text" : "set audio-2"
 				}
 
 			}
@@ -510,7 +412,6 @@
 				"box" : 				{
 					"id" : "obj-306",
 					"maxclass" : "textbutton",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
@@ -544,8 +445,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.0, 1165.0, 106.0, 22.0 ],
-					"text" : "set reverb-audio-1"
+					"patching_rect" : [ 149.0, 1165.0, 68.0, 22.0 ],
+					"text" : "set audio-1"
 				}
 
 			}
@@ -577,7 +478,6 @@
 				"box" : 				{
 					"id" : "obj-294",
 					"maxclass" : "textbutton",
-					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
@@ -2179,7 +2079,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 126.0, 537.5, 39.0, 22.0 ],
-					"text" : "r rmaingain"
+					"text" : "r gain"
 				}
 
 			}
@@ -3342,7 +3242,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 326.0, 93.0, 834.0, 213.0 ],
+						"rect" : [ 38.0, 73.0, 834.0, 213.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -3371,18 +3271,6 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
-								"box" : 								{
-									"id" : "obj-184",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 392.0, 9.0, 181.0, 22.0 ],
-									"text" : "window flags grow, window exec"
-								}
-
-							}
-, 							{
 								"box" : 								{
 									"fontlink" : 1,
 									"id" : "obj-206",
@@ -7356,7 +7244,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u865000797"
+									"varname" : "u721010805"
 								}
 
 							}
@@ -7387,7 +7275,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1161.0, 458.0, 41.0, 22.0 ],
-									"text" : "s rmaingain"
+									"text" : "s gain"
 								}
 
 							}
@@ -12585,7 +12473,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"items" : [ "to Max 1", ",", "to Max 2", ",", "MIDI Mix" ],
+									"items" : [ "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12596,9 +12484,9 @@
 									"presentation_rect" : [ 13.0, 10.0, 207.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "to Max 1", "to Max 2", "MIDI Mix" ],
+											"parameter_enum" : [ "to Max 1", "to Max 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 2,
+											"parameter_mmax" : 1,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -13904,13 +13792,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
-									"source" : [ "obj-184", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-186", 0 ]
 								}
@@ -15052,7 +14933,7 @@
 					"patching_rect" : [ 1128.5, 596.0, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1016.0, 107.6640625, 59.0, 20.0 ],
-					"text" : "58.19%"
+					"text" : "0.00%"
 				}
 
 			}
@@ -15066,7 +14947,7 @@
 					"patching_rect" : [ 1085.5, 596.0, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1016.0, 71.90625, 59.0, 20.0 ],
-					"text" : "58.44%"
+					"text" : "0.00%"
 				}
 
 			}
@@ -15635,7 +15516,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1406.5, 396.666666666666742, 236.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 446.5, 54.4453125, 242.0, 27.0 ],
+					"presentation_rect" : [ 446.5, 51.4453125, 242.0, 27.0 ],
 					"text" : "Simple Reverb"
 				}
 
@@ -15710,11 +15591,11 @@
 			}
 , 			{
 				"box" : 				{
+					"cantchange" : 1,
 					"format" : 6,
 					"id" : "obj-83",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
-					"maximum" : 2.0,
-					"minimum" : -2.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -15729,16 +15610,16 @@
 			}
 , 			{
 				"box" : 				{
+					"cantchange" : 1,
 					"format" : 6,
 					"id" : "obj-82",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
-					"maximum" : 2.0,
-					"minimum" : -2.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1294.0, 892.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1162.0, 742.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1025.0, 304.4609375, 50.0, 22.0 ],
 					"triangle" : 0,
@@ -15748,16 +15629,16 @@
 			}
 , 			{
 				"box" : 				{
+					"cantchange" : 1,
 					"format" : 6,
 					"id" : "obj-81",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
-					"maximum" : 2.0,
-					"minimum" : -2.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1294.0, 768.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1162.0, 711.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1025.0, 270.9609375, 50.0, 22.0 ],
 					"triangle" : 0,
@@ -15767,16 +15648,16 @@
 			}
 , 			{
 				"box" : 				{
+					"cantchange" : 1,
 					"format" : 6,
 					"id" : "obj-80",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
-					"maximum" : 2.0,
-					"minimum" : -2.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1305.0, 664.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1162.0, 684.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1025.0, 239.4609375, 50.0, 22.0 ],
 					"triangle" : 0,
@@ -16622,7 +16503,7 @@
 					"presentation_rect" : [ 22.499999999999972, 411.2109375, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "reverb-audio-1-level[3]",
+							"parameter_longname" : "Audio-1-level[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 4 Level",
@@ -16632,7 +16513,7 @@
 
 					}
 ,
-					"varname" : "reverb-audio-1-level[3]"
+					"varname" : "Audio-1-level[3]"
 				}
 
 			}
@@ -16643,7 +16524,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 577.5, 262.0, 182.0, 22.0 ],
+					"patching_rect" : [ 577.5, 262.0, 144.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16659,7 +16540,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ reverb-audio-4 @loop 1"
+					"text" : "groove~ audio-4 @loop 1"
 				}
 
 			}
@@ -16678,7 +16559,7 @@
 					"presentation_rect" : [ 22.499999999999972, 328.9609375, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "reverb-audio-1-level[2]",
+							"parameter_longname" : "Audio-1-level[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 3 Level",
@@ -16688,7 +16569,7 @@
 
 					}
 ,
-					"varname" : "reverb-audio-1-level[2]"
+					"varname" : "Audio-1-level[2]"
 				}
 
 			}
@@ -16699,7 +16580,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 383.5, 243.0, 182.0, 22.0 ],
+					"patching_rect" : [ 383.5, 243.0, 144.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16708,14 +16589,14 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 3746.559959873557091, "ticks" ],
-						"originaltempo" : 21.17111760336066,
+						"originaltempo" : 6.838334488716419,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ reverb-audio-3 @loop 1"
+					"text" : "groove~ audio-3 @loop 1"
 				}
 
 			}
@@ -16734,7 +16615,7 @@
 					"presentation_rect" : [ 22.499999999999972, 254.6640625, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "reverb-audio-1-level[1]",
+							"parameter_longname" : "Audio-1-level[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 2 Level",
@@ -16744,7 +16625,7 @@
 
 					}
 ,
-					"varname" : "reverb-audio-1-level[1]"
+					"varname" : "Audio-1-level[1]"
 				}
 
 			}
@@ -16755,7 +16636,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 195.500000000000028, 248.0, 182.0, 22.0 ],
+					"patching_rect" : [ 195.500000000000028, 248.0, 144.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16771,7 +16652,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ reverb-audio-2 @loop 1"
+					"text" : "groove~ audio-2 @loop 1"
 				}
 
 			}
@@ -16855,7 +16736,7 @@
 					"presentation_rect" : [ 22.499999999999972, 195.4609375, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "reverb-audio-1-level",
+							"parameter_longname" : "Audio-1-level",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 1 Level",
@@ -16865,7 +16746,7 @@
 
 					}
 ,
-					"varname" : "reverb-audio-1-level"
+					"varname" : "Audio-1-level"
 				}
 
 			}
@@ -16876,7 +16757,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 5.5, 248.0, 182.0, 22.0 ],
+					"patching_rect" : [ 5.5, 248.0, 144.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"basictuning" : 440,
 						"followglobaltempo" : 0,
@@ -16885,14 +16766,14 @@
 						"loopstart" : [ 0.0, "ms" ],
 						"mode" : "basic",
 						"originallength" : [ 51257.786412022142031, "ticks" ],
-						"originaltempo" : 284.800502335597457,
+						"originaltempo" : 124.584899815349047,
 						"phase" : [ 0.0, "ticks" ],
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ reverb-audio-1 @loop 1"
+					"text" : "groove~ audio-1 @loop 1"
 				}
 
 			}
@@ -17009,8 +16890,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1463.0, 86.0, 116.0, 22.0 ],
-					"text" : "info~ reverb-audio-4"
+					"patching_rect" : [ 1463.0, 86.0, 103.0, 22.0 ],
+					"text" : "info~ audio-4"
 				}
 
 			}
@@ -17033,8 +16914,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1274.0, 86.0, 116.0, 22.0 ],
-					"text" : "info~ reverb-audio-3"
+					"patching_rect" : [ 1274.0, 86.0, 103.0, 22.0 ],
+					"text" : "info~ audio-3"
 				}
 
 			}
@@ -17057,8 +16938,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1111.0, 90.0, 116.0, 22.0 ],
-					"text" : "info~ reverb-audio-2"
+					"patching_rect" : [ 1111.0, 90.0, 103.0, 22.0 ],
+					"text" : "info~ audio-2"
 				}
 
 			}
@@ -17081,8 +16962,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 922.0, 90.0, 116.0, 22.0 ],
-					"text" : "info~ reverb-audio-1"
+					"patching_rect" : [ 922.0, 90.0, 103.0, 22.0 ],
+					"text" : "info~ audio-1"
 				}
 
 			}
@@ -17198,8 +17079,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 684.0, 54.0, 127.0, 22.0 ],
-					"text" : "buffer~ reverb-audio-4"
+					"patching_rect" : [ 684.0, 54.0, 89.0, 22.0 ],
+					"text" : "buffer~ audio-4"
 				}
 
 			}
@@ -17222,8 +17103,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 488.0, 54.0, 127.0, 22.0 ],
-					"text" : "buffer~ reverb-audio-3"
+					"patching_rect" : [ 488.0, 54.0, 89.0, 22.0 ],
+					"text" : "buffer~ audio-3"
 				}
 
 			}
@@ -17246,8 +17127,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 238.500000000000028, 54.0, 127.0, 22.0 ],
-					"text" : "buffer~ reverb-audio-2"
+					"patching_rect" : [ 238.500000000000028, 54.0, 89.0, 22.0 ],
+					"text" : "buffer~ audio-2"
 				}
 
 			}
@@ -17270,8 +17151,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 0.0, 54.0, 127.0, 22.0 ],
-					"text" : "buffer~ reverb-audio-1"
+					"patching_rect" : [ 0.0, 54.0, 89.0, 22.0 ],
+					"text" : "buffer~ audio-1"
 				}
 
 			}
@@ -18416,13 +18297,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
-					"source" : [ "obj-235", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-209", 0 ],
 					"source" : [ "obj-236", 0 ]
 				}
@@ -19293,60 +19167,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-81", 0 ],
-					"midpoints" : [ 1303.5, 765.0, 1303.5, 765.0 ],
-					"source" : [ "obj-326", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-328", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-329", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-5", 3 ],
 					"midpoints" : [ 587.0, 480.0, 148.0, 480.0 ],
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
-					"source" : [ "obj-330", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-331", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-83", 0 ],
-					"midpoints" : [ 1171.5, 782.0 ],
-					"source" : [ "obj-332", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-333", 0 ]
 				}
 
 			}
@@ -19567,8 +19390,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-235", 0 ],
-					"midpoints" : [ 899.5, 854.0, 1275.0, 854.0, 1275.0, 624.0, 1314.5, 624.0 ],
+					"destination" : [ "obj-79", 0 ],
+					"order" : 1,
+					"source" : [ "obj-69", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"midpoints" : [ 899.5, 854.0, 1303.0, 854.0, 1303.0, 650.0, 1171.5, 650.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 0 ]
 				}
@@ -19576,8 +19407,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-326", 0 ],
-					"midpoints" : [ 910.0, 855.0, 1281.0, 855.0, 1281.0, 738.0, 1303.5, 738.0 ],
+					"destination" : [ "obj-81", 0 ],
+					"midpoints" : [ 910.0, 854.0, 1222.0, 854.0, 1222.0, 707.0, 1171.5, 707.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 1 ]
 				}
@@ -19585,8 +19416,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-330", 0 ],
-					"midpoints" : [ 920.5, 854.0, 1222.0, 854.0, 1222.0, 843.0, 1303.5, 843.0 ],
+					"destination" : [ "obj-82", 0 ],
+					"midpoints" : [ 920.5, 854.0, 1222.0, 854.0, 1222.0, 737.0, 1171.5, 737.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 2 ]
 				}
@@ -19594,18 +19425,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-332", 0 ],
-					"midpoints" : [ 931.0, 854.0, 1222.0, 854.0, 1222.0, 782.0 ],
+					"destination" : [ "obj-83", 0 ],
+					"midpoints" : [ 931.0, 854.0, 1222.0, 854.0, 1222.0, 782.0, 1171.5, 782.0 ],
 					"order" : 0,
 					"source" : [ "obj-69", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
-					"order" : 1,
-					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -19672,34 +19495,6 @@
 					"destination" : [ "obj-47", 0 ],
 					"order" : 1,
 					"source" : [ "obj-8", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-328", 0 ],
-					"source" : [ "obj-80", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-329", 0 ],
-					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-331", 0 ],
-					"source" : [ "obj-82", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-333", 0 ],
-					"source" : [ "obj-83", 0 ]
 				}
 
 			}
@@ -19912,11 +19707,11 @@
 			"obj-104::obj-80" : [ "r2v", "r2v", 0 ],
 			"obj-104::obj-87" : [ "r1v", "r1v", 0 ],
 			"obj-104::obj-94" : [ "r0v", "r0v", 0 ],
-			"obj-22" : [ "reverb-audio-1-level", "Audio Track 1 Level", 0 ],
-			"obj-23" : [ "reverb-audio-1-level[1]", "Audio Track 2 Level", 0 ],
-			"obj-28" : [ "reverb-audio-1-level[2]", "Audio Track 3 Level", 0 ],
+			"obj-22" : [ "Audio-1-level", "Audio Track 1 Level", 0 ],
+			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
 			"obj-322" : [ "live.gain~", "Mic Input Level", 0 ],
-			"obj-33" : [ "reverb-audio-1-level[3]", "Audio Track 4 Level", 0 ],
+			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"obj-63::obj-22" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 
