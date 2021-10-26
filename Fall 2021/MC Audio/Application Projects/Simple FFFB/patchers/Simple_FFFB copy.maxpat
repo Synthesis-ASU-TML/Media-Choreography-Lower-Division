@@ -390,7 +390,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 785.5, 958.0, 62.0, 22.0 ],
-					"text" : "set fffb-record"
+					"text" : "set record"
 				}
 
 			}
@@ -402,7 +402,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 717.0, 943.0, 68.0, 22.0 ],
-					"text" : "set fffb-audio-1"
+					"text" : "set audio-1"
 				}
 
 			}
@@ -446,7 +446,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 705.0, 650.0, 137.0, 22.0 ],
-					"text" : "buffer~ fffb-record 120000 2"
+					"text" : "buffer~ record 120000 2"
 				}
 
 			}
@@ -518,7 +518,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 884.49462890625, 591.9453125, 97.0, 22.0 ],
-					"text" : "record~ fffb-record 2"
+					"text" : "record~ record 2"
 				}
 
 			}
@@ -19042,7 +19042,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ fffb-audio-1 @loop 1"
+					"text" : "groove~ audio-1 @loop 1"
 				}
 
 			}
@@ -19739,7 +19739,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ fffb-audio-1 @loop 1"
+					"text" : "groove~ audio-1 @loop 1"
 				}
 
 			}
@@ -19825,7 +19825,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ fffb-audio-1 @loop 1"
+					"text" : "groove~ audio-1 @loop 1"
 				}
 
 			}
@@ -19911,7 +19911,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ fffb-audio-1 @loop 1"
+					"text" : "groove~ audio-1 @loop 1"
 				}
 
 			}
@@ -20921,7 +20921,7 @@
 					"presentation_rect" : [ 15.499999999999972, 373.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "fffb-audio-1-level[3]",
+							"parameter_longname" : "Audio-1-level[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Filter 4 Level",
@@ -20931,7 +20931,7 @@
 
 					}
 ,
-					"varname" : "fffb-audio-1-level[3]"
+					"varname" : "Audio-1-level[3]"
 				}
 
 			}
@@ -20950,7 +20950,7 @@
 					"presentation_rect" : [ 15.499999999999972, 321.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "fffb-audio-1-level[2]",
+							"parameter_longname" : "Audio-1-level[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Filter 3 Level",
@@ -20960,7 +20960,7 @@
 
 					}
 ,
-					"varname" : "fffb-audio-1-level[2]"
+					"varname" : "Audio-1-level[2]"
 				}
 
 			}
@@ -20979,7 +20979,7 @@
 					"presentation_rect" : [ 15.499999999999972, 272.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "fffb-audio-1-level[1]",
+							"parameter_longname" : "Audio-1-level[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Filter 2 Level",
@@ -20989,7 +20989,7 @@
 
 					}
 ,
-					"varname" : "fffb-audio-1-level[1]"
+					"varname" : "Audio-1-level[1]"
 				}
 
 			}
@@ -21061,7 +21061,7 @@
 					"presentation_rect" : [ 15.499999999999972, 224.5, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "fffb-audio-1-level",
+							"parameter_longname" : "Audio-1-level",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Filter 1 Level",
@@ -21071,7 +21071,7 @@
 
 					}
 ,
-					"varname" : "fffb-audio-1-level"
+					"varname" : "Audio-1-level"
 				}
 
 			}
@@ -21098,7 +21098,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "groove~ fffb-audio-1 @loop 1"
+					"text" : "groove~ audio-1 @loop 1"
 				}
 
 			}
@@ -21138,7 +21138,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 34.0, 71.0, 89.0, 22.0 ],
-					"text" : "buffer~ fffb-audio-1"
+					"text" : "buffer~ audio-1"
 				}
 
 			}
@@ -22761,11 +22761,11 @@
 			"obj-151::obj-9" : [ "umenu", "umenu", 0 ],
 			"obj-151::obj-94" : [ "r0", "r0", 0 ],
 			"obj-181" : [ "live.gain~", "Mic Input Level", 0 ],
-			"obj-22" : [ "fffb-audio-1-level", "Filter 1 Level", 0 ],
-			"obj-23" : [ "fffb-audio-1-level[1]", "Filter 2 Level", 0 ],
-			"obj-28" : [ "fffb-audio-1-level[2]", "Filter 3 Level", 0 ],
+			"obj-22" : [ "Audio-1-level", "Filter 1 Level", 0 ],
+			"obj-23" : [ "Audio-1-level[1]", "Filter 2 Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Filter 3 Level", 0 ],
 			"obj-29::obj-22" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-33" : [ "fffb-audio-1-level[3]", "Filter 4 Level", 0 ],
+			"obj-33" : [ "Audio-1-level[3]", "Filter 4 Level", 0 ],
 			"parameterbanks" : 			{
 
 			}
