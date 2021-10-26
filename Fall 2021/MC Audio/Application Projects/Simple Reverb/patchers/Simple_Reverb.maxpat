@@ -2178,7 +2178,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.0, 537.5, 39.0, 22.0 ],
+					"patching_rect" : [ 126.0, 537.5, 69.0, 22.0 ],
 					"text" : "r rmaingain"
 				}
 
@@ -7352,11 +7352,11 @@
 										"slider[8]" : [ 0.0 ],
 										"slider[9]" : [ 0.0 ],
 										"toggle" : [ 0 ],
-										"umenu" : [ 0 ]
+										"umenu" : [ 2 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u865000797"
+									"varname" : "u031007142"
 								}
 
 							}
@@ -7386,7 +7386,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1161.0, 458.0, 41.0, 22.0 ],
+									"patching_rect" : [ 1161.0, 458.0, 71.0, 22.0 ],
 									"text" : "s rmaingain"
 								}
 
@@ -12585,7 +12585,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-8",
-									"items" : [ "to Max 1", ",", "to Max 2", ",", "MIDI Mix" ],
+									"items" : [ "to Max 1", ",", "to Max 2", ",", "MIDI Mix", ",", "from MC Audio 1", ",", "from MC Audio 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12596,9 +12596,9 @@
 									"presentation_rect" : [ 13.0, 10.0, 207.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_enum" : [ "to Max 1", "to Max 2", "MIDI Mix" ],
+											"parameter_enum" : [ "to Max 1", "to Max 2", "MIDI Mix", "from MC Audio 1", "from MC Audio 2" ],
 											"parameter_longname" : "umenu",
-											"parameter_mmax" : 2,
+											"parameter_mmax" : 4,
 											"parameter_shortname" : "umenu",
 											"parameter_type" : 2
 										}
@@ -14079,6 +14079,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-169", 0 ],
+									"source" : [ "obj-22", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-26", 0 ],
 									"source" : [ "obj-25", 1 ]
 								}
@@ -14109,6 +14116,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-29", 1 ],
 									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-165", 0 ],
+									"source" : [ "obj-29", 0 ]
 								}
 
 							}
@@ -15052,7 +15066,7 @@
 					"patching_rect" : [ 1128.5, 596.0, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1016.0, 107.6640625, 59.0, 20.0 ],
-					"text" : "58.19%"
+					"text" : "0.00%"
 				}
 
 			}
@@ -15066,7 +15080,7 @@
 					"patching_rect" : [ 1085.5, 596.0, 151.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1016.0, 71.90625, 59.0, 20.0 ],
-					"text" : "58.44%"
+					"text" : "0.00%"
 				}
 
 			}

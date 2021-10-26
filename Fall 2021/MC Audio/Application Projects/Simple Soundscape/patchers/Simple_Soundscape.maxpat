@@ -1207,9 +1207,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scaperecord3" ],
-					"patching_rect" : [ 1858.0, 1227.0, 56.0, 22.0 ],
-					"text" : "t scaperecord3"
+					"outlettype" : [ "scaperecord4" ],
+					"patching_rect" : [ 1888.0, 1227.0, 88.0, 22.0 ],
+					"text" : "t scaperecord4"
 				}
 
 			}
@@ -1219,9 +1219,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scape-audio-3" ],
-					"patching_rect" : [ 1795.0, 1227.0, 55.0, 22.0 ],
-					"text" : "t scape-audio-3"
+					"outlettype" : [ "scape-audio-4" ],
+					"patching_rect" : [ 1795.0, 1227.0, 91.0, 22.0 ],
+					"text" : "t scape-audio-4"
 				}
 
 			}
@@ -1276,7 +1276,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "scaperecord3" ],
-					"patching_rect" : [ 1588.0, 928.0, 56.0, 22.0 ],
+					"patching_rect" : [ 1620.0, 928.0, 88.0, 22.0 ],
 					"text" : "t scaperecord3"
 				}
 
@@ -1288,7 +1288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "scape-audio-3" ],
-					"patching_rect" : [ 1525.0, 928.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1525.0, 928.0, 91.0, 22.0 ],
 					"text" : "t scape-audio-3"
 				}
 
@@ -1344,7 +1344,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "scaperecord2" ],
-					"patching_rect" : [ 1357.0, 944.0, 56.0, 22.0 ],
+					"patching_rect" : [ 1389.0, 944.0, 88.0, 22.0 ],
 					"text" : "t scaperecord2"
 				}
 
@@ -1356,7 +1356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "scape-audio-2" ],
-					"patching_rect" : [ 1294.0, 944.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1294.0, 944.0, 91.0, 22.0 ],
 					"text" : "t scape-audio-2"
 				}
 
@@ -1412,7 +1412,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "scaperecord1" ],
-					"patching_rect" : [ 1216.0, 944.0, 56.0, 22.0 ],
+					"patching_rect" : [ 1216.0, 944.0, 88.0, 22.0 ],
 					"text" : "t scaperecord1"
 				}
 
@@ -1424,7 +1424,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "scape-audio-1" ],
-					"patching_rect" : [ 1153.0, 944.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1123.0, 944.0, 91.0, 22.0 ],
 					"text" : "t scape-audio-1"
 				}
 
@@ -1734,7 +1734,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1773.5, 1073.0, 143.0, 22.0 ],
+					"patching_rect" : [ 1773.5, 1073.0, 175.0, 22.0 ],
 					"text" : "buffer~ scaperecord4 120000 2"
 				}
 
@@ -1746,7 +1746,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1773.5, 974.0, 104.0, 22.0 ],
+					"patching_rect" : [ 1773.5, 974.0, 136.0, 22.0 ],
 					"text" : "record~ scaperecord4 2"
 				}
 
@@ -1758,7 +1758,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1525.0, 772.0, 143.0, 22.0 ],
+					"patching_rect" : [ 1525.0, 772.0, 175.0, 22.0 ],
 					"text" : "buffer~ scaperecord3 120000 2"
 				}
 
@@ -1770,7 +1770,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1525.0, 673.0, 104.0, 22.0 ],
+					"patching_rect" : [ 1525.0, 673.0, 136.0, 22.0 ],
 					"text" : "record~ scaperecord3 2"
 				}
 
@@ -1782,7 +1782,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1303.0, 781.0, 143.0, 22.0 ],
+					"patching_rect" : [ 1303.0, 781.0, 175.0, 22.0 ],
 					"text" : "buffer~ scaperecord2 120000 2"
 				}
 
@@ -1794,7 +1794,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1303.0, 682.0, 104.0, 22.0 ],
+					"patching_rect" : [ 1303.0, 682.0, 136.0, 22.0 ],
 					"text" : "record~ scaperecord2 2"
 				}
 
@@ -1818,7 +1818,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 1094.0, 790.0, 143.0, 22.0 ],
+					"patching_rect" : [ 1094.0, 790.0, 175.0, 22.0 ],
 					"text" : "buffer~ scaperecord1 120000 2"
 				}
 
@@ -1830,7 +1830,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1094.0, 691.0, 104.0, 22.0 ],
+					"patching_rect" : [ 1094.0, 691.0, 136.0, 22.0 ],
 					"text" : "record~ scaperecord1 2"
 				}
 
@@ -11541,7 +11541,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u419000818"
+									"varname" : "u367011229"
 								}
 
 							}
@@ -12018,7 +12018,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"items" : [ "to Max 1", ",", "to Max 2" ],
+									"items" : [ "to Max 1", ",", "to Max 2", ",", "MIDI Mix" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14567,7 +14567,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1824.0, 92.0, 103.0, 22.0 ],
+					"patching_rect" : [ 1824.0, 92.0, 114.0, 22.0 ],
 					"text" : "info~ scape-audio-4"
 				}
 
@@ -14591,7 +14591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1635.0, 92.0, 103.0, 22.0 ],
+					"patching_rect" : [ 1635.0, 92.0, 114.0, 22.0 ],
 					"text" : "info~ scape-audio-3"
 				}
 
@@ -14615,7 +14615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1472.0, 96.0, 103.0, 22.0 ],
+					"patching_rect" : [ 1472.0, 96.0, 114.0, 22.0 ],
 					"text" : "info~ scape-audio-2"
 				}
 
@@ -14639,7 +14639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 1283.0, 96.0, 103.0, 22.0 ],
+					"patching_rect" : [ 1283.0, 96.0, 114.0, 22.0 ],
 					"text" : "info~ scape-audio-1"
 				}
 
@@ -15912,7 +15912,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 397.0, 66.0, 89.0, 22.0 ],
+					"patching_rect" : [ 397.0, 66.0, 125.0, 22.0 ],
 					"text" : "buffer~ scape-audio-4"
 				}
 
@@ -15936,7 +15936,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 276.0, 66.0, 89.0, 22.0 ],
+					"patching_rect" : [ 276.0, 66.0, 125.0, 22.0 ],
 					"text" : "buffer~ scape-audio-3"
 				}
 
@@ -15960,7 +15960,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 155.0, 66.0, 89.0, 22.0 ],
+					"patching_rect" : [ 155.0, 66.0, 125.0, 22.0 ],
 					"text" : "buffer~ scape-audio-2"
 				}
 
@@ -15984,7 +15984,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 34.0, 66.0, 89.0, 22.0 ],
+					"patching_rect" : [ 34.0, 66.0, 125.0, 22.0 ],
 					"text" : "buffer~ scape-audio-1"
 				}
 
