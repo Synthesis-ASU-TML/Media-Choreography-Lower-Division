@@ -1207,9 +1207,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scaperecord3" ],
+					"outlettype" : [ "record3" ],
 					"patching_rect" : [ 1858.0, 1227.0, 56.0, 22.0 ],
-					"text" : "t scaperecord3"
+					"text" : "t record3"
 				}
 
 			}
@@ -1219,9 +1219,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scape-audio-3" ],
+					"outlettype" : [ "audio-3" ],
 					"patching_rect" : [ 1795.0, 1227.0, 55.0, 22.0 ],
-					"text" : "t scape-audio-3"
+					"text" : "t audio-3"
 				}
 
 			}
@@ -1275,9 +1275,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scaperecord3" ],
+					"outlettype" : [ "record3" ],
 					"patching_rect" : [ 1588.0, 928.0, 56.0, 22.0 ],
-					"text" : "t scaperecord3"
+					"text" : "t record3"
 				}
 
 			}
@@ -1287,9 +1287,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scape-audio-3" ],
+					"outlettype" : [ "audio-3" ],
 					"patching_rect" : [ 1525.0, 928.0, 55.0, 22.0 ],
-					"text" : "t scape-audio-3"
+					"text" : "t audio-3"
 				}
 
 			}
@@ -1343,9 +1343,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scaperecord2" ],
+					"outlettype" : [ "record2" ],
 					"patching_rect" : [ 1357.0, 944.0, 56.0, 22.0 ],
-					"text" : "t scaperecord2"
+					"text" : "t record2"
 				}
 
 			}
@@ -1355,9 +1355,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scape-audio-2" ],
+					"outlettype" : [ "audio-2" ],
 					"patching_rect" : [ 1294.0, 944.0, 55.0, 22.0 ],
-					"text" : "t scape-audio-2"
+					"text" : "t audio-2"
 				}
 
 			}
@@ -1411,9 +1411,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scaperecord1" ],
+					"outlettype" : [ "record1" ],
 					"patching_rect" : [ 1216.0, 944.0, 56.0, 22.0 ],
-					"text" : "t scaperecord1"
+					"text" : "t record1"
 				}
 
 			}
@@ -1423,9 +1423,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "scape-audio-1" ],
+					"outlettype" : [ "audio-1" ],
 					"patching_rect" : [ 1153.0, 944.0, 55.0, 22.0 ],
-					"text" : "t scape-audio-1"
+					"text" : "t audio-1"
 				}
 
 			}
@@ -1735,7 +1735,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1773.5, 1073.0, 143.0, 22.0 ],
-					"text" : "buffer~ scaperecord4 120000 2"
+					"text" : "buffer~ record4 120000 2"
 				}
 
 			}
@@ -1747,7 +1747,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1773.5, 974.0, 104.0, 22.0 ],
-					"text" : "record~ scaperecord4 2"
+					"text" : "record~ record4 2"
 				}
 
 			}
@@ -1759,7 +1759,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1525.0, 772.0, 143.0, 22.0 ],
-					"text" : "buffer~ scaperecord3 120000 2"
+					"text" : "buffer~ record3 120000 2"
 				}
 
 			}
@@ -1771,7 +1771,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1525.0, 673.0, 104.0, 22.0 ],
-					"text" : "record~ scaperecord3 2"
+					"text" : "record~ record3 2"
 				}
 
 			}
@@ -1783,7 +1783,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1303.0, 781.0, 143.0, 22.0 ],
-					"text" : "buffer~ scaperecord2 120000 2"
+					"text" : "buffer~ record2 120000 2"
 				}
 
 			}
@@ -1795,7 +1795,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1303.0, 682.0, 104.0, 22.0 ],
-					"text" : "record~ scaperecord2 2"
+					"text" : "record~ record2 2"
 				}
 
 			}
@@ -1819,7 +1819,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1094.0, 790.0, 143.0, 22.0 ],
-					"text" : "buffer~ scaperecord1 120000 2"
+					"text" : "buffer~ record1 120000 2"
 				}
 
 			}
@@ -1831,7 +1831,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1094.0, 691.0, 104.0, 22.0 ],
-					"text" : "record~ scaperecord1 2"
+					"text" : "record~ record1 2"
 				}
 
 			}
@@ -14568,7 +14568,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1824.0, 92.0, 103.0, 22.0 ],
-					"text" : "info~ scape-audio-4"
+					"text" : "info~ audio-4"
 				}
 
 			}
@@ -14592,7 +14592,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1635.0, 92.0, 103.0, 22.0 ],
-					"text" : "info~ scape-audio-3"
+					"text" : "info~ audio-3"
 				}
 
 			}
@@ -14616,7 +14616,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1472.0, 96.0, 103.0, 22.0 ],
-					"text" : "info~ scape-audio-2"
+					"text" : "info~ audio-2"
 				}
 
 			}
@@ -14640,7 +14640,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1283.0, 96.0, 103.0, 22.0 ],
-					"text" : "info~ scape-audio-1"
+					"text" : "info~ audio-1"
 				}
 
 			}
@@ -15546,7 +15546,7 @@
 					"presentation_rect" : [ 18.499999999999972, 358.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "scape-audio-1-level[3]",
+							"parameter_longname" : "Audio-1-level[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 4 Level",
@@ -15556,7 +15556,7 @@
 
 					}
 ,
-					"varname" : "scape-audio-1-level[3]"
+					"varname" : "Audio-1-level[3]"
 				}
 
 			}
@@ -15584,7 +15584,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "mc.groove~ scape-audio-4 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-4 @chans 1 @loop 1"
 				}
 
 			}
@@ -15603,7 +15603,7 @@
 					"presentation_rect" : [ 18.499999999999972, 306.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "scape-audio-1-level[2]",
+							"parameter_longname" : "Audio-1-level[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 3 Level",
@@ -15613,7 +15613,7 @@
 
 					}
 ,
-					"varname" : "scape-audio-1-level[2]"
+					"varname" : "Audio-1-level[2]"
 				}
 
 			}
@@ -15641,7 +15641,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "mc.groove~ scape-audio-3 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-3 @chans 1 @loop 1"
 				}
 
 			}
@@ -15660,7 +15660,7 @@
 					"presentation_rect" : [ 18.499999999999972, 257.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "scape-audio-1-level[1]",
+							"parameter_longname" : "Audio-1-level[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 2 Level",
@@ -15670,7 +15670,7 @@
 
 					}
 ,
-					"varname" : "scape-audio-1-level[1]"
+					"varname" : "Audio-1-level[1]"
 				}
 
 			}
@@ -15698,7 +15698,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "mc.groove~ scape-audio-2 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-2 @chans 1 @loop 1"
 				}
 
 			}
@@ -15783,7 +15783,7 @@
 					"presentation_rect" : [ 18.499999999999972, 209.0, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "scape-audio-1-level",
+							"parameter_longname" : "Audio-1-level",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 1 Level",
@@ -15793,7 +15793,7 @@
 
 					}
 ,
-					"varname" : "scape-audio-1-level"
+					"varname" : "Audio-1-level"
 				}
 
 			}
@@ -15821,7 +15821,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "mc.groove~ scape-audio-1 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-1 @chans 1 @loop 1"
 				}
 
 			}
@@ -15913,7 +15913,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 397.0, 66.0, 89.0, 22.0 ],
-					"text" : "buffer~ scape-audio-4"
+					"text" : "buffer~ audio-4"
 				}
 
 			}
@@ -15937,7 +15937,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 276.0, 66.0, 89.0, 22.0 ],
-					"text" : "buffer~ scape-audio-3"
+					"text" : "buffer~ audio-3"
 				}
 
 			}
@@ -15961,7 +15961,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 155.0, 66.0, 89.0, 22.0 ],
-					"text" : "buffer~ scape-audio-2"
+					"text" : "buffer~ audio-2"
 				}
 
 			}
@@ -15985,7 +15985,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 34.0, 66.0, 89.0, 22.0 ],
-					"text" : "buffer~ scape-audio-1"
+					"text" : "buffer~ audio-1"
 				}
 
 			}
@@ -18447,12 +18447,12 @@
 		"parameters" : 		{
 			"obj-1" : [ "mc.live.gain~", "Main Audio Level", 0 ],
 			"obj-217" : [ "button[1]", "button[1]", 0 ],
-			"obj-22" : [ "scape-audio-1-level", "Audio Track 1 Level", 0 ],
+			"obj-22" : [ "Audio-1-level", "Audio Track 1 Level", 0 ],
 			"obj-223" : [ "button", "button", 0 ],
-			"obj-23" : [ "scape-audio-1-level[1]", "Audio Track 2 Level", 0 ],
-			"obj-28" : [ "scape-audio-1-level[2]", "Audio Track 3 Level", 0 ],
+			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
 			"obj-286" : [ "live.gain~", "Live Audio Volume", 0 ],
-			"obj-33" : [ "scape-audio-1-level[3]", "Audio Track 4 Level", 0 ],
+			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"obj-38::obj-22" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-58::obj-2" : [ "multislider", "multislider", 0 ],
 			"obj-58::obj-25" : [ "multislider[4]", "multislider", 0 ],

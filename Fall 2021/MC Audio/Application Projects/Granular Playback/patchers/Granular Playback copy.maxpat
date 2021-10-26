@@ -260,7 +260,7 @@
 										"timestretch" : [ 0 ]
 									}
 ,
-									"text" : "mc.groove~ gran-audio-4 @chans 1"
+									"text" : "mc.groove~ audio-4 @chans 1"
 								}
 
 							}
@@ -539,7 +539,7 @@
 										"timestretch" : [ 0 ]
 									}
 ,
-									"text" : "mc.groove~ gran-audio-3 @chans 1"
+									"text" : "mc.groove~ audio-3 @chans 1"
 								}
 
 							}
@@ -818,7 +818,7 @@
 										"timestretch" : [ 0 ]
 									}
 ,
-									"text" : "mc.groove~ gran-audio-2 @chans 1"
+									"text" : "mc.groove~ audio-2 @chans 1"
 								}
 
 							}
@@ -1097,7 +1097,7 @@
 										"timestretch" : [ 0 ]
 									}
 ,
-									"text" : "mc.groove~ gran-audio-1 @chans 1"
+									"text" : "mc.groove~ audio-1 @chans 1"
 								}
 
 							}
@@ -5389,9 +5389,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "granrecord4" ],
+					"outlettype" : [ "record4" ],
 					"patching_rect" : [ 3460.0, 747.5, 57.0, 22.0 ],
-					"text" : "t granrecord4"
+					"text" : "t record4"
 				}
 
 			}
@@ -5401,9 +5401,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "gran-audio-4" ],
+					"outlettype" : [ "audio-4" ],
 					"patching_rect" : [ 3403.0, 747.5, 55.0, 22.0 ],
-					"text" : "t gran-audio-4"
+					"text" : "t audio-4"
 				}
 
 			}
@@ -5468,9 +5468,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "granrecord3" ],
+					"outlettype" : [ "record3" ],
 					"patching_rect" : [ 3332.0, 747.5, 56.0, 22.0 ],
-					"text" : "t granrecord3"
+					"text" : "t record3"
 				}
 
 			}
@@ -5480,9 +5480,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "gran-audio-3" ],
+					"outlettype" : [ "audio-3" ],
 					"patching_rect" : [ 3275.0, 747.5, 55.0, 22.0 ],
-					"text" : "t gran-audio-3"
+					"text" : "t audio-3"
 				}
 
 			}
@@ -5547,9 +5547,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "granrecord2" ],
+					"outlettype" : [ "record2" ],
 					"patching_rect" : [ 3204.0, 747.5, 56.0, 22.0 ],
-					"text" : "t granrecord2"
+					"text" : "t record2"
 				}
 
 			}
@@ -5559,9 +5559,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "gran-audio-2" ],
+					"outlettype" : [ "audio-2" ],
 					"patching_rect" : [ 3147.0, 747.5, 55.0, 22.0 ],
-					"text" : "t gran-audio-2"
+					"text" : "t audio-2"
 				}
 
 			}
@@ -5626,9 +5626,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "granrecord1" ],
+					"outlettype" : [ "record1" ],
 					"patching_rect" : [ 3076.0, 747.5, 56.0, 22.0 ],
-					"text" : "t granrecord1"
+					"text" : "t record1"
 				}
 
 			}
@@ -5638,9 +5638,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "gran-audio-1" ],
+					"outlettype" : [ "audio-1" ],
 					"patching_rect" : [ 3019.0, 747.5, 55.0, 22.0 ],
-					"text" : "t gran-audio-1"
+					"text" : "t audio-1"
 				}
 
 			}
@@ -5816,7 +5816,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1794.25, 1082.0, 104.0, 22.0 ],
-					"text" : "record~ granrecord4 2"
+					"text" : "record~ record4 2"
 				}
 
 			}
@@ -5848,7 +5848,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1547.25, 1083.0, 104.0, 22.0 ],
-					"text" : "record~ granrecord3 2"
+					"text" : "record~ record3 2"
 				}
 
 			}
@@ -5880,7 +5880,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1987.25, 767.5, 104.0, 22.0 ],
-					"text" : "record~ granrecord2 2"
+					"text" : "record~ record2 2"
 				}
 
 			}
@@ -5924,7 +5924,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1555.0, 771.0, 104.0, 22.0 ],
-					"text" : "record~ granrecord1 2"
+					"text" : "record~ record1 2"
 				}
 
 			}
@@ -5936,7 +5936,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1794.25, 1171.0, 143.0, 22.0 ],
-					"text" : "buffer~ granrecord4 120000 2"
+					"text" : "buffer~ record4 120000 2"
 				}
 
 			}
@@ -5948,7 +5948,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1552.0, 1171.0, 143.0, 22.0 ],
-					"text" : "buffer~ granrecord3 120000 2"
+					"text" : "buffer~ record3 120000 2"
 				}
 
 			}
@@ -5960,7 +5960,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 2003.0, 856.5, 143.0, 22.0 ],
-					"text" : "buffer~ granrecord2 120000 2"
+					"text" : "buffer~ record2 120000 2"
 				}
 
 			}
@@ -5972,7 +5972,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 1547.25, 862.333333333333258, 143.0, 22.0 ],
-					"text" : "buffer~ granrecord1 120000 2"
+					"text" : "buffer~ record1 120000 2"
 				}
 
 			}
@@ -8954,7 +8954,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1994.0, 488.0, 39.0, 22.0 ],
-									"text" : "r grangain"
+									"text" : "r gain"
 								}
 
 							}
@@ -13304,7 +13304,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.5, 511.0, 39.0, 22.0 ],
-					"text" : "r grangain"
+					"text" : "r gain"
 				}
 
 			}
@@ -16062,7 +16062,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1040.0, 543.461487000000034, 41.0, 22.0 ],
-									"text" : "s grangain"
+									"text" : "s gain"
 								}
 
 							}
@@ -24286,13 +24286,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 577.5, 111.0, 68.0, 22.0 ],
-					"text" : "set gran-audio-4"
+					"text" : "set audio-4"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "gran-audio-4",
+					"buffername" : "audio-4",
 					"id" : "obj-57",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24313,13 +24313,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 383.5, 111.0, 68.0, 22.0 ],
-					"text" : "set gran-audio-3"
+					"text" : "set audio-3"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "gran-audio-3",
+					"buffername" : "audio-3",
 					"id" : "obj-53",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24340,13 +24340,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 226.0, 111.0, 68.0, 22.0 ],
-					"text" : "set gran-audio-2"
+					"text" : "set audio-2"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "gran-audio-2",
+					"buffername" : "audio-2",
 					"id" : "obj-51",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24475,13 +24475,13 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 78.0, 111.0, 68.0, 22.0 ],
-					"text" : "set gran-audio-1"
+					"text" : "set audio-1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "gran-audio-1",
+					"buffername" : "audio-1",
 					"id" : "obj-2",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -24673,7 +24673,7 @@
 					"presentation_rect" : [ 12.5, 323.3046875, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "gran-audio-1-level[3]",
+							"parameter_longname" : "Audio-1-level[3]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 4 Level",
@@ -24683,7 +24683,7 @@
 
 					}
 ,
-					"varname" : "gran-audio-1-level[3]"
+					"varname" : "Audio-1-level[3]"
 				}
 
 			}
@@ -24711,7 +24711,7 @@
 						"timestretch" : [ 1 ]
 					}
 ,
-					"text" : "mc.groove~ gran-audio-4 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-4 @chans 1 @loop 1"
 				}
 
 			}
@@ -24730,7 +24730,7 @@
 					"presentation_rect" : [ 12.5, 280.3046875, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "gran-audio-1-level[2]",
+							"parameter_longname" : "Audio-1-level[2]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 3 Level",
@@ -24740,7 +24740,7 @@
 
 					}
 ,
-					"varname" : "gran-audio-1-level[2]"
+					"varname" : "Audio-1-level[2]"
 				}
 
 			}
@@ -24768,7 +24768,7 @@
 						"timestretch" : [ 1 ]
 					}
 ,
-					"text" : "mc.groove~ gran-audio-3 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-3 @chans 1 @loop 1"
 				}
 
 			}
@@ -24787,7 +24787,7 @@
 					"presentation_rect" : [ 12.5, 237.3046875, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "gran-audio-1-level[1]",
+							"parameter_longname" : "Audio-1-level[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 2 Level",
@@ -24797,7 +24797,7 @@
 
 					}
 ,
-					"varname" : "gran-audio-1-level[1]"
+					"varname" : "Audio-1-level[1]"
 				}
 
 			}
@@ -24825,7 +24825,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "mc.groove~ gran-audio-2 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-2 @chans 1 @loop 1"
 				}
 
 			}
@@ -24909,7 +24909,7 @@
 					"presentation_rect" : [ 12.5, 194.3046875, 164.0, 41.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "gran-audio-1-level",
+							"parameter_longname" : "Audio-1-level",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_shortname" : "Audio Track 1 Level",
@@ -24919,7 +24919,7 @@
 
 					}
 ,
-					"varname" : "gran-audio-1-level"
+					"varname" : "Audio-1-level"
 				}
 
 			}
@@ -24947,7 +24947,7 @@
 						"timestretch" : [ 0 ]
 					}
 ,
-					"text" : "mc.groove~ gran-audio-1 @chans 1 @loop 1"
+					"text" : "mc.groove~ audio-1 @chans 1 @loop 1"
 				}
 
 			}
@@ -25053,7 +25053,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1402.5, 118.0, 103.0, 22.0 ],
-					"text" : "info~ gran-audio-4"
+					"text" : "info~ audio-4"
 				}
 
 			}
@@ -25065,7 +25065,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1237.5, 118.0, 103.0, 22.0 ],
-					"text" : "info~ gran-audio-3"
+					"text" : "info~ audio-3"
 				}
 
 			}
@@ -25077,7 +25077,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 1074.5, 122.0, 103.0, 22.0 ],
-					"text" : "info~ gran-audio-2"
+					"text" : "info~ audio-2"
 				}
 
 			}
@@ -25089,7 +25089,7 @@
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
 					"patching_rect" : [ 916.5, 122.0, 103.0, 22.0 ],
-					"text" : "info~ gran-audio-1"
+					"text" : "info~ audio-1"
 				}
 
 			}
@@ -25206,7 +25206,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 363.0, 54.0, 89.0, 22.0 ],
-					"text" : "buffer~ gran-audio-4"
+					"text" : "buffer~ audio-4"
 				}
 
 			}
@@ -25230,7 +25230,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 242.0, 54.0, 89.0, 22.0 ],
-					"text" : "buffer~ gran-audio-3"
+					"text" : "buffer~ audio-3"
 				}
 
 			}
@@ -25254,7 +25254,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 121.0, 54.0, 89.0, 22.0 ],
-					"text" : "buffer~ gran-audio-2"
+					"text" : "buffer~ audio-2"
 				}
 
 			}
@@ -25278,7 +25278,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"patching_rect" : [ 0.0, 54.0, 89.0, 22.0 ],
-					"text" : "buffer~ gran-audio-1"
+					"text" : "buffer~ audio-1"
 				}
 
 			}
@@ -28425,8 +28425,8 @@
  ],
 		"parameters" : 		{
 			"obj-1" : [ "mc.live.gain~", "Main Audio Level", 0 ],
-			"obj-22" : [ "gran-audio-1-level", "Audio Track 1 Level", 0 ],
-			"obj-23" : [ "gran-audio-1-level[1]", "Audio Track 2 Level", 0 ],
+			"obj-22" : [ "Audio-1-level", "Audio Track 1 Level", 0 ],
+			"obj-23" : [ "Audio-1-level[1]", "Audio Track 2 Level", 0 ],
 			"obj-266" : [ "button[1]", "button[1]", 0 ],
 			"obj-268" : [ "button", "button", 0 ],
 			"obj-269::obj-101" : [ "multislider[8]", "multislider[8]", 0 ],
@@ -28450,8 +28450,8 @@
 			"obj-269::obj-60" : [ "multislider[5]", "multislider", 0 ],
 			"obj-269::obj-75" : [ "multislider[6]", "multislider", 0 ],
 			"obj-269::obj-78" : [ "multislider[7]", "multislider", 0 ],
-			"obj-28" : [ "gran-audio-1-level[2]", "Audio Track 3 Level", 0 ],
-			"obj-33" : [ "gran-audio-1-level[3]", "Audio Track 4 Level", 0 ],
+			"obj-28" : [ "Audio-1-level[2]", "Audio Track 3 Level", 0 ],
+			"obj-33" : [ "Audio-1-level[3]", "Audio Track 4 Level", 0 ],
 			"obj-357" : [ "live.gain~", "Live Input Volume", 0 ],
 			"obj-85::obj-22" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
