@@ -2,7 +2,7 @@
 	"name" : "Unit-2-Apps",
 	"version" : 1,
 	"creationdate" : 3716300443,
-	"modificationdate" : 3716872787,
+	"modificationdate" : 3718182030,
 	"viewrect" : [ 0.0, 86.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,17 +14,27 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Contours/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Contours/patchers",
 					"projectrelativepath" : "../Application Projects/Contours/patchers"
 				}
 
+			}
+,
+			"ndi-output-contours.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ndi-input.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"Hue Shadow.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shadow/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shadow/patchers",
 					"projectrelativepath" : "../Application Projects/Hue Shadow/patchers"
 				}
 
@@ -32,32 +42,7 @@
 ,
 			"ndi-output-hue-shadow.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
-					"projectrelativepath" : "../Unit-1-Apps/patchers"
-				}
-
-			}
-,
-			"ndi-output-contours.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
-					"projectrelativepath" : "../Unit-1-Apps/patchers"
-				}
-
-			}
-,
-			"ndi-output-cellnoise.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
-					"projectrelativepath" : "../Unit-1-Apps/patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"ndi-output-colored-edges.maxpat" : 			{
@@ -99,15 +84,10 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Colored Edges/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Colored Edges/patchers",
 					"projectrelativepath" : "../Application Projects/Colored Edges/patchers"
 				}
 
-			}
-,
-			"ndi-input.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"ndi-output.maxpat" : 			{
@@ -119,7 +99,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/patchers",
 					"projectrelativepath" : "../Application Projects/Hue Shifter/patchers"
 				}
 
@@ -129,7 +109,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Foregrounder Live/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Foregrounder Live/patchers",
 					"projectrelativepath" : "../Application Projects/Foregrounder Live/patchers"
 				}
 
@@ -139,7 +119,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Motion Particles Live/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Motion Particles Live/patchers",
 					"projectrelativepath" : "../Application Projects/Motion Particles Live/patchers"
 				}
 
@@ -149,7 +129,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Recolorer/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Recolorer/patchers",
 					"projectrelativepath" : "../Application Projects/Recolorer/patchers"
 				}
 
@@ -159,7 +139,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Stutter Frame Differencing/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Stutter Frame Differencing/patchers",
 					"projectrelativepath" : "../Application Projects/Stutter Frame Differencing/patchers"
 				}
 
@@ -169,7 +149,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Vector Fields Live/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Vector Fields Live/patchers",
 					"projectrelativepath" : "../Application Projects/Vector Fields Live/patchers"
 				}
 
@@ -185,8 +165,18 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Cell Noise/patchers",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Cell Noise/patchers",
 					"projectrelativepath" : "../Application Projects/Cell Noise/patchers"
+				}
+
+			}
+,
+			"ndi-output-cellnoise.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Unit-1-Apps/patchers",
+					"projectrelativepath" : "../Unit-1-Apps/patchers"
 				}
 
 			}
@@ -198,8 +188,8 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Cell Noise/media",
-					"projectrelativepath" : "../Application Projects/Cell Noise/media"
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Cell Noise/media",
+					"projectrelativepath" : "../Application Projects/Live Input Versions/Cell Noise/media"
 				}
 
 			}
@@ -208,7 +198,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Colored Edges/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Colored Edges/media",
 					"projectrelativepath" : "../Application Projects/Colored Edges/media"
 				}
 
@@ -218,7 +208,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/media",
 					"projectrelativepath" : "../Application Projects/Hue Shifter/media"
 				}
 
@@ -233,7 +223,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Foregrounder Live/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Foregrounder Live/media",
 					"projectrelativepath" : "../Application Projects/Foregrounder Live/media"
 				}
 
@@ -243,7 +233,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Recolorer/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Recolorer/media",
 					"projectrelativepath" : "../Application Projects/Recolorer/media"
 				}
 
@@ -253,7 +243,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Stutter Frame Differencing/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Stutter Frame Differencing/media",
 					"projectrelativepath" : "../Application Projects/Stutter Frame Differencing/media"
 				}
 
@@ -263,7 +253,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Vector Fields Live/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Vector Fields Live/media",
 					"projectrelativepath" : "../Application Projects/Vector Fields Live/media"
 				}
 
@@ -271,12 +261,7 @@
 ,
 			"folder_image.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Built Test Applications/Unit 2",
-					"projectrelativepath" : "../../../../Built Test Applications/Unit 2"
-				}
-
+				"local" : 1
 			}
 ,
 			"desertwaves.png" : 			{
@@ -343,7 +328,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Motion Particles Live/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Motion Particles Live/media",
 					"projectrelativepath" : "../Application Projects/Motion Particles Live/media"
 				}
 
@@ -353,7 +338,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Contours/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Contours/media",
 					"projectrelativepath" : "../Application Projects/Contours/media"
 				}
 
@@ -363,7 +348,7 @@
 				"kind" : "imagefile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shadow/media",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shadow/media",
 					"projectrelativepath" : "../Application Projects/Hue Shadow/media"
 				}
 
@@ -372,6 +357,16 @@
 		}
 ,
 		"code" : 		{
+			"contours.jxs" : 			{
+				"kind" : "shader",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Contours/code",
+					"projectrelativepath" : "../Application Projects/Contours/code"
+				}
+
+			}
+,
 			"op.pass.jxs" : 			{
 				"kind" : "shader"
 			}
@@ -416,7 +411,7 @@
 				"kind" : "shader",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/code",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Hue Shifter/code",
 					"projectrelativepath" : "../Application Projects/Hue Shifter/code"
 				}
 
@@ -426,7 +421,7 @@
 				"kind" : "shader",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Cell Noise/code",
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Cell Noise/code",
 					"projectrelativepath" : "../Application Projects/Cell Noise/code"
 				}
 
@@ -435,22 +430,22 @@
 		}
 ,
 		"data" : 		{
-			"vectors.json" : 			{
-				"kind" : "json",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Vector Fields Live/data",
-					"projectrelativepath" : "../Application Projects/Vector Fields Live/data"
-				}
-
-			}
-,
 			"cell-noise.json" : 			{
 				"kind" : "json",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/Unit 2/Application Projects/Cell Noise/data",
-					"projectrelativepath" : "../Application Projects/Cell Noise/data"
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 1/Application Projects/Live Input Versions/Cell Noise/data",
+					"projectrelativepath" : "../Application Projects/Live Input Versions/Cell Noise/data"
+				}
+
+			}
+,
+			"vectors.json" : 			{
+				"kind" : "json",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/synthesis-git/Media-Choreography-Lower-Division/Fall 2021/Unit 2/Application Projects/Vector Fields Live/data",
+					"projectrelativepath" : "../Application Projects/Vector Fields Live/data"
 				}
 
 			}
@@ -464,12 +459,7 @@
 		"other" : 		{
 			"unit2icon.icns" : 			{
 				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Built Test Applications/AppIcons",
-					"projectrelativepath" : "../../../../Built Test Applications/AppIcons"
-				}
-
+				"local" : 1
 			}
 ,
 			"mcvicon.icns" : 			{
