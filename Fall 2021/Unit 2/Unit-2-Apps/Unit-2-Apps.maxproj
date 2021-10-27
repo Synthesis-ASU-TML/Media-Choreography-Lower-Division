@@ -2,7 +2,7 @@
 	"name" : "Unit-2-Apps",
 	"version" : 1,
 	"creationdate" : 3716300443,
-	"modificationdate" : 3718182030,
+	"modificationdate" : 3718183652,
 	"viewrect" : [ 0.0, 86.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,6 +18,11 @@
 					"projectrelativepath" : "../Application Projects/Contours/patchers"
 				}
 
+			}
+,
+			"ndi-output-hue-shadow.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"ndi-output-contours.maxpat" : 			{
@@ -38,11 +43,6 @@
 					"projectrelativepath" : "../Application Projects/Hue Shadow/patchers"
 				}
 
-			}
-,
-			"ndi-output-hue-shadow.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"ndi-output-colored-edges.maxpat" : 			{
