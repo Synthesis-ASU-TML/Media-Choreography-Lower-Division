@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 559.0, 157.0, 367.0, 414.0 ],
+		"rect" : [ 854.0, 275.0, 366.0, 429.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "playbar",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 384.0, 147.0, 320.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 8.0, 131.0, 352.0, 16.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "message",
@@ -126,10 +139,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 231.0, 151.0, 74.0 ],
+					"patching_rect" : [ 314.5, 602.0, 151.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 8.0, 229.0, 352.0, 33.0 ],
+					"presentation_rect" : [ 8.0, 247.0, 352.0, 33.0 ],
 					"text" : "Note: Changing resolution during playback will cause the movie to pause and the audio to cut temporarily",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -194,9 +207,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.0, 427.0, 128.0, 128.0 ],
+					"patching_rect" : [ 254.0, 587.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 369.0, 352.0, 38.0 ],
+					"presentation_rect" : [ 8.0, 387.0, 352.0, 38.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -211,9 +224,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 310.0, 188.0, 38.0 ],
+					"patching_rect" : [ 294.5, 681.0, 188.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 336.0, 219.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 354.0, 219.0, 22.0 ],
 					"text" : "Output Audio Preview Levels",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -233,7 +246,7 @@
 					"overloadcolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 					"patching_rect" : [ 56.0, 479.0, 139.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 389.0, 352.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 407.0, 352.0, 18.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"warmcolor" : [ 0.470588235294118, 0.745098039215686, 0.125490196078431, 1.0 ]
 				}
@@ -253,7 +266,7 @@
 					"overloadcolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 					"patching_rect" : [ 62.0, 447.0, 139.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 369.0, 352.0, 18.0 ],
+					"presentation_rect" : [ 8.0, 387.0, 352.0, 18.0 ],
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"warmcolor" : [ 0.470588235294118, 0.745098039215686, 0.125490196078431, 1.0 ]
 				}
@@ -267,9 +280,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 264.0, 188.0, 22.0 ],
+					"patching_rect" : [ 294.5, 635.0, 188.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 289.0, 188.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 307.0, 188.0, 22.0 ],
 					"text" : "Output Audio Channels",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -298,7 +311,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 104.0, 403.0, 100.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 310.0, 188.0, 24.0 ],
+					"presentation_rect" : [ 8.0, 328.0, 188.0, 24.0 ],
 					"textcolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 					"textjustification" : 1
 				}
@@ -348,9 +361,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 132.0, 188.0, 22.0 ],
+					"patching_rect" : [ 62.0, 617.0, 188.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 131.0, 188.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 149.0, 188.0, 22.0 ],
 					"text" : "Preview Window Mode",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -398,7 +411,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 284.0, 215.0, 188.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 181.0, 188.0, 22.0 ],
+					"presentation_rect" : [ 8.0, 199.0, 188.0, 22.0 ],
 					"text" : "Output Video Resolution",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -473,7 +486,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 377.0, 416.0, 232.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 203.0, 352.0, 24.0 ],
+					"presentation_rect" : [ 8.0, 221.0, 352.0, 24.0 ],
 					"rounded" : 0.0,
 					"tabcolor" : [ 0.454901960784314, 0.454901960784314, 0.454901960784314, 1.0 ],
 					"tabs" : [ "640x360", "1280x720", "1920x1080" ],
@@ -536,7 +549,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 493.0, 353.0, 200.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 155.0, 200.0, 24.0 ],
+					"presentation_rect" : [ 8.0, 173.0, 200.0, 24.0 ],
 					"rounded" : 0.0,
 					"tabcolor" : [ 0.454901960784314, 0.454901960784314, 0.454901960784314, 1.0 ],
 					"tabs" : [ "Hide Preview", "Show Preview" ],
@@ -566,7 +579,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 508.0, 183.0, 169.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 264.0, 200.0, 23.0 ],
+					"presentation_rect" : [ 8.0, 282.0, 200.0, 23.0 ],
 					"text" : "Configure Audio",
 					"textoncolor" : [ 1.0, 0.776470588235294, 0.152941176470588, 1.0 ],
 					"textovercolor" : [ 0.549019607843137, 0.113725490196078, 0.250980392156863, 1.0 ],
@@ -881,6 +894,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
