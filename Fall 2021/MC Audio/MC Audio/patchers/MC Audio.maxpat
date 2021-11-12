@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 521.0, 171.0, 479.0, 203.0 ],
+		"rect" : [ 668.0, 277.0, 480.0, 203.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 11,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "mcaicon.png" ]
@@ -89,22 +89,26 @@
 							}
 , 							{
 								"key" : 5,
-								"value" : [ "mcaicon.png" ]
+								"value" : [ "complex_reverb_icon.png" ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ "bleep_icon.png" ]
-							}
-, 							{
-								"key" : 7,
 								"value" : [ "mcaicon.png" ]
 							}
 , 							{
+								"key" : 7,
+								"value" : [ "bleep_icon.png" ]
+							}
+, 							{
 								"key" : 8,
-								"value" : [ "delays_icon.png" ]
+								"value" : [ "mcaicon.png" ]
 							}
 , 							{
 								"key" : 9,
+								"value" : [ "delays_icon.png" ]
+							}
+, 							{
+								"key" : 10,
 								"value" : [ "droney_icon.png" ]
 							}
  ]
@@ -135,7 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 309.0, 744.0, 100.0, 100.0 ],
-					"pic" : "mcaicon.png",
+					"pic" : "complex_reverb_icon.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 1.0, 199.0, 199.0 ]
 				}
@@ -355,7 +359,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 11,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "none" ]
@@ -378,22 +382,26 @@
 							}
 , 							{
 								"key" : 5,
-								"value" : [ "none" ]
+								"value" : [ "Complex_Reverb.maxpat" ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ "Bleep Sequencer.maxpat" ]
-							}
-, 							{
-								"key" : 7,
 								"value" : [ "none" ]
 							}
 , 							{
+								"key" : 7,
+								"value" : [ "Bleep Sequencer.maxpat" ]
+							}
+, 							{
 								"key" : 8,
-								"value" : [ "A Sequence of Delays.maxpat" ]
+								"value" : [ "none" ]
 							}
 , 							{
 								"key" : 9,
+								"value" : [ "A Sequence of Delays.maxpat" ]
+							}
+, 							{
+								"key" : 10,
 								"value" : [ "Droney.maxpat" ]
 							}
  ]
@@ -665,7 +673,7 @@
 				"box" : 				{
 					"automouse" : 0,
 					"bordercolor" : [ 0.454901960784314, 0.454901960784314, 0.454901960784314, 1.0 ],
-					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ] ],
+					"celldef" : [ [ 0, 0, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 1, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 2, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 3, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 4, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 5, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 6, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 7, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ], [ 0, 8, 0, 0, 1.0, 1.0, 1.0, 1.0, 0, 0.0, 0.63921568627451, 0.87843137254902, 1.0, -1, -1, -1 ], [ 0, 9, 0, 0, 0.0, 0.0, 0.0, 1.0, 0, 1.0, 1.0, 1.0, 1.0, -1, -1, -1 ] ],
 					"cols" : 1,
 					"colwidth" : 250,
 					"fontface" : 1,
@@ -688,7 +696,7 @@
 , 			{
 				"box" : 				{
 					"coll_data" : 					{
-						"count" : 10,
+						"count" : 11,
 						"data" : [ 							{
 								"key" : 0,
 								"value" : [ "Soundscapes", "bold" ]
@@ -711,22 +719,26 @@
 							}
 , 							{
 								"key" : 5,
-								"value" : [ "Synthesizers", "bold" ]
+								"value" : [ "Complex Reverb", "normal" ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ "Bleep Sequencer", "normal" ]
+								"value" : [ "Synthesizers", "bold" ]
 							}
 , 							{
 								"key" : 7,
-								"value" : [ "Mix and Mash", "bold" ]
+								"value" : [ "Bleep Sequencer", "normal" ]
 							}
 , 							{
 								"key" : 8,
-								"value" : [ "Delay Sequencer", "normal" ]
+								"value" : [ "Mix and Mash", "bold" ]
 							}
 , 							{
 								"key" : 9,
+								"value" : [ "Delay Sequencer", "normal" ]
+							}
+, 							{
+								"key" : 10,
 								"value" : [ "Droney", "normal" ]
 							}
  ]
@@ -1118,9 +1130,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "mcaicon.png",
-				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/MC Audio/MC Audio/media",
-				"patcherrelativepath" : "../media",
+				"name" : "complex_reverb_icon.png",
+				"bootpath" : "/Volumes/Seagate Backup Plus Drive/Synthesis/Media_Choreography_Course/Media Choreography Lower-Division/Fall 2021/MC Audio/MC Audio",
+				"patcherrelativepath" : "..",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -1129,6 +1141,10 @@
 		"styles" : [ 			{
 				"name" : "Connor",
 				"default" : 				{
+					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
+					"fontname" : [ "Monaco" ],
+					"fontface" : [ 1 ],
+					"textjustification" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.011764705882353, 0.36078431372549, 0.662745098039216, 1.0 ],
@@ -1139,11 +1155,7 @@
 						"autogradient" : 0.0
 					}
 ,
-					"fontname" : [ "Monaco" ],
 					"accentcolor" : [ 0.086274509803922, 0.003921568627451, 0.588235294117647, 1.0 ],
-					"textjustification" : [ 0 ],
-					"fontface" : [ 1 ],
-					"color" : [ 0.070588235294118, 0.890196078431372, 0.996078431372549, 1.0 ],
 					"fontsize" : [ 14.0 ],
 					"bgcolor" : [ 0.133333333333333, 0.627450980392157, 0.627450980392157, 1.0 ]
 				}
